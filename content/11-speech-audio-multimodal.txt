@@ -1,0 +1,1350 @@
+Speech, Audio & Multimodal AI
+  Audio Signal Fundamentals
+    Digital Audio Basics
+      Waveform
+      Amplitude
+      Frequency
+      Phase
+      Sampling Rate
+      Nyquist Theorem
+      Aliasing
+      Bit Depth
+      Quantization Noise
+      Audio File Formats
+      Decibels
+      Signal-to-Noise Ratio
+      Resampling
+    Time-Frequency Analysis
+      Fourier Transform
+      Discrete Fourier Transform
+      Fast Fourier Transform
+      Short-Time Fourier Transform
+      Windowing
+        Hann Window
+        Hamming Window
+      Frame Size
+      Hop Size
+      Spectrogram
+      Constant-Q Transform
+      Griffin-Lim Algorithm
+    Perceptual Audio Features
+      Mel Scale
+      Mel Filter Banks
+      Mel Spectrogram
+      Log-Mel Spectrogram
+      Mel-Frequency Cepstral Coefficients
+      Delta Features
+      Filter Bank Features
+      Linear Predictive Coding
+      Cepstral Mean and Variance Normalization
+      SpecAugment
+      Learnable Front Ends
+    Speech Acoustics
+      Source-Filter Model
+      Pitch
+      Fundamental Frequency
+      Pitch Estimation
+        YIN
+        CREPE
+      Formants
+      Harmonics
+      Voiced and Unvoiced Sounds
+      Prosody
+    Music and Tonal Features
+      Chroma Features
+      Onset Strength
+      Spectral Centroid
+      Zero-Crossing Rate
+      RMS Energy
+    Signal Preprocessing
+      Voice Activity Detection
+        Energy-Based VAD
+        WebRTC VAD
+        Silero VAD
+      Endpointing
+      Noise
+        Additive Noise
+        Reverberation
+        Room Impulse Response
+      Spectral Subtraction
+      Wiener Filtering
+      Data Augmentation for Audio
+        Time Stretching
+        Pitch Shifting
+        Speed Perturbation
+        Noise Injection
+    Audio Tooling
+      librosa
+      torchaudio
+      Praat
+      FFmpeg
+      SoX
+  Automatic Speech Recognition
+    ASR Fundamentals
+      Acoustic Model
+      Language Model for ASR
+      Pronunciation Lexicon
+      Grapheme-to-Phoneme Conversion
+      Weighted Finite-State Transducers
+      Lattices
+      Beam Search Decoding
+    Classical ASR
+      Dynamic Time Warping
+      HMM-GMM
+      Triphone Models
+      Speaker Adaptation
+        MLLR
+        fMLLR
+        i-vector Adaptation
+      Kaldi
+      HTK
+    Hybrid Neural ASR
+      DNN-HMM
+      Senones
+      Time-Delay Neural Networks
+      Lattice-Free MMI
+    End-to-End ASR
+      Connectionist Temporal Classification
+        CTC Loss
+        Blank Token
+        CTC Greedy Decoding
+        CTC Prefix Beam Search
+      RNN Transducer
+        Prediction Network
+        Joint Network
+        RNN-T Loss
+      Attention-Based Encoder-Decoder
+        Listen Attend and Spell
+        Hybrid CTC-Attention
+        Shallow Fusion
+      Conformer
+      Zipformer
+      Streaming ASR
+        Chunk-Wise Attention
+        Lookahead Frames
+        Latency vs Accuracy
+      Multilingual ASR
+      Contextual Biasing
+      Long-Form ASR
+      Inverse Text Normalization
+    Self-Supervised Speech Representations
+      Contrastive Predictive Coding
+      wav2vec 2.0
+        Quantization Module
+        Contrastive Loss for Speech
+      HuBERT
+        Offline Clustering Targets
+      WavLM
+      data2vec
+      BEST-RQ
+      XLS-R
+      MMS
+      SUPERB Benchmark
+      Discrete Speech Units
+    Large-Scale ASR Models
+      Whisper
+        Multitask Decoding Tokens
+        Whisper Hallucination
+        Faster-Whisper
+        Distil-Whisper
+        WhisperX
+      Canary
+      Parakeet
+      Token-and-Duration Transducer
+      USM
+      SeamlessM4T
+      Voxtral
+      Speech LLM-Based ASR
+    ASR Evaluation
+      Word Error Rate
+      Character Error Rate
+      Text Normalization Before Scoring
+      Real-Time Factor
+      jiwer
+      Open ASR Leaderboard
+    Related Speech Tasks
+      Forced Alignment
+        Montreal Forced Aligner
+        CTC Forced Alignment
+      Speaker Diarization
+        Speaker Embedding Clustering
+        End-to-End Neural Diarization
+        Overlapped Speech Detection
+        Diarization Error Rate
+        pyannote.audio
+      Keyword Spotting
+        Wake Word Detection
+        Speech Commands Dataset
+        openWakeWord
+      Spoken Language Understanding
+      Spoken Language Identification
+      Audio-Visual Speech Recognition
+      Speech Emotion Recognition
+        IEMOCAP
+        emotion2vec
+    ASR Toolkits
+      ESPnet
+      NVIDIA NeMo
+      SpeechBrain
+      k2 and Icefall
+      wenet
+      Vosk
+  Speech Synthesis
+    TTS Fundamentals
+      Text-to-Speech Pipeline
+      Text Normalization for TTS
+      Phonemizers
+      Prosody Prediction
+      Duration Modeling
+      Pitch Prediction
+      Acoustic Model for TTS
+      Monotonic Alignment Search
+      Multi-Speaker TTS
+      Global Style Tokens
+    Classical TTS
+      Formant Synthesis
+      Concatenative Synthesis
+      Unit Selection Synthesis
+      Statistical Parametric Speech Synthesis
+      HMM-Based TTS
+      WORLD Vocoder
+    Autoregressive Neural TTS
+      WaveNet TTS
+      Deep Voice
+      Tacotron
+      Tacotron 2
+      Transformer TTS
+      Location-Sensitive Attention
+      Stop Token Prediction
+    Non-Autoregressive Neural TTS
+      FastSpeech
+      FastSpeech 2
+      FastPitch
+      Variance Adaptor
+      Length Regulator
+      Glow-TTS
+      Grad-TTS
+      VITS
+      VITS 2
+      YourTTS
+      NaturalSpeech
+      NaturalSpeech 3
+      Matcha-TTS
+      Flow Matching for TTS
+      F5-TTS
+      StyleTTS 2
+      Kokoro
+      Piper
+      Parler-TTS
+    Language Model-Based TTS
+      Codec Language Models
+      VALL-E
+      VALL-E 2
+      Bark
+      Tortoise TTS
+      XTTS
+      CosyVoice
+      CosyVoice 2
+      Fish Speech
+      MaskGCT
+      Llasa
+      Orpheus TTS
+      Sesame CSM
+      Dia
+      Chatterbox
+      ElevenLabs
+      Semantic Tokens for TTS
+      Acoustic Tokens for TTS
+      Coarse-to-Fine Token Generation
+    Vocoders
+      Griffin-Lim Vocoder
+      WaveNet Vocoder
+      WaveRNN
+      LPCNet
+      WaveGlow
+      GAN-Based Vocoders
+        MelGAN
+        Parallel WaveGAN
+        HiFi-GAN
+        Multi-Period Discriminator
+        UnivNet
+        BigVGAN
+      Diffusion Vocoders
+        WaveGrad
+        DiffWave
+      Vocos
+      Vocoder Artifacts
+    Neural Audio Codecs
+      Residual Vector Quantization
+      Codebooks
+      Bitrate and Token Rate
+      SoundStream
+      EnCodec
+      Descript Audio Codec
+      Mimi
+      SpeechTokenizer
+      SNAC
+      WavTokenizer
+      Semantic vs Acoustic Codecs
+    Voice Cloning and Conversion
+      Voice Cloning
+      Zero-Shot TTS
+      Few-Shot Speaker Adaptation
+      Speaker Embedding Conditioning
+      In-Context Prompting for TTS
+      Voice Conversion
+        FreeVC
+        kNN-VC
+        RVC
+        Seed-VC
+      Speech Watermarking
+      AudioSeal
+      Deepfake Audio Detection
+    Prosody and Expressiveness
+      Prosody Transfer
+      Emotion Control in TTS
+      Style Control in TTS
+      SSML
+      Text-Based Style Prompting
+      Nonverbal Vocalizations
+      Conversational TTS
+      Streaming TTS
+    TTS Evaluation
+      Mean Opinion Score
+      Comparative MOS
+      MUSHRA
+      Speaker Similarity MOS
+      UTMOS
+      NISQA
+      WER of Synthesized Speech
+      Mel Cepstral Distortion
+      TTS Arena
+    Singing Voice Synthesis
+      DiffSinger
+      So-VITS-SVC
+    TTS Toolkits
+      Coqui TTS
+      ESPnet-TTS
+      Amphion
+  Speaker Technologies
+    Speaker Recognition Fundamentals
+      Speaker Identification
+      Speaker Verification
+      Text-Dependent Verification
+      Text-Independent Verification
+      Enrollment and Trial
+      Speaker Embeddings
+    Classical Speaker Modeling
+      GMM-UBM
+      i-vectors
+      Probabilistic Linear Discriminant Analysis
+      Cosine Scoring for Speakers
+    Neural Speaker Embeddings
+      d-vectors
+      x-vectors
+      ECAPA-TDNN
+      ResNet Speaker Embeddings
+      TitaNet
+      WavLM Speaker Embeddings
+      Attentive Statistics Pooling
+      AAM-Softmax
+      Score Normalization
+    Speaker Evaluation
+      Equal Error Rate
+      Detection Cost Function
+      minDCF
+      DET Curve
+      VoxCeleb Speaker Recognition Challenge
+    Anti-Spoofing
+      Presentation Attacks
+      Replay Attacks
+      Synthetic Speech Detection
+      ASVspoof Challenge
+      RawNet2
+      AASIST
+    Speaker Toolkits
+      WeSpeaker
+      Resemblyzer
+  Spoken Dialogue and Speech LLMs
+    Spoken Dialogue Fundamentals
+      Cascaded Pipeline
+      ASR-LLM-TTS Pipeline
+      End-to-End Spoken Dialogue
+      Turn-Taking
+      Backchannels
+      Barge-In
+      Latency Budget
+      Half-Duplex
+      Full-Duplex
+    Speech Tokenization for LMs
+      Discrete Speech Tokens
+      Semantic Speech Tokens
+      Acoustic Speech Tokens
+      HuBERT Units
+      Mimi Tokens
+      Token Rate Reduction
+      Continuous Speech Features for LLMs
+      Speech Adapters for LLMs
+    Generative Spoken Language Models
+      Generative Spoken Language Modeling
+      GSLM
+      AudioLM
+      TWIST
+      Spirit LM
+      Textless NLP
+    Speech LLMs
+      SpeechGPT
+      AudioPaLM
+      LLaMA-Omni
+      Mini-Omni
+      Moshi
+      Inner Monologue in Moshi
+      GLM-4-Voice
+      Qwen2-Audio
+      Step-Audio
+      Kimi-Audio
+      SALMONN
+      LTU
+      Pengi
+      Ultravox
+      GPT-4o Voice Mode
+      GPT-4o Realtime API
+      Gemini Live
+      Voice Agents
+      Speech Instruction Following
+      VoiceBench
+      AIR-Bench
+    Speech Translation
+      Cascaded Speech Translation
+      End-to-End Speech-to-Text Translation
+      Speech-to-Speech Translation
+      Textless Speech-to-Speech Translation
+      Simultaneous Speech Translation
+      Wait-k Policy
+      Translatotron
+      Translatotron 2
+      SeamlessStreaming
+      Hibiki
+      Speech Dubbing
+      MuST-C
+      CoVoST 2
+      ASR-BLEU
+      Average Lagging
+  Speech Enhancement and Separation
+    Speech Enhancement
+      Denoising
+      Dereverberation
+      Declipping
+      Bandwidth Extension
+      Spectral Masking
+      Ideal Ratio Mask
+      Complex Spectral Mapping
+      Time-Domain Enhancement
+      RNNoise
+      DEMUCS Denoiser
+      DCCRN
+      FullSubNet
+      MetricGAN
+      Diffusion-Based Enhancement
+      Deep Noise Suppression Challenge
+      PESQ
+      STOI
+      SI-SDR
+      DNSMOS
+    Source Separation
+      Cocktail Party Problem
+      Blind Source Separation
+      Independent Component Analysis
+      Deep Clustering
+      Permutation Invariant Training
+      TasNet
+      Conv-TasNet
+      DPRNN
+      SepFormer
+      TF-GridNet
+      Target Speaker Extraction
+      Universal Sound Separation
+      Music Source Separation
+        Spleeter
+        Open-Unmix
+        Demucs
+        Hybrid Transformer Demucs
+        BS-RoFormer
+      WSJ0-2mix
+      LibriMix
+      SDR
+    Multi-Channel Processing
+      Microphone Arrays
+      Beamforming
+        Delay-and-Sum
+        MVDR Beamformer
+        Neural Beamforming
+        Mask-Based Beamforming
+      Direction of Arrival Estimation
+      Acoustic Echo Cancellation
+      Weighted Prediction Error
+      Spatial Audio
+      Ambisonics
+    Enhancement Toolkits
+      Asteroid
+      ClearerVoice
+      pyroomacoustics
+  Music and General Audio
+    Music Information Retrieval
+      Music Transcription
+        Automatic Music Transcription
+        Piano Transcription
+        Onsets and Frames
+        Multi-Pitch Estimation
+        Basic Pitch
+        MT3
+      Chord Recognition
+      Key Detection
+      Beat Tracking
+      Downbeat Tracking
+      Tempo Estimation
+      Onset Detection
+      Melody Extraction
+      Music Structure Analysis
+      Genre Classification
+      Instrument Recognition
+      Music Tagging
+      Cover Song Identification
+      Audio Fingerprinting
+      Lyrics Transcription
+      ISMIR
+    Symbolic Music
+      MIDI
+      Piano Roll
+      MusicXML
+      ABC Notation
+      REMI
+      Music Transformer
+      MuseNet
+      Anticipatory Music Transformer
+      Symbolic Music Generation
+      Melody Harmonization
+      Lakh MIDI Dataset
+      music21
+      Magenta
+    Music Generation
+      Audio-Domain Music Generation
+      Jukebox
+      MusicLM
+      MusicGen
+      MusicGen Melody Conditioning
+      MusicLDM
+      Riffusion
+      Mustango
+      Stable Audio
+      Stable Audio Open
+      Suno
+      Udio
+      Lyria
+      YuE
+      ACE-Step
+      Lyrics-to-Song
+      Text-to-Music
+      Music Continuation
+      Music Inpainting
+      Frechet Audio Distance
+      CLAP Score
+      MusicCaps
+    General Audio Generation
+      Text-to-Audio
+      AudioGen
+      AudioLDM
+      AudioLDM 2
+      Make-An-Audio
+      Tango
+      Audio Diffusion
+      Latent Audio Diffusion
+      Sound Effects Generation
+      Foley Generation
+      Video-to-Audio Generation
+      MMAudio
+      Audio Inpainting
+      Audio Super-Resolution
+      AudioCaps
+    Audio Understanding
+      Audio Tagging
+      Sound Event Detection
+      Acoustic Scene Classification
+      Environmental Sound Classification
+      Audio Captioning
+      Audio Question Answering
+      Audio-Text Retrieval
+      Anomalous Sound Detection
+      Bioacoustics
+      BirdNET
+      DCASE Challenge
+      Weakly Labeled Audio
+      mAP for Audio Tagging
+      PSDS
+      SPIDEr
+    Audio Foundation Models
+      PANNs
+      VGGish
+      YAMNet
+      Audio Spectrogram Transformer
+      SSAST
+      PaSST
+      HTS-AT
+      AudioMAE
+      BEATs
+      EAT
+      CLAP
+      LAION-CLAP
+      Microsoft CLAP
+      MERT
+      MuQ
+      Qwen-Audio
+      Audio Flamingo
+      Audio Flamingo 2
+      GAMA
+      HEAR Benchmark
+    Audio and Speech Datasets
+      Speech Datasets
+        TIMIT
+        Switchboard
+        Fisher
+        LibriSpeech
+        Libri-Light
+        LibriTTS
+        LJSpeech
+        VCTK
+        Common Voice
+        TED-LIUM
+        AMI Meeting Corpus
+        CHiME
+        VoxCeleb
+        VoxPopuli
+        GigaSpeech
+        People's Speech
+        Multilingual LibriSpeech
+        FLEURS
+        Emilia
+        WenetSpeech
+        AISHELL
+        Expresso
+        Speech Commands
+      Music Datasets
+        GTZAN
+        MagnaTagATune
+        Million Song Dataset
+        FMA
+        MTG-Jamendo
+        MAESTRO
+        MUSDB18
+        NSynth
+      General Audio Datasets
+        AudioSet
+        FSD50K
+        ESC-50
+        UrbanSound8K
+        Clotho
+        WavCaps
+        VGGSound
+  Multimodal Learning Fundamentals
+    Core Concepts
+      Modality
+      Heterogeneity of Modalities
+      Modality Gap
+      Representation
+      Alignment
+      Translation Across Modalities
+      Fusion
+      Co-Learning
+      Grounding
+      Missing Modalities
+      Modality Imbalance
+    Fusion Strategies
+      Early Fusion
+      Late Fusion
+      Hybrid Fusion
+      Intermediate Fusion
+      Feature Concatenation
+      Bilinear Pooling
+      Tensor Fusion Network
+      Gated Fusion
+      Cross-Modal Attention
+      Co-Attention
+      Multimodal Transformers
+      Attention Bottlenecks
+      Mixture-of-Modality Experts
+    Alignment and Representation
+      Joint Embedding Space
+      Coordinated Representations
+      Canonical Correlation Analysis
+      Contrastive Multimodal Learning
+      InfoNCE for Multimodal
+      Image-Text Contrastive Loss
+      Image-Text Matching Loss
+      Fine-Grained Alignment
+      Region-Word Alignment
+      Temporal Alignment
+      Masked Multimodal Modeling
+      Multimodal VAE
+    Tokenizing Modalities for Language Models
+      Visual Tokens
+      Patch Embeddings as Tokens
+      Discrete Image Tokens
+      VQ-VAE Image Tokens
+      Continuous Visual Features
+      Audio Tokens for LMs
+      Video Tokens
+      Spatiotemporal Tokens
+      Token Compression
+      Token Merging
+      Dynamic Resolution Tokenization
+      Tile-Based Image Encoding
+      Multimodal RoPE
+      Interleaved Image-Text Data
+    Connecting Encoders to LMs
+      Modality Encoders
+      Vision Encoder
+      Audio Encoder
+      Frozen Encoders
+      Projection Layers
+      Linear Projector
+      MLP Projector
+      Perceiver Resampler
+      Q-Former
+      Learned Queries
+      Cross-Attention Adapters
+      Gated Cross-Attention
+      Pixel Shuffle Projector
+      Encoder-Free VLMs
+      Native Multimodal Pretraining
+      Alignment Pretraining Stage
+      Instruction Tuning Stage
+    Any-to-Any Modeling
+      Any-to-Any Models
+      Unified Multimodal Models
+      Shared Backbone
+      CoDi
+      ImageBind
+      LanguageBind
+      OneLLM
+    Multimodal Analysis
+      Modality Competition
+      Language Priors in VQA
+      Compositional Generalization
+      Multimodal Hallucination
+      Object Hallucination
+      Multimodal In-Context Learning
+      Multimodal Chain-of-Thought
+      Spatial Reasoning
+    Multimodal Toolkits
+      LAVIS
+      OpenFlamingo
+      lmms-eval
+      VLMEvalKit
+      vLLM Multimodal
+  Vision-Language Models
+    Contrastive Vision-Language Pretraining
+      CLIP
+        Dual Encoder
+        Image-Text Contrastive Pretraining
+        Zero-Shot Image Classification
+        Prompt Templates for CLIP
+        Linear Probing CLIP
+      ALIGN
+      OpenCLIP
+      EVA-CLIP
+      SigLIP
+      Sigmoid Loss
+      SigLIP 2
+      MetaCLIP
+      DFN CLIP
+      CoCa
+      FILIP
+      InternViT
+      Perception Encoder
+      CoOp
+      CLIP Score
+    Early Vision-Language Pretraining
+      Region Features
+      ViLBERT
+      LXMERT
+      VisualBERT
+      UNITER
+      OSCAR
+      ALBEF
+      ViLT
+      BLIP
+      CapFilt
+      BLIP-2
+      SimVLM
+      OFA
+      GIT
+      PaLI
+      Flamingo
+      Kosmos-1
+      Kosmos-2
+      BEiT-3
+      Florence-2
+    Large Vision-Language Models
+      Visual Instruction Tuning
+      LLaVA
+      LLaVA-1.5
+      LLaVA-NeXT
+      AnyRes
+      LLaVA-OneVision
+      InstructBLIP
+      MiniGPT-4
+      mPLUG-Owl
+      Idefics
+      Idefics2
+      Qwen-VL
+      Qwen2-VL
+      Naive Dynamic Resolution
+      Qwen2.5-VL
+      InternVL
+      InternVL2
+      Dynamic High Resolution
+      CogVLM
+      Visual Expert Module
+      Fuyu
+      PaliGemma
+      PaliGemma 2
+      DeepSeek-VL
+      DeepSeek-VL2
+      Phi-3 Vision
+      Phi-4 Multimodal
+      Pixtral
+      Molmo
+      PixMo
+      SmolVLM
+      VILA
+      NVLM
+      Llama 3.2 Vision
+      MiniCPM-V
+      Cambrian-1
+      Kimi-VL
+      Ferret
+      GPT-4V
+      GPT-4o Vision
+      Gemini Vision
+      Claude Vision
+    VLM Training Techniques
+      Visual Instruction Data Generation
+      Synthetic Captions
+      Recaptioning
+      Multimodal Preference Tuning
+      RLHF-V
+      DPO for VLMs
+      Multimodal RLVR
+      Hallucination Mitigation
+      Visual Contrastive Decoding
+      Multimodal Data Mixtures
+      Text-Only Data Retention
+      Resolution Curriculum
+      Mixture of Vision Encoders
+      Visual Token Pruning
+      Multi-Image Training
+    Vision-Language Tasks
+      Image Captioning
+        Show and Tell
+        Show Attend and Tell
+        Dense Captioning
+        CIDEr
+        SPICE
+        CLIPScore
+      Visual Question Answering
+        Open-Ended VQA
+        Knowledge-Based VQA
+        OK-VQA
+        VQA Accuracy Metric
+      Visual Reasoning Tasks
+        CLEVR
+        GQA
+        NLVR2
+        Winoground
+      Visual Grounding
+        Referring Expression Comprehension
+        Referring Expression Segmentation
+        RefCOCO
+        Phrase Grounding
+        Open-Vocabulary Detection Pointer
+      Pointing and Counting
+      Visual Entailment
+      Visual Dialog
+      Image-Text Matching
+      Multimodal Sentiment Analysis
+      Hateful Memes
+    Document and Screen Understanding
+      OCR-Free Document Understanding
+      Document VQA
+      Infographic VQA
+      Chart QA
+      Chart-to-Table
+      Table Understanding
+      Scene Text VQA
+      Text-Rich Image Understanding
+      Diagram Understanding
+      Math Visual Reasoning
+      GUI Understanding
+      Screen Understanding
+      ScreenAI
+      Set-of-Mark Prompting
+      OmniParser
+      GUI Grounding
+      ScreenSpot
+      Ferret-UI
+      CogAgent
+      UI-TARS
+      Computer Use Pointer
+    Video-Language Models
+      Frame Sampling
+      Temporal Pooling
+      Video Token Compression
+      Long Video Understanding
+      Streaming Video Understanding
+      VideoBERT
+      Frozen in Time
+      VideoCLIP
+      InternVideo2
+      Video-LLaMA
+      Video-ChatGPT
+      VideoChat2
+      Video-LLaVA
+      LLaVA-Video
+      PLLaVA
+      LongVA
+      Qwen2-VL Video
+      VideoPoet
+      Gemini Video
+      Apollo
+      VideoLLaMA 3
+      Video Captioning
+      Dense Video Captioning
+      Video QA
+      Temporal Grounding
+      Moment Retrieval
+      Audio-Visual LLMs
+      Egocentric Video Understanding
+    Vision-Language-Action Models
+      Robot Learning Pointer
+      Imitation Learning Pointer
+      Language-Conditioned Policies
+      CLIPort
+      SayCan
+      PaLM-E
+      RT-1
+      RT-2
+      Open X-Embodiment
+      RT-X
+      Octo
+      OpenVLA
+      pi0
+      pi0-FAST
+      pi0.5
+      GR00T N1
+      Helix
+      Gemini Robotics
+      SmolVLA
+      RDT-1B
+      Action Tokens
+      Action Discretization
+      FAST Action Tokenizer
+      Action Chunking
+      Action Chunking Transformer
+      Diffusion Policy
+      Flow Matching Action Heads
+      Dual-System VLA
+      Cross-Embodiment Learning
+      Embodied Chain-of-Thought
+      LIBERO
+      SimplerEnv
+      LeRobot
+  Omni and Unified Multimodal Models
+    Omni Models
+      Omni-Modal Models
+      Native Multimodal Input and Output
+      GPT-4o
+      GPT-4o Realtime
+      Gemini Live
+      Gemini Native Audio
+      Qwen2.5-Omni
+      Thinker-Talker Architecture
+      TMRoPE
+      Qwen3-Omni
+      Mini-Omni
+      Mini-Omni2
+      Baichuan-Omni
+      VITA
+      MiniCPM-o
+      AnyGPT
+      NExT-GPT
+      Streaming Omni Models
+      Real-Time Multimodal Interaction
+      OmniBench
+    Unified Understanding and Generation
+      Unified Multimodal Modeling
+      Autoregressive Image Generation in LMs
+      Chameleon
+      Early-Fusion Token-Based Models
+      Transfusion
+      Mixed Diffusion and Autoregression
+      Show-o
+      Janus
+      Janus-Pro
+      Decoupled Visual Encoding
+      Emu3
+      Next-Token Prediction for All Modalities
+      Unified-IO
+      Unified-IO 2
+      SEED-X
+      BLIP3-o
+      BAGEL
+      OmniGen
+      Unified Tokenizers
+      Diffusion Heads in LLMs
+      Interleaved Generation
+      GenEval
+    Text-to-Image Pointers
+      Text-to-Image Diffusion Pointer
+      Stable Diffusion Pointer
+      DALL-E Pointer
+      FLUX Pointer
+      Image Editing Pointer
+    Text-to-Video Pointers
+      Text-to-Video Diffusion Pointer
+      Sora Pointer
+      Veo Pointer
+      World Models Pointer
+  Multimodal Retrieval and RAG
+    Cross-Modal Retrieval
+      Image-Text Retrieval
+      Text-to-Image Retrieval
+      Image-to-Text Retrieval
+      Cross-Modal Search
+      Dual-Encoder Retrieval
+      Cross-Encoder Reranking for Multimodal
+      Composed Image Retrieval
+        CIRR
+        FashionIQ
+        Zero-Shot Composed Image Retrieval
+      Sketch-Based Image Retrieval
+      Video-Text Retrieval
+      Audio-Text Retrieval
+      Universal Multimodal Embeddings
+      Multimodal Embedding Models
+        CLIP Embeddings
+        SigLIP Embeddings
+        E5-V
+        VLM2Vec
+        jina-clip
+        Nomic Embed Vision
+      Visual Document Retrieval
+        ColPali
+        ColQwen2
+        DSE
+        ViDoRe Benchmark
+      Multimodal Retrieval Evaluation
+        Recall at k for Retrieval
+        MSCOCO Retrieval
+        Flickr30k Retrieval
+        MMEB
+        M-BEIR
+    Multimodal RAG
+      Retrieval-Augmented Generation Pointer
+      Multimodal Knowledge Bases
+      Multimodal Document Indexing
+      Page-Image Indexing
+      Caption-Based Indexing
+      Vision-Language Reranking
+      Knowledge-Based VQA with Retrieval
+      MuRAG
+      REVEAL
+      VisRAG
+      M3DocRAG
+      Video RAG
+      Multimodal Agents Pointer
+      MRAG-Bench
+      Encyclopedic VQA
+      InfoSeek
+  Multimodal Benchmarks and Datasets
+    Vision-Language Benchmarks
+      Comprehensive Benchmarks
+        MMMU
+        MMMU-Pro
+        MMBench
+        MMStar
+        SEED-Bench
+        MME
+        MM-Vet
+        MMVP
+        BLINK
+        RealWorldQA
+        HallusionBench
+        POPE
+      Math and Reasoning Benchmarks
+        MathVista
+        MathVerse
+        MathVision
+        ScienceQA
+        AI2D
+      Document and Text Benchmarks
+        DocVQA
+        InfographicVQA
+        TextVQA
+        OCRBench
+        ChartQA
+        CharXiv
+        MMLongBench-Doc
+        TextCaps
+      Classic VQA and Captioning Benchmarks
+        VQAv2
+        VizWiz
+        GQA Benchmark
+        A-OKVQA
+        COCO Captions
+        NoCaps
+        Flickr30k
+      Grounding Benchmarks
+        RefCOCO Suite
+        CountBench
+        TallyQA
+      Video Benchmarks
+        MSR-VTT
+        MSVD
+        ActivityNet Captions
+        YouCook2
+        NExT-QA
+        Perception Test
+        Video-MME
+        MVBench
+        EgoSchema
+        LongVideoBench
+        MLVU
+        Charades-STA
+      GUI and Agent Benchmarks
+        ScreenSpot-Pro
+        Mind2Web
+        OSWorld
+        AndroidWorld
+    Audio Benchmarks
+      AudioBench
+      MMAU
+      MMAR
+      AIR-Bench Audio
+      SUPERB
+      ML-SUPERB
+      MARBLE
+    Vision-Language Datasets
+      Image-Text Pairs
+        SBU Captions
+        COCO
+        Flickr30k Dataset
+        Visual Genome
+        Conceptual Captions 3M
+        Conceptual Captions 12M
+        YFCC100M
+        WIT
+        LAION-400M
+        LAION-5B
+        COYO-700M
+        DataComp
+        DFN
+        Recap-DataComp-1B
+        PixelProse
+        WebLI
+      Interleaved Datasets
+        MMC4
+        OBELICS
+        MINT-1T
+        OmniCorpus
+      Instruction Tuning Datasets
+        LLaVA-Instruct-150K
+        ShareGPT4V
+        The Cauldron
+        Cambrian-10M
+        LLaVA-Video-178K
+        PixMo Datasets
+        FineVision
+        Docmatix
+        RLHF-V Dataset
+      Video Datasets
+        WebVid-10M
+        HowTo100M
+        HD-VILA-100M
+        InternVid
+        Panda-70M
+        Kinetics
+        Ego4D
+        EPIC-KITCHENS
+        ActivityNet
+        ShareGPT4Video
+      Document Datasets
+        IIT-CDIP
+        RVL-CDIP
+        DocLayNet
+        PubLayNet
+        FUNSD
+        CORD
+        SROIE
+        OmniDocBench
+    Dataset Curation
+      Web-Scale Scraping
+      Alt-Text Filtering
+      CLIP Score Filtering
+      Image-Text Deduplication
+      NSFW Filtering
+      Synthetic Recaptioning
+      Data Filtering Networks
+      Licensing and Consent
+  Embodied and Sensor Multimodality
+    Sensor Modalities
+      RGB Camera
+      Depth Sensors
+      RGB-D
+      Stereo Depth
+      Time-of-Flight
+      LiDAR
+      Point Clouds Pointer
+      Radar
+      Thermal Imaging
+      Event Cameras
+      Hyperspectral Imaging
+      Tactile Sensing
+      GelSight
+      Force-Torque Sensors
+      Inertial Measurement Unit
+      Accelerometer
+      Gyroscope
+      GPS
+      Proprioception
+      Wearable Sensors
+      EEG
+      EMG
+      Eye Tracking
+    Sensor Fusion
+      Kalman Filter Fusion
+      Extended Kalman Filter
+      Camera-LiDAR Fusion
+      Radar-Camera Fusion
+      Bird's-Eye View Fusion
+      BEVFusion
+      Multi-Sensor Calibration
+      Temporal Synchronization
+      Visual-Inertial Odometry
+      SLAM Pointer
+      Autonomous Driving Perception Pointer
+    3D and Spatial Multimodality
+      3D Vision-Language
+      3D Visual Grounding
+      ScanRefer
+      3D-LLM
+      PointLLM
+      Embodied Question Answering
+      Vision-and-Language Navigation
+      Habitat
+      Embodied Agents Pointer
+      SpatialVLM
+    Multimodal Human Sensing
+      Audio-Visual Learning
+      Audio-Visual Correspondence
+      Audio-Visual Event Localization
+      Sound Source Localization in Video
+      Audio-Visual Speech Separation
+      Lip Sync
+      Wav2Lip
+      Talking Head Generation
+      Co-Speech Gesture Synthesis
+      Multimodal Affective Computing
+      Human Activity Recognition
+      Brain-Computer Interfaces Pointer
+  Document AI
+    Document Understanding Fundamentals
+      Document Layout Analysis
+      Reading Order Detection
+      Text Detection
+      Text Recognition
+      Scene Text Recognition
+      Key Information Extraction
+      Form Understanding
+      Table Detection
+      Table Structure Recognition
+      Table Extraction
+      Handwriting Recognition
+      Mathematical Formula Recognition
+      Document Image Preprocessing
+        Binarization
+        Deskewing
+        Dewarping
+      PDF Parsing
+      Markdown Conversion
+    OCR Engines
+      Tesseract
+      PaddleOCR
+      PP-OCR
+      EasyOCR
+      TrOCR
+      MMOCR
+      docTR
+      PARSeq
+      CRNN
+      Text Detection Models
+        EAST
+        CRAFT
+        DBNet
+      Cloud OCR Services
+        Google Cloud Vision OCR
+        Azure Document Intelligence
+        Amazon Textract
+        Mistral OCR
+      VLM-Based OCR
+      GOT-OCR2.0
+      olmOCR
+      DeepSeek-OCR
+      OCR Evaluation
+        Character Accuracy
+        Word Accuracy
+        Normalized Edit Distance
+    Layout-Aware Models
+      LayoutLM
+      LayoutLMv2
+      LayoutLMv3
+      LayoutXLM
+      LiLT
+      DocFormer
+      UDOP
+      2D Positional Embeddings
+    OCR-Free Document Models
+      Donut
+      Pix2Struct
+      Nougat
+      Kosmos-2.5
+      mPLUG-DocOwl
+      TextMonkey
+      Vary
+      High-Resolution Document Encoding
+    Layout Detection Models
+      LayoutParser
+      DocLayout-YOLO
+      DiT
+      Table Transformer
+    Table Extraction Models
+      TableNet
+      SLANet
+      Camelot
+      pdfplumber
+      TEDS
+      PubTabNet
+    Document Parsing Tools
+      Unstructured
+      Docling
+      MinerU
+      Marker
+      PyMuPDF
+      GROBID
+    Document AI Benchmarks
+      FUNSD Benchmark
+      CORD Benchmark
+      DocVQA Benchmark
+      RVL-CDIP Benchmark
+      PubLayNet Benchmark
+      DUE Benchmark
+      ICDAR Competitions

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>LearnerAI</title>
+  <meta name="description" content="Every concept in Artificial Intelligence, in one connected learning flow." />
+  <meta name="theme-color" content="#06070f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='9' fill='%237fe0d4'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+  <div class="nebula" aria-hidden="true"></div>
+
+  <header class="top" id="top">
+    <div class="brand">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <div class="brand-text">
+        <span class="brand-name">LearnerAI</span>
+        <span class="brand-meta" id="meta">loading…</span>
+      </div>
+    </div>
+
+    <div class="search" id="search">
+      <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="searchInput" type="search" placeholder="Search any concept…" autocomplete="off" spellcheck="false" aria-label="Search concepts" />
+      <kbd class="search-kbd" aria-hidden="true">/</kbd>
+      <ul class="results" id="results" role="listbox" hidden></ul>
+    </div>
+
+    <div class="actions">
+      <button class="ghost icon-btn" id="expandAll" title="Expand every node" aria-label="Expand all">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+        <span>Expand all</span>
+      </button>
+      <button class="ghost icon-btn" id="collapseAll" title="Collapse to the first level" aria-label="Collapse all">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/></svg>
+        <span>Collapse all</span>
+      </button>
+      <span class="sep" aria-hidden="true"></span>
+      <div class="auth" id="authArea">
+        <button class="ghost primary" id="signInBtn">Sign in</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="viewport" id="viewport" tabindex="-1">
+    <canvas id="links" aria-hidden="true"></canvas>
+    <div class="world" id="world"></div>
+  </main>
+
+  <div class="zoom" aria-label="Zoom controls">
+    <button id="zoomIn" title="Zoom in" aria-label="Zoom in">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v12M6 12h12"/></svg>
+    </button>
+    <button id="zoomLevel" class="level" title="Back to 100%">100%</button>
+    <button id="zoomOut" title="Zoom out" aria-label="Zoom out">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12"/></svg>
+    </button>
+    <button id="zoomReset" title="Back to the start" aria-label="Back to the start">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6.5"/><path d="M12 2.5v4M12 17.5v4M2.5 12h4M17.5 12h4"/></svg>
+    </button>
+    <button id="wheelMode" class="mouse-only" aria-label="Toggle mouse wheel between zoom and scroll">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="3" width="10" height="18" rx="5"/><path d="M12 7v3.5"/></svg>
+    </button>
+  </div>
+
+  <p class="hint" id="hint"></p>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <div class="modal" id="authModal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <form class="card" id="authForm" autocomplete="on">
+      <div class="tabs" role="tablist">
+        <button type="button" class="tab active" data-mode="login" role="tab">Sign in</button>
+        <button type="button" class="tab" data-mode="signup" role="tab">Create account</button>
+      </div>
+      <label>
+        <span>Username</span>
+        <input name="username" id="authUser" type="text" minlength="3" maxlength="24" required autocomplete="username" autocapitalize="off" />
+      </label>
+      <label>
+        <span>Password</span>
+        <input name="password" id="authPass" type="password" minlength="6" required autocomplete="current-password" />
+      </label>
+      <p class="form-error" id="authError" role="alert"></p>
+      <button type="submit" class="submit" id="authSubmit">Sign in</button>
+      <p class="form-note">Your learned concepts sync to your account. Without an account they stay in this browser.</p>
+      <button type="button" class="close" data-close aria-label="Close">×</button>
+    </form>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

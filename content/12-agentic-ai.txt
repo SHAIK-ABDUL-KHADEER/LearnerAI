@@ -1,0 +1,972 @@
+Agentic AI
+  Agent Fundamentals
+    What Is an AI Agent
+      Agent Definition
+      Goal-Directed Behavior
+      Autonomy
+      Environment Interaction
+      Agentic vs Non-Agentic Systems
+      Augmented LLM
+    Agent vs Workflow vs Chatbot
+      Chatbot
+      Copilot
+      LLM Workflow
+      Autonomous Agent
+      Deterministic vs Agentic Control
+      Predefined Paths vs Dynamic Paths
+    Autonomy Levels
+      Human-Driven
+      Assisted
+      Semi-Autonomous
+      Fully Autonomous
+      Autonomy Spectrum
+    Agent Loop
+      Perceive-Reason-Act
+      Observe-Think-Act
+      Sense-Plan-Act
+      ReAct Loop
+        Thought
+        Action
+        Observation
+      Termination Conditions
+      Max Iterations
+      Stop Reasons
+    Agent Components
+      LLM Brain
+      Tools
+      Memory
+      Planning Module
+      Environment
+      Goals
+      System Prompt
+      Agent State
+      Agent Harness
+      Agent Scaffold
+  Agent Architectures & Patterns
+    Single-Agent Reasoning Patterns
+      ReAct
+      Plan-and-Execute
+      Plan-and-Solve
+      Reflexion
+      Self-Refine
+      Tree of Thoughts Agents
+      LATS
+      ReWOO
+      MRKL
+      Toolformer
+      Gorilla
+      HuggingGPT
+      Chain of Agents
+      Self-Ask
+      Program-Aided Agents
+    Workflow Patterns
+      Prompt Chaining
+      Routing
+      Router Agents
+      Parallelization
+        Sectioning
+        Voting
+      Orchestrator-Workers
+      Evaluator-Optimizer
+      Map-Reduce Agents
+      Agentic Workflows
+    Multi-Agent Topologies
+      Hierarchical Agents
+      Supervisor Pattern
+      Swarm Pattern
+      Blackboard Architecture
+      Peer-to-Peer Agents
+      Pipeline Agents
+      Network Topology
+    Control Structures
+      State Machines
+      Graph-Based Agents
+        Nodes
+        Edges
+        Conditional Edges
+        Cycles
+      Event-Driven Agents
+      Deterministic Control
+      Agentic Control
+      Reducers
+      Shared Graph State
+    Human-in-the-Loop
+      Approval Gates
+      Interrupts
+      Clarifying Questions
+      Escalation
+      Review Steps
+      Permission Modes
+      Edit-and-Resume
+    Durability & Long-Running Agents
+      Checkpointing
+      Resumability
+      Time Travel Debugging
+      Long-Running Agents
+      Background Agents
+      Async Agents
+      Session Persistence
+      Idempotent Tools
+      Retry Policies
+  Tool Use & Function Calling
+    Tool Definitions
+      Tool Name
+      Tool Description
+      Input Schema
+      JSON Schema for Tools
+      Strict Schemas
+      Structured Outputs
+      Required Parameters
+      Enums in Schemas
+      Nested Objects
+      Tool Namespacing
+    Function Calling API
+      Tool Call Request
+      Tool Result Message
+      Tool Call ID
+      Parallel Tool Calls
+      Sequential Tool Calls
+      Tool Choice
+        Auto Tool Choice
+        Forced Tool Use
+        Any Tool
+        No Tool
+      Disabling Parallel Calls
+      Streaming Tool Calls
+      Fine-Grained Tool Streaming
+    Tool Results & Errors
+      Tool Result Formatting
+      Tool Error Handling
+      Retry on Tool Error
+      Timeouts
+      Tool Result Truncation
+      Error Messages for Agents
+      Malformed Arguments
+      Schema Validation Errors
+      Partial Results
+    Tool Discovery & Loading
+      Tool Search
+      Dynamic Tool Loading
+      Deferred Tools
+      Tool Registries
+      Tool Selection
+      Too Many Tools Problem
+      Tool Retrieval by Embedding
+    Tool Categories
+      Code Execution Tools
+      Interpreters
+      Calculators
+      File System Tools
+      Terminal Tools
+      API Tools
+      Retrieval Tools
+      Database Tools
+      Browser Tools
+      Messaging Tools
+      Scheduling Tools
+    Built-In Tools
+      Web Search Tool
+      Code Interpreter
+      File Search
+      Computer Use Tool
+      Text Editor Tool
+      Bash Tool
+      Web Fetch Tool
+      Memory Tool
+      Image Generation Tool
+    Sandboxing
+      Code Sandboxes
+      Container Isolation
+      Network Restrictions
+      File System Restrictions
+      Resource Limits
+      Ephemeral Environments
+    Agent Surfaces
+      Computer Use
+      Browser Use
+      GUI Agents
+      Web Agents
+      Terminal Agents
+      Mobile Agents
+      Voice Agents
+    Tool Learning Research
+      Tool-Augmented Language Models
+      Toolformer
+      Gorilla
+      ToolLLM
+      ToolBench
+      API-Bank
+      ToolAlpaca
+      Tool Learning
+      API Retrieval
+      ToolkenGPT
+      CRITIC
+  Protocols & Interoperability
+    Model Context Protocol
+      MCP Overview
+      MCP Hosts
+      MCP Clients
+      MCP Servers
+      MCP Primitives
+        MCP Tools
+        MCP Resources
+        MCP Prompts
+        MCP Sampling
+        MCP Roots
+        MCP Elicitation
+      MCP Notifications
+      Capability Negotiation
+      MCP Authorization
+      MCP Registry
+      MCP Server Development
+      MCP Security Risks
+    MCP Transports
+      stdio Transport
+      Streamable HTTP Transport
+      SSE Transport
+      JSON-RPC
+      Session Management
+    Agent-to-Agent Protocols
+      Agent2Agent Protocol
+        Agent Cards
+        A2A Tasks
+        A2A Messages
+        A2A Artifacts
+        Task Lifecycle
+      Agent Communication Protocol
+      Agent Protocol
+      NLIP
+      AG-UI
+      agents.json
+      ANP
+    API-Based Tooling
+      OpenAPI Tools
+      Function Schemas
+      OpenAPI to Tool Conversion
+      GraphQL Tools
+      Webhook Tools
+      CLI Tools as Agent Tools
+    SDK Interop Patterns
+      OpenAI Agents SDK Handoffs
+      Agents as Tools
+      Protocol Adapters
+      Framework Bridges
+      Tool Format Conversion
+  Memory
+    Memory Types
+      Short-Term Memory
+      Working Memory
+      Long-Term Memory
+      Episodic Memory
+      Semantic Memory
+      Procedural Memory
+      Context Window as Memory
+    Conversation Memory
+      Conversation Buffer
+      Buffer Window Memory
+      Summary Memory
+      Summary Buffer Memory
+      Token Buffer Memory
+      Message Trimming
+    External Memory Stores
+      Vector Memory
+      Knowledge Graph Memory
+      Entity Memory
+      Key-Value Memory
+      Document Memory
+      Memory Files
+      Scratchpads
+      Relational Memory
+    Memory Operations
+      Memory Writing
+      Memory Retrieval
+      Memory Consolidation
+      Memory Forgetting
+      Memory Updating
+      Reflection
+      Memory Scoring
+        Recency Scoring
+        Importance Scoring
+        Relevance Scoring
+      Memory Deduplication
+    Memory Systems
+      MemGPT
+      Letta
+      Mem0
+      Zep
+      Generative Agents Memory Stream
+      LangMem
+      Cognee
+      Graphiti
+      A-MEM
+    User & Session Memory
+      User Profiles
+      Cross-Session Memory
+      Preference Memory
+      State Persistence
+      CLAUDE.md-Style Memory Files
+      Memory Directories
+      Auto-Memory
+      Memory Privacy
+  Planning & Reasoning in Agents
+    Task Decomposition
+      Subgoals
+      Subtasks
+      Hierarchical Planning
+      Todo Lists
+      Plan Mode
+      Step Ordering
+      Dependency Graphs
+    Planning Strategies
+      Static Planning
+      Dynamic Replanning
+      Plan Revision
+      Interleaved Planning and Acting
+      LLM+P
+      PDDL Planning
+      Classical Planners with LLMs
+      Plan Verification
+    Search-Based Reasoning
+      Tree Search for Agents
+      MCTS Agents
+      Beam Search over Plans
+      Best-of-N Trajectories
+      World-Model Agents
+      Simulation Before Acting
+      Lookahead
+      Backtracking
+    Self-Critique & Verification
+      Self-Critique
+      Verification Loops
+      Reflection
+      Self-Consistency in Agents
+      Critic Models
+      Test-Based Verification
+      Assertion Checking
+    Reasoning Models in Agents
+      Reasoning Models for Agents
+      Extended Thinking
+      Thinking Budgets
+      Interleaved Thinking
+      Adaptive Reasoning Effort
+      Hidden Reasoning Traces
+      Reasoning Summaries
+  Context Engineering
+    Context Window Management
+      Context Budgeting
+      Token Accounting
+      Compaction
+      Summarization
+      Context Pruning
+      Sliding Windows
+      Auto-Compact Thresholds
+    Information Delivery
+      Progressive Disclosure
+      Just-in-Time Retrieval
+      Tool Result Truncation
+      Lazy Loading
+      File References over Content
+      Structured Note-Taking
+    Context Isolation
+      Sub-Agent Context Isolation
+      Fresh Context Workers
+      Context Handoff
+      Result Summaries
+      Parallel Context Windows
+    Instructions & Prompts
+      System Prompt Design
+      Instruction Files
+      Skills
+      Tool Descriptions
+      Few-Shot Examples in Agents
+      Prompt Caching for Agents
+      Cache Breakpoints
+      Right Altitude Prompts
+    Context Failure Modes
+      Context Rot
+      Context Poisoning
+      Context Distraction
+      Context Confusion
+      Context Clash
+      Lost in the Middle
+      Attention Budget
+  Multi-Agent Systems
+    Foundations
+      Multi-Agent Collaboration
+      Society of Mind
+      Role-Playing Agents
+      Specialization
+      Division of Labor
+      Emergent Collaboration
+      Inception Prompting
+    Coordination Mechanisms
+      Orchestration
+      Delegation
+      Sub-Agents
+      Handoffs
+      Agent Teams
+      Shared State
+      Message Passing
+      Consensus
+      Voting
+      Debate
+      Negotiation
+      Auctions
+    Communication
+      Communication Protocols
+      Structured Messages
+      Natural Language Messages
+      Shared Memory
+      Group Chat
+      Mailboxes
+      Broadcast vs Direct Messages
+    Research Systems
+      CAMEL
+      MetaGPT
+      ChatDev
+      AutoGen
+      AgentVerse
+      Generative Agents
+      Smallville
+      Multi-Agent Debate
+      Mixture of Agents
+      Project Sid
+    Swarms
+      Agent Swarms
+      Swarm Intelligence
+      Decentralized Agents
+      Stigmergy
+      Self-Organization
+    Multi-Agent Failure Modes
+      Coordination Breakdown
+      Infinite Conversation Loops
+      Role Confusion
+      Information Loss in Handoffs
+      Cost Explosion
+      Groupthink
+      Task Derailment
+      MAST Taxonomy
+  Agent Frameworks & SDKs
+    General Frameworks
+      LangChain
+      LangGraph
+      LlamaIndex Workflows
+      Haystack Agents
+      DSPy
+      Semantic Kernel
+      Microsoft Agent Framework
+      Pydantic AI
+      smolagents
+      Mastra
+      Vercel AI SDK
+      Agno
+      Phidata
+      Atomic Agents
+    Multi-Agent Frameworks
+      AutoGen
+      AG2
+      CrewAI
+      OpenAI Swarm
+      CAMEL-AI
+      MetaGPT
+      ChatDev
+      Magentic-One
+    Vendor SDKs
+      OpenAI Agents SDK
+      Claude Agent SDK
+      Google ADK
+      Amazon Bedrock Agents
+      Strands Agents
+      Azure AI Agent Service
+    Memory-Centric Frameworks
+      Letta
+      MemGPT
+      Mem0 Platform
+    Autonomous Agent Projects
+      AutoGPT
+      BabyAGI
+      AgentGPT
+      SuperAGI
+      OpenAgents
+      Open Interpreter
+    Low-Code Builders
+      Dify
+      Flowise
+      n8n
+      LangFlow
+      Rivet
+      Make
+      Zapier Agents
+      Copilot Studio
+    Durable Execution Engines
+      Temporal
+      Inngest
+      Restate
+      Ray Serve
+      Prefect
+      Dapr Agents
+      DBOS
+  Coding Agents
+    Products
+      Claude Code
+      Codex CLI
+      Cursor
+      Windsurf
+      GitHub Copilot Agent Mode
+      Devin
+      OpenHands
+      SWE-agent
+      Aider
+      Cline
+      Roo Code
+      Jules
+      Amazon Q Developer
+      Replit Agent
+      Lovable
+      Bolt
+      v0
+      Gemini CLI
+      Kiro
+      Codex Cloud
+    Capabilities
+      Repo-Level Understanding
+      Repository Maps
+      Code Search Tools
+      Edit Tools
+      Diff Application
+      Search-and-Replace Edits
+      Test-Driven Loops
+      Build and Lint Feedback
+      Git Operations
+      PR Agents
+      Code Review Agents
+      Multi-File Editing
+      Terminal Execution
+    Practices
+      Agentic Software Engineering
+      Vibe Coding
+      Spec-Driven Development
+      Plan-Then-Code
+      Agent Instruction Files
+      Parallel Coding Agents
+      Worktree Isolation
+      Hooks
+      Custom Commands
+    Coding Benchmarks
+      HumanEval
+      SWE-bench
+      SWE-bench Verified
+      SWE-bench Pro
+      Multi-SWE-bench
+      Terminal-Bench
+      Aider Polyglot
+      LiveCodeBench
+      SWE-Lancer
+  Computer-Use & Browser Agents
+    Perception Modes
+      Screenshot-Based Agents
+      Accessibility Tree
+      DOM-Based Agents
+      Hybrid Perception
+      Set-of-Marks
+      GUI Grounding
+      Coordinate Prediction
+      Element Referring
+    Action Spaces
+      Click
+      Type
+      Scroll
+      Drag
+      Keyboard Shortcuts
+      Navigate
+      Wait
+      Zoom
+    Products & Systems
+      Anthropic Computer Use
+      Operator
+      ChatGPT Agent
+      Claude in Chrome
+      Project Mariner
+      Browser Use
+      Playwright Agents
+      Stagehand
+      Skyvern
+      Browserbase
+      Comet
+    Research Models
+      UI-TARS
+      CogAgent
+      SeeAct
+      ScreenAgent
+      Agent S
+      Agent S2
+      OS-Atlas
+      Aguvis
+      WebVoyager
+      ShowUI
+    GUI Benchmarks
+      OSWorld
+      OSWorld-Verified
+      WebArena
+      VisualWebArena
+      Mind2Web
+      WebVoyager Benchmark
+      AndroidWorld
+      ScreenSpot
+      Windows Agent Arena
+      WebShop
+      MiniWoB++
+  Deep Research & Search Agents
+    Search Agent Patterns
+      Search Agents
+      Web Browsing Agents
+      Iterative Retrieval
+      Multi-Hop Retrieval
+      Query Reformulation
+      Source Triangulation
+      Citation Grounding
+      Search Budgeting
+    Deep Research Systems
+      Deep Research
+      Open-Domain Research Agents
+      Research Planning
+      Parallel Research Sub-Agents
+      Report Synthesis
+      Citation Verification
+    Trained Search Agents
+      WebGPT
+      Search-R1
+      WebWalker
+      R1-Searcher
+      DeepResearcher
+      WebDancer
+      Tongyi DeepResearch
+    Search Benchmarks
+      HotpotQA
+      SimpleQA
+      GAIA
+      BrowseComp
+      WebWalkerQA
+      xbench-DeepSearch
+  Agentic RAG & Knowledge Agents
+    Agentic RAG Patterns
+      Query Planning
+      Query Decomposition
+      Retrieval Routing
+      Multi-Step Retrieval
+      Self-RAG
+      Corrective RAG
+      Adaptive RAG
+      Retrieval Verification
+      Agentic Chunking
+    Knowledge Agents
+      Knowledge Graph Agents
+      GraphRAG Agents
+      Entity Resolution Agents
+      Ontology-Guided Agents
+    Structured Data Agents
+      Text-to-SQL Agents
+      Schema Linking
+      Query Validation
+      Data Analysis Agents
+      Pandas Agents
+      Spreadsheet Agents
+      BI Agents
+      Semantic Layers for Agents
+  Evaluation of Agents
+    Outcome Metrics
+      Success Rate
+      Task Completion Rate
+      pass@k
+      pass^k
+      Partial Credit
+      Cost per Task
+      Latency
+      Token Usage
+      Steps to Completion
+      Consistency
+    Trajectory Evaluation
+      Trajectory Evaluation
+      Step-Level Scoring
+      Tool Call Accuracy
+      LLM-as-Judge for Trajectories
+      Rubric-Based Grading
+      Reference Trajectory Matching
+      Final State Evaluation
+    Agent Benchmarks
+      AgentBench
+      GAIA
+      tau-bench
+      tau2-bench
+      SWE-bench
+      WebArena
+      OSWorld
+      BFCL
+      ToolBench
+      MINT
+      AgentDojo
+      HAL
+      MLE-bench
+      PaperBench
+      RE-Bench
+      METR Time Horizons
+      Terminal-Bench
+      BrowseComp
+      GDPval
+      Vending-Bench
+    Observability
+      Agent Observability
+      Tracing
+      Spans
+      Trace Trees
+      Logging Tool Calls
+      Replay
+      OpenTelemetry for Agents
+      LangSmith
+      Langfuse
+      AgentOps
+      Arize Phoenix
+      Braintrust
+      Weights & Biases Weave
+      Helicone
+    Evaluation Methodology
+      Offline Evals
+      Online Evals
+      Simulation-Based Evals
+      Simulated Users
+      A/B Testing Agents
+      Regression Suites
+      Red Teaming Agents
+      Evaluation-Driven Development
+      Human Evaluation of Agents
+  Agent Safety & Security
+    Prompt Injection
+      Prompt Injection via Tools
+      Indirect Prompt Injection
+      Injection in Web Content
+      Injection in Documents
+      Injection in Tool Results
+      Confused Deputy
+      Injection Defenses
+        Spotlighting
+        Dual LLM Pattern
+        CaMeL
+        Injection Classifiers
+        Instruction Hierarchy
+    Data Protection
+      Data Exfiltration
+      Secrets Handling
+      Credential Isolation
+      PII in Agent Traces
+      Markdown Image Exfiltration
+      Egress Controls
+    Tool Misuse & Permissions
+      Tool Misuse
+      Permission Systems
+      Least Privilege
+      Sandboxing
+      Allowlists and Denylists
+      Scope Creep
+      Human Approval Gates
+      Dangerous Action Classification
+    Guardrails & Policy
+      Guardrails
+      Input Guardrails
+      Output Guardrails
+      Policy Enforcement
+      Content Filters
+      Action Classifiers
+      Overseers
+      Oversight Agents
+    Identity & Auth
+      Agent Identity
+      OAuth for Agents
+      Delegated Authorization
+      Service Accounts for Agents
+      Token Scoping
+      Agent Attestation
+      On-Behalf-Of Flows
+    Operational Safety
+      Runaway Agents
+      Infinite Loops
+      Cost Controls
+      Rate Limiting
+      Budget Caps
+      Kill Switches
+      Audit Logs
+      Rollback
+      Dry Runs
+    Security Benchmarks
+      AgentDojo
+      InjecAgent
+      AgentHarm
+      Agent Security Bench
+      SHADE-Arena
+    Alignment of Agents
+      Agent Alignment
+      Goal Misgeneralization in Agents
+      Reward Hacking in Agents
+      Sandbagging
+      Scheming
+      Corrigibility
+      Agentic Misalignment
+  Agent Infrastructure & Deployment
+    Execution Models
+      Durable Execution
+      State Machines
+      Queues
+      Serverless Agents
+      Containers for Agents
+      Agent Runtimes
+      Stateless vs Stateful Agents
+      Horizontal Scaling of Agents
+    Sandboxes
+      E2B
+      Modal
+      Daytona
+      Firecracker
+      gVisor
+      Docker Sandboxes
+      Cloudflare Sandboxes
+      MicroVMs
+    Scheduling & Triggers
+      Scheduling
+      Cron Agents
+      Triggers
+      Webhooks
+      Event Subscriptions
+      Scheduled Tasks
+      Routines
+    Serving & UI
+      Streaming UI
+      Generative UI
+      Tool Servers
+      Agent APIs
+      Session Management
+      Multi-Tenancy
+      Managed Agents
+    Distribution
+      MCP Registries
+      Agent Marketplaces
+      GPTs
+      Gems
+      Projects
+      Custom Agents
+      Agent Stores
+      Skills Marketplaces
+      Plugins
+  Agentic RL & Training
+    Training Paradigms
+      Agentic RL
+      Multi-Turn RL
+      Tool-Use RL
+      Learning from Environment Feedback
+      Outcome Rewards for Agents
+      Process Rewards for Agents
+      Test-Time Learning
+      Credit Assignment over Turns
+    Data
+      Trajectory Data
+      Synthetic Trajectories
+      Trajectory Filtering
+      Rejection Sampling Fine-Tuning
+      Agent Distillation
+      Environment Generation
+      Task Synthesis
+    Training Methods & Systems
+      AgentTuning
+      FireAct
+      Agent-FLAN
+      SWE-RL
+      Search-R1
+      WebRL
+      ReTool
+      ToolRL
+      SWE-Gym
+      SkyRL
+      Self-Improvement Loops
+      Expert Iteration for Agents
+      Agent Lightning
+    RL Environments
+      Agent Gyms
+      Verifiable Environments
+      Environment Hubs
+      Simulated Users for RL
+      Reward Verifiers
+  Advanced Agentic Concepts
+    Autonomy & Agency
+      Autonomy Spectrum
+      Agency Levels L1-L5
+      Agentic Maturity Models
+      Human Oversight Levels
+      Operator vs Collaborator Roles
+    Self-Improving Agents
+      Continual Learning Agents
+      Self-Improving Agents
+      Recursive Self-Improvement
+      Skill Libraries
+      Voyager
+      Darwin Gödel Machine
+      Self-Evolving Agents
+    Autonomous Research
+      Autonomous Research Agents
+      AI Scientist
+      AI Co-Scientist
+      Agentic AI for Science
+      Auto-ML Agents
+      AIDE
+      Agentic Data Pipelines
+      Lab Automation Agents
+    Agent Economies
+      AI Employees
+      Agentic Commerce
+      Agent Payments
+      Agent Economies
+      Agent-to-Agent Markets
+      Agentic Checkout
+      Agent Payments Protocol
+      Stablecoin Payments for Agents
+    Personal & Ambient Agents
+      Personal AI Agents
+      OS-Level Agents
+      Ambient Agents
+      Proactive Agents
+      Scheduled Agents
+      Digital Twins
+      Agent Memory Sharing
+      Always-On Agents
+    Social Simulation
+      Simulation of Societies
+      Generative Agent Simulations
+      Agent-Based Modeling with LLMs
+      Multi-Agent Debate for Truth
+      Oversight Agents
+      Synthetic Populations
+  Agent Design Best Practices
+    Design Principles
+      Simple Before Complex
+      Workflows vs Agents
+      Start with a Single LLM Call
+      Transparency of Planning Steps
+      Minimal Abstractions
+      Fail Fast
+    Tool Design
+      Agent-Computer Interface
+      Clear Tool Descriptions
+      Poka-Yoke Tool Design
+      Error Messages for Agents
+      Tool Consolidation
+      Absolute Paths over Relative
+      Response Format Design
+      Tool Namespacing
+      Tool Testing
+    Engineering Practices
+      Evaluation-Driven Development
+      Observability-First
+      Latency vs Quality Tradeoffs
+      Cost Management
+      Model Selection per Step
+      Graceful Degradation
+      Fallback Strategies
+      Testing Agents
+      Versioning Prompts and Tools

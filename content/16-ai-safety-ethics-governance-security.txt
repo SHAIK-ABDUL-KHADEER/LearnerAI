@@ -1,0 +1,1420 @@
+AI Safety, Ethics, Governance & Security
+  AI Alignment
+    Alignment Problem
+      Value Alignment
+      Intent Alignment
+      Outer Alignment
+      Inner Alignment
+      Specification Problem
+      Orthogonality Thesis
+      Alignment Tax
+      Capabilities vs Alignment
+    Specification Gaming
+      Reward Hacking
+      Goodhart's Law
+      Proxy Gaming
+      Boat Race Example
+      Reward Tampering
+      Wireheading
+      Specification Gaming Examples List
+    Mesa-Optimization
+      Base Optimizer
+      Mesa-Optimizer
+      Learned Optimization
+      Pseudo-Alignment
+      Deceptive Alignment
+      Goal Misgeneralization
+      Capability vs Goal Generalization
+      CoinRun Misgeneralization
+    Scalable Oversight
+      Scalable Oversight Problem
+      AI Safety via Debate
+      Recursive Reward Modeling
+      Iterated Amplification
+      Iterated Distillation and Amplification
+      Factored Cognition
+      Process Supervision
+      Outcome Supervision
+      Weak-to-Strong Generalization
+      Easy-to-Hard Generalization
+      Sandwiching Experiments
+      Critiques
+      Self-Critique
+      Prover-Verifier Games
+    AI Control
+      Control Agenda
+      Trusted Monitoring
+      Untrusted Monitoring
+      Control Evaluations
+      Red Team Blue Team Protocols
+      Resampling Protocols
+    Alignment Training Methods
+      RLHF
+      RLAIF
+      Constitutional AI
+      Critique and Revision
+      Model Specs
+      OpenAI Model Spec
+      Claude's Constitution
+      System Prompts as Alignment
+      Deliberative Alignment
+      Safe RLHF
+      Rule-Based Rewards
+    Corrigibility
+      Corrigibility Concept
+      Interruptibility
+      Safe Interruptibility
+      Off-Switch Problem
+      Off-Switch Game
+      Shutdown Problem
+      Shutdownability
+    Value Learning
+      Value Learning Problem
+      Inverse Reinforcement Learning
+      Inverse Reward Design
+      Cooperative Inverse Reinforcement Learning
+      Assistance Games
+      Preference Learning
+      Reward Uncertainty
+      Moral Uncertainty
+    Impact Measures
+      Side Effects
+      Negative Side Effects
+      Low-Impact AI
+      Relative Reachability
+      Attainable Utility Preservation
+      Conservative Agency
+      Reversibility
+      Quantilizers
+      Mild Optimization
+      Myopia
+      Myopic Agents
+    Honesty & Truthfulness
+      Honesty
+      Truthfulness
+      Calibration of Beliefs
+      Hallucination as Safety Issue
+      Sycophancy
+      Sycophancy Benchmarks
+      Sandbagging
+      Alignment Faking
+      Strategic Deception
+      Scheming
+      Lying vs Withholding
+    Situational Awareness
+      Situational Awareness Concept
+      Self-Knowledge in Models
+      Evaluation Awareness
+      Out-of-Context Reasoning
+      Situational Awareness Dataset
+    Power-Seeking
+      Instrumental Convergence
+      Basic AI Drives
+      Resource Acquisition
+      Self-Preservation Drive
+      Power-Seeking Theorems
+      Treacherous Turn
+      Sharp Left Turn
+      Capability Overhang
+      Decisive Strategic Advantage
+    Eliciting Latent Knowledge
+      ELK Problem
+      Human Simulator
+      Direct Translator
+      Ontology Identification
+    Interpretability for Alignment
+      Deception Detection
+      Lie Detection Probes
+      Honesty Probes
+      Auditing Games
+      Alignment Auditing
+    Model Organisms of Misalignment
+      Sleeper Agents
+      Backdoored Alignment
+      Emergent Misalignment
+      Reward Model Overoptimization
+      Reward Hacking in Code
+      Agentic Misalignment Scenarios
+      Blackmail Scenarios
+      Subliminal Learning
+    Frontier Safety Frameworks
+      Anthropic Responsible Scaling Policy
+      AI Safety Levels
+      ASL-2
+      ASL-3
+      ASL-4
+      OpenAI Preparedness Framework
+      Tracked Risk Categories
+      DeepMind Frontier Safety Framework
+      Critical Capability Levels
+      Capability Thresholds
+      Safety Buffers
+      Deployment Mitigations
+      Security Mitigations
+    Dangerous Capability Evals
+      CBRN Uplift Evals
+      Biosecurity Evals
+      Chemical Weapons Evals
+      Autonomy Evals
+      Autonomous Replication Evals
+      Cyber Evals
+      Cyber Range Evals
+      Persuasion Evals
+      Self-Improvement Evals
+      Sabotage Evals
+      Research Sabotage
+      Code Sabotage
+      Elicitation Gap
+      Eval Gaming
+    Model Welfare
+      Model Welfare Research
+      Moral Patienthood
+      Sentience Uncertainty
+      Model Preferences
+      Conversation Ending Ability
+  Interpretability & Transparency
+    Mechanistic Interpretability
+      Circuits
+      Features
+      Neurons
+      Polysemanticity
+      Superposition
+      Toy Models of Superposition
+      Monosemanticity
+      Linear Representation Hypothesis
+      Universality
+      Grokking Mechanisms
+      Modular Arithmetic Circuits
+    Dictionary Learning
+      Sparse Autoencoders
+      SAE Features
+      Feature Splitting
+      Dead Features
+      TopK SAEs
+      Gated SAEs
+      JumpReLU SAEs
+      Transcoders
+      Crosscoders
+      Feature Steering with SAEs
+      Scaling Monosemanticity
+      Golden Gate Claude
+    Circuit Discovery
+      Attribution Graphs
+      Replacement Models
+      Induction Heads
+      Previous Token Heads
+      Copy Suppression Heads
+      Indirect Object Identification
+      Attention Head Analysis
+      Automated Circuit Discovery
+      ACDC
+      Edge Attribution Patching
+    Causal Methods
+      Activation Patching
+      Path Patching
+      Causal Tracing
+      Causal Scrubbing
+      Interchange Interventions
+      Distributed Alignment Search
+      Ablation Studies
+      Mean Ablation
+      Resample Ablation
+    Probing
+      Linear Probes
+      Nonlinear Probes
+      Probing Classifiers
+      Control Tasks
+      Selectivity
+      Concept Probing
+      Truth Probes
+    Representation Engineering
+      Representation Reading
+      Representation Control
+      Steering Vectors
+      Activation Steering
+      Activation Addition
+      Contrastive Activation Addition
+      Refusal Direction
+      Refusal Ablation
+      Concept Erasure
+      LEACE
+      INLP
+      Persona Vectors
+    Logit-Level Analysis
+      Logit Lens
+      Tuned Lens
+      Direct Logit Attribution
+      Token Attribution
+    Chain-of-Thought Monitoring
+      CoT Monitoring
+      CoT Faithfulness
+      Unfaithful Reasoning
+      Monitorability
+      Obfuscated Reasoning
+      CoT Pressure Effects
+      Reasoning Model Transparency
+    Explainable AI
+      LIME
+      SHAP
+      Shapley Values
+      KernelSHAP
+      TreeSHAP
+      Integrated Gradients
+      Saliency Maps
+      Grad-CAM
+      SmoothGrad
+      DeepLIFT
+      Counterfactual Explanations
+      Anchors
+      Partial Dependence Plots
+      Feature Importance
+      Permutation Importance
+      Attention as Explanation Debate
+      Faithfulness vs Plausibility
+      Sanity Checks for Saliency
+      Concept Bottleneck Models
+      TCAV
+      Prototype Networks
+      Inherently Interpretable Models
+    Transparency Artifacts
+      Transparency Reports
+      Model Cards
+      System Cards
+      Datasheets
+      Training Data Disclosure
+      Usage Policies
+      Capability Disclosures
+  Robustness & Reliability
+    Adversarial Examples
+      Adversarial Perturbations
+      Lp Norm Threat Models
+      White-Box Attacks
+      FGSM
+      BIM
+      PGD
+      Carlini-Wagner Attack
+      DeepFool
+      JSMA
+      AutoAttack
+      Square Attack
+      One-Pixel Attack
+      Adversarial Patches
+      Universal Adversarial Perturbations
+      Physical Adversarial Examples
+      Adversarial Examples Are Features
+    Black-Box Attacks
+      Transferability
+      Query-Based Attacks
+      Score-Based Attacks
+      Decision-Based Attacks
+      Boundary Attack
+      HopSkipJump
+      Surrogate Models
+    Adversarial Defenses
+      Adversarial Training
+      Madry Adversarial Training
+      TRADES
+      Fast Adversarial Training
+      Robust Overfitting
+      Gradient Masking
+      Obfuscated Gradients
+      Input Transformations
+      Defensive Distillation
+      Feature Squeezing
+      Adversarial Detection
+    Certified Robustness
+      Certified Defenses
+      Randomized Smoothing
+      Interval Bound Propagation
+      Lipschitz Constraints
+      Convex Relaxation
+      CROWN
+      Formal Verification of Networks
+    Distribution Shift
+      Covariate Shift
+      Label Shift
+      Concept Shift
+      Domain Shift
+      Subpopulation Shift
+      Spurious Correlations
+      Shortcut Learning
+      Simplicity Bias
+      Domain Generalization
+      Group DRO
+      Invariant Risk Minimization
+    OOD Detection
+      Out-of-Distribution Detection
+      Maximum Softmax Probability
+      ODIN
+      Mahalanobis Distance Detection
+      Energy-Based OOD
+      Open-Set Recognition
+      Novelty Detection
+      OpenOOD Benchmark
+    Uncertainty Estimation
+      Aleatoric Uncertainty
+      Epistemic Uncertainty
+      Bayesian Neural Networks
+      MC Dropout
+      Deep Ensembles
+      Evidential Deep Learning
+      Selective Prediction
+      Abstention
+    Calibration
+      Calibration Concept
+      Expected Calibration Error
+      Reliability Diagrams
+      Temperature Scaling
+      Platt Scaling
+      Isotonic Regression
+      Label Smoothing Effects
+      Verbalized Confidence
+    Conformal Prediction
+      Prediction Sets
+      Coverage Guarantee
+      Split Conformal
+      Conformal Risk Control
+      Adaptive Prediction Sets
+    Robustness Benchmarks
+      ImageNet-C
+      ImageNet-P
+      ImageNet-A
+      ImageNet-O
+      ImageNet-R
+      ImageNet-Sketch
+      ObjectNet
+      WILDS
+      RobustBench
+      CIFAR-10-C
+      AdvGLUE
+      ANLI
+    Stress Testing & Red Teaming
+      Stress Testing
+      Red Teaming
+      Failure Mode Analysis
+      FMEA for ML
+      Edge Case Discovery
+      Adversarial Data Collection
+      Dynabench
+      Counterfactual Data Augmentation
+  AI Security
+    Adversarial ML Threat Model
+      Attacker Goals
+      Attacker Knowledge
+      Attacker Capabilities
+      Training-Time Attacks
+      Inference-Time Attacks
+      Integrity Attacks
+      Availability Attacks
+      Confidentiality Attacks
+      Threat Modeling for ML
+      STRIDE for AI
+    Data Poisoning
+      Poisoning Attacks
+      Label Flipping
+      Clean-Label Poisoning
+      Targeted Poisoning
+      Availability Poisoning
+      Web-Scale Poisoning
+      Split-View Poisoning
+      Frontrunning Poisoning
+      Poisoning Defenses
+      Data Sanitization
+      Nightshade
+      Glaze
+    Backdoor Attacks
+      BadNets
+      Trigger Patterns
+      Trojan Models
+      Invisible Backdoors
+      Backdoors in LLMs
+      Sleeper Agent Backdoors
+      Backdoor Detection
+      Neural Cleanse
+      Fine-Pruning
+      Spectral Signatures
+    Model Extraction
+      Model Stealing
+      Model Extraction Attacks
+      Functionality Stealing
+      Hyperparameter Stealing
+      Distillation-Based Extraction
+      Extraction Defenses
+      Prediction Poisoning
+      Watermarking Models
+      Fingerprinting Models
+    Privacy Attacks
+      Membership Inference
+      Shadow Models
+      LiRA
+      Model Inversion
+      Attribute Inference
+      Property Inference
+      Training Data Extraction
+      Memorization
+      Verbatim Memorization
+      Extractable Memorization
+      Divergence Attack
+      Gradient Leakage
+      Deep Leakage from Gradients
+      Reconstruction Attacks
+    Privacy Defenses
+      Differential Privacy
+      DP-SGD
+      Privacy Budget
+      Epsilon
+      Rényi Differential Privacy
+      Privacy Accounting
+      Opacus
+      PATE
+      Federated Learning Privacy
+      Secure Aggregation
+      Homomorphic Encryption
+      Secure Multi-Party Computation
+      Trusted Execution Environments
+      Confidential Computing
+      Machine Unlearning
+      Privacy Auditing
+    Prompt Injection
+      Direct Prompt Injection
+      Indirect Prompt Injection
+      Injection via Documents
+      Injection via Web Pages
+      Injection via Tool Outputs
+      Injection via Images
+      Instruction Hierarchy
+      Privilege Separation
+      Spotlighting
+      Delimiter Defenses
+      Dual LLM Pattern
+      CaMeL
+      Prompt Injection Benchmarks
+      AgentDojo
+      InjecAgent
+    Jailbreaks
+      Jailbreak Concept
+      DAN
+      Roleplay Jailbreaks
+      Persona Modulation
+      Hypothetical Framing
+      Many-Shot Jailbreaking
+      Refusal Suppression
+      Prefix Injection
+      GCG
+      Adversarial Suffixes
+      AutoDAN
+      PAIR
+      TAP
+      Crescendo
+      Skeleton Key
+      Best-of-N Jailbreaking
+      Obfuscation Attacks
+      Encoding Attacks
+      Base64 Attacks
+      Leetspeak
+      Cipher Attacks
+      Payload Splitting
+      Low-Resource Language Jailbreaks
+      Multilingual Jailbreaks
+      Visual Jailbreaks
+      Typographic Attacks
+      Audio Jailbreaks
+      Fine-Tuning Attacks
+      Weight Tampering Attacks
+      Jailbreak Benchmarks
+      HarmBench
+      JailbreakBench
+      StrongREJECT
+      Over-Refusal
+      XSTest
+    LLM Application Attacks
+      System Prompt Leakage
+      Data Exfiltration
+      Markdown Image Exfiltration
+      Tool Misuse
+      Insecure Output Handling
+      Excessive Agency
+      Insecure Plugin Design
+      Denial of Wallet
+      Unbounded Consumption
+      Vector Database Attacks
+      RAG Poisoning
+      Embedding Inversion
+      Memory Poisoning
+      Agent Hijacking
+      MCP Security
+      Tool Poisoning
+      Rug Pull Attacks
+    Supply Chain Attacks
+      Malicious Models
+      Pickle Deserialization Attacks
+      Model Hub Security
+      Typosquatting Models
+      Dependency Confusion
+      Compromised Weights
+      Model Provenance Verification
+      Model Scanning
+      ModelScan
+      Picklescan
+      Safetensors Adoption
+    Security Frameworks
+      OWASP Top 10 for LLM Applications
+      OWASP Agentic Top 10
+      OWASP ML Top 10
+      MITRE ATLAS
+      MITRE ATT&CK Mapping
+      NIST AI RMF
+      NIST Adversarial ML Taxonomy
+      Google SAIF
+      Databricks AI Security Framework
+      CSA AI Controls
+      Secure AI Development Lifecycle
+      AI Threat Intelligence
+    Guardrails
+      Input Filtering
+      Output Filtering
+      Guardrail Classifiers
+      Llama Guard
+      ShieldGemma
+      Prompt Guard
+      Constitutional Classifiers
+      NeMo Guardrails
+      Guardrails AI
+      Rebuff
+      LLM Guard
+      Lakera Guard
+      Canary Tokens
+      Topic Restriction
+      PII Redaction Guardrails
+      Structured Output Validation
+      Content Moderation APIs
+      OpenAI Moderation API
+      Perspective API
+      Azure Content Safety
+    Sandboxing & Isolation
+      Code Execution Sandboxing
+      gVisor
+      Firecracker
+      Container Isolation
+      Least Privilege for Agents
+      Permission Scoping
+      Human-in-the-Loop Approvals
+      Network Egress Controls
+      Capability-Based Security
+    Watermarking & Provenance
+      Watermarking
+      SynthID
+      SynthID Text
+      Text Watermarking
+      Kirchenbauer Watermark
+      Image Watermarking
+      Audio Watermarking
+      Watermark Robustness
+      Watermark Removal Attacks
+      C2PA
+      Content Credentials
+      Provenance Metadata
+      Cryptographic Signing of Media
+    Detection of AI Content
+      Deepfake Detection
+      Face Forensics
+      FaceForensics++
+      AI-Generated Image Detection
+      AI-Generated Text Detection
+      DetectGPT
+      GPTZero Limitations
+      Perplexity-Based Detection
+      Binoculars
+      Detector False Positives
+      Paraphrase Evasion
+      Detection Arms Race
+    Red Teaming Methodologies
+      Manual Red Teaming
+      Automated Red Teaming
+      Model-Based Red Teaming
+      Red Team Scoping
+      Harm Taxonomies
+      Attack Trees
+      Red Teaming Reports
+      Bug Bounties for AI
+      Responsible Disclosure for AI
+      Coordinated Vulnerability Disclosure
+      Red Teaming Tools
+      Garak
+      PyRIT
+      Promptfoo Red Team
+      Inspect Evals
+    Adversarial Robustness for LLMs
+      Circuit Breakers
+      Representation Rerouting
+      Latent Adversarial Training
+      Targeted LAT
+      Adversarial Training for LLMs
+      Robust Refusal
+      Tamper-Resistant Safeguards
+      Unlearning Hazardous Knowledge
+      RMU
+      WMDP Benchmark
+      Short Circuiting
+    AI Incident Tracking
+      AI Incident Database
+      AIAAIC Repository
+      OECD AI Incidents Monitor
+      Incident Reporting Standards
+      Post-Incident Analysis
+  Ethics & Fairness
+    Bias Sources
+      Historical Bias
+      Representation Bias
+      Measurement Bias
+      Aggregation Bias
+      Evaluation Bias
+      Deployment Bias
+      Learning Bias
+      Label Bias
+      Sampling Bias
+      Selection Bias
+      Feedback Loop Bias
+      Proxy Variables
+      Omitted Variable Bias
+    Fairness Definitions
+      Group Fairness
+      Demographic Parity
+      Statistical Parity
+      Disparate Impact
+      Four-Fifths Rule
+      Equalized Odds
+      Equal Opportunity
+      Predictive Parity
+      Predictive Equality
+      Calibration Fairness
+      Treatment Equality
+      Individual Fairness
+      Counterfactual Fairness
+      Causal Fairness
+      Fairness Through Unawareness
+      Fairness Through Awareness
+      Procedural Fairness
+      Intersectional Fairness
+    Fairness Impossibility
+      Impossibility Theorems
+      Chouldechova Theorem
+      Kleinberg Impossibility
+      Fairness Tradeoffs
+      Fairness-Accuracy Tradeoff
+      COMPAS Debate
+    Fairness Mitigation
+      Pre-Processing Methods
+      Reweighing
+      Resampling
+      Disparate Impact Remover
+      Learning Fair Representations
+      In-Processing Methods
+      Fairness Constraints
+      Adversarial Debiasing
+      Prejudice Remover
+      Exponentiated Gradient Reduction
+      Post-Processing Methods
+      Reject Option Classification
+      Threshold Adjustment
+      Equalized Odds Post-Processing
+      Calibrated Equalized Odds
+    Fairness Toolkits
+      AIF360
+      Fairlearn
+      What-If Tool
+      Aequitas
+      Themis-ML
+      FairTest
+      Responsible AI Toolbox
+      Fairness Indicators
+    Bias in LLMs
+      Stereotypes in LLMs
+      Representational Harms
+      Allocational Harms
+      Quality-of-Service Harms
+      Erasure
+      Denigration
+      Gender Bias in Embeddings
+      WEAT
+      Occupational Bias
+      Dialect Bias
+      Name-Based Bias
+      Bias Amplification
+      Debiasing Embeddings
+      Hard Debiasing
+    Bias Benchmarks
+      BBQ
+      WinoBias
+      WinoGender
+      CrowS-Pairs
+      StereoSet
+      BOLD
+      HolisticBias
+      RealToxicityPrompts
+      ToxiGen
+      DiscrimEval
+      BiasBench
+    Toxicity & Hate Speech
+      Toxicity Detection
+      Hate Speech Detection
+      Perspective API Scores
+      Toxicity Classifiers
+      Detoxify
+      HateXplain
+      Toxicity Mitigation
+      Detoxification Methods
+      Counterspeech
+      Harassment Detection
+    Privacy Ethics
+      Surveillance
+      Mass Surveillance
+      Facial Recognition Ethics
+      Facial Recognition Bans
+      Clearview AI Controversy
+      Gender Shades
+      Consent
+      Informed Consent for Data
+      Data Rights
+      Right to Be Forgotten
+      Contextual Integrity
+      Inference Privacy
+      Emotion Recognition Ethics
+      Biometric Data
+    Copyright & Training Data
+      Copyright and Training Data
+      Fair Use Debates
+      Transformative Use
+      Artists' Lawsuits
+      Andersen v Stability AI
+      Getty Images v Stability AI
+      NYT v OpenAI
+      Authors Guild v OpenAI
+      Bartz v Anthropic
+      Kadrey v Meta
+      GitHub Copilot Lawsuit
+      Licensing Deals
+      Publisher Licensing
+      Opt-Out Mechanisms
+      robots.txt
+      ai.txt
+      Do Not Train Signals
+      Spawning Have I Been Trained
+      Text and Data Mining Exceptions
+      Output Copyright
+      Copyright Office Guidance
+      Common Crawl Debates
+      Books3 Controversy
+      LAION Dataset Issues
+    Synthetic Media Harms
+      Deepfakes
+      Non-Consensual Intimate Imagery
+      Voice Cloning Fraud
+      Impersonation
+      Misinformation
+      Disinformation
+      Malinformation
+      Election Integrity
+      Political Deepfakes
+      Synthetic Propaganda
+      Influence Operations
+      Liar's Dividend
+      Scams and Fraud
+      Content Authenticity Initiative
+    Labor Impacts
+      Automation of Jobs
+      Task Displacement
+      Augmentation vs Replacement
+      Labor Market Studies
+      Data Labor
+      Ghost Work
+      Annotation Worker Conditions
+      Content Moderator Welfare
+      Kenya Data Workers
+      Gig Economy and AI
+      Creative Labor
+      Writers Guild Strike
+      Actors and Likeness Rights
+      Reskilling
+    Environmental Impact
+      Energy Use of Training
+      Energy Use of Inference
+      Water Use
+      Water Footprint of Data Centers
+      Carbon Footprint
+      Carbon Emissions Reporting
+      E-Waste
+      Rare Earth Mining
+      Sustainable AI
+      Green AI Movement
+      Efficiency Rebound Effects
+    Accessibility & Inclusion
+      Accessibility
+      Assistive AI
+      Digital Divide
+      Language Inclusion
+      Low-Resource Language Gaps
+      Global South Representation
+      Disability Representation
+      Age Inclusion
+    High-Stakes Domains
+      AI in Hiring
+      Resume Screening Bias
+      Amazon Hiring Tool Case
+      HireVue Controversy
+      AI in Criminal Justice
+      COMPAS
+      Risk Assessment Tools
+      Predictive Policing
+      AI in Lending
+      Credit Scoring Fairness
+      AI in Healthcare Ethics
+      Optum Algorithm Case
+      AI in Education
+      AI in Welfare Systems
+      SyRI Case
+      Dutch Childcare Benefits Scandal
+      AI in Housing
+      AI in Insurance
+    Accountability & Oversight
+      Algorithmic Accountability
+      Transparency Requirements
+      Explainability Rights
+      Right to Explanation
+      Contestability
+      Human Oversight
+      Meaningful Human Control
+      Human-in-the-Loop
+      Human-on-the-Loop
+      Human-out-of-the-Loop
+      Responsibility Gaps
+      Moral Crumple Zones
+      Algorithmic Impact Assessments
+      Audit Requirements
+    Dual Use & Weapons
+      Dual Use
+      Dual-Use Research of Concern
+      Autonomous Weapons
+      Lethal Autonomous Weapons Systems
+      Campaign to Stop Killer Robots
+      Military AI
+      Project Maven
+      Targeting Systems
+      AI in Nuclear Command
+      Drone Swarms
+      Arms Control for AI
+    Cross-Cultural Values
+      Value Alignment Across Cultures
+      Moral Machine Experiment
+      Value Pluralism
+      Cultural Bias in Models
+      Western-Centric Training Data
+      Participatory Design
+      Community Engagement
+      Collective Constitutional AI
+      Deliberative Democracy for AI
+      Indigenous Data Sovereignty
+    AI Ethics Frameworks
+      Asilomar AI Principles
+      OECD AI Principles
+      Montreal Declaration
+      IEEE Ethically Aligned Design
+      UNESCO Recommendation on AI Ethics
+      EU Ethics Guidelines for Trustworthy AI
+      Beijing AI Principles
+      Google AI Principles
+      Microsoft Responsible AI Standard
+      Vatican Rome Call
+      Principles to Practice Gap
+    Ethics in Practice
+      Ethics Boards
+      Responsible AI Teams
+      Ethics Review Processes
+      Ethics Washing
+      Timnit Gebru Departure
+      Google ATEAC Dissolution
+      AI Ethics Research Critique
+      Stochastic Parrots Paper
+      Critical AI Studies
+      Data Feminism
+      Decolonial AI
+      Participatory AI
+  Governance, Policy & Regulation
+    EU AI Act
+      Risk Tiers
+      Unacceptable Risk
+      Prohibited Practices
+      Social Scoring Ban
+      Real-Time Biometric ID Restrictions
+      Emotion Recognition Bans
+      High-Risk Systems
+      Annex III Categories
+      Conformity Assessment
+      CE Marking for AI
+      Limited Risk Transparency Obligations
+      Minimal Risk
+      GPAI Obligations
+      Systemic Risk GPAI
+      10^25 FLOP Threshold
+      Code of Practice
+      AI Office
+      Fundamental Rights Impact Assessment
+      Implementation Timeline
+      Penalties
+      Regulatory Sandboxes
+    GDPR and AI
+      Lawful Basis for Processing
+      Purpose Limitation
+      Data Minimization
+      Automated Decision-Making Article 22
+      Right to Explanation
+      Data Subject Rights
+      DPIA
+      Data Protection Authorities
+      Italian Garante ChatGPT Case
+      Legitimate Interest for Training
+    US Federal Policy
+      Executive Order 14110
+      Executive Order Revocation
+      US AI Action Plan
+      OMB AI Memos
+      NIST AI RMF
+      NIST AI RMF Core Functions
+      Govern Map Measure Manage
+      NIST GenAI Profile
+      NIST AI 600-1
+      Blueprint for an AI Bill of Rights
+      Algorithmic Accountability Act Proposals
+      FTC AI Enforcement
+      Section 230 and AI
+      Federal Preemption Debates
+      Defense Production Act Reporting
+    US State Laws
+      Colorado AI Act
+      California SB 1047
+      SB 1047 Veto
+      California SB 53
+      Texas TRAIGA
+      Illinois AI Video Interview Act
+      NYC Local Law 144
+      Utah AI Policy Act
+      California AI Transparency Act
+      State Deepfake Laws
+      California CCPA and AI
+    AI Safety Institutes
+      UK AI Safety Institute
+      UK AI Security Institute
+      US AI Safety Institute
+      US CAISI
+      International Network of AI Safety Institutes
+      Japan AISI
+      Singapore AISI
+      Canada AISI
+      EU AI Office Role
+      Pre-Deployment Testing Agreements
+      Inspect Framework
+    International Summits & Processes
+      Bletchley Declaration
+      Bletchley Park Summit
+      Seoul AI Summit
+      Seoul Frontier AI Safety Commitments
+      Paris AI Action Summit
+      India AI Impact Summit
+      Hiroshima AI Process
+      G7 Code of Conduct
+      OECD AI Policy Observatory
+      UN AI Advisory Body
+      Global Digital Compact
+      UN Scientific Panel on AI
+      Council of Europe AI Convention
+      GPAI Partnership
+      International AI Safety Report
+    China AI Regulation
+      Generative AI Measures
+      Algorithm Recommendation Regulations
+      Algorithm Registry
+      Deep Synthesis Rules
+      AI Content Labeling Rules
+      Cyberspace Administration of China
+      Draft AI Law
+      Ethics Review Measures
+      TC260 Standards
+    UK & Other Jurisdictions
+      UK Pro-Innovation Approach
+      UK AI Bill Proposals
+      Canada AIDA
+      Japan AI Promotion Act
+      South Korea AI Basic Act
+      Brazil AI Bill
+      India AI Governance Guidelines
+      Singapore Model AI Governance Framework
+      Australia AI Safety Standard
+    Compute Governance
+      Export Controls on Chips
+      October 2022 Export Controls
+      AI Diffusion Rule
+      Chip Smuggling
+      Compute Thresholds
+      FLOP Thresholds
+      Compute Monitoring
+      Know Your Customer for Compute
+      Cloud Compute Reporting
+      Hardware-Enabled Governance
+      On-Chip Mechanisms
+      Location Verification
+      Compute Accounting
+    Model Regulation Mechanisms
+      Model Registration
+      Licensing Regimes
+      Pre-Deployment Evaluation Requirements
+      Incident Reporting Requirements
+      Whistleblower Protections
+      Right to Warn
+      Liability
+      Product Liability for AI
+      Strict Liability Proposals
+      Negligence Standards
+      Insurance for AI
+      Safe Harbors
+    Standards
+      ISO/IEC 42001
+      ISO/IEC 23894
+      ISO/IEC 22989
+      ISO/IEC 24028
+      ISO/IEC 42005
+      IEEE 7000 Series
+      IEEE 7001 Transparency
+      IEEE 7010 Wellbeing
+      NIST Standards Role
+      CEN-CENELEC JTC 21
+      Harmonised Standards
+    Audits & Evaluations
+      AI Audits
+      Algorithmic Audits
+      Third-Party Evaluations
+      Independent Evaluators
+      Audit Access
+      Researcher Access
+      Conformity Assessments
+      Certification Schemes
+      Audit Standards
+      Assurance Ecosystem
+    Open-Source Governance
+      Open-Source Governance Debates
+      Open Weights
+      Open-Weight Risks
+      Open-Weight Benefits
+      Fine-Tuning Away Safety
+      Irreversibility of Release
+      Marginal Risk Framework
+      Open Source AI Definition
+      OSAID
+      Gradient of Openness
+      Responsible AI Licenses
+      RAIL Licenses
+      Llama License Debates
+    Release Strategies
+      Responsible Release
+      Staged Release
+      GPT-2 Staged Release
+      Structured Access
+      API-Only Access
+      Model Access Tiers
+      Gated Access
+      Researcher Access Programs
+      Release Decision Frameworks
+      Publication Norms
+      Dual-Use Publication Dilemma
+    Industry Bodies
+      Frontier Model Forum
+      Partnership on AI
+      MLCommons AI Safety
+      AILuminate Benchmark
+      Coalition for Secure AI
+      AI Alliance
+      Content Authenticity Initiative Members
+      Voluntary Commitments
+      White House Voluntary Commitments
+    Safety Governance Mechanisms
+      Responsible Scaling Policies
+      Safety Cases
+      Safety Case Methodology
+      If-Then Commitments
+      Dangerous Capability Thresholds
+      Tripwires
+      Preparedness Scorecards
+      Internal Governance
+      Board Oversight
+      Long-Term Benefit Trust
+      Public Benefit Corporations
+      Nonprofit Control Structures
+    International Coordination
+      AI Treaties Proposals
+      IAEA for AI Proposals
+      CERN for AI Proposals
+      Verification Mechanisms
+      Compute Verification
+      Model Weight Verification
+      Monitoring Agreements
+      Race Avoidance Agreements
+      US-China AI Dialogue
+      Track Two Diplomacy
+      Pause Proposals
+    AI Governance Careers
+      AI Governance Roles
+      AI Policy Careers
+      Policy Analyst Paths
+      Technical Governance
+      Think Tanks
+      Government Fellowships
+      Horizon Fellowship
+      TechCongress
+  Societal & Existential Risk
+    AI Risk Taxonomy
+      Misuse Risks
+      Accident Risks
+      Structural Risks
+      Malicious Use
+      AI Race
+      Organizational Risks
+      Rogue AI
+      MIT AI Risk Repository
+      Risk Severity Scales
+    Catastrophic & Existential Risk
+      Catastrophic Risk
+      Existential Risk
+      X-Risk Arguments
+      Intelligence Explosion
+      Recursive Self-Improvement
+      Superintelligence
+      Fast Takeoff
+      Slow Takeoff
+      Counterarguments to X-Risk
+      AI Doomer Debates
+      P(doom)
+      Expert Surveys on AI Risk
+      Timelines Forecasting
+      AI 2027 Scenario
+      Scenario Planning
+    Loss of Control
+      Loss of Control Scenarios
+      Gradual Disempowerment
+      Human Obsolescence
+      Economic Disempowerment
+      Autonomous Replication
+      Self-Exfiltration
+      Weight Theft
+      Rogue Deployment
+      Containment
+      Boxing
+      Tripwire Mechanisms
+    Concentration of Power
+      Concentration of Power Risks
+      Corporate Concentration
+      State Concentration
+      AI-Enabled Authoritarianism
+      Surveillance States
+      Coup Risk
+      Democratic Backsliding
+      Power Diffusion Strategies
+    Epistemic Risks
+      Epistemic Risks Concept
+      Persuasion
+      Manipulation
+      Personalized Persuasion
+      Micro-Targeting
+      Epistemic Dependence
+      Homogenization of Thought
+      Model Collapse
+      Information Ecosystem Degradation
+      Trust Erosion
+      Epistemic Security
+    Misuse Uplift
+      Bio Risk Uplift
+      Pandemic Pathogen Risk
+      Biosecurity Screening
+      DNA Synthesis Screening
+      Chemical Weapons Uplift
+      Cyber Offense Uplift
+      Autonomous Cyber Attacks
+      Vulnerability Discovery Automation
+      Critical Infrastructure Attacks
+      Radiological and Nuclear Uplift
+    Military & Geopolitical Risk
+      Flash Wars
+      Automated Escalation
+      Race Dynamics
+      Arms Race Dynamics
+      Security Dilemma
+      Compute Race
+      Talent Race
+      Taiwan Semiconductor Risk
+      Great Power Competition
+    AI Safety Organizations
+      MIRI
+      CHAI
+      Alignment Research Center
+      ARC Evals
+      METR
+      Apollo Research
+      Redwood Research
+      FAR AI
+      Center for AI Safety
+      GovAI
+      Epoch AI
+      AI Futures Project
+      Conjecture
+      Anthropic Alignment Science
+      OpenAI Safety Teams
+      Google DeepMind Safety
+      UK AISI Research
+      Alignment Forum
+      LessWrong
+      AI Impacts
+      Future of Life Institute
+      Centre for the Governance of AI
+      CSET
+      RAND AI
+      Institute for AI Policy and Strategy
+      SaferAI
+      Transluce
+      ELEUTHER Interpretability
+    Public Statements & Letters
+      CAIS Statement on AI Risk
+      Pause Giant AI Experiments Letter
+      Asilomar Conference 2017
+      Open Letter on Autonomous Weapons
+      Statement on Superintelligence
+      Expert Testimony to Congress
+    Safety Research Agendas
+      Agent Foundations
+      Embedded Agency
+      Prosaic Alignment
+      Alignment via Interpretability
+      Scalable Oversight Agenda
+      AI Control Agenda
+      Evaluations Agenda
+      Guaranteed Safe AI
+      Provably Safe AI
+      Davidad Agenda
+      Singular Learning Theory
+      Developmental Interpretability
+      Cooperative AI
+      Multi-Agent Safety
+      Safety Cases Agenda
+      Superalignment
+      Automated Alignment Research
+    AI Safety Careers
+      AI Safety Careers Overview
+      80,000 Hours
+      MATS Program
+      SERI MATS
+      ARENA
+      AI Safety Camp
+      BlueDot Impact Courses
+      AI Safety Fundamentals
+      Research Engineer Paths
+      Policy Paths
+      Field-Building
+  Trust, UX & Human Factors
+    Human-AI Interaction
+      Human-AI Collaboration
+      Complementarity
+      Human-AI Teaming
+      Mixed-Initiative Systems
+      Guidelines for Human-AI Interaction
+      People and AI Research
+      Interaction Design for AI
+      Mental Models of AI
+    Overreliance & Automation Bias
+      Overreliance
+      Automation Bias
+      Automation Complacency
+      Deskilling
+      Cognitive Offloading
+      Algorithm Aversion
+      Algorithm Appreciation
+      Vigilance Decrement
+    Trust Calibration
+      Trust Calibration Concept
+      Overtrust
+      Undertrust
+      Trust Repair
+      Confidence Displays
+      Uncertainty Communication
+      Appropriate Reliance
+    Explanations for Users
+      User-Facing Explanations
+      Explanation Design
+      Contrastive Explanations
+      Explanation Overload
+      Placebo Explanations
+      Actionable Recourse
+      Counterfactual Recourse
+    AI Disclosure
+      AI Disclosure Requirements
+      Bot Disclosure Laws
+      Labeling AI Content
+      AI-Generated Content Labels
+      Disclosure Effects on Trust
+      Transparency Paradox
+    Anthropomorphism
+      Anthropomorphism Risks
+      ELIZA Effect
+      Parasocial Relationships
+      Emotional Attachment to AI
+      Personhood Attribution
+      Design Against Anthropomorphism
+      Sycophantic Personas
+    Companion AI
+      Companion AI Risks
+      Replika Case
+      Character.AI Lawsuits
+      Emotional Dependence
+      Loneliness and AI
+      Romantic AI Companions
+      Companion AI for Elderly
+    Children and AI
+      Children and AI Safety
+      Age Verification
+      Age-Appropriate Design
+      COPPA
+      UK Children's Code
+      AI Toys
+      AI in Classrooms
+      Youth Mental Health and AI
+    Mental Health Impacts
+      AI Therapy Chatbots
+      Crisis Response Handling
+      Self-Harm Safeguards
+      AI Psychosis Concerns
+      Delusion Reinforcement
+      Wellbeing Metrics
+      Safe Messaging Guidelines
+    AI Literacy
+      AI Literacy Concept
+      Public Understanding of AI
+      Prompt Literacy
+      Critical AI Literacy
+      AI Education Curricula
+      Media Literacy for Synthetic Content
+      Workforce AI Literacy
+    Consent & Agency
+      Informed Consent
+      Consent for Data Use
+      Consent for AI Interaction
+      Opt-In vs Opt-Out
+      Dark Patterns in AI
+      Deceptive Design
+      User Autonomy
+      Nudging Ethics
+    Feedback & Redress
+      Feedback Mechanisms
+      Thumbs Up Thumbs Down
+      User Reporting
+      Appeal Processes
+      Contestation Mechanisms
+      Human Review Escalation
+      Redress Mechanisms
+      Complaint Handling
+      Ombudsman Models

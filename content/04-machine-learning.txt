@@ -1,0 +1,1095 @@
+Machine Learning
+  ML Fundamentals
+    Learning Paradigms
+      Supervised Learning
+      Unsupervised Learning
+      Semi-Supervised Learning
+      Self-Supervised Learning
+      Weakly Supervised Learning
+      Reinforcement Learning
+      Active Learning
+        Uncertainty Sampling
+        Query by Committee
+      Online Learning
+        Concept Drift
+      Transfer Learning
+        Domain Adaptation
+        Fine-Tuning
+      Multi-Task Learning
+      Meta-Learning
+      Few-Shot Learning
+      One-Shot Learning
+      Zero-Shot Learning
+      Continual Learning
+    Model Taxonomies
+      Inductive vs Transductive Learning
+      Instance-Based vs Model-Based Learning
+      Parametric vs Non-Parametric Models
+      Generative vs Discriminative Models
+      Lazy vs Eager Learning
+      Linear vs Nonlinear Models
+    Core Concepts
+      Hypothesis Space
+      Inductive Bias
+      Bias-Variance Tradeoff
+      Overfitting
+      Underfitting
+      Generalization
+      Generalization Gap
+      Model Capacity
+      Occam's Razor
+      No Free Lunch Theorem
+      Curse of Dimensionality
+      i.i.d. Assumption
+      VC Dimension
+      PAC Learning
+      Sample Complexity
+      Decision Boundary
+      Data Leakage
+    Distribution Shift
+      Covariate Shift
+      Label Shift
+      Concept Shift
+      Prior Probability Shift
+      Domain Shift
+      Sample Selection Bias
+      Out-of-Distribution Data
+  ML Workflow
+    Problem Framing
+      Task Definition
+      Target Variable Definition
+      Success Metrics
+      Baseline Models
+    Exploratory Data Analysis
+      Descriptive Statistics
+      Histograms
+      Box Plots
+      Scatter Plots
+      Correlation Matrix
+      Missing Value Analysis
+      Outlier Analysis
+      Class Balance Analysis
+    Data Cleaning
+      Missing Value Imputation
+        Mean Imputation
+        Median Imputation
+        Mode Imputation
+        KNN Imputation
+        Iterative Imputation
+        MICE
+        Missing Indicator
+      Duplicate Removal
+      Outlier Handling
+        Winsorization
+        IQR Rule
+        Z-Score Filtering
+    Feature Engineering
+      Numeric Transformations
+        Standardization
+        Min-Max Scaling
+        Robust Scaling
+        Log Transform
+        Box-Cox Transform
+        Yeo-Johnson Transform
+        Quantile Transform
+        Binning
+        Polynomial Features
+        Interaction Features
+      Categorical Encoding
+        One-Hot Encoding
+        Label Encoding
+        Ordinal Encoding
+        Target Encoding
+        Frequency Encoding
+        Binary Encoding
+        Hashing Trick
+        Weight of Evidence Encoding
+        Rare Category Grouping
+      Datetime Features
+        Cyclical Encoding
+        Lag Features
+        Rolling Window Features
+      Text Features
+        Bag of Words
+        TF-IDF
+        N-Grams
+      Geospatial Features
+      Aggregation Features
+      Automated Feature Engineering
+        Featuretools
+    Feature Selection
+      Filter Methods
+        Variance Threshold
+        Correlation Filtering
+        Chi-Square Test
+        ANOVA F-Test
+        Mutual Information
+        Information Gain
+        Relief
+        mRMR
+      Wrapper Methods
+        Forward Selection
+        Backward Elimination
+        Recursive Feature Elimination
+        RFECV
+        Boruta
+      Embedded Methods
+        L1 Regularization
+        Tree Feature Importance
+        Elastic Net Selection
+      Permutation Importance
+      Variance Inflation Factor
+    Feature Extraction
+      Principal Component Analysis
+      Linear Discriminant Analysis
+      Autoencoder Features
+      Random Projections
+    Data Splitting
+      Train Set
+      Validation Set
+      Test Set
+      Holdout Method
+      Cross-Validation
+        K-Fold Cross-Validation
+        Stratified K-Fold
+        Repeated K-Fold
+        Leave-One-Out
+        Leave-P-Out
+        Shuffle Split
+        Group K-Fold
+        Time-Series Split
+        Nested Cross-Validation
+      Bootstrap Sampling
+    Hyperparameter Tuning
+      Grid Search
+      Random Search
+      Bayesian Optimization
+        Gaussian Process Surrogate
+        Tree-Structured Parzen Estimator
+        Expected Improvement
+        Upper Confidence Bound Acquisition
+      Successive Halving
+      Hyperband
+      BOHB
+      Population-Based Training
+      Early Stopping
+      Learning Curves
+      Tuning Tools
+        Optuna
+        Hyperopt
+        Ray Tune
+    Model Selection
+      Akaike Information Criterion
+      Bayesian Information Criterion
+      Minimum Description Length
+      One Standard Error Rule
+    Pipelines
+      Pipeline Objects
+      ColumnTransformer
+      Fit-Transform Pattern
+      Preprocessing Leakage Prevention
+      Reproducibility
+      Experiment Tracking
+  Supervised Learning Algorithms
+    Linear Models
+      Linear Regression
+        Ordinary Least Squares
+        Normal Equation
+        Gauss-Markov Assumptions
+        Residual Analysis
+      Ridge Regression
+      Lasso Regression
+      Elastic Net
+      Polynomial Regression
+      Least Angle Regression
+      Bayesian Ridge
+      Huber Regression
+      RANSAC Regression
+      Theil-Sen Regression
+      Quantile Regression
+      Isotonic Regression
+      Ordinal Regression
+      Generalized Linear Models
+        Link Functions
+        Poisson Regression
+        Gamma Regression
+        Tweedie Regression
+      Generalized Additive Models
+    Linear Classifiers
+      Logistic Regression
+        Sigmoid Function
+        Log-Odds
+        Maximum Likelihood Estimation
+        Decision Threshold
+      Softmax Regression
+      One-vs-Rest
+      One-vs-One
+      Perceptron
+        Perceptron Learning Rule
+        Perceptron Convergence Theorem
+      Passive-Aggressive Classifier
+      Linear Discriminant Analysis
+      Quadratic Discriminant Analysis
+      Fisher's Linear Discriminant
+    Naive Bayes
+      Conditional Independence Assumption
+      Gaussian Naive Bayes
+      Multinomial Naive Bayes
+      Bernoulli Naive Bayes
+      Complement Naive Bayes
+      Categorical Naive Bayes
+      Laplace Smoothing
+    Nearest Neighbors
+      k-Nearest Neighbors
+      Choice of k
+      Distance Metrics
+        Euclidean Distance
+        Manhattan Distance
+        Minkowski Distance
+        Cosine Distance
+        Mahalanobis Distance
+      Distance Weighting
+      KD-Tree
+      Ball Tree
+      Approximate Nearest Neighbors
+      Nearest Centroid
+    Support Vector Machines
+      Maximum Margin Classifier
+      Support Vectors
+      Hard Margin SVM
+      Soft Margin SVM
+      C Parameter
+      Hinge Loss
+      Dual Formulation
+      KKT Conditions
+      Kernel Trick
+      Kernels
+        Linear Kernel
+        Polynomial Kernel
+        RBF Kernel
+        Gamma Parameter
+        Sigmoid Kernel
+      Sequential Minimal Optimization
+      Support Vector Regression
+        Epsilon-Insensitive Loss
+      One-Class SVM
+      LIBSVM
+    Decision Trees
+      Splitting Criteria
+        Gini Impurity
+        Entropy
+        Information Gain
+        Gain Ratio
+        Variance Reduction
+      Tree Algorithms
+        ID3
+        C4.5
+        CART
+        CHAID
+        Oblique Trees
+      Pruning
+        Pre-Pruning
+        Max Depth
+        Min Samples Leaf
+        Post-Pruning
+        Reduced Error Pruning
+        Cost-Complexity Pruning
+      Surrogate Splits
+      Feature Importance from Trees
+      Tree Instability
+    Ensemble Methods
+      Weak Learners
+      Ensemble Diversity
+      Bagging
+        Bootstrap Aggregating
+        Out-of-Bag Error
+        Random Subspaces
+        Random Patches
+      Random Forest
+        Feature Subsampling
+        Max Features
+        Variable Importance
+      Extra Trees
+      Boosting
+        AdaBoost
+          SAMME
+          AdaBoost.R2
+        Gradient Boosting
+          Residual Fitting
+          Learning Rate Shrinkage
+          Stochastic Gradient Boosting
+          Newton Boosting
+        XGBoost
+          Regularized Objective
+          Sparsity-Aware Split Finding
+          Weighted Quantile Sketch
+          DART Booster
+        LightGBM
+          Histogram-Based Splitting
+          Gradient-Based One-Side Sampling
+          Exclusive Feature Bundling
+          Leaf-Wise Growth
+        CatBoost
+          Ordered Boosting
+          Ordered Target Statistics
+          Symmetric Trees
+        LogitBoost
+      Stacking
+        Meta-Learner
+        Out-of-Fold Predictions
+      Blending
+      Voting
+        Hard Voting
+        Soft Voting
+      Mixture of Experts
+    Gaussian Processes
+      Gaussian Process Regression
+      Gaussian Process Classification
+      Covariance Functions
+        Squared Exponential Kernel
+        Matern Kernel
+        Periodic Kernel
+      Marginal Likelihood
+      Sparse Gaussian Processes
+    Multi-Label and Multi-Output Learning
+      Binary Relevance
+      Classifier Chains
+      Label Powerset
+      ML-kNN
+      Multi-Output Regression
+      Hierarchical Classification
+    Other Supervised Methods
+      RIPPER
+      CN2
+      Kernel Ridge Regression
+      LOESS
+      Multivariate Adaptive Regression Splines
+      Learning to Rank
+        Pointwise Ranking
+        Pairwise Ranking
+        Listwise Ranking
+        LambdaMART
+  Unsupervised Learning
+    Clustering
+      Clustering Fundamentals
+        Hard vs Soft Clustering
+        Centroid-Based Clustering
+        Density-Based Clustering
+        Distribution-Based Clustering
+        Choosing Number of Clusters
+      Partitioning Methods
+        k-Means
+          Lloyd's Algorithm
+          k-Means++
+          Elbow Method
+          Inertia
+        Mini-Batch k-Means
+        k-Medoids
+        PAM
+        CLARANS
+        k-Modes
+        k-Prototypes
+        Fuzzy c-Means
+        Bisecting k-Means
+      Hierarchical Clustering
+        Agglomerative Clustering
+        Divisive Clustering
+        DIANA
+        Linkage Criteria
+          Single Linkage
+          Complete Linkage
+          Average Linkage
+          Centroid Linkage
+          Ward's Method
+        Dendrogram
+        Cophenetic Distance
+        BIRCH
+        CURE
+      Density-Based Methods
+        DBSCAN
+          Epsilon Parameter
+          MinPts Parameter
+          Core Points
+          Border Points
+          Noise Points
+        HDBSCAN
+          Mutual Reachability Distance
+          Cluster Stability
+        OPTICS
+          Reachability Plot
+        Mean Shift
+          Bandwidth Selection
+      Model-Based Clustering
+        Gaussian Mixture Models
+          EM for GMM
+          Covariance Types
+          Model Selection with BIC
+        Bayesian Gaussian Mixture
+        Dirichlet Process Mixture
+      Graph and Spectral Clustering
+        Spectral Clustering
+          Affinity Matrix
+          Graph Laplacian
+          Normalized Cuts
+        Affinity Propagation
+          Responsibility Messages
+          Availability Messages
+          Exemplars
+        Louvain Method
+        Leiden Algorithm
+        Markov Clustering
+      Other Clustering Approaches
+        Self-Organizing Maps
+        Subspace Clustering
+        Biclustering
+        Consensus Clustering
+        Deep Embedded Clustering
+        Constrained Clustering
+      Cluster Validation
+        Internal Validation
+          Silhouette Score
+          Davies-Bouldin Index
+          Calinski-Harabasz Index
+          Dunn Index
+          Gap Statistic
+        External Validation
+          Adjusted Rand Index
+          Normalized Mutual Information
+          Adjusted Mutual Information
+          Homogeneity
+          Completeness
+          V-Measure
+          Fowlkes-Mallows Index
+          Purity
+        Cluster Stability Analysis
+    Dimensionality Reduction
+      Linear Methods
+        Principal Component Analysis
+          Covariance Matrix
+          Eigendecomposition
+          Explained Variance Ratio
+          Scree Plot
+          Loadings
+          Whitening
+        Singular Value Decomposition
+        Truncated SVD
+        Incremental PCA
+        Randomized PCA
+        Sparse PCA
+        Kernel PCA
+        Independent Component Analysis
+          FastICA
+          Blind Source Separation
+        Non-Negative Matrix Factorization
+        Factor Analysis
+        Canonical Correlation Analysis
+        Partial Least Squares
+        Random Projection
+          Johnson-Lindenstrauss Lemma
+      Manifold Learning
+        Manifold Hypothesis
+        Multidimensional Scaling
+          Classical MDS
+          Non-Metric MDS
+        Isomap
+        Locally Linear Embedding
+        Laplacian Eigenmaps
+        Diffusion Maps
+        t-SNE
+          Perplexity
+          Crowding Problem
+          Barnes-Hut t-SNE
+        UMAP
+          n_neighbors
+          min_dist
+      Neural Dimensionality Reduction
+        Autoencoders
+        Sparse Autoencoders
+        Denoising Autoencoders
+        Variational Autoencoders
+      Topic Models
+        Latent Semantic Analysis
+        Probabilistic LSA
+        Latent Dirichlet Allocation
+          Dirichlet Prior
+          Collapsed Gibbs Sampling for LDA
+          Online Variational Bayes
+        Hierarchical Dirichlet Process
+        BERTopic
+        Topic Coherence
+    Anomaly Detection
+      Point Anomalies
+      Contextual Anomalies
+      Collective Anomalies
+      Statistical Methods
+        Z-Score Method
+        Grubbs' Test
+        Interquartile Range Method
+        Elliptic Envelope
+        Minimum Covariance Determinant
+      Proximity-Based Methods
+        kNN Distance
+        Local Outlier Factor
+        Connectivity-Based Outlier Factor
+      Isolation Forest
+      Extended Isolation Forest
+      One-Class SVM
+      Support Vector Data Description
+      Autoencoder Anomaly Detection
+      Angle-Based Outlier Detection
+      Histogram-Based Outlier Score
+      Novelty Detection vs Outlier Detection
+      PyOD
+    Association Rule Mining
+      Frequent Itemsets
+      Support
+      Confidence
+      Lift
+      Apriori Algorithm
+        Downward Closure Property
+      FP-Growth
+        FP-Tree
+      Eclat
+      Maximal Frequent Itemsets
+      Closed Frequent Itemsets
+      Sequential Pattern Mining
+        PrefixSpan
+      Market Basket Analysis
+    Density Estimation
+      Histograms
+        Freedman-Diaconis Rule
+      Kernel Density Estimation
+        Gaussian Kernel
+        Epanechnikov Kernel
+        Bandwidth Selection
+        Silverman's Rule
+        Scott's Rule
+      Mixture Density Estimation
+  Semi-Supervised and Self-Supervised Learning
+    Semi-Supervised Assumptions
+      Smoothness Assumption
+      Cluster Assumption
+      Manifold Assumption
+    Semi-Supervised Methods
+      Self-Training
+      Pseudo-Labeling
+      Co-Training
+      Tri-Training
+      Label Propagation
+      Label Spreading
+      Transductive SVM
+      Entropy Minimization
+      Consistency Regularization
+        Pi-Model
+        Mean Teacher
+        Virtual Adversarial Training
+      MixMatch
+      FixMatch
+      Noisy Student
+    Self-Supervised Learning
+      Pretext Tasks
+        Rotation Prediction
+        Jigsaw Puzzles
+        Masked Prediction
+      Contrastive Learning
+        InfoNCE Loss
+        NT-Xent Loss
+        SimCLR
+        MoCo
+        SupCon
+      Non-Contrastive Methods
+        BYOL
+        SimSiam
+        Barlow Twins
+        VICReg
+      SwAV
+      DINO
+      Linear Probing Evaluation
+    Weak Supervision
+      Noisy Labels
+      Distant Supervision
+      Labeling Functions
+      Snorkel
+      Multiple Instance Learning
+      Positive-Unlabeled Learning
+  Probabilistic Machine Learning
+    Bayesian Foundations
+      Prior Distribution
+      Likelihood
+      Posterior Distribution
+      Marginal Likelihood
+      Posterior Predictive Distribution
+      Conjugate Priors
+        Beta-Binomial
+        Gamma-Poisson
+        Dirichlet-Multinomial
+      Jeffreys Prior
+      Maximum A Posteriori Estimation
+      Credible Intervals
+      Bayes Factors
+    Bayesian Models
+      Bayesian Linear Regression
+      Bayesian Logistic Regression
+      Bayesian Hierarchical Models
+      Bayesian Model Averaging
+      Bayesian Model Selection
+      Bayesian Nonparametrics
+        Dirichlet Process
+        Chinese Restaurant Process
+        Stick-Breaking Construction
+        Indian Buffet Process
+      Empirical Bayes
+    Latent Variable Models
+      Mixture Models
+      Hidden Markov Models
+      Probabilistic PCA
+      State-Space Models
+    Expectation-Maximization
+      E-Step
+      M-Step
+      Jensen's Inequality
+      Hard EM
+      Variational EM
+    Markov Chain Monte Carlo
+      Importance Sampling
+      Stationary Distribution
+      Detailed Balance
+      Metropolis-Hastings
+      Gibbs Sampling
+      Collapsed Gibbs Sampling
+      Slice Sampling
+      Hamiltonian Monte Carlo
+        Leapfrog Integrator
+        Step Size
+      No-U-Turn Sampler
+      Langevin Monte Carlo
+      Parallel Tempering
+      Sequential Monte Carlo
+      MCMC Diagnostics
+        Burn-In
+        Trace Plots
+        Effective Sample Size
+        Gelman-Rubin R-hat
+        Divergent Transitions
+    Variational Inference
+      Evidence Lower Bound
+      KL Divergence
+      Mean-Field Approximation
+      Coordinate Ascent Variational Inference
+      Stochastic Variational Inference
+      Black-Box Variational Inference
+      Reparameterization Trick
+      Amortized Inference
+      Expectation Propagation
+      Laplace Approximation
+    Probabilistic Programming Tools
+      PyMC
+      Stan
+      NumPyro
+      ArviZ
+  Evaluation
+    Classification Metrics
+      Confusion Matrix
+        True Positives
+        False Positives
+        False Negatives
+        True Negatives
+      Accuracy
+      Balanced Accuracy
+      Precision
+      Recall
+      Specificity
+      False Positive Rate
+      F1 Score
+      F-Beta Score
+      Threshold Selection
+      Youden's J Statistic
+      Matthews Correlation Coefficient
+      Cohen's Kappa
+      Log Loss
+      Jaccard Index
+      Hamming Loss
+      Top-k Accuracy
+      Macro Averaging
+      Micro Averaging
+      Weighted Averaging
+      ROC Curve
+      ROC AUC
+      Precision-Recall Curve
+      PR AUC
+      Average Precision
+      Lift Curve
+      Kolmogorov-Smirnov Statistic
+      Cost-Sensitive Evaluation
+    Calibration
+      Reliability Diagram
+      Brier Score
+      Expected Calibration Error
+      Maximum Calibration Error
+      Platt Scaling
+      Isotonic Calibration
+      Temperature Scaling
+    Regression Metrics
+      Mean Squared Error
+      Root Mean Squared Error
+      Mean Absolute Error
+      Median Absolute Error
+      Mean Absolute Percentage Error
+      Symmetric MAPE
+      Mean Squared Log Error
+      Huber Loss Metric
+      R-Squared
+      Adjusted R-Squared
+      Explained Variance Score
+      Pinball Loss
+      Residual Plots
+    Ranking Metrics
+      Precision at k
+      Recall at k
+      Mean Reciprocal Rank
+      Mean Average Precision
+      Discounted Cumulative Gain
+      Normalized Discounted Cumulative Gain
+      Kendall's Tau
+      Spearman's Rho
+    Clustering Metrics
+      Silhouette Coefficient
+      Davies-Bouldin Score
+      Calinski-Harabasz Score
+      Adjusted Rand Index
+      Normalized Mutual Information
+      V-Measure
+      Purity
+    Statistical Model Comparison
+      Paired t-Test
+      Corrected Resampled t-Test
+      Wilcoxon Signed-Rank Test
+      McNemar's Test
+      5x2 CV Paired t-Test
+      Friedman Test
+      Nemenyi Post-Hoc Test
+      Bonferroni Correction
+      Bootstrap Confidence Intervals
+      Permutation Tests
+    Error Analysis
+      Slice-Based Evaluation
+      Hard Example Mining
+      Ablation Studies
+  Regularization and Generalization
+    Regularization Techniques
+      L1 Regularization
+      L2 Regularization
+      Elastic Net Penalty
+      Group Lasso
+      Weight Decay
+      Early Stopping
+      Dropout
+      Noise Injection
+      Label Smoothing
+      Data Augmentation
+      Mixup
+      Shrinkage
+    Generalization Phenomena
+      Double Descent
+      Benign Overfitting
+      Implicit Regularization
+      Flat Minima
+      Grokking
+  Learning Theory
+    Statistical Learning Framework
+      Empirical Risk Minimization
+      True Risk
+      Structural Risk Minimization
+      Realizability Assumption
+      Agnostic Learning
+      Bayes Optimal Classifier
+      Bayes Error Rate
+      Approximation Error
+      Estimation Error
+      Excess Risk
+      Bias-Complexity Tradeoff
+    PAC Learning Theory
+      PAC Learnability
+      Agnostic PAC Learning
+      Sample Complexity Bounds
+      Fundamental Theorem of Statistical Learning
+      Mistake Bound Model
+    Complexity Measures
+      VC Dimension
+      Shattering
+      Growth Function
+      Sauer's Lemma
+      Rademacher Complexity
+      Covering Numbers
+      Natarajan Dimension
+      Littlestone Dimension
+    Generalization Bounds
+      Uniform Convergence
+      Hoeffding's Inequality
+      Union Bound
+      McDiarmid's Inequality
+      VC Generalization Bound
+      Margin-Based Bounds
+      PAC-Bayes Bounds
+      Algorithmic Stability
+    Kernel and Online Theory
+      Reproducing Kernel Hilbert Space
+      Mercer's Theorem
+      Representer Theorem
+      Regret
+      Follow the Regularized Leader
+      Weighted Majority Algorithm
+  Optimization for ML
+    Loss Functions
+      Regression Losses
+        Squared Loss
+        Absolute Loss
+        Huber Loss
+        Quantile Loss
+      Classification Losses
+        Zero-One Loss
+        Hinge Loss
+        Logistic Loss
+        Binary Cross-Entropy
+        Categorical Cross-Entropy
+        Exponential Loss
+        Focal Loss
+      Probabilistic Losses
+        Negative Log-Likelihood
+        KL Divergence Loss
+        Wasserstein Loss
+      Metric Learning Losses
+        Contrastive Loss
+        Triplet Loss
+        Triplet Mining
+        ArcFace Loss
+      Ranking Losses
+        RankNet Loss
+        LambdaRank Loss
+      Surrogate Losses
+    Convex Optimization Basics
+      Convex Functions
+      Strong Convexity
+      Saddle Points
+      Lagrangian Duality
+    First-Order Methods
+      Gradient Descent
+      Stochastic Gradient Descent
+      Mini-Batch Gradient Descent
+      Learning Rate Schedules
+        Step Decay
+        Cosine Annealing
+        Cyclical Learning Rates
+        Warmup
+      Momentum
+      Nesterov Accelerated Gradient
+      AdaGrad
+      RMSProp
+      Adam
+      AdamW
+      LAMB
+      Lion
+      Gradient Clipping
+      SVRG
+      SAGA
+    Second-Order Methods
+      Newton's Method
+      BFGS
+      L-BFGS
+      Gauss-Newton
+      Levenberg-Marquardt
+      Conjugate Gradient
+      Natural Gradient
+    Proximal and Coordinate Methods
+      Coordinate Descent
+      Proximal Gradient Descent
+      ISTA
+      FISTA
+      ADMM
+      Projected Gradient Descent
+      Frank-Wolfe Algorithm
+    Convergence Analysis
+      Convergence Rate
+      Linear Convergence
+      Line Search
+      Armijo Condition
+      Wolfe Conditions
+      Trust Region Methods
+    Derivative-Free Optimization
+      Nelder-Mead
+      CMA-ES
+  Imbalanced Learning
+    Data-Level Methods
+      Random Oversampling
+      Random Undersampling
+      SMOTE
+      Borderline-SMOTE
+      ADASYN
+      Tomek Links
+      Edited Nearest Neighbours
+      NearMiss
+      Cluster Centroids
+      SMOTE-ENN
+    Algorithm-Level Methods
+      Class Weighting
+      Cost-Sensitive Learning
+      Threshold Moving
+      Balanced Random Forest
+      RUSBoost
+      EasyEnsemble
+    Evaluation under Imbalance
+      Accuracy Paradox
+      G-Mean
+      imbalanced-learn
+  Interpretability and Explainability
+    Interpretability Concepts
+      Global vs Local Explanations
+      Model-Agnostic vs Model-Specific
+      Intrinsic vs Post-Hoc Interpretability
+    Intrinsically Interpretable Models
+      Linear Model Coefficients
+      Logistic Regression Odds Ratios
+      Decision Rules
+      RuleFit
+      Generalized Additive Models
+      Explainable Boosting Machines
+      Monotonic Constraints
+    Feature Importance
+      Impurity-Based Importance
+      Permutation Importance
+      Drop-Column Importance
+    Attribution Methods
+      SHAP
+        Shapley Values
+        KernelSHAP
+        TreeSHAP
+        SHAP Summary Plot
+      LIME
+        Local Surrogate Models
+      Anchors
+      Integrated Gradients
+    Model-Agnostic Visualizations
+      Partial Dependence Plots
+      Individual Conditional Expectation
+      Accumulated Local Effects
+      Feature Interaction H-Statistic
+    Surrogate and Example-Based Methods
+      Global Surrogate Models
+      Prototypes and Criticisms
+      Influence Functions
+      Counterfactual Explanations
+        DiCE
+        Actionable Recourse
+    Interpretability Tools
+      InterpretML
+      Alibi
+  Fairness in ML
+    Sources of Bias
+      Historical Bias
+      Representation Bias
+      Measurement Bias
+      Proxy Variables
+      Feedback Loops
+    Fairness Definitions
+      Demographic Parity
+      Equalized Odds
+      Equal Opportunity
+      Predictive Parity
+      Individual Fairness
+      Counterfactual Fairness
+      Fairness Impossibility Theorems
+    Bias Mitigation
+      Reweighing
+      Adversarial Debiasing
+      Exponentiated Gradient Reduction
+      Threshold Adjustment
+      Fairlearn
+      AI Fairness 360
+  Time-Series ML
+    Time-Series Fundamentals
+      Trend
+      Seasonality
+      Stationarity
+      Autocorrelation
+      Differencing
+      Augmented Dickey-Fuller Test
+      STL Decomposition
+    Classical Forecasting
+      Exponential Smoothing
+      Holt-Winters
+      ARIMA
+      SARIMA
+      SARIMAX
+      VAR
+      GARCH
+      Prophet
+    ML for Time Series
+      Lag Features
+      Rolling Statistics
+      Direct vs Recursive Multi-Step Forecasting
+      Gradient Boosting for Forecasting
+      Dynamic Time Warping
+      Change Point Detection
+      Matrix Profile
+    Time-Series Evaluation
+      Walk-Forward Validation
+      Backtesting
+      MASE
+      sktime
+      darts
+  Recommender Systems Basics
+    Recommendation Paradigms
+      Content-Based Filtering
+      Collaborative Filtering
+      Hybrid Recommenders
+      Cold Start Problem
+      Implicit vs Explicit Feedback
+    Neighborhood Methods
+      User-Based Collaborative Filtering
+      Item-Based Collaborative Filtering
+      Cosine Similarity
+    Matrix Factorization
+      FunkSVD
+      SVD++
+      Alternating Least Squares
+      Bayesian Personalized Ranking
+      Factorization Machines
+      Surprise
+  AutoML
+    AutoML Components
+      Combined Algorithm Selection and Hyperparameter Optimization
+      Automated Feature Engineering
+      Automated Ensembling
+      Meta-Learning for Warm Starting
+    Neural Architecture Search
+      Search Space Design
+      Reinforcement Learning NAS
+      Evolutionary NAS
+      DARTS
+      Weight Sharing
+    AutoML Systems
+      auto-sklearn
+      TPOT
+      H2O AutoML
+      AutoGluon
+      FLAML
+      PyCaret
+  ML Libraries and Tools
+    Core Python Stack
+      NumPy
+      pandas
+      SciPy
+      Matplotlib
+    Modeling Libraries
+      scikit-learn
+      XGBoost
+      LightGBM
+      CatBoost
+      statsmodels
+      Spark MLlib
+      RAPIDS cuML
+    Experiment Tracking
+      MLflow
+      Weights & Biases
+      DVC
+      TensorBoard

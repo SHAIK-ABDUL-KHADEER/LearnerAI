@@ -1,0 +1,2742 @@
+Computer Vision
+  Image Fundamentals
+    Digital Image Representation
+      Pixels
+      Resolution
+      Aspect Ratio
+      Bit Depth
+      Channels
+      Image as Tensor
+      Coordinate Systems
+    Color Spaces
+      Grayscale
+      RGB
+      BGR
+      HSV
+      HSL
+      Lab
+      YUV
+      YCbCr
+      CMYK
+      Color Space Conversion
+      Gamma Encoding
+    Image Formats
+      JPEG
+      PNG
+      BMP
+      TIFF
+      WebP
+      GIF
+      HEIC
+      RAW
+      Lossy vs Lossless Compression
+      Alpha Channel
+    Image Statistics
+      Intensity Histogram
+      Color Histogram
+      Mean and Variance
+      Dynamic Range
+      Contrast
+    Multi-Scale Representation
+      Image Pyramids
+      Gaussian Pyramid
+      Laplacian Pyramid
+      Scale Space
+      Mipmaps
+    Image Acquisition
+      Camera Sensor
+      CCD vs CMOS
+      Bayer Pattern
+      Demosaicing
+      Exposure
+      ISO
+      Shutter Speed
+      White Balance
+      Noise Sources
+      Rolling Shutter
+  Classical Image Processing
+    Point Operations
+      Brightness Adjustment
+      Contrast Stretching
+      Gamma Correction
+      Histogram Equalization
+      CLAHE
+      Histogram Matching
+      Negative Image
+      Color Balancing
+    Filtering and Convolution
+      Convolution Operation
+      Kernels
+      Padding Modes
+      Separable Filters
+      Box Filter
+      Gaussian Blur
+      Median Filter
+      Bilateral Filter
+      Non-Local Means
+      Guided Filter
+      Unsharp Masking
+      Anisotropic Diffusion
+    Edge Detection
+      Image Gradient
+      Sobel Operator
+      Prewitt Operator
+      Roberts Cross
+      Scharr Operator
+      Laplacian Operator
+      Laplacian of Gaussian
+      Difference of Gaussians
+      Canny Edge Detector
+      Non-Maximum Suppression for Edges
+      Hysteresis Thresholding
+      Marr-Hildreth
+    Thresholding
+      Global Thresholding
+      Otsu Method
+      Adaptive Thresholding
+      Niblack
+      Sauvola
+      Multi-Level Thresholding
+      Binarization
+    Morphological Operations
+      Structuring Element
+      Erosion
+      Dilation
+      Opening
+      Closing
+      Morphological Gradient
+      Top-Hat Transform
+      Black-Hat Transform
+      Hit-or-Miss
+      Skeletonization
+      Thinning
+      Distance Transform
+      Hole Filling
+    Frequency Domain
+      Fourier Transform
+      Discrete Fourier Transform
+      Fast Fourier Transform
+      Magnitude and Phase Spectrum
+      Low-Pass Filtering
+      High-Pass Filtering
+      Band-Pass Filtering
+      Discrete Cosine Transform
+      Wavelet Transform
+      Haar Wavelet
+      Gabor Filters
+      Steerable Filters
+    Geometric Transformations
+      Translation
+      Rotation
+      Scaling
+      Shearing
+      Affine Transform
+      Homography
+      Perspective Warp
+      Image Warping
+      Image Rectification
+    Interpolation Methods
+      Nearest Neighbor
+      Bilinear
+      Bicubic
+      Lanczos
+      Area Interpolation
+      Spline Interpolation
+    Shape Detection
+      Hough Transform
+      Hough Lines
+      Probabilistic Hough
+      Hough Circles
+      Generalized Hough
+      Line Segment Detector
+      Contour Detection
+      Contour Approximation
+      Convex Hull
+      Shape Moments
+      Hu Moments
+      Bounding Rectangles
+      Minimum Enclosing Circle
+    Classical Segmentation
+      Connected Components
+      Region Growing
+      Split and Merge
+      Watershed
+      Marker-Based Watershed
+      GrabCut
+      Graph Cut
+      Normalized Cuts
+      Active Contours
+      Snakes
+      Level Sets
+      Chan-Vese
+      Mean Shift Segmentation
+      K-Means Color Segmentation
+      Felzenszwalb Segmentation
+      SLIC Superpixels
+      Quickshift
+      Conditional Random Fields
+    Template Matching
+      Sum of Squared Differences
+      Normalized Cross-Correlation
+      Multi-Scale Template Matching
+      Chamfer Matching
+    Image Registration
+      Rigid Registration
+      Affine Registration
+      Deformable Registration
+      Intensity-Based Registration
+      Feature-Based Registration
+      Mutual Information
+      Phase Correlation
+      Image Stitching
+      Panorama Blending
+      Multi-Band Blending
+    Image Blending
+      Alpha Blending
+      Poisson Blending
+      Seamless Cloning
+      Pyramid Blending
+  Feature Detection and Description
+    Corner Detection
+      Moravec Detector
+      Harris Corner Detector
+      Shi-Tomasi
+      FAST
+      AGAST
+      Hessian Detector
+    Blob Detection
+      Laplacian of Gaussian Blobs
+      Difference of Gaussians Blobs
+      Determinant of Hessian
+      MSER
+    Feature Descriptors
+      SIFT
+      SURF
+      ORB
+      BRIEF
+      BRISK
+      FREAK
+      KAZE
+      AKAZE
+      DAISY
+      Root SIFT
+      Rotation Invariance
+      Scale Invariance
+    Dense Descriptors
+      HOG
+      LBP
+      Haar Features
+      Integral Image
+      Dense SIFT
+      Shape Context
+      Color Histograms
+    Classical Detection Pipelines
+      Viola-Jones
+      Cascade Classifiers
+      AdaBoost for Detection
+      HOG plus SVM
+      Deformable Part Models
+      Sliding Window
+      Selective Search
+      Edge Boxes
+    Feature Matching
+      Brute-Force Matching
+      Hamming Distance Matching
+      Ratio Test
+      Cross-Check Matching
+      FLANN
+      KD-Tree Matching
+      Mutual Nearest Neighbors
+    Robust Estimation
+      RANSAC
+      PROSAC
+      MLESAC
+      LO-RANSAC
+      MAGSAC
+      Least Median of Squares
+      Hough Voting
+    Bag of Visual Words
+      Visual Vocabulary
+      Codebook Clustering
+      Spatial Pyramid Matching
+      VLAD
+      Fisher Vectors
+      TF-IDF Weighting
+    Learned Features
+      LIFT
+      SuperPoint
+      D2-Net
+      R2D2
+      DISK
+      ALIKED
+      XFeat
+      Learned Descriptors
+    Learned Matching
+      SuperGlue
+      LightGlue
+      LoFTR
+      ASpanFormer
+      MatchFormer
+      Efficient LoFTR
+      RoMa
+      DKM
+      Dense Matching
+  Geometry and 3D Vision
+    Camera Models
+      Pinhole Camera Model
+      Focal Length
+      Principal Point
+      Intrinsic Matrix
+      Extrinsic Parameters
+      Projection Matrix
+      Homogeneous Coordinates
+      Field of View
+      Fisheye Model
+      Omnidirectional Cameras
+      Orthographic Projection
+    Lens Distortion
+      Radial Distortion
+      Tangential Distortion
+      Brown-Conrady Model
+      Undistortion
+    Camera Calibration
+      Zhang Method
+      Checkerboard Calibration
+      ChArUco Boards
+      Reprojection Error
+      Stereo Calibration
+      Hand-Eye Calibration
+      Camera-LiDAR Calibration
+      Self-Calibration
+    Epipolar Geometry
+      Epipolar Lines
+      Epipoles
+      Fundamental Matrix
+      Essential Matrix
+      Eight-Point Algorithm
+      Normalized Eight-Point
+      Five-Point Algorithm
+      Seven-Point Algorithm
+      Epipolar Constraint
+      Stereo Rectification
+      Trifocal Tensor
+    Stereo Vision
+      Disparity
+      Disparity Map
+      Block Matching
+      Semi-Global Matching
+      Cost Volume
+      Left-Right Consistency
+      Depth from Disparity
+      Baseline
+      Occlusion Handling
+    Triangulation
+      Linear Triangulation
+      Midpoint Method
+      Optimal Triangulation
+      Depth Uncertainty
+    Pose Estimation
+      Perspective-n-Point
+      P3P
+      EPnP
+      Direct Linear Transform
+      Absolute Orientation
+      Relative Pose
+      Kabsch Algorithm
+      Procrustes Alignment
+      Iterative Closest Point
+      6-DoF Object Pose
+      PoseCNN
+      PVNet
+      DenseFusion
+      FoundationPose
+      Category-Level Pose
+    Structure from Motion
+      Incremental SfM
+      Global SfM
+      Feature Tracks
+      Bundle Adjustment
+      Reprojection Error Minimization
+      Loop Closure Constraints
+      COLMAP
+      OpenMVG
+      Scale Ambiguity
+      Degenerate Configurations
+    Multi-View Stereo
+      Plane Sweep
+      PatchMatch Stereo
+      Depth Map Fusion
+      MVSNet
+      CasMVSNet
+      OpenMVS
+    Visual Odometry
+      Feature-Based VO
+      Direct VO
+      Semi-Direct VO
+      SVO
+      DSO
+      Visual-Inertial Odometry
+      VINS-Mono
+      OKVIS
+      Drift
+    SLAM
+      SLAM Problem Formulation
+      Front-End and Back-End
+      Keyframes
+      Mapping
+      Localization
+      Loop Closure
+      Place Recognition
+      Bag of Words Relocalization
+      Pose Graph Optimization
+      Factor Graphs
+      g2o
+      GTSAM
+      Ceres Solver
+      MonoSLAM
+      PTAM
+      ORB-SLAM
+      ORB-SLAM2
+      ORB-SLAM3
+      LSD-SLAM
+      DROID-SLAM
+      Kimera
+      Dense SLAM
+      KinectFusion
+      ElasticFusion
+      LiDAR SLAM
+      LOAM
+      LeGO-LOAM
+      LIO-SAM
+      FAST-LIO
+      Cartographer
+      Semantic SLAM
+      Neural SLAM
+    Monocular Depth Estimation
+      Relative Depth
+      Metric Depth
+      Scale-Invariant Loss
+      Affine-Invariant Depth
+      Eigen Depth Network
+      Monodepth
+      Monodepth2
+      Self-Supervised Depth
+      MiDaS
+      DPT
+      AdaBins
+      ZoeDepth
+      Depth Anything
+      Depth Anything V2
+      Metric3D
+      UniDepth
+      Marigold
+      Depth Pro
+      Video Depth Anything
+    Stereo Depth Networks
+      GC-Net
+      PSMNet
+      GA-Net
+      RAFT-Stereo
+      CREStereo
+      IGEV-Stereo
+      FoundationStereo
+    3D Representations
+      Point Clouds
+      Voxels
+      Octrees
+      Polygon Meshes
+      Signed Distance Functions
+      Truncated SDF
+      Occupancy Grids
+      Occupancy Networks
+      DeepSDF
+      Implicit Surfaces
+      Marching Cubes
+      Poisson Surface Reconstruction
+      Depth Maps
+      Multi-Plane Images
+      Layered Depth Images
+    Point Cloud Processing
+      Point Cloud Registration
+      Normal Estimation
+      Downsampling
+      Outlier Removal
+      PointNet
+      PointNet++
+      DGCNN
+      KPConv
+      Point Transformer
+      PointNeXt
+      Point Cloud Segmentation
+      Point Cloud Completion
+      Open3D
+      PCL
+    Neural Rendering
+      Volume Rendering
+      Ray Marching
+      Positional Encoding for Coordinates
+      NeRF
+      Mip-NeRF
+      Mip-NeRF 360
+      Instant-NGP
+      Hash Grid Encoding
+      Plenoxels
+      TensoRF
+      Zip-NeRF
+      NeRF in the Wild
+      NeRF++
+      Nerfacto
+      Nerfstudio
+      Dynamic NeRF
+      D-NeRF
+      Neural Surface Reconstruction
+      NeuS
+      VolSDF
+      Neuralangelo
+      Generalizable NeRF
+      pixelNeRF
+    Gaussian Splatting
+      3D Gaussian Splatting
+      Differentiable Rasterization
+      Adaptive Density Control
+      Spherical Harmonics Appearance
+      Mip-Splatting
+      2D Gaussian Splatting
+      4D Gaussian Splatting
+      SuGaR
+      Scaffold-GS
+      Compressed Gaussians
+      Feed-Forward Splatting
+      MVSplat
+      pixelSplat
+    Feed-Forward 3D Reconstruction
+      DUSt3R
+      MASt3R
+      Spann3R
+      CUT3R
+      Fast3R
+      VGGT
+      MapAnything
+      Pi3
+      Pointmap Regression
+    3D Reconstruction Pipelines
+      Photogrammetry
+      Dense Reconstruction
+      Texture Mapping
+      Mesh Simplification
+      Scan-to-Mesh
+      RGB-D Reconstruction
+      Large-Scale Reconstruction
+      Agisoft Metashape
+      RealityCapture
+      Meshroom
+    Novel View Synthesis
+      Image-Based Rendering
+      Light Fields
+      View Interpolation
+      Single-Image View Synthesis
+      Zero-1-to-3 Pointer
+  Image Classification
+    Classification Fundamentals
+      Image Labels
+      Softmax Classifier
+      Cross-Entropy Loss
+      Top-1 Accuracy
+      Top-5 Accuracy
+      Confusion Matrix
+      Class Imbalance
+      Transfer Learning
+      Fine-Tuning
+      Linear Probing
+      Feature Extraction
+    Benchmarks
+      MNIST
+      Fashion-MNIST
+      CIFAR-10
+      CIFAR-100
+      SVHN
+      ImageNet-1k
+      ImageNet-21k
+      ImageNet-A
+      ImageNet-R
+      ImageNet-C
+      ImageNet-Sketch
+      ObjectNet
+      ImageNet-V2
+    CNN Architectures
+      LeNet
+      AlexNet
+      ZFNet
+      VGG
+      Network in Network
+      GoogLeNet
+      Inception v2
+      Inception v3
+      Inception v4
+      Inception-ResNet
+      ResNet
+      Pre-Activation ResNet
+      ResNeXt
+      Wide ResNet
+      DenseNet
+      Highway Networks
+      Xception
+      SENet
+      SKNet
+      CBAM
+      MobileNet
+      MobileNetV2
+      MobileNetV3
+      ShuffleNet
+      ShuffleNetV2
+      SqueezeNet
+      EfficientNet
+      EfficientNetV2
+      NASNet
+      AmoebaNet
+      RegNet
+      ResNet-RS
+      Res2Net
+      HRNet
+      DLA
+      ConvNeXt
+      ConvNeXt V2
+      RepVGG
+      VanillaNet
+      InternImage
+      Compound Scaling
+      Depthwise Separable Convolution
+      Dilated Convolution
+      Deformable Convolution
+      Global Average Pooling
+      Stochastic Depth
+    Vision Transformers for Classification
+      Vision Transformer
+      Patch Embedding
+      Class Token
+      Positional Embeddings for Patches
+      DeiT
+      Distillation Token
+      DeiT III
+      CaiT
+      T2T-ViT
+      Swin Transformer
+      Shifted Windows
+      Swin V2
+      PVT
+      PVTv2
+      Twins
+      CvT
+      CoAtNet
+      MaxViT
+      BEiT
+      BEiT v2
+      BEiT-3
+      EVA
+      EVA-02
+      ViT-22B
+      Hiera
+      FlexiViT
+      NaViT
+      Register Tokens
+      MLP-Mixer
+      ConvMixer
+      gMLP
+      ResMLP
+      Vision Mamba
+      VMamba
+    Self-Supervised Backbones
+      MAE
+      DINO
+      DINOv2
+      DINOv3
+      iBOT
+      MoCo v3
+    Training Techniques
+      Data Augmentation
+      Random Crop
+      Random Flip
+      Color Jitter
+      RandAugment
+      AutoAugment
+      TrivialAugment
+      Mixup
+      CutMix
+      Cutout
+      Random Erasing
+      Label Smoothing
+      Knowledge Distillation
+      Progressive Resizing
+      Test-Time Augmentation
+      Layer-Wise LR Decay
+      Exponential Moving Average Weights
+      Sharpness-Aware Minimization
+      Bag of Tricks
+      Training Recipes
+    Fine-Grained Classification
+      Part-Based Models
+      Bilinear CNN
+      Attention Pooling
+      CUB-200
+      Stanford Cars
+      FGVC Aircraft
+      iNaturalist
+    Long-Tail and Noisy Labels
+      Long-Tail Recognition
+      Re-Sampling
+      Re-Weighting
+      Class-Balanced Loss
+      Logit Adjustment
+      Decoupled Training
+      Label Noise
+      Co-Teaching
+      Noisy Student
+      Pseudo-Labeling
+      Semi-Supervised Classification
+      FixMatch
+    Multi-Label Classification
+      Binary Cross-Entropy per Label
+      Asymmetric Loss
+      Label Co-Occurrence
+    Robustness
+      Adversarial Examples Pointer
+      Distribution Shift
+      Corruption Robustness
+      Texture Bias
+      Shape Bias
+      Calibration
+      Out-of-Distribution Detection
+    Zero-Shot Classification
+      CLIP Zero-Shot
+      Prompt Ensembling
+      Open-Vocabulary Classification
+  Object Detection
+    Detection Fundamentals
+      Bounding Boxes
+      Box Formats
+      Intersection over Union
+      Anchors
+      Anchor-Free Detection
+      Positive and Negative Samples
+      Label Assignment
+      Non-Maximum Suppression
+      Soft-NMS
+      Matrix NMS
+      Class-Agnostic NMS
+      Confidence Threshold
+      Multi-Scale Detection
+      Feature Pyramid
+      Receptive Field
+    Loss Functions
+      Smooth L1 Loss
+      L1 Box Loss
+      IoU Loss
+      GIoU Loss
+      DIoU Loss
+      CIoU Loss
+      EIoU Loss
+      Focal Loss
+      Varifocal Loss
+      Quality Focal Loss
+      Distribution Focal Loss
+      Hard Negative Mining
+      Online Hard Example Mining
+    Region Operations
+      Region Proposals
+      Selective Search Proposals
+      Region Proposal Network
+      RoI Pooling
+      RoI Align
+      PrRoI Pooling
+      Deformable RoI Pooling
+    Two-Stage Detectors
+      R-CNN
+      SPP-Net
+      Fast R-CNN
+      Faster R-CNN
+      R-FCN
+      FPN
+      Mask R-CNN
+      Cascade R-CNN
+      Libra R-CNN
+      Grid R-CNN
+      Dynamic R-CNN
+      Sparse R-CNN
+      TridentNet
+    One-Stage Detectors
+      OverFeat
+      YOLO v1
+      YOLO v2
+      YOLO v3
+      YOLO v4
+      YOLO v5
+      YOLO v6
+      YOLO v7
+      YOLO v8
+      YOLO v9
+      YOLO v10
+      YOLO v11
+      YOLO v12
+      YOLOX
+      YOLO-NAS
+      YOLOR
+      PP-YOLO
+      PP-YOLOE
+      Scaled-YOLOv4
+      DAMO-YOLO
+      SSD
+      DSSD
+      RetinaNet
+      RefineDet
+      FCOS
+      ATSS
+      PAA
+      GFL
+      TOOD
+      CenterNet
+      CornerNet
+      ExtremeNet
+      RepPoints
+      FoveaBox
+      EfficientDet
+      BiFPN
+      PANet
+      NAS-FPN
+      VFNet
+    Transformer Detectors
+      DETR
+      Set Prediction
+      Hungarian Matching Loss
+      Object Queries
+      Deformable DETR
+      Conditional DETR
+      Anchor DETR
+      DAB-DETR
+      DN-DETR
+      DINO-DETR
+      H-DETR
+      Co-DETR
+      RT-DETR
+      RT-DETRv2
+      D-FINE
+      Group DETR
+      Pix2Seq
+      ViTDet
+      Sparse DETR
+      Efficient DETR
+    Open-Vocabulary Detection
+      Vision-Language Alignment
+      ViLD
+      RegionCLIP
+      Detic
+      GLIP
+      GLIPv2
+      Grounding DINO
+      Grounding DINO 1.5
+      OWL-ViT
+      OWLv2
+      YOLO-World
+      YOLOE
+      Florence-2
+      MDETR
+      Referring Expression Comprehension
+      Visual Grounding
+      Phrase Grounding
+    Specialized Detection
+      Small Object Detection
+      Oriented Object Detection
+      Rotated Bounding Boxes
+      Salient Object Detection
+      Camouflaged Object Detection
+      Few-Shot Detection
+      Domain Adaptive Detection
+      Video Object Detection
+      Anomaly Detection in Images
+      PatchCore
+      MVTec AD
+    Detection Metrics
+      Precision and Recall for Detection
+      Precision-Recall Curve
+      Average Precision
+      AP50
+      AP75
+      mAP
+      COCO mAP
+      AP Small Medium Large
+      Average Recall
+      Pascal VOC mAP
+      LVIS Metrics
+      Frames per Second
+      Latency vs Accuracy Tradeoff
+  Segmentation
+    Segmentation Fundamentals
+      Pixel-Wise Classification
+      Segmentation Masks
+      Semantic Segmentation
+      Instance Segmentation
+      Panoptic Segmentation
+      Things and Stuff
+      Encoder-Decoder Architecture
+      Skip Connections
+      Upsampling
+      Transposed Convolution
+      Unpooling
+      Pixel Shuffle
+      Atrous Convolution
+      Atrous Spatial Pyramid Pooling
+      Boundary Refinement
+    Semantic Segmentation Models
+      FCN
+      U-Net
+      U-Net++
+      Attention U-Net
+      SegNet
+      DeconvNet
+      ENet
+      ERFNet
+      DeepLab v1
+      DeepLab v2
+      DeepLab v3
+      DeepLab v3+
+      PSPNet
+      RefineNet
+      ICNet
+      BiSeNet
+      BiSeNet V2
+      DANet
+      OCRNet
+      HRNet for Segmentation
+      UPerNet
+      SETR
+      SegFormer
+      Segmenter
+      MaskFormer
+      Mask2Former
+      OneFormer
+      ViT-Adapter
+      InternImage Segmentation
+      DDRNet
+      PIDNet
+      Fast-SCNN
+    Instance Segmentation Models
+      Mask R-CNN
+      PANet Instance
+      Mask Scoring R-CNN
+      Hybrid Task Cascade
+      YOLACT
+      YOLACT++
+      SOLO
+      SOLOv2
+      CondInst
+      BlendMask
+      PolarMask
+      QueryInst
+      SparseInst
+      Mask DINO
+      YOLO Instance Segmentation
+      FastInst
+    Panoptic Segmentation Models
+      Panoptic FPN
+      UPSNet
+      Panoptic-DeepLab
+      DETR Panoptic
+      Panoptic SegFormer
+      kMaX-DeepLab
+      Panoptic Quality
+    Promptable Segmentation
+      Segment Anything
+      SAM Image Encoder
+      SAM Prompt Encoder
+      SAM Mask Decoder
+      Point Prompts
+      Box Prompts
+      Mask Prompts
+      Text Prompts
+      SA-1B Dataset
+      SAM 2
+      Memory Attention for Video
+      SAM 3
+      Concept Prompts
+      HQ-SAM
+      EfficientSAM
+      MobileSAM
+      FastSAM
+      EdgeSAM
+      SAM-HQ
+      Grounded SAM
+      Semantic SAM
+      SEEM
+      Interactive Segmentation
+      Click-Based Segmentation
+      RITM
+      SimpleClick
+    Open-Vocabulary Segmentation
+      LSeg
+      OpenSeg
+      ODISE
+      X-Decoder
+      OVSeg
+      CLIPSeg
+      SAN
+      Referring Segmentation
+      LISA
+    Image Matting
+      Alpha Matte
+      Trimap
+      Deep Image Matting
+      MODNet
+      Background Matting
+      Robust Video Matting
+      ViTMatte
+      Matte Anything
+    Weakly Supervised Segmentation
+      Class Activation Maps for Segmentation
+      Box-Supervised Segmentation
+      Point-Supervised Segmentation
+      Scribble Supervision
+    Segmentation Metrics
+      Pixel Accuracy
+      Mean IoU
+      Frequency Weighted IoU
+      Dice Coefficient
+      Boundary F-Score
+      Panoptic Quality
+      Segmentation Quality
+      Recognition Quality
+      Mask AP
+      Hausdorff Distance
+      Surface Dice
+    Loss Functions for Segmentation
+      Pixel Cross-Entropy
+      Dice Loss
+      Focal Loss for Segmentation
+      Lovasz Loss
+      Tversky Loss
+      Boundary Loss
+      Combo Loss
+    Medical Segmentation Pointer
+      nnU-Net
+      3D U-Net
+      V-Net
+      UNETR
+      Swin UNETR
+      MedSAM
+  Pose and Human Analysis
+    2D Human Pose Estimation
+      Keypoints
+      Heatmap Regression
+      Direct Regression
+      Top-Down Pose
+      Bottom-Up Pose
+      Part Affinity Fields
+      DeepPose
+      Convolutional Pose Machines
+      Stacked Hourglass
+      OpenPose
+      SimpleBaseline
+      HRNet Pose
+      HigherHRNet
+      AlphaPose
+      ViTPose
+      RTMPose
+      RTMO
+      YOLO-Pose
+      DEKR
+      MediaPipe Pose
+      BlazePose
+      Whole-Body Pose
+      COCO Keypoints
+      MPII
+      OKS Metric
+      PCK Metric
+      Pose Tracking
+    3D Human Pose and Shape
+      3D Keypoint Lifting
+      VideoPose3D
+      Human3.6M
+      3DPW
+      SMPL
+      SMPL-X
+      SMPL-H
+      MANO
+      FLAME
+      HMR
+      SPIN
+      VIBE
+      PARE
+      HMR 2.0
+      Multi-HMR
+      SMPLer-X
+      Human Mesh Recovery
+      Pose Priors
+      Motion Capture
+    Hand Analysis
+      Hand Detection
+      2D Hand Pose
+      3D Hand Pose
+      MediaPipe Hands
+      Hand Mesh Recovery
+      HaMeR
+      Hand-Object Interaction
+      Gesture Recognition
+      Sign Language Recognition
+    Face Detection
+      Haar Cascade Face Detection
+      MTCNN
+      SSH
+      S3FD
+      RetinaFace
+      DSFD
+      SCRFD
+      YOLO-Face
+      BlazeFace
+      WIDER FACE
+    Facial Landmarks
+      68-Point Landmarks
+      Dlib Landmarks
+      Face Alignment
+      Face Alignment Network
+      3DDFA
+      PFLD
+      Dense Face Alignment
+      MediaPipe Face Mesh
+    Face Recognition
+      Face Verification
+      Face Identification
+      Face Embeddings
+      Metric Learning
+      Siamese Networks
+      Contrastive Loss for Faces
+      Triplet Loss
+      Hard Triplet Mining
+      Center Loss
+      SphereFace
+      CosFace
+      ArcFace
+      AdaFace
+      MagFace
+      CurricularFace
+      FaceNet
+      DeepFace
+      VGGFace
+      InsightFace
+      LFW Benchmark
+      MegaFace
+      IJB-C
+      Face Clustering
+      Demographic Bias in Face Recognition
+    Face Analysis Tasks
+      Facial Expression Recognition
+      Action Units
+      Age Estimation
+      Gender Classification
+      Face Attribute Prediction
+      Face Anti-Spoofing
+      Presentation Attack Detection
+      Liveness Detection
+      Deepfake Detection
+      Face Parsing
+      Face Reenactment Pointer
+      Face Swapping Pointer
+    Gaze and Head
+      Head Pose Estimation
+      Gaze Estimation
+      Eye Tracking
+      Appearance-Based Gaze
+      L2CS-Net
+      Gaze360
+    Body Analysis
+      Person Detection
+      Pedestrian Detection
+      Human Parsing
+      Body Segmentation
+      DensePose
+      Clothing Parsing
+      Virtual Try-On Pointer
+    Person Re-Identification
+      Re-ID Embeddings
+      Cross-Camera Matching
+      Market-1501
+      DukeMTMC-reID
+      MSMT17
+      Part-Based Re-ID
+      OSNet
+      TransReID
+      Unsupervised Re-ID
+      Rank-1 Accuracy
+      Mean Average Precision for Re-ID
+    Gait Recognition
+      Gait Energy Image
+      Silhouette-Based Gait
+      GaitSet
+      GaitPart
+      CASIA-B
+      Skeleton-Based Gait
+    Crowd Analysis
+      Crowd Counting
+      Density Maps
+      MCNN
+      CSRNet
+      ShanghaiTech
+      Crowd Localization
+      Group Activity Recognition
+    Activity and Behavior
+      Skeleton-Based Action Recognition
+      ST-GCN
+      PoseC3D
+      Fall Detection
+      Human-Object Interaction Detection
+      Anomaly Detection in Surveillance
+      Social Distancing Estimation
+  Tracking
+    Tracking Fundamentals
+      Single-Object Tracking
+      Multi-Object Tracking
+      Tracking-by-Detection
+      Joint Detection and Tracking
+      Data Association
+      Appearance Features
+      Motion Model
+      Track Lifecycle
+      Occlusion Handling
+      Identity Switches
+      Re-Identification in Tracking
+      Online vs Offline Tracking
+    Estimation and Association
+      Kalman Filter
+      Extended Kalman Filter
+      Particle Filter
+      Constant Velocity Model
+      Hungarian Algorithm
+      Linear Assignment
+      Mahalanobis Distance
+      IoU Association
+      Cascade Matching
+      Camera Motion Compensation
+      Joint Probabilistic Data Association
+      Multiple Hypothesis Tracking
+      Global Nearest Neighbor
+    Classical Single-Object Trackers
+      Mean Shift Tracking
+      CAMShift
+      Optical Flow Tracking
+      KLT Tracker
+      MOSSE
+      KCF
+      CSRT
+      Staple
+      ECO
+      Correlation Filters
+    Deep Single-Object Trackers
+      GOTURN
+      SiamFC
+      SiamRPN
+      SiamRPN++
+      SiamMask
+      DaSiamRPN
+      ATOM
+      DiMP
+      TransT
+      STARK
+      MixFormer
+      OSTrack
+      SeqTrack
+      Template Update
+      Target Re-Detection
+    Multi-Object Trackers
+      SORT
+      DeepSORT
+      StrongSORT
+      ByteTrack
+      BoT-SORT
+      OC-SORT
+      Deep OC-SORT
+      HybridSORT
+      FairMOT
+      JDE
+      CenterTrack
+      Tracktor
+      Chained-Tracker
+      QDTrack
+      TransTrack
+      TrackFormer
+      MOTR
+      MOTRv2
+      MeMOTR
+      GTR
+      Multi-Camera Tracking
+      3D Multi-Object Tracking
+      AB3DMOT
+    Tracking Benchmarks
+      OTB
+      VOT
+      LaSOT
+      GOT-10k
+      TrackingNet
+      UAV123
+      MOT15
+      MOT16
+      MOT17
+      MOT20
+      DanceTrack
+      SportsMOT
+      KITTI Tracking
+      BDD100K Tracking
+      TAO
+    Tracking Metrics
+      MOTA
+      MOTP
+      IDF1
+      ID Switches
+      Fragmentation
+      Mostly Tracked
+      Mostly Lost
+      HOTA
+      DetA
+      AssA
+      Success Rate
+      Precision Plot
+      Expected Average Overlap
+    Video Object Segmentation
+      Semi-Supervised VOS
+      Unsupervised VOS
+      Referring VOS
+      OSVOS
+      MaskTrack
+      FEELVOS
+      STM
+      STCN
+      AOT
+      XMem
+      DeAOT
+      Cutie
+      SAM 2 for VOS
+      DAVIS Benchmark
+      YouTube-VOS Benchmark
+      J and F Score
+    Point Tracking
+      Dense Point Tracking
+      PIPs
+      TAP-Vid
+      TAPIR
+      CoTracker
+      CoTracker3
+      OmniMotion
+      SpatialTracker
+      Track Any Point
+  Video Understanding
+    Video Fundamentals
+      Frames and Frame Rate
+      Temporal Resolution
+      Video Codecs
+      Keyframe Extraction
+      Shot Boundary Detection
+      Scene Detection
+      Frame Sampling Strategies
+      Clip Sampling
+      Temporal Receptive Field
+      Spatiotemporal Features
+    Optical Flow
+      Brightness Constancy
+      Aperture Problem
+      Lucas-Kanade
+      Horn-Schunck
+      Pyramidal Lucas-Kanade
+      Farneback
+      TV-L1
+      DIS Flow
+      EpicFlow
+      FlowNet
+      FlowNet 2.0
+      SpyNet
+      PWC-Net
+      LiteFlowNet
+      RAFT
+      GMA
+      GMFlow
+      FlowFormer
+      SEA-RAFT
+      Unsupervised Optical Flow
+      Scene Flow
+      Endpoint Error
+      Sintel Benchmark
+      KITTI Flow
+      Spring Benchmark
+    Classical Video Features
+      Dense Trajectories
+      Improved Dense Trajectories
+      Motion Boundary Histograms
+      Space-Time Interest Points
+      HOG3D
+      Motion History Images
+      Background Subtraction
+      Mixture of Gaussians Background
+      Frame Differencing
+    Action Recognition Architectures
+      Two-Stream Networks
+      Temporal Segment Networks
+      C3D
+      I3D
+      P3D
+      R(2+1)D
+      S3D
+      Non-Local Networks
+      SlowFast
+      X3D
+      TSM
+      TPN
+      MoViNet
+      TimeSformer
+      Divided Space-Time Attention
+      ViViT
+      MViT
+      MViTv2
+      Video Swin
+      UniFormer
+      VideoMAE
+      VideoMAE V2
+      InternVideo
+      InternVideo2
+      V-JEPA for Video
+      OmniMAE
+      Hiera Video
+    Video Recognition Tasks
+      Video Classification
+      Trimmed Action Recognition
+      Untrimmed Video Analysis
+      Temporal Action Localization
+      Temporal Action Proposals
+      BSN
+      BMN
+      ActionFormer
+      Online Action Detection
+      Spatio-Temporal Action Detection
+      Action Tubes
+      AVA Dataset
+      Action Segmentation
+      Action Anticipation
+      Egocentric Video Understanding
+      Ego4D
+      EPIC-KITCHENS
+      Video Anomaly Detection
+      Video Summarization
+      Video Captioning Pointer
+      Video Question Answering Pointer
+      Video Retrieval
+      Text-to-Video Retrieval
+      Video Highlight Detection
+      Video Moment Retrieval
+    Video Benchmarks
+      UCF101
+      HMDB51
+      Sports-1M
+      Kinetics-400
+      Kinetics-600
+      Kinetics-700
+      Something-Something V1
+      Something-Something V2
+      Charades
+      ActivityNet
+      THUMOS14
+      Moments in Time
+      HowTo100M
+      MSR-VTT
+      YouTube-8M
+      FineGym
+      Diving48
+    Video Representation Learning
+      Temporal Contrastive Learning
+      Frame Order Prediction
+      Clip Order Prediction
+      Speed Prediction
+      Video Masked Modeling
+      Cross-Modal Video Pretraining
+      Audio-Visual Correspondence
+    Video Efficiency
+      Frame Skipping
+      Keyframe-Based Inference
+      Temporal Redundancy Exploitation
+      Online Video Processing
+      Streaming Perception
+  Self-Supervised Visual Representation Learning
+    Foundations
+      Pretext Tasks
+      Downstream Evaluation
+      Linear Evaluation Protocol
+      Fine-Tuning Evaluation
+      k-NN Evaluation
+      Representation Collapse
+      Dimensional Collapse
+      Augmentation Invariance
+      Positive and Negative Pairs
+    Pretext Task Methods
+      Context Prediction
+      Jigsaw Puzzles
+      Rotation Prediction
+      Colorization Pretext
+      Inpainting Pretext
+      Context Encoders
+      Exemplar CNN
+      Counting Pretext
+      Relative Patch Location
+      Deep Clustering
+      DeepCluster
+      SeLa
+    Contrastive Learning
+      InfoNCE Loss
+      NT-Xent Loss
+      Temperature Parameter
+      Instance Discrimination
+      Memory Bank
+      Momentum Encoder
+      Projection Head
+      Large Batch Contrastive
+      Hard Negatives
+      CPC
+      CPC v2
+      CMC
+      MoCo
+      MoCo v2
+      MoCo v3
+      SimCLR
+      SimCLR v2
+      PIRL
+      NNCLR
+      Supervised Contrastive Learning
+      Dense Contrastive Learning
+      DenseCL
+      PixPro
+      DetCo
+    Non-Contrastive Methods
+      BYOL
+      Predictor Network
+      Stop-Gradient
+      SimSiam
+      Barlow Twins
+      Redundancy Reduction
+      VICReg
+      Variance-Invariance-Covariance
+      W-MSE
+      TiCo
+    Clustering-Based Methods
+      SwAV
+      Sinkhorn-Knopp Assignment
+      Multi-Crop Augmentation
+      PCL
+      Online Clustering
+    Self-Distillation Methods
+      DINO
+      Centering and Sharpening
+      Teacher-Student EMA
+      iBOT
+      Online Tokenizer
+      DINOv2
+      Curated Pretraining Data
+      KoLeo Regularizer
+      Gram Anchoring
+      DINOv3
+      MSN
+      EsViT
+    Masked Image Modeling
+      Masked Patch Prediction
+      Masking Ratio
+      Pixel Reconstruction Targets
+      Token Reconstruction Targets
+      Feature Reconstruction Targets
+      BEiT
+      MAE
+      Asymmetric Encoder-Decoder
+      SimMIM
+      MaskFeat
+      CAE
+      data2vec
+      data2vec 2.0
+      PeCo
+      MILAN
+      ConvNeXt V2 FCMAE
+      SparK
+      Spark Masked Convolution
+    Joint-Embedding Predictive Architectures
+      JEPA
+      I-JEPA
+      V-JEPA
+      V-JEPA 2
+      MC-JEPA
+      Predicting in Representation Space
+    Multimodal Pretraining Pointer
+      CLIP
+      ALIGN
+      SigLIP
+      SigLIP 2
+      OpenCLIP
+      EVA-CLIP
+      FLIP
+      Data Filtering for CLIP
+      DataComp
+      Language-Supervised Vision
+    Scaling and Analysis
+      Scaling Laws for Vision SSL
+      Uniformity and Alignment
+      Transfer to Dense Tasks
+      Emergent Segmentation in ViT Attention
+      Robustness of SSL Features
+  Vision Transformers and Foundation Models
+    Transformer Backbones
+      ViT Variants
+      Hierarchical ViTs
+      Swin Transformer
+      Swin V2
+      PVT
+      CvT
+      CoAtNet
+      MaxViT
+      Focal Transformer
+      CSWin
+      BiFormer
+      EVA
+      InternImage
+      DaViT
+      EfficientViT
+      FastViT
+      MobileViT
+      EfficientFormer
+      TinyViT
+      LeViT
+      Attention Complexity in Vision
+      Window Attention
+      Linear Attention for Vision
+      Relative Position Bias
+      Patch Size Tradeoffs
+      Token Pruning
+      Token Merging
+    Vision Foundation Models
+      Foundation Model Concept
+      Frozen Backbone Transfer
+      DINOv2 as Foundation
+      SAM as Foundation
+      Florence
+      Florence-2
+      SigLIP Encoders
+      InternViT
+      Depth Anything Foundation
+      AIMv2
+      Perception Encoder
+      Unified Vision Models
+      Generalist Vision Models
+      Pix2Seq v2
+      Unified-IO
+      OFA Pointer
+    Open-Vocabulary and Visual Prompting
+      Open-Vocabulary Recognition
+      Text-Aligned Visual Features
+      Visual Prompting
+      Prompt Tuning for Vision
+      VPT
+      Visual In-Context Learning
+      Painter
+      SegGPT
+      Set-of-Mark Prompting
+      Referring Expressions
+    Adapting Vision Models
+      Full Fine-Tuning
+      Linear Probing
+      Adapters for Vision
+      LoRA for Vision
+      ViT-Adapter
+      Side Networks
+      Prompt-Based Adaptation
+      Parameter-Efficient Fine-Tuning for Vision
+    Vision-Language Pointer
+      Vision-Language Models Pointer
+      Image Captioning Pointer
+      VQA Pointer
+      Multimodal LLMs Pointer
+  Low-Level Vision
+    Image Restoration Fundamentals
+      Degradation Model
+      Inverse Problems
+      Ill-Posedness
+      Image Priors
+      Deep Image Prior
+      Plug-and-Play Priors
+      Perception-Distortion Tradeoff
+      Blind vs Non-Blind Restoration
+      Real-World Degradations
+    Super-Resolution
+      Single-Image Super-Resolution
+      Upscaling Factor
+      Sub-Pixel Convolution
+      SRCNN
+      FSRCNN
+      VDSR
+      ESPCN
+      EDSR
+      RCAN
+      RDN
+      SRGAN
+      ESRGAN
+      Real-ESRGAN
+      BSRGAN
+      SwinIR
+      HAT
+      DAT
+      Reference-Based SR
+      Blind Super-Resolution
+      Arbitrary-Scale SR
+      LIIF
+      Diffusion-Based SR
+      SR3
+      StableSR
+      SUPIR
+      Set5 and Set14
+      DIV2K
+      Urban100
+    Video Super-Resolution
+      Temporal Alignment
+      Recurrent VSR
+      EDVR
+      BasicVSR
+      BasicVSR++
+      RealBasicVSR
+      VRT
+      Video Restoration Transformer
+    Denoising
+      Gaussian Noise Removal
+      Real Noise Modeling
+      Noise Level Estimation
+      BM3D
+      DnCNN
+      FFDNet
+      CBDNet
+      RIDNet
+      Noise2Noise
+      Noise2Void
+      Self-Supervised Denoising
+      NAFNet
+      Restormer
+      Uformer
+      SIDD Dataset
+      Raw Image Denoising
+    Deblurring
+      Blur Kernel Estimation
+      Blind Deconvolution
+      Wiener Filter
+      Richardson-Lucy
+      Motion Deblurring
+      Defocus Deblurring
+      DeblurGAN
+      DeblurGAN-v2
+      MPRNet
+      MIMO-UNet
+      Stripformer
+      GoPro Dataset
+      Video Deblurring
+    Inpainting
+      Mask-Based Inpainting
+      Exemplar-Based Inpainting
+      PatchMatch Inpainting
+      Partial Convolutions
+      Gated Convolutions
+      DeepFill
+      DeepFill v2
+      EdgeConnect
+      LaMa
+      Fourier Convolutions
+      MAT
+      CoModGAN
+      Diffusion Inpainting Pointer
+      Object Removal
+      Video Inpainting
+      ProPainter
+    Other Restoration Tasks
+      Dehazing
+      Dark Channel Prior
+      DehazeNet
+      AOD-Net
+      Deraining
+      Desnowing
+      Shadow Removal
+      Reflection Removal
+      Moire Removal
+      JPEG Artifact Removal
+      Demosaicing Networks
+      All-in-One Restoration
+      PromptIR
+    Image Enhancement
+      Low-Light Enhancement
+      Retinex Theory
+      RetinexNet
+      Zero-DCE
+      SCI
+      Exposure Correction
+      Color Enhancement
+      Tone Mapping
+      Underwater Image Enhancement
+      Image Harmonization
+      Auto White Balance
+    HDR Imaging
+      Exposure Bracketing
+      HDR Merging
+      Multi-Exposure Fusion
+      Ghost Removal
+      HDRNet
+      Single-Image HDR
+      Inverse Tone Mapping
+      Tone Mapping Operators
+    Colorization
+      Automatic Colorization
+      User-Guided Colorization
+      Reference-Based Colorization
+      Colorful Image Colorization
+      DeOldify
+      DDColor
+      Video Colorization
+    Frame Interpolation
+      Motion Compensation
+      Flow-Based Interpolation
+      Kernel-Based Interpolation
+      Super SloMo
+      DAIN
+      RIFE
+      FILM
+      XVFI
+      VFIformer
+      EMA-VFI
+      Slow-Motion Generation
+      Frame Rate Upconversion
+    Learned Image Compression
+      Rate-Distortion Optimization
+      Entropy Models
+      Hyperprior Models
+      Context Models
+      Ballé Models
+      Cheng 2020
+      ELIC
+      Learned Video Compression
+      DVC
+      DCVC
+      Neural Codecs
+      Bits per Pixel
+    Low-Level Vision Metrics
+      PSNR
+      SSIM
+      MS-SSIM
+      LPIPS
+      DISTS
+      NIQE
+      BRISQUE
+      MUSIQ
+      CLIP-IQA
+      MANIQA
+      No-Reference Quality Assessment
+      Full-Reference Quality Assessment
+  Image Generation Pointers
+    Generative Models for Images Pointer
+    GANs for Images Pointer
+    Diffusion Models Pointer
+    Text-to-Image Pointer
+    Image Editing with Diffusion Pointer
+    Style Transfer
+      Neural Style Transfer
+      Gatys Method
+      Gram Matrix Loss
+      Fast Style Transfer
+      AdaIN
+      Universal Style Transfer
+      WCT
+      Photorealistic Style Transfer
+      Arbitrary Style Transfer
+    Image-to-Image Translation Pointer
+    Neural Rendering and Generation Pointer
+    Video Generation Pointer
+    3D Generation Pointer
+  Document and Scene Text
+    OCR Fundamentals
+      Text Detection
+      Text Recognition
+      End-to-End Text Spotting
+      Scene Text vs Document Text
+      Text Orientation
+      Curved Text
+      Multilingual OCR
+      Handwriting Recognition
+      Character Sets
+      Lexicon-Based Decoding
+    Text Detection Models
+      CTPN
+      TextBoxes
+      TextBoxes++
+      SegLink
+      EAST
+      PixelLink
+      PSENet
+      PAN
+      CRAFT
+      DBNet
+      DBNet++
+      FCENet
+      TextSnake
+      ABCNet
+      Total-Text
+      ICDAR Benchmarks
+      CTW1500
+    Text Recognition Models
+      CTC Decoding
+      Attention Decoding
+      CRNN
+      Rosetta
+      RARE
+      ASTER
+      SAR
+      SATRN
+      ABINet
+      ViTSTR
+      SVTR
+      PARSeq
+      TrOCR
+      MaskOCR
+      MGP-STR
+      Language Model Rescoring
+      Word Error Rate for OCR
+      Character Error Rate
+    OCR Engines and Toolkits
+      Tesseract
+      EasyOCR
+      PaddleOCR
+      MMOCR
+      docTR
+      Keras-OCR
+      Surya
+      Cloud OCR APIs
+      Kraken
+      Calamari
+    Document Layout Analysis
+      Document Image Understanding
+      Page Segmentation
+      Layout Detection
+      Reading Order
+      LayoutParser
+      LayoutLM
+      LayoutLMv2
+      LayoutLMv3
+      DiT Document Transformer
+      Donut
+      Pix2Struct
+      Nougat
+      UDOP
+      DocLayNet
+      PubLayNet
+      Document Deskewing
+      Document Dewarping
+      Document Binarization
+    Table Understanding
+      Table Detection
+      Table Structure Recognition
+      Cell Detection
+      TableNet
+      CascadeTabNet
+      Table Transformer
+      TableMaster
+      PubTables-1M
+      TEDS Metric
+    Document Intelligence Tasks
+      Key Information Extraction
+      Form Understanding
+      FUNSD
+      SROIE
+      CORD
+      Receipt Parsing
+      Invoice Processing
+      Document Classification
+      Document VQA
+      DocVQA
+      Chart Understanding
+      ChartQA
+      Signature Verification
+      Mathematical Formula Recognition
+      Music Score Recognition
+      PDF Parsing
+      Marker
+      MinerU
+  Medical Imaging
+    Modalities
+      X-Ray
+      Computed Tomography
+      Magnetic Resonance Imaging
+      Ultrasound
+      Positron Emission Tomography
+      Mammography
+      Fundus Photography
+      Optical Coherence Tomography
+      Dermoscopy
+      Endoscopy
+      Histopathology
+      Whole Slide Images
+      Microscopy
+      Electron Microscopy
+    Medical Image Fundamentals
+      DICOM
+      NIfTI
+      Hounsfield Units
+      Windowing
+      Voxel Spacing
+      Resampling
+      Intensity Normalization
+      Bias Field Correction
+      Skull Stripping
+      Anatomical Planes
+      3D Volumes
+      Patch-Based Training
+      Sliding Window Inference
+      Class Imbalance in Medical Data
+      Small Dataset Regimes
+    Medical Segmentation
+      Organ Segmentation
+      Tumor Segmentation
+      Lesion Segmentation
+      Vessel Segmentation
+      Cell Segmentation
+      Nuclei Segmentation
+      U-Net for Medical
+      3D U-Net
+      V-Net
+      Attention U-Net
+      nnU-Net
+      UNETR
+      Swin UNETR
+      TransUNet
+      MedSAM
+      SAM-Med2D
+      SAM-Med3D
+      Cellpose
+      StarDist
+      BraTS
+      Medical Segmentation Decathlon
+      KiTS
+      LiTS
+      ACDC
+      Dice in Medical Segmentation
+      Hausdorff Distance in Medical
+    Medical Detection and Classification
+      Lung Nodule Detection
+      LUNA16
+      Fracture Detection
+      Polyp Detection
+      Chest X-Ray Classification
+      CheXpert
+      ChestX-ray14
+      MIMIC-CXR
+      Diabetic Retinopathy Grading
+      Skin Lesion Classification
+      ISIC
+      Histopathology Classification
+      Camelyon
+      Multiple Instance Learning for WSI
+      CLAM
+      Breast Cancer Screening
+      Alzheimer Classification from MRI
+    Medical Image Registration
+      Atlas Registration
+      Deformable Medical Registration
+      VoxelMorph
+      SyN
+      ANTs
+      Elastix
+    Medical Image Reconstruction
+      CT Reconstruction
+      Filtered Back Projection
+      MRI Reconstruction
+      Compressed Sensing MRI
+      fastMRI
+      Low-Dose CT Denoising
+      Metal Artifact Reduction
+      Image Synthesis Across Modalities
+    Medical Foundation Models
+      RadImageNet
+      BiomedCLIP
+      Med-Flamingo Pointer
+      LLaVA-Med Pointer
+      RETFound
+      UNI
+      Virchow
+      CONCH
+      Prov-GigaPath
+      Medical Vision-Language Pretraining
+    Radiology Report Generation
+      Image-to-Text for Radiology
+      Report Templates
+      R2Gen
+      CheXbert Metric
+      RadGraph
+      Clinical Efficacy Metrics
+      Hallucination in Medical Reports
+    Medical Imaging Frameworks
+      MONAI
+      MONAI Label
+      TorchIO
+      SimpleITK
+      ITK
+      3D Slicer
+      ITK-SNAP
+      nnU-Net Framework
+      MedMNIST
+    Clinical Deployment
+      FDA Clearance
+      Regulatory Validation
+      Domain Shift Across Scanners
+      Federated Learning in Healthcare
+      Explainability for Clinicians
+      Uncertainty Estimation in Medical AI
+      Fairness in Medical Imaging
+  Remote Sensing
+    Satellite Imagery Fundamentals
+      Multispectral Imagery
+      Hyperspectral Imagery
+      Spectral Bands
+      Spatial Resolution
+      Temporal Resolution
+      Radiometric Resolution
+      Synthetic Aperture Radar
+      LiDAR Remote Sensing
+      Aerial Imagery
+      Drone Imagery
+      Orthorectification
+      Georeferencing
+      Atmospheric Correction
+      Cloud Masking
+      Spectral Indices
+      NDVI
+      Pansharpening
+    Remote Sensing Tasks
+      Land Cover Classification
+      Land Use Mapping
+      Scene Classification
+      Building Footprint Extraction
+      Road Extraction
+      Object Detection in Aerial Imagery
+      Oriented Detection for Aerial Images
+      Ship Detection
+      Vehicle Detection from Air
+      Change Detection
+      Bitemporal Change Detection
+      Semantic Change Detection
+      Disaster Damage Assessment
+      Crop Type Mapping
+      Yield Estimation
+      Deforestation Monitoring
+      Flood Mapping
+      Wildfire Detection
+      Urban Growth Analysis
+      Super-Resolution for Satellites
+      Cloud Removal
+      Hyperspectral Classification
+      SAR Image Interpretation
+      Time-Series Satellite Analysis
+    Remote Sensing Models
+      Prithvi
+      SatMAE
+      Scale-MAE
+      Clay Foundation Model
+      SpectralGPT
+      RemoteCLIP
+      SkySense
+      GeoFM Models
+      Geospatial Foundation Models
+    Remote Sensing Datasets
+      EuroSAT
+      BigEarthNet
+      UC Merced
+      DOTA
+      xView
+      xBD
+      SpaceNet
+      LEVIR-CD
+      Sentinel-2 Data
+      Landsat
+      SEN12MS
+      fMoW
+      So2Sat
+      OpenEarthMap
+    Geospatial Tools
+      GDAL
+      Rasterio
+      TorchGeo
+      Google Earth Engine
+      QGIS
+      Sentinel Hub
+  Autonomous Driving Perception
+    Sensors
+      Cameras for Driving
+      Surround-View Cameras
+      LiDAR
+      Radar
+      Ultrasonic Sensors
+      IMU
+      GNSS
+      Sensor Synchronization
+      Sensor Calibration for Vehicles
+    Perception Tasks
+      2D Driving Detection
+      3D Object Detection
+      Lane Detection
+      Lane Line Fitting
+      Drivable Area Segmentation
+      Traffic Sign Recognition
+      Traffic Light Detection
+      Pedestrian Intent Prediction
+      Free Space Detection
+      Road Scene Segmentation
+      Depth Estimation for Driving
+      Trajectory Prediction Pointer
+      Online Mapping
+      HD Maps
+      Vectorized Map Construction
+      MapTR
+      Occupancy Prediction
+      Semantic Occupancy
+      Scene Flow for Driving
+    Lane Detection Models
+      LaneNet
+      SCNN
+      Ultra Fast Lane Detection
+      LaneATT
+      CondLaneNet
+      CLRNet
+      PersFormer
+      3D Lane Detection
+      OpenLane
+      TuSimple
+      CULane
+    LiDAR Perception
+      Point Cloud Encoding
+      Voxelization
+      Pillars
+      Range View
+      Bird's-Eye View
+      VoxelNet
+      SECOND
+      Sparse Convolution
+      PointPillars
+      PointRCNN
+      PV-RCNN
+      CenterPoint
+      Part-A2
+      3DSSD
+      SST
+      DSVT
+      TransFusion LiDAR
+      LiDAR Segmentation
+      RangeNet++
+      Cylinder3D
+      SemanticKITTI
+    Camera-Based 3D Detection
+      Monocular 3D Detection
+      FCOS3D
+      SMOKE
+      MonoFlex
+      Multi-View 3D Detection
+      Lift-Splat-Shoot
+      BEVDet
+      BEVDepth
+      BEVFormer
+      BEVFormer v2
+      PETR
+      PETRv2
+      StreamPETR
+      Sparse4D
+      DETR3D
+      Far3D
+      Temporal BEV Fusion
+    Sensor Fusion
+      Early Fusion
+      Late Fusion
+      Deep Fusion
+      Camera-LiDAR Fusion
+      Camera-Radar Fusion
+      PointPainting
+      MVX-Net
+      TransFusion
+      BEVFusion
+      DeepInteraction
+      CMT
+      UniTR
+      SparseFusion
+      Radar Occupancy Fusion
+    BEV Perception
+      BEV Representation
+      View Transformation
+      Inverse Perspective Mapping
+      Depth-Based Lifting
+      Attention-Based Lifting
+      BEV Segmentation
+      BEV Queries
+      Temporal Aggregation in BEV
+      BEV Feature Fusion
+    Occupancy Networks
+      3D Occupancy Prediction
+      Occupancy Grids for Driving
+      MonoScene
+      TPVFormer
+      SurroundOcc
+      OccFormer
+      VoxFormer
+      OpenOccupancy
+      Occ3D
+      Self-Supervised Occupancy
+      Occupancy Flow
+    End-to-End Driving Pointer
+      UniAD
+      VAD
+      Planning-Oriented Perception
+      World Models for Driving Pointer
+    Driving Datasets
+      KITTI
+      KITTI-360
+      Cityscapes
+      BDD100K
+      Mapillary Vistas
+      ApolloScape
+      nuScenes
+      nuImages
+      Waymo Open Dataset
+      Argoverse
+      Argoverse 2
+      Lyft Level 5
+      ONCE
+      A2D2
+      PandaSet
+      Zenseact Open Dataset
+      CARLA Simulator
+    Driving Metrics
+      nuScenes Detection Score
+      Average Translation Error
+      Average Orientation Error
+      KITTI 3D AP
+      Waymo mAPH
+      Lane Detection F1
+      Occupancy mIoU
+      Map Construction Chamfer AP
+  Edge and Efficient Vision
+    Efficiency Fundamentals
+      FLOPs
+      Parameters Count
+      Latency
+      Throughput
+      Memory Footprint
+      Energy Efficiency
+      Accuracy-Latency Pareto Frontier
+      Hardware-Aware Design
+    Efficient Architectures
+      MobileNet
+      MobileNetV2
+      MobileNetV3
+      MobileNetV4
+      MobileOne
+      ShuffleNet
+      ShuffleNetV2
+      GhostNet
+      EfficientNet-Lite
+      MnasNet
+      FBNet
+      ProxylessNAS
+      Once-for-All
+      MobileViT
+      EfficientViT
+      EfficientFormer
+      FastViT
+      RepViT
+      StarNet
+      Inverted Residuals
+      Structural Re-Parameterization
+      RepVGG
+    Model Compression
+      Quantization
+      Post-Training Quantization
+      Quantization-Aware Training
+      INT8 Quantization
+      INT4 Quantization
+      Mixed Precision Inference
+      Calibration Datasets
+      Pruning
+      Unstructured Pruning
+      Structured Pruning
+      Channel Pruning
+      Filter Pruning
+      Magnitude Pruning
+      Iterative Pruning
+      Lottery Ticket Hypothesis
+      Knowledge Distillation
+      Feature Distillation
+      Low-Rank Factorization
+      Weight Sharing
+      Early Exit Networks
+      Dynamic Inference
+      Input Resolution Scaling
+    Neural Architecture Search
+      Search Space Design
+      Reinforcement Learning NAS
+      Evolutionary NAS
+      Differentiable NAS
+      DARTS
+      Hardware-Aware NAS
+      Latency Predictors
+      Zero-Cost Proxies
+    Inference Runtimes
+      TensorRT
+      OpenVINO
+      ONNX Runtime
+      ONNX Export
+      TorchScript
+      torch.compile
+      TensorFlow Lite
+      LiteRT
+      Core ML
+      NCNN
+      MNN
+      TNN
+      TVM
+      Apache TVM Autotuning
+      ExecuTorch
+      MediaPipe
+      DeepStream
+      Operator Fusion
+      Graph Optimization
+      Kernel Autotuning
+    Edge Hardware
+      NVIDIA Jetson
+      Google Coral
+      Edge TPU
+      Intel Movidius
+      Qualcomm Hexagon
+      Apple Neural Engine
+      Raspberry Pi Inference
+      Microcontroller Vision
+      TinyML
+      FPGA Vision
+      Event Cameras
+    Deployment Considerations
+      Batch Size for Inference
+      Model Serving for Vision
+      Camera Pipeline Integration
+      Preprocessing Optimization
+      Video Decoding Acceleration
+      Benchmarking Inference
+      Profiling Tools
+      On-Device Privacy
+  Vision Datasets
+    Classification Datasets
+      MNIST
+      CIFAR-10
+      CIFAR-100
+      ImageNet
+      ImageNet-21k
+      JFT-300M
+      Places365
+      SUN397
+      iNaturalist
+      Food-101
+      Oxford Pets
+      Oxford Flowers
+      Caltech-101
+      Caltech-256
+      Stanford Dogs
+      DTD Textures
+      EuroSAT
+      LAION Pointer
+    Detection and Segmentation Datasets
+      Pascal VOC
+      COCO
+      COCO-Stuff
+      Open Images
+      Objects365
+      LVIS
+      Visual Genome
+      ADE20K
+      Cityscapes
+      Mapillary Vistas
+      KITTI
+      BDD100K
+      SA-1B
+      Pascal Context
+      CamVid
+      SUN RGB-D
+      NYU Depth V2
+      COCO Panoptic
+      V3Det
+      Roboflow 100
+    Face and Human Datasets
+      LFW
+      CelebA
+      CelebA-HQ
+      FFHQ
+      MS-Celeb-1M
+      VGGFace2
+      CASIA-WebFace
+      WIDER FACE
+      300W
+      WFLW
+      AFLW
+      COCO Keypoints
+      MPII Human Pose
+      Human3.6M
+      3DPW
+      AMASS
+      Market-1501
+      ShanghaiTech Crowd
+    Video Datasets
+      UCF101
+      HMDB51
+      Kinetics
+      Something-Something
+      ActivityNet
+      Charades
+      AVA
+      DAVIS
+      YouTube-VOS
+      MOSE
+      LaSOT
+      GOT-10k
+      TrackingNet
+      MOT17
+      MOT20
+      DanceTrack
+      TAP-Vid
+      Ego4D
+      MSR-VTT
+      WebVid
+    3D and Scene Datasets
+      ScanNet
+      ScanNet++
+      Matterport3D
+      Replica
+      ShapeNet
+      ModelNet
+      Objaverse
+      Objaverse-XL
+      OmniObject3D
+      CO3D
+      DTU
+      Tanks and Temples
+      Mip-NeRF 360 Scenes
+      LLFF
+      MegaDepth
+      HPatches
+      ETH3D
+      ScanObjectNN
+      Pix3D
+      ABO
+    Generative and Image Collections
+      LSUN
+      FFHQ
+      CelebA-HQ
+      AFHQ
+      LAION-5B
+      COYO-700M
+      DataComp
+      CC3M
+      CC12M
+      Conceptual Captions Pointer
+    Dataset Practices
+      Annotation Guidelines
+      Inter-Annotator Agreement
+      Dataset Bias
+      Dataset Licensing
+      Data Cards
+      Train-Val-Test Splits
+      Benchmark Leakage
+      Label Errors in Benchmarks
+      Synthetic Data for Vision
+      Domain Randomization
+      Active Learning for Annotation
+      Auto-Labeling
+  Tools and Libraries
+    Core Image Libraries
+      OpenCV
+      OpenCV Python Bindings
+      OpenCV CUDA
+      Pillow
+      scikit-image
+      ImageIO
+      SimpleCV
+      Mahotas
+      NumPy for Images
+      SciPy ndimage
+      Rawpy
+      ImageMagick
+    Deep Learning Vision Libraries
+      torchvision
+      torchvision Transforms v2
+      Kornia
+      timm
+      Albumentations
+      imgaug
+      AugLy
+      TensorFlow Datasets Vision
+      Keras CV
+      PyTorch Lightning Bolts
+      Hugging Face Transformers Vision
+      Hugging Face Datasets
+      OpenMMLab
+      MMDetection
+      MMSegmentation
+      MMPose
+      MMTracking
+      MMOCR
+      MMPreTrain
+      MMDetection3D
+      MMEngine
+      Detectron2
+      Detectron2 Model Zoo
+      Ultralytics
+      YOLOv5 Repo
+      PaddleDetection
+      PaddleSeg
+      Segmentation Models PyTorch
+      GluonCV
+      LightlySSL
+      solo-learn
+      VISSL
+      Supervision
+      Inference by Roboflow
+      Autodistill
+      DeepLabCut
+      OpenPose Library
+      InsightFace
+      DeepFace Library
+      face_recognition
+      Dlib
+      Nerfstudio
+      Open3D
+      PyTorch3D
+      Kaolin
+      PCL
+      COLMAP
+      MediaPipe
+      BasicSR
+    Annotation Tools
+      LabelImg
+      LabelMe
+      CVAT
+      Label Studio
+      VGG Image Annotator
+      Roboflow Annotate
+      Supervisely
+      Scale AI
+      Labelbox
+      V7 Darwin
+      Prodigy
+      SAM-Assisted Annotation
+      Auto-Annotation Pipelines
+    Dataset Management and Visualization
+      FiftyOne
+      Roboflow
+      Voxel51 Brain
+      Encord
+      DVC for Datasets
+      Weights and Biases Tables
+      TensorBoard Image Logging
+      Visualization of Attention Maps
+      Grad-CAM Tools
+    Evaluation Tools
+      pycocotools
+      COCO Evaluation API
+      TorchMetrics Image
+      TrackEval
+      py-motmetrics
+      Open Images Challenge Evaluation
+      torch-fidelity
+      clean-fid
+      pyiqa
+    Deployment Tools for Vision
+      ONNX
+      TensorRT
+      OpenVINO
+      TensorFlow Lite
+      Core ML Tools
+      Triton Inference Server
+      DeepStream SDK
+      Gradio Demos
+      Streamlit Demos
+  Metrics and Evaluation
+    Classification Metrics
+      Accuracy
+      Top-1 Accuracy
+      Top-5 Accuracy
+      Precision
+      Recall
+      F1 Score
+      ROC AUC
+      Balanced Accuracy
+      Macro vs Micro Averaging
+      Expected Calibration Error
+    Detection Metrics
+      IoU
+      Average Precision
+      mAP
+      AP50
+      AP75
+      COCO AP
+      Average Recall
+      Log Average Miss Rate
+      False Positives per Image
+    Segmentation Metrics
+      Pixel Accuracy
+      mIoU
+      Dice Score
+      Boundary IoU
+      Panoptic Quality
+      Mask AP
+      Hausdorff Distance
+    Tracking Metrics
+      MOTA
+      IDF1
+      HOTA
+      Success and Precision Plots
+      J and F
+    Depth and Geometry Metrics
+      Absolute Relative Error
+      Squared Relative Error
+      RMSE Depth
+      Delta Accuracy
+      Endpoint Error
+      Rotation Error
+      Translation Error
+      Absolute Trajectory Error
+      Relative Pose Error
+      Chamfer Distance
+      Earth Mover Distance
+      F-Score for 3D
+    Image Quality Metrics
+      PSNR
+      SSIM
+      MS-SSIM
+      LPIPS
+      DISTS
+      FSIM
+      VIF
+      NIQE
+      BRISQUE
+      MUSIQ
+    Generative Metrics
+      FID
+      Inception Score
+      KID
+      Precision and Recall for Generation
+      CLIP Score
+      FVD
+      Human Preference Studies
+    Retrieval Metrics
+      Recall at K
+      Mean Average Precision for Retrieval
+      Mean Reciprocal Rank
+      Normalized Discounted Cumulative Gain
+    Evaluation Methodology
+      Benchmark Protocols
+      Cross-Dataset Evaluation
+      Zero-Shot Evaluation
+      Few-Shot Evaluation
+      Robustness Benchmarks
+      Statistical Significance in Vision
+      Reproducibility
+      Leaderboards
+      Papers With Code

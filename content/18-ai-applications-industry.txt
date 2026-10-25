@@ -1,0 +1,1048 @@
+AI Applications & Industry
+  Healthcare
+    Medical Imaging AI
+      Radiology AI
+        Chest X-ray Classification
+        CT Lesion Detection
+        MRI Segmentation
+        Mammography Screening
+      Digital Pathology
+        Whole Slide Imaging
+        Multiple Instance Learning
+        Pathology Foundation Models
+      Dermatology AI
+        Skin Lesion Classification
+      Ophthalmology AI
+        Diabetic Retinopathy Screening
+        OCT Analysis
+      Cardiology Imaging AI
+      Medical Image Segmentation
+        nnU-Net
+        MedSAM
+      Medical Imaging Datasets
+        MIMIC-CXR
+        CheXpert
+        BraTS
+    Clinical NLP
+      Clinical Text De-identification
+      Clinical Entity Extraction
+      ICD Coding
+      Clinical Note Summarization
+      Ambient Clinical Documentation
+      EHR Data
+        FHIR
+        Structured vs Unstructured EHR
+        EHR Foundation Models
+    Clinical Decision Support
+      Risk Prediction Models
+      Sepsis Prediction
+      Early Warning Scores
+      Readmission Prediction
+      Clinical Trial Matching
+      Diagnostic Assistants
+    Medical LLMs
+      Med-PaLM
+      Med-PaLM 2
+      Med-Gemini
+      BioGPT
+      BioMedLM
+      GatorTron
+      Meditron
+      OpenBioLLM
+      MedQA Benchmark
+      USMLE Evaluation
+    Drug Discovery and Biology
+      AI Drug Discovery
+      Protein Design
+      Genomics
+      Precision Medicine
+      Biomarker Discovery
+      Digital Twins in Medicine
+    Patient-facing AI
+      Wearables and Remote Monitoring
+      Mental Health Chatbots
+        Woebot
+        Wysa
+      Symptom Checkers
+      Patient Triage
+    Regulation and Safety
+      FDA SaMD Regulation
+      CE Marking
+      Clinical Validation
+      Algorithmic Bias in Healthcare
+      Model Monitoring in Clinical Settings
+      HIPAA Compliance
+  Finance
+    Trading and Investment
+      Algorithmic Trading
+      Quantitative ML
+      Alpha Signals
+      Alternative Data
+      Reinforcement Learning for Trading
+      Market Microstructure Modeling
+      Portfolio Optimization
+        Mean-Variance Optimization
+        Black-Litterman
+        Risk Parity
+      Robo-advisors
+      Backtesting Pitfalls
+      Financial Time Series Forecasting
+    Risk and Compliance
+      Credit Scoring
+        Scorecards
+        Alternative Credit Data
+        Explainability Requirements
+      Risk Modeling
+        Market Risk
+        Credit Risk
+        Operational Risk
+        Value at Risk
+      Fraud Detection
+        Transaction Fraud
+        Real-time Fraud Scoring
+      Anti-Money Laundering
+        Transaction Monitoring
+        KYC Automation
+        Suspicious Activity Detection
+      Model Risk Management
+      SR 11-7
+    Financial NLP
+      FinBERT
+      BloombergGPT
+      FinGPT
+      Earnings Call Analysis
+      News Sentiment
+      Financial Document Extraction
+      Regulatory Filing Analysis
+    Insurance
+      Insurance Underwriting
+      Claims Automation
+      Actuarial ML
+      Telematics
+      Insurance Fraud Detection
+    Banking Operations
+      Customer Churn in Banking
+      Next Best Action
+      Chatbots in Banking
+      Document Processing
+  Retail and E-commerce
+    Personalization
+      Product Recommendations
+      Product Search
+      Query Understanding for E-commerce
+      Personalized Ranking
+      Email Personalization
+    Pricing and Demand
+      Dynamic Pricing
+      Price Elasticity Modeling
+      Demand Forecasting
+      Promotion Optimization
+      Markdown Optimization
+    Inventory and Supply
+      Inventory Optimization
+      Replenishment
+      Assortment Planning
+      Stockout Prediction
+    Visual Commerce
+      Visual Search
+      Virtual Try-on
+      Product Image Generation
+      Product Attribute Extraction
+      Catalog Enrichment
+    Customer Analytics
+      Customer Segmentation
+      Churn Prediction
+      Customer Lifetime Value
+      Propensity Modeling
+      Basket Analysis
+      Returns Prediction
+    Conversational Commerce
+      Shopping Assistants
+      E-commerce Chatbots
+      Review Summarization
+      Fake Review Detection
+    Physical Retail
+      Cashierless Checkout
+      Shelf Monitoring
+      Foot Traffic Analytics
+      Loss Prevention
+  Marketing and Advertising
+    Ad Targeting
+      Audience Segmentation
+      Lookalike Modeling
+      Behavioral Targeting
+      Contextual Targeting
+      Privacy-preserving Advertising
+    Ad Auctions and Bidding
+      CTR Prediction
+      Conversion Prediction
+      Real-time Bidding
+      Bid Optimization
+      Budget Pacing
+      Auction Design
+    Measurement
+      Attribution Modeling
+        Last-touch Attribution
+        Multi-touch Attribution
+        Data-driven Attribution
+      Marketing Mix Modeling
+      Incrementality Testing
+      Geo Experiments
+      A/B Testing for Marketing
+      Uplift Modeling for Campaigns
+    Generative Marketing
+      Generative Ad Creative
+      Copywriting Assistants
+      Creative Optimization
+      Brand Safety
+    Customer Engagement
+      Personalization Engines
+      Email Send-time Optimization
+      Churn Prevention Campaigns
+      Lead Scoring
+      Marketing Automation
+      Social Media Analytics
+      Influencer Analytics
+  Manufacturing and Industry 4.0
+    Predictive Maintenance
+      Condition Monitoring
+      Remaining Useful Life Estimation
+      Vibration Analysis
+      Failure Prediction
+      Prognostics and Health Management
+    Quality Inspection
+      Visual Defect Detection
+      Surface Inspection
+      Anomaly Detection on Production Lines
+      Automated Optical Inspection
+      Few-shot Defect Detection
+    Process Optimization
+      Process Parameter Tuning
+      Yield Optimization
+      Soft Sensors
+      Energy Optimization in Plants
+      Reinforcement Learning for Process Control
+    Digital Twins
+      Asset Digital Twins
+      Process Simulation
+      Virtual Commissioning
+    Industrial Robotics
+      Robotic Assembly
+      Bin Picking
+      Collaborative Robots
+      Robot Learning in Factories
+    Supply Chain
+      Supply Chain Forecasting
+      Supplier Risk
+      Logistics Planning
+      Warehouse Automation
+      Procurement Analytics
+    Industrial Data
+      IoT Sensor Data
+      Time Series at Scale
+      Edge AI in Factories
+      OPC UA
+  Transportation and Logistics
+    Autonomous Vehicles
+      Perception Stack
+      Prediction and Planning
+      End-to-end Driving
+      Driver Assistance Systems
+      Robotaxis
+      Simulation for AV Testing
+      AV Safety Validation
+    Route Optimization
+      Last-mile Delivery
+      Fleet Routing
+      Dynamic Dispatching
+      ETA Prediction
+    Fleet Management
+      Vehicle Telematics
+      Driver Behavior Analysis
+      Fuel Optimization
+      Fleet Predictive Maintenance
+    Demand and Traffic
+      Ride-hailing Demand Prediction
+      Surge Pricing
+      Traffic Prediction
+      Traffic Signal Control
+      Public Transit Optimization
+    Aviation and Maritime
+      Flight Delay Prediction
+      Air Traffic Management
+      Ship Route Optimization
+      Port Operations
+    Drone Delivery
+      Drone Navigation
+      Airspace Management
+  Agriculture
+    Crop Monitoring
+      Satellite Imagery Analysis
+      Drone Imagery
+      Vegetation Indices
+      Crop Classification
+      Crop Health Mapping
+    Yield Prediction
+      Yield Forecasting Models
+      Weather Integration
+      Soil Data Modeling
+    Precision Agriculture
+      Variable Rate Application
+      Irrigation Optimization
+      Soil Sensing
+      Weed Detection
+      Precision Spraying
+      Agricultural Robots
+    Pest and Disease
+      Pest Detection
+      Plant Disease Classification
+      Early Outbreak Warning
+    Livestock
+      Animal Health Monitoring
+      Livestock Tracking
+      Dairy Analytics
+    Agri Supply Chain
+      Commodity Price Forecasting
+      Food Quality Grading
+      Food Waste Reduction
+  Energy and Climate
+    Smart Grids
+      Load Forecasting
+      Grid Stability
+      Demand Response
+      Outage Prediction
+      Grid Anomaly Detection
+    Renewable Energy
+      Solar Forecasting
+      Wind Forecasting
+      Renewable Integration
+      Wind Turbine Monitoring
+    Energy Storage
+      Battery Optimization
+      Battery State Estimation
+      Battery Degradation Modeling
+      EV Charging Optimization
+    Buildings and Industry
+      Building Energy Management
+      HVAC Optimization
+      Data Center Cooling
+    Oil and Gas
+      Seismic Interpretation
+      Reservoir Modeling
+      Pipeline Monitoring
+    Climate
+      Climate Modeling with ML
+      Weather Forecasting Models
+      Carbon Emissions Monitoring
+      Carbon Capture Optimization
+      Methane Detection
+      Wildfire Prediction
+      Flood Prediction
+      Climate Risk Analytics
+    Fusion Control
+      Plasma Control
+      Disruption Prediction
+    Nuclear
+      Reactor Monitoring
+      Anomaly Detection in Nuclear Plants
+  Education
+    Intelligent Tutoring Systems
+      Cognitive Tutors
+      Step-based Tutoring
+      Scaffolding
+      Hints and Feedback Generation
+    Adaptive Learning
+      Knowledge Tracing
+        Bayesian Knowledge Tracing
+        Deep Knowledge Tracing
+        Item Response Theory
+      Learner Modeling
+      Personalized Learning Paths
+      Spaced Repetition Algorithms
+      Mastery Learning
+    Assessment
+      Automated Essay Scoring
+      Automated Grading
+      Short Answer Grading
+      Code Grading
+      Question Generation
+      Test Item Analysis
+    LLM Tutors
+      Socratic Tutoring
+      Khanmigo
+      LearnLM
+      Conversational Tutors
+      Pedagogical Alignment
+    Learning Analytics
+      Dropout Prediction
+      Engagement Analytics
+      Early Alert Systems
+      MOOC Analytics
+    Academic Integrity
+      Plagiarism Detection
+      AI-generated Text Detection
+      Detection Limitations
+      Assessment Redesign
+    Accessibility in Education
+      Reading Assistance
+      Language Learning Apps
+      Duolingo
+  Legal
+    Contract Analysis
+      Contract Review
+      Clause Extraction
+      Contract Risk Scoring
+      Contract Lifecycle Management
+    Legal Research
+      Case Law Retrieval
+      Legal Question Answering
+      Citation Analysis
+      Legal Summarization
+    E-discovery
+      Technology-assisted Review
+      Predictive Coding
+      Document Clustering
+      Privilege Review
+    Legal LLMs
+      Harvey
+      CoCounsel
+      Legal Hallucination Risks
+      LegalBench
+    Compliance and Regulation
+      Regulatory Change Monitoring
+      Compliance Automation
+      Policy Analysis
+      Legal Document Drafting
+    Judicial and Access to Justice
+      Outcome Prediction
+      Risk Assessment Tools
+      COMPAS Debate
+      Legal Aid Chatbots
+  Government and Public Sector
+    Public Services
+      Citizen Service Chatbots
+      Benefits Processing
+      Document Automation
+      Multilingual Services
+    Tax and Fraud
+      Tax Fraud Detection
+      Benefits Fraud Detection
+      Procurement Fraud
+    Smart Cities
+      Urban Mobility Analytics
+      Smart Infrastructure
+      Public Safety Analytics
+      Environmental Monitoring
+      Waste Management
+    Surveillance and Policing
+      Facial Recognition
+      Predictive Policing
+      Policing Debates
+      Civil Liberties Concerns
+      Bans and Moratoria
+    Policy and Governance
+      Policy Simulation
+      Public Sector AI Procurement
+      Algorithmic Impact Assessments
+      Government AI Strategies
+    Emergency Management
+      Disaster Response
+      Damage Assessment from Imagery
+      Crisis Informatics
+  Security and Defense
+    Cybersecurity ML
+      Intrusion Detection
+      Network Traffic Analysis
+      Malware Detection
+      Phishing Detection
+      Spam Filtering
+      Threat Intelligence
+      Vulnerability Discovery
+      Security Operations Automation
+      User Behavior Analytics
+      LLMs for Security
+      AI-enabled Cyberattacks
+    Identity and Authentication
+      Biometric Authentication
+      Behavioral Biometrics
+      Deepfake Detection
+      Bot Detection
+    Defense
+      Intelligence Analysis
+      Satellite Imagery Intelligence
+      Autonomous Systems
+      Autonomous Weapons Debate
+      Lethal Autonomous Weapons Systems
+      Project Maven
+      Military AI Ethics
+      Dual-use Concerns
+    Physical Security
+      Video Analytics
+      Perimeter Monitoring
+      Weapon Detection
+  Media and Entertainment
+    Content Platforms
+      Content Recommendation
+      Streaming Personalization
+      Content Moderation
+      Thumbnail Generation
+      Content Tagging
+      Audience Analytics
+    Generative Media
+      AI Image Generation
+      AI Video Generation
+      AI Voice Synthesis
+      Dubbing and Localization
+      Virtual Influencers
+      Synthetic Media Policy
+    Game AI
+      NPC Behavior
+        Behavior Trees
+        Utility AI
+        Goal-oriented Action Planning
+        LLM-powered NPCs
+      Procedural Content Generation
+      Game Playtesting Agents
+      Player Modeling
+      Matchmaking
+      Cheat Detection
+      Game Balancing
+      Game Agents
+        AlphaStar
+        OpenAI Five
+    Sports Analytics
+      Player Tracking
+      Performance Analytics
+      Injury Prediction
+      Expected Goals Models
+      Broadcast Enhancement
+      Officiating Assistance
+    Music
+      Music Recommendation
+      Music Generation
+      Source Separation
+      Music Information Retrieval
+      Mastering Tools
+    Film and VFX
+      Visual Effects AI
+      De-aging
+      Rotoscoping Automation
+      Motion Capture
+      Virtual Production
+      Script Analysis
+    Deepfakes
+      Face Swapping
+      Voice Cloning
+      Deepfake Detection
+      Watermarking and Provenance
+      C2PA
+    Journalism
+      Automated Journalism
+      Fact-checking Tools
+      Newsroom AI
+  Creative Industries
+    AI Art
+      Text-to-image Tools
+      Style Transfer
+      Artist Concerns
+      Copyright Debates
+      Training Data Opt-out
+    Design Tools
+      Generative Design
+      UI Generation
+      Layout Generation
+      Logo and Brand Generation
+      Figma AI
+      Adobe Firefly
+      Canva AI
+    Writing Assistants
+      Grammar and Style Tools
+      Long-form Drafting
+      Fiction Writing Tools
+      Screenwriting Tools
+      Translation Tools
+    AI Music Tools
+      Suno
+      Udio
+      Stem Separation Tools
+      AI Composition Assistants
+    Architecture and Fashion
+      Generative Architecture
+      Fashion Design AI
+      3D Asset Generation
+    Creative Economy
+      Creator Tools
+      Monetization Shifts
+      Human-AI Co-creation
+  Software Engineering
+    Code Completion
+      Line Completion
+      Fill-in-the-middle
+      Multi-file Context
+      Next Edit Prediction
+    Code Generation
+      Natural Language to Code
+      Function Synthesis
+      Scaffolding Projects
+      Coding Agents
+      Benchmarks
+        HumanEval
+        MBPP
+        SWE-bench
+        LiveCodeBench
+    Code Review
+      Automated Review Comments
+      Style Enforcement
+      Security Review Automation
+      PR Summarization
+    Testing
+      Unit Test Generation
+      Property-based Test Generation
+      Fuzzing with ML
+      Test Prioritization
+      Flaky Test Detection
+    Bug Detection and Repair
+      Static Analysis with ML
+      Vulnerability Detection
+      Automated Program Repair
+      Fault Localization
+      Crash Triage
+    Documentation and Understanding
+      Docstring Generation
+      Code Summarization
+      Code Search
+      Codebase Question Answering
+      Commit Message Generation
+    Migration and Refactoring
+      Language Translation
+      Framework Upgrades
+      Legacy Modernization
+      Automated Refactoring
+    DevOps and AIOps
+      Log Anomaly Detection
+      Incident Prediction
+      Root Cause Analysis
+      Alert Correlation
+      Auto-remediation
+      CI Optimization
+      Infrastructure as Code Generation
+    Developer Tools
+      GitHub Copilot
+      Cursor
+      Claude Code
+      Codex
+      Windsurf
+      Devin
+      Aider
+      Tabnine
+      JetBrains AI
+      Amazon Q Developer
+    Impact and Risks
+      Developer Productivity Studies
+      Code Quality Concerns
+      License Compliance
+      Vibe Coding
+  Customer Service
+    Chatbots
+      FAQ Bots
+      Intent Classification
+      Dialogue Management
+      RAG-based Support Bots
+      Escalation to Humans
+      Containment Rate
+    Voice Bots
+      IVR Modernization
+      Speech Recognition for Calls
+      Voice Agents
+      Call Deflection
+    Agent Assist
+      Real-time Suggestions
+      Knowledge Surfacing
+      Call Summarization
+      Post-call Wrap-up Automation
+    Ticket Operations
+      Ticket Routing
+      Ticket Classification
+      Priority Prediction
+      Duplicate Detection
+      Auto-resolution
+    Customer Insights
+      Sentiment Analysis
+      Customer Effort Scoring
+      Voice of Customer Analytics
+      Quality Assurance Automation
+    Platforms
+      Zendesk AI
+      Salesforce Einstein
+      Intercom Fin
+      Sierra
+      Decagon
+  HR and Recruiting
+    Recruiting
+      Resume Screening
+      Candidate Matching
+      Job Description Generation
+      Interview Scheduling
+      AI Interview Analysis
+      Sourcing Automation
+    Bias and Fairness
+      Hiring Bias Concerns
+      Amazon Recruiting Tool Case
+      NYC Local Law 144
+      Audit Requirements
+      Disparate Impact Testing
+    Workforce Analytics
+      Attrition Prediction
+      Skills Inference
+      Internal Mobility
+      Workforce Planning
+      Compensation Analytics
+    Employee Experience
+      HR Chatbots
+      Onboarding Assistants
+      Learning Recommendations
+      Performance Review Assistance
+  Science and Research
+    Literature and Knowledge
+      Literature Review Automation
+      Semantic Scholar
+      Elicit
+      Citation Recommendation
+      Paper Summarization
+      Knowledge Graph of Science
+    Discovery
+      Hypothesis Generation
+      Experiment Design
+      Active Learning for Experiments
+      AI Scientist Systems
+      Scientific Coding Agents
+    Lab Automation
+      Robotic Laboratories
+      Self-driving Labs
+      Closed-loop Experimentation
+      Lab Protocol Generation
+    Research Practice
+      Peer Review Assistance
+      Reproducibility Tools
+      Data Analysis Assistants
+      Research Integrity Concerns
+  Space
+    Satellite Data
+      Earth Observation Analytics
+      Satellite Image Classification
+      Change Detection
+      Onboard Satellite AI
+      Cloud Detection
+    Autonomous Navigation
+      Spacecraft Autonomy
+      Rover Navigation
+      Terrain Classification
+      Landing Site Selection
+      Docking and Rendezvous
+    Mission Operations
+      Mission Planning
+      Scheduling Observations
+      Spacecraft Anomaly Detection
+      Telemetry Analysis
+    Space Science
+      Exoplanet Discovery
+      Space Weather Prediction
+      Debris Tracking
+      Asteroid Detection
+  Telecommunications
+    Network Optimization
+      Radio Resource Management
+      Self-organizing Networks
+      Network Slicing
+      Beamforming with ML
+      Energy Saving in RAN
+      AI-native 6G
+    Network Operations
+      Network Anomaly Detection
+      Fault Prediction
+      Root Cause Analysis
+      Traffic Forecasting
+      Capacity Planning
+    Customer and Business
+      Churn Prediction in Telecom
+      Customer Experience Analytics
+      Fraud Detection in Telecom
+      Field Service Optimization
+    Signal Processing
+      Channel Estimation
+      Modulation Classification
+      Spectrum Sensing
+  Accessibility
+    Vision Accessibility
+      Screen Readers
+      Image Descriptions
+      Scene Description Apps
+        Be My Eyes
+        Seeing AI
+      Navigation Aids
+      OCR for Accessibility
+    Hearing Accessibility
+      Live Captioning
+      Automatic Captioning
+      Sign Language Recognition
+      Sign Language Generation
+      Sound Recognition Alerts
+    Communication Aids
+      Speech Impairment Recognition
+      Project Euphonia
+      Augmentative Communication
+      Text Simplification
+      Voice Banking
+    Mobility and Cognition
+      Prosthetics Control
+      Brain-Computer Interfaces
+      Eye-gaze Interfaces
+      Cognitive Accessibility Tools
+      Smart Wheelchairs
+    Accessible Design
+      Automated Accessibility Testing
+      Alt Text Generation
+      WCAG Compliance Tools
+  Personal Productivity
+    AI Assistants
+      General Assistants
+      Agentic Assistants
+      Browser Agents
+      Computer Use Agents
+      Personal Memory
+    Communication
+      Email Drafting
+      Email Triage
+      Smart Replies
+      Translation
+    Scheduling
+      Calendar Assistants
+      Meeting Scheduling
+      Time Blocking
+    Meetings
+      Meeting Transcription
+      Meeting Summarization
+      Action Item Extraction
+      Otter.ai
+      Fireflies
+      Granola
+    Notes and Knowledge
+      Note-taking Assistants
+      Personal Knowledge Management
+      Document Q&A
+      NotebookLM
+      Obsidian AI
+    Documents and Spreadsheets
+      Writing Assistance
+      Spreadsheet Formula Generation
+      Data Analysis Assistants
+      Slide Generation
+    Search and Browsing
+      AI Search
+      Answer Engines
+      Summarizing Web Pages
+  Enterprise AI
+    Strategy
+      AI Strategy
+      Use Case Prioritization
+      Build vs Buy
+      AI ROI
+      Total Cost of Ownership
+      AI Transformation
+      AI Maturity Models
+    Readiness
+      Data Readiness
+      Data Governance
+      Data Quality
+      Infrastructure Readiness
+      Talent and Skills
+      AI Literacy
+    Organization
+      AI Centers of Excellence
+      Hub-and-spoke Models
+      Platform Teams
+      Change Management
+      AI Champions
+      Executive Sponsorship
+    AI Product Management
+      Problem Framing
+      Success Metrics
+      Model Requirements
+      Evaluation-driven Development
+      Human-in-the-loop Design
+      Prototyping with LLMs
+      AI Roadmaps
+    AI UX Design Patterns
+      Conversational UI
+      Copilot Pattern
+      Inline Suggestions
+      Streaming Responses
+      Confidence Display
+      Explainability in UI
+      Human Override
+      Feedback Loops
+      Graceful Failure
+      Trust Calibration
+    Governance and Risk
+      Responsible AI Programs
+      Model Inventories
+      AI Risk Assessment
+      Vendor Due Diligence
+      Shadow AI
+      Acceptable Use Policies
+    Deployment Models
+      Public Cloud AI
+      Private Deployment
+      On-premise LLMs
+      Sovereign AI
+      Enterprise RAG
+      Enterprise Agents
+    Procurement and Vendors
+      Hyperscalers
+      Model Providers
+      AI Startups
+      System Integrators
+  AI Products and Assistants
+    General Assistants
+      ChatGPT
+      Claude
+      Gemini
+      Copilot
+      Grok
+      Meta AI
+      Perplexity
+      DeepSeek Chat
+      Le Chat
+      Kimi
+    Voice Assistants
+      Siri
+      Alexa
+      Google Assistant
+      Apple Intelligence
+    Companion AI
+      Character.AI
+      Replika
+      Companion AI Debates
+    Productivity Products
+      Notion AI
+      Microsoft 365 Copilot
+      Google Workspace Gemini
+      Slack AI
+      Zoom AI Companion
+    Creative Products
+      Midjourney
+      DALL-E
+      Stable Diffusion Products
+      Runway
+      Sora
+      ElevenLabs
+      Suno
+    Developer Products
+      Cursor
+      GitHub Copilot
+      Claude Code
+      Codex
+      Replit Agent
+      v0
+      Lovable
+      Bolt
+    Research and Search Products
+      Perplexity
+      NotebookLM
+      Deep Research Products
+      Elicit
+    Agent Products
+      Operator
+      Manus
+      Devin
+      Browser Agents
+  AI Business Models
+    Monetization
+      API Access
+      Usage-based Pricing
+      Token Pricing
+      Subscription SaaS
+      Seat-based Pricing
+      Outcome-based Pricing
+      Freemium
+      Consumer Subscriptions
+      Enterprise Contracts
+      Advertising in AI Products
+    Platform Strategy
+      Foundation Model Providers
+      Model Marketplaces
+      App Stores and GPTs
+      Plugins and Integrations
+      Agent Marketplaces
+      Cloud Partnerships
+    Open vs Closed
+      Open-weight Strategy
+      Closed Model Strategy
+      Open Source Licensing
+      Community Ecosystems
+      Commoditization of Models
+    Economics
+      Inference Cost Economics
+      Margins and Compute
+      Price Declines per Token
+      Vertical AI Startups
+      AI Wrappers Debate
+      Moats in AI
+      Data Network Effects
+      Distribution Advantages
+    Market Landscape
+      AI Startup Funding
+      Compute Investment
+      Big Tech AI Strategy
+      Sovereign AI Initiatives
+      AI Market Consolidation
+  AI Job Market and Skills
+    Roles
+      Machine Learning Engineer
+      Data Scientist
+      Research Scientist
+      AI Engineer
+      MLOps Engineer
+      Data Engineer
+      Prompt Engineer
+      AI Product Manager
+      AI Ethics Specialist
+      Forward Deployed Engineer
+      Applied Scientist
+      Analytics Engineer
+    Skills
+      Programming for AI
+      Mathematics for ML
+      ML Fundamentals
+      Deep Learning
+      LLM Application Development
+      Prompt Engineering
+      Evaluation Skills
+      Data Engineering Skills
+      Cloud and Infrastructure
+      Domain Expertise
+      Communication Skills
+      AI Literacy for Non-technical Roles
+    Career Paths
+      Research vs Applied
+      Industry vs Academia
+      Portfolio Projects
+      Kaggle Competitions
+      Open Source Contributions
+      Interview Preparation
+      ML System Design Interviews
+      Certifications
+    Labor Market Impact
+      Automation Exposure
+      Task Augmentation
+      Job Displacement Debates
+      New Job Categories
+      Wage Effects
+      Reskilling Programs
+      Entry-level Hiring Shifts
+    Learning Resources
+      Online Courses
+      University Programs
+      Bootcamps
+      Research Papers
+      Communities and Conferences

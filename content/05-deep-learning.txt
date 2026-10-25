@@ -1,0 +1,1393 @@
+Deep Learning
+  Neural Network Fundamentals
+    Biological Inspiration
+      Hebbian Learning
+      McCulloch-Pitts Neuron
+    Artificial Neuron
+      Inputs
+      Weights
+      Bias
+      Activation
+    Perceptron
+      Perceptron Learning Rule
+      XOR Problem
+    Multilayer Perceptron
+      Input Layer
+      Hidden Layer
+      Output Layer
+    Parameters
+      Weight Matrix
+      Parameter Count
+      Trainable Parameters
+      Frozen Parameters
+      Weight Tying
+    Hyperparameters
+      Learning Rate
+      Batch Size
+      Number of Epochs
+      Number of Iterations
+      Training Steps
+      Warmup Steps
+      Weight Decay
+      Dropout Rate
+      Momentum
+      Beta1
+      Beta2
+      Epsilon
+      Hidden Size
+      Embedding Dimension
+      Number of Layers
+      Number of Attention Heads
+      Head Dimension
+      Feed-Forward Dimension
+      Vocabulary Size
+      Sequence Length
+      Context Window
+      Kernel Size
+      Stride
+      Number of Filters
+      Gradient Clipping Threshold
+      Label Smoothing Factor
+      Temperature
+      Random Seed
+      Patience
+      Minimum Delta
+      Decay Rate
+      Minimum Learning Rate
+      Gradient Accumulation Steps
+      Mixed Precision Mode
+      Evaluation Interval
+      Checkpoint Interval
+      Hyperparameter Tuning
+    Random Seed and Reproducibility
+      Seeding Python and NumPy
+      Seeding PyTorch
+      CUDA Determinism
+      cuDNN Deterministic Mode
+      Data Loader Worker Seeding
+      Run-to-Run Variance
+    Forward Pass
+      Layer-by-Layer Computation
+      Logits
+      Intermediate Activations
+    Backward Pass
+      Gradient
+      Gradient Flow
+    Backpropagation
+      Chain Rule
+      Local Gradient
+      Jacobian
+      Vector-Jacobian Product
+      Gradient Checking
+    Computational Graph
+      Static Graph
+      Dynamic Graph
+      Define-by-Run
+    Automatic Differentiation
+      Symbolic Differentiation
+      Numerical Differentiation
+      Forward Mode AD
+      Dual Numbers
+      Reverse Mode AD
+      Straight-Through Estimator
+    Expressivity Basics
+      Universal Approximation Theorem
+      Depth vs Width
+      Model Capacity
+      Inductive Bias
+  Activation Functions
+    Classic
+      Sigmoid
+      Tanh
+      Hardtanh
+      Hard Sigmoid
+      Softsign
+      Softplus
+    Rectifiers
+      ReLU
+      Leaky ReLU
+      PReLU
+      RReLU
+      ELU
+      SELU
+      Squareplus
+    Smooth Rectifiers
+      GELU
+      Swish
+      SiLU
+      Hard Swish
+      Mish
+    Gated
+      GLU
+      ReGLU
+      GeGLU
+      SwiGLU
+      Maxout
+    Output Layer
+      Softmax
+      Log-Softmax
+      Gumbel-Softmax
+      Sparsemax
+  Loss Functions
+    Regression
+      Mean Squared Error
+      Mean Absolute Error
+      Huber Loss
+      Smooth L1 Loss
+      Log-Cosh Loss
+      Quantile Loss
+      Charbonnier Loss
+      Poisson NLL
+      Gaussian NLL
+    Classification
+      Binary Cross-Entropy
+      BCE with Logits
+      Categorical Cross-Entropy
+      Negative Log-Likelihood
+      Weighted Cross-Entropy
+      Class-Balanced Loss
+      Label Smoothing Cross-Entropy
+      Focal Loss
+      Hinge Loss
+      Squared Hinge Loss
+      Multi-label Soft Margin
+      PolyLoss
+    Distribution and Divergence
+      KL Divergence Loss
+      Jensen-Shannon Divergence
+      Wasserstein Loss
+    Segmentation
+      Dice Loss
+      IoU Loss
+      Jaccard Loss
+      Tversky Loss
+      Focal Tversky
+      Lovász-Softmax Loss
+    Metric and Embedding
+      Contrastive Loss
+      Triplet Loss
+      Hard Negative Mining
+      Margin Ranking Loss
+      Cosine Embedding Loss
+      Center Loss
+    Angular Margin Softmax
+      L-Softmax
+      SphereFace
+      CosFace
+      ArcFace
+    Contrastive Self-Supervised
+      InfoNCE
+      NT-Xent
+      Supervised Contrastive Loss
+      CLIP Loss
+    Sequence
+      CTC Loss
+      Token-Level Cross-Entropy
+      Sequence-Level Loss
+    Image and Perceptual
+      Perceptual Loss
+      SSIM Loss
+      LPIPS
+      Adversarial Loss
+    Auxiliary and Composite
+      Multi-task Loss
+      Auxiliary Loss
+      Z-Loss
+      Loss Reduction
+  Weight Initialization
+    Naive Schemes
+      Zero Initialization
+      Random Uniform
+      Random Normal
+      Truncated Normal
+    Variance-Preserving
+      LeCun Initialization
+      Xavier Initialization
+      He Initialization
+      Fan-In
+    Structured
+      Identity Initialization
+      Orthogonal Initialization
+    Data-Dependent and Theory-Driven
+      LSUV
+      Fixup
+      Maximal Update Parametrization
+      muP
+      muTransfer
+  Optimizers
+    Gradient Descent Family
+      Batch Gradient Descent
+      Stochastic Gradient Descent
+      Mini-batch SGD
+    Momentum Methods
+      Momentum
+      Nesterov Accelerated Gradient
+      Polyak Averaging
+    Adaptive Learning Rate
+      AdaGrad
+      AdaDelta
+      RMSProp
+      Adam
+      AdamW
+      Adamax
+      Nadam
+      RAdam
+      AMSGrad
+      Decoupled Weight Decay
+    Large-Batch Optimizers
+      LARS
+      LAMB
+    Memory-Efficient
+      Adafactor
+      8-bit Adam
+    Sign-Based and Learned
+      Rprop
+      signSGD
+      Lion
+    Second-Order and Preconditioned
+      Newton's Method
+      BFGS
+      L-BFGS
+      Conjugate Gradient
+      Natural Gradient
+      K-FAC
+      Shampoo
+      Muon
+      SOPHIA
+    Recent and Hybrid
+      AdEMAMix
+      Lookahead
+      Schedule-Free AdamW
+      Prodigy
+      Sharpness-Aware Minimization
+    Optimizer Mechanics
+      Parameter Groups
+      Per-Layer Learning Rates
+      Layer-wise LR Decay
+      Weight Decay Exclusion for Bias and Norm
+      Optimizer State
+  Learning Rate Schedules
+    Constant and Stepwise
+      Constant LR
+      Step Decay
+      Exponential Decay
+      Polynomial Decay
+      Inverse Square Root Decay
+    Smooth Schedules
+      Cosine Annealing
+      Linear Decay
+      Cosine with Warm Restarts
+      SGDR
+      Cyclical Learning Rate
+      One-Cycle Policy
+    Warmup
+      Linear Warmup
+    Adaptive and Modern
+      ReduceLROnPlateau
+      Warmup-Stable-Decay
+      WSD Schedule
+      Learning Rate Finder
+  Regularization
+    Norm Penalties
+      L1 Regularization
+      L2 Regularization
+      Weight Decay
+      Max-Norm Constraint
+      Orthogonal Regularization
+      Spectral Norm Regularization
+    Dropout Family
+      Dropout
+      DropConnect
+      Spatial Dropout
+      DropBlock
+      DropPath
+      Stochastic Depth
+      Attention Dropout
+      Monte Carlo Dropout
+      R-Drop
+    Early Stopping
+      Patience
+      Minimum Delta
+    Data Augmentation
+      Random Crop
+      Random Flip
+      Random Rotation
+      Color Jitter
+      Random Erasing
+      Cutout
+      Mixup
+      CutMix
+      AugMix
+      AutoAugment
+      RandAugment
+      TrivialAugment
+      SpecAugment
+    Noise and Perturbation
+      Input Noise Injection
+      Weight Noise
+      Gradient Noise
+      Label Smoothing
+      Adversarial Training
+      Flooding
+    Implicit and Structural
+      Sharpness-Aware Minimization
+      Stochastic Weight Averaging
+  Normalization
+    Batch Normalization
+      Running Mean and Variance
+      Sync BatchNorm
+      BatchNorm Folding
+    Layer and Feature Normalization
+      Layer Normalization
+      RMSNorm
+      Group Normalization
+      Instance Normalization
+      Local Response Normalization
+      Switchable Normalization
+      Power Normalization
+    Weight Normalization
+      Weight Normalization
+      Spectral Normalization
+    Transformer Normalization
+      Pre-Norm
+      Post-Norm
+      QK-Norm
+      Normalization-Free Networks
+  Training Dynamics and Problems
+    Gradient Pathologies
+      Vanishing Gradients
+      Exploding Gradients
+      Gradient Clipping by Norm
+      Gradient Clipping by Value
+      Dead ReLU Problem
+      Saturated Activations
+      Internal Covariate Shift
+    Loss Landscape
+      Loss Surface
+      Local Minima
+      Saddle Points
+      Plateaus
+      Sharp Minima
+      Flat Minima
+      Hessian Spectrum
+      Edge of Stability
+    Convergence and Curves
+      Learning Curve
+      Convergence
+      Loss Spikes
+      NaN Loss
+      Training Instability
+      Gradient Norm Monitoring
+    Generalization Phenomena
+      Overfitting
+      Underfitting
+      Bias-Variance Tradeoff
+      Generalization Gap
+      Memorization
+      Double Descent
+      Grokking
+      Simplicity Bias
+      Calibration
+    Theoretical Lenses
+      Lottery Ticket Hypothesis
+      Neural Tangent Kernel
+      Lazy Training
+      Feature Learning Regime
+      Implicit Regularization of SGD
+      Neural Collapse
+      Emergence
+    Scaling Laws
+      Kaplan Scaling Laws
+      Chinchilla Scaling Laws
+      Compute-Optimal Training
+      Parameters vs Tokens Tradeoff
+      Test-Time Compute Scaling
+    Forgetting and Collapse
+      Catastrophic Forgetting
+      Mode Collapse
+      Posterior Collapse
+      Representation Collapse
+      Model Collapse on Synthetic Data
+  Training Procedure
+    Units of Training
+      Epoch
+      Iteration
+      Step
+      Mini-batch
+      Effective Batch Size
+      Micro-batch
+    Batching
+      Shuffling
+      Batch Size Effects
+      Critical Batch Size
+      Gradient Accumulation
+      Dynamic Batching
+      Sequence Packing
+    Mixed Precision
+      FP32
+      FP16
+      BF16
+      FP8
+      TF32
+      FP4
+      Automatic Mixed Precision
+      Loss Scaling
+      Dynamic Loss Scaling
+      Master Weights
+      Autocast
+      Stochastic Rounding
+    Memory Techniques
+      Gradient Checkpointing
+      Activation Recomputation
+      CPU Offloading
+    Curricula and Schedules
+      Curriculum Learning
+      Progressive Resizing
+      Continued Pretraining
+    Sequence Training
+      Teacher Forcing
+      Exposure Bias
+      Scheduled Sampling
+      Next-Token Prediction
+    Checkpointing
+      Model Checkpoint
+      Optimizer State Checkpoint
+      Resume from Checkpoint
+      Checkpoint Averaging
+      EMA Weights
+      Stochastic Weight Averaging
+      Model Soups
+    Transfer and Reuse
+      Transfer Learning
+      Pretraining
+      Fine-Tuning
+      Feature Extraction
+      Freezing Layers
+      Gradual Unfreezing
+      Warm Starting
+      Linear Probing
+      Domain-Adaptive Pretraining
+    Experiment Practice
+      Baseline
+      Ablation Study
+      Overfit a Single Batch
+      Grid Search
+      Random Search
+      Bayesian Optimization
+      Population Based Training
+      Experiment Tracking
+  Inference
+    Fundamentals
+      Inference vs Training
+      Forward-Only Computation
+      Eval Mode
+      Inference Mode
+      Batch Inference
+      Online Inference
+      Edge Inference
+    Performance Metrics
+      Latency
+      Throughput
+      Time to First Token
+      Tokens per Second
+      Continuous Batching
+    Model Export
+      ONNX
+      ONNX Runtime
+      TorchScript
+      SavedModel
+      TensorRT
+      CoreML
+      TFLite
+      LiteRT
+    Quantization
+      Post-Training Quantization
+      Quantization-Aware Training
+      Dynamic Quantization
+      Static Quantization
+      Calibration Dataset
+      Symmetric Quantization
+      Asymmetric Quantization
+      Per-Tensor Quantization
+      Per-Channel Quantization
+      Scale and Zero Point
+      INT8
+      INT4
+      FP8 Inference
+      Weight-Only Quantization
+      Activation Quantization
+      KV Cache Quantization
+      SmoothQuant
+      GPTQ
+      AWQ
+      LLM.int8
+    Pruning
+      Unstructured Pruning
+      Structured Pruning
+      Magnitude Pruning
+      Channel Pruning
+      Filter Pruning
+      Head Pruning
+      Gradual Pruning
+      Iterative Pruning
+      N of M Sparsity
+      SparseGPT
+    Knowledge Distillation
+      Teacher Model
+      Student Model
+      Soft Targets
+      Distillation Temperature
+      Response-Based Distillation
+      Feature-Based Distillation
+      Relation-Based Distillation
+      Self-Distillation
+      Online Distillation
+      Dataset Distillation
+    Low-Rank and Factorization
+      Low-Rank Factorization
+      SVD Compression
+      Tucker Decomposition
+      CP Decomposition
+    Inference-Time Techniques
+      Test-Time Augmentation
+      Test-Time Training
+      Test-Time Adaptation
+      Ensembling at Inference
+      Deep Ensembles
+      MC Dropout
+      Early Exit
+      Speculative Decoding
+      KV Caching
+    Serving Systems
+      TorchServe
+      Triton Inference Server
+      vLLM
+      SGLang
+      llama.cpp
+  Feedforward Architectures
+    Multilayer Perceptron Variants
+      MLP-Mixer
+      SIREN
+    Autoencoders
+      Vanilla Autoencoder
+      Bottleneck
+      Sparse Autoencoder
+      Denoising Autoencoder
+      Contractive Autoencoder
+      Stacked Autoencoder
+      Variational Autoencoder
+      Reparameterization Trick
+      Beta-VAE
+      VQ-VAE
+      Masked Autoencoder
+    Energy and Stochastic Networks
+      Hopfield Network
+      Modern Hopfield Network
+      Boltzmann Machine
+      Restricted Boltzmann Machine
+      Contrastive Divergence
+      Deep Belief Network
+      Deep Boltzmann Machine
+    Other Classical Networks
+      Self-Organizing Map
+      Radial Basis Function Network
+      Extreme Learning Machine
+    Kolmogorov-Arnold Networks
+      Kolmogorov-Arnold Representation Theorem
+      Learnable Edge Activations
+      B-Spline Parametrization
+      KAN vs MLP
+  Convolutional Neural Networks
+    Convolution Operation
+      Convolution
+      Kernel
+      Filter
+      Kernel Size
+      Stride
+      Padding
+      Valid Padding
+      Same Padding
+      Causal Padding
+      Dilation
+      Receptive Field
+      Feature Map
+      Channels
+      Translation Equivariance
+    Convolution Variants
+      1D Convolution
+      2D Convolution
+      3D Convolution
+      Pointwise Convolution
+      Depthwise Convolution
+      Depthwise Separable Convolution
+      Grouped Convolution
+      Transposed Convolution
+      Deformable Convolution
+      Dilated Convolution
+      Atrous Convolution
+      Octave Convolution
+      Large Kernel Convolution
+      Causal Convolution
+    Pooling
+      Max Pooling
+      Average Pooling
+      Global Average Pooling
+      Global Max Pooling
+      Adaptive Pooling
+      Stochastic Pooling
+      Spatial Pyramid Pooling
+    Building Blocks
+      Residual Block
+      Bottleneck Block
+      Inverted Residual Block
+      Dense Block
+      Inception Module
+      Squeeze-and-Excitation Block
+      CBAM
+      MBConv
+      Feature Pyramid Network
+    Classic Architectures
+      LeNet-5
+      AlexNet
+      ZFNet
+      VGG-16
+      VGG-19
+      GoogLeNet
+      Inception v1
+      Inception v2
+      Inception v3
+      Inception v4
+      Inception-ResNet
+      Highway Networks
+      ResNet
+      Pre-activation ResNet
+      Wide ResNet
+      ResNeXt
+      DenseNet
+      Xception
+      SENet
+      Res2Net
+    Efficient Architectures
+      SqueezeNet
+      MobileNet v1
+      MobileNet v2
+      MobileNet v3
+      MobileNet v4
+      ShuffleNet v1
+      ShuffleNet v2
+      MnasNet
+      EfficientNet v1
+      EfficientNet v2
+      Compound Scaling
+      NASNet
+      RepVGG
+      Structural Re-parameterization
+    Modern ConvNets
+      RegNet
+      ConvNeXt
+      ConvNeXt v2
+      Global Response Normalization
+      RepLKNet
+      ConvMixer
+    Dense Prediction Architectures
+      Fully Convolutional Network
+      U-Net
+      U-Net++
+      3D U-Net
+      nnU-Net
+      SegNet
+      DeepLab v3
+      DeepLab v3+
+      ASPP
+      PSPNet
+      HRNet
+  Recurrent Neural Networks
+    Vanilla RNN
+      Hidden State
+      Recurrent Weight
+      Unrolling in Time
+    Training RNNs
+      Backpropagation Through Time
+      Truncated BPTT
+      Vanishing Gradients in RNNs
+      Gradient Clipping for RNNs
+    Gated Units
+      LSTM
+      Cell State
+      Input Gate
+      Forget Gate
+      Output Gate
+      Peephole Connections
+      GRU
+      Reset Gate
+      Update Gate
+      ConvLSTM
+      Tree-LSTM
+    Architectural Variants
+      Bidirectional RNN
+      Stacked RNN
+      Clockwork RNN
+      IndRNN
+      QRNN
+      SRU
+      Pointer Networks
+      ELMo
+      ULMFiT
+    Sequence-to-Sequence
+      Encoder-Decoder
+      Context Vector
+      Bahdanau Attention
+      Luong Attention
+      Dot-Product Attention
+      Coverage Mechanism
+      Copy Mechanism
+      Pointer-Generator Network
+      Beam Search
+      Beam Width
+      Length Normalization
+      Greedy Decoding
+    Memory-Augmented and Reservoir
+      Echo State Network
+      Reservoir Computing
+      Neural Turing Machine
+      Content-Based Addressing
+      Differentiable Neural Computer
+      Read and Write Heads
+  Attention and Transformers
+    Attention Fundamentals
+      Query
+      Key
+      Value
+      Attention Weights
+      Scaled Dot-Product Attention
+      Self-Attention
+      Cross-Attention
+      Masked Attention
+      Causal Attention
+      Multi-Head Attention
+      Head Dimension
+      Attention Sink
+      Differential Attention
+    Positional Encoding
+      Absolute Positional Encoding
+      Sinusoidal Positional Encoding
+      Learned Positional Embedding
+      Relative Positional Encoding
+      T5 Relative Position Bias
+      Rotary Position Embedding
+      RoPE
+      Position Interpolation
+      YaRN
+      ALiBi
+      NoPE
+      Length Extrapolation
+    Transformer Block
+      Token Embedding
+      Residual Connection
+      Residual Stream
+      Pre-LN
+      Post-LN
+      Feed-Forward Block
+      FFN Expansion Ratio
+      Gated FFN
+      Language Modeling Head
+      CLS Token
+    Transformer Families
+      Original Transformer
+      Encoder-Only
+      Decoder-Only
+      Encoder-Decoder
+      Prefix LM
+      Transformer-XL
+      Universal Transformer
+      BERT Architecture
+      GPT Architecture
+      T5 Architecture
+      BART
+      ALBERT
+      LLaMA Architecture
+      Set Transformer
+      Perceiver
+      Perceiver IO
+      Byte-Level Transformer
+      Byte Latent Transformer
+    Efficient Attention
+      Sparse Transformer
+      Local Attention
+      Sliding Window Attention
+      Longformer
+      BigBird
+      Reformer
+      LSH Attention
+      Linformer
+      Performer
+      Linear Attention
+      Memory-Efficient Attention
+      FlashAttention
+      FlashAttention-2
+      FlashAttention-3
+      Online Softmax
+      Paged Attention
+      KV Cache
+      Multi-Query Attention
+      Grouped-Query Attention
+      Multi-Head Latent Attention
+      KV Cache Compression
+      StreamingLLM
+      Ring Attention
+      Native Sparse Attention
+      DeltaNet
+      Infini-Attention
+    Vision Transformers
+      Vision Transformer
+      ViT
+      Patch Embedding
+      Class Token
+      DeiT
+      Distillation Token
+      Swin Transformer
+      Shifted Windows
+      Swin v2
+      BEiT
+      MAE Pretraining
+      DINOv2
+      ViViT
+    Mixture of Experts
+      Conditional Computation
+      Sparse MoE
+      Expert
+      Gating Network
+      Router
+      Top-k Routing
+      Expert Choice Routing
+      Soft MoE
+      Capacity Factor
+      Load Balancing Loss
+      Auxiliary-Loss-Free Load Balancing
+      Router Z-Loss
+      Shared Experts
+      Fine-Grained Experts
+      Expert Parallelism
+      Switch Transformer
+      GShard
+      Mixtral Architecture
+      DeepSeekMoE
+      Active Parameters
+    Adaptive Depth and Computation
+      Mixture of Depths
+      Early Exit Transformers
+      Token Merging
+  Alternatives to Attention
+    State Space Models
+      Discretization
+      HiPPO
+      S4
+      S5
+      H3
+      Parallel Scan
+      Selective State Space
+      Mamba
+      Mamba-2
+      State Space Duality
+      Jamba
+      Hyena
+      Linear RNNs
+    Linear Attention and RNN Revivals
+      RWKV
+      RetNet
+      Retention Mechanism
+      xLSTM
+      sLSTM
+      mLSTM
+      Griffin
+      Hawk
+      Titans
+      Neural Long-Term Memory
+      Test-Time Training Layers
+      TTT-Linear
+      TTT-MLP
+      Hybrid Attention-SSM Models
+    Other Sequence Models
+      WaveNet
+      Dilated Causal Convolutions
+      Liquid Neural Networks
+      Liquid Time-Constant Networks
+  Graph Neural Networks
+    Foundations
+      Node Features
+      Message Passing
+      Aggregate Function
+      Readout Function
+      Node-Level Tasks
+      Graph-Level Tasks
+    Spectral Methods
+      Spectral Graph Convolution
+      ChebNet
+    Spatial Methods
+      GCN
+      GraphSAGE
+      Neighbor Sampling
+      GAT
+      GIN
+      MPNN
+      GGNN
+      DropEdge
+      Relational GCN
+    Pooling and Readout
+      Global Mean Pooling
+      DiffPool
+      TopK Pooling
+      SAGPool
+    Graph Transformers
+      Graph Transformer
+      Graphormer
+      GraphGPS
+      Laplacian Positional Encoding
+    Theory and Limits
+      Weisfeiler-Lehman Test
+      Over-smoothing
+      Over-squashing
+      Graph Rewiring
+    Geometric and Scientific GNNs
+      Equivariant GNN
+      EGNN
+      SE(3)-Transformer
+      SchNet
+      DimeNet
+      NequIP
+      MACE
+      Neural Network Potentials
+    Temporal and Generative Graphs
+      Temporal GNN
+      TGN
+      Spatio-Temporal GCN
+      Variational Graph Autoencoder
+      Graph Diffusion Models
+      Graph Contrastive Learning
+      MeshGraphNets
+  Geometric Deep Learning
+    Symmetry and Equivariance
+      Invariance
+      Equivariance
+      Rotation Group SO(3)
+      Euclidean Group E(3)
+      Spherical Harmonics
+    Equivariant Architectures
+      Group Equivariant CNN
+      Steerable CNN
+      Spherical CNN
+      E(3)-Equivariant Networks
+      Canonicalization
+    Point Cloud Networks
+      PointNet
+      PointNet++
+      DGCNN
+      Point Transformer
+      Voxelization
+      Sparse Convolution
+      VoxelNet
+    Mesh and Manifold Networks
+      MeshCNN
+      DiffusionNet
+      DeepSDF
+      Occupancy Networks
+      Hyperbolic Neural Networks
+  Memory and Modular Architectures
+    Memory Networks
+      Memory Network
+      End-to-End Memory Networks
+      Key-Value Memory Networks
+      Modern Hopfield Networks
+    Capsule Networks
+      Capsule
+      Dynamic Routing
+      Routing-by-Agreement
+      EM Routing
+    Continuous and Implicit Models
+      Neural ODE
+      Adjoint Sensitivity Method
+      Neural SDE
+      Continuous Normalizing Flow
+      FFJORD
+      Implicit Layers
+      Deep Equilibrium Models
+      Fixed-Point Iteration
+      Neural Operators
+      Fourier Neural Operator
+      Physics-Informed Neural Networks
+    Hypernetworks and Conditioning
+      Hypernetwork
+      FiLM
+      Adaptive Layer Norm
+    Siamese and Metric Networks
+      Siamese Network
+      Triplet Network
+      Distance Metric Learning
+    Few-Shot and Meta-Learning Architectures
+      N-Way K-Shot
+      Matching Networks
+      Prototypical Networks
+      Relation Networks
+      MAML
+      Reptile
+      Memory-Augmented Neural Networks
+    Modular and Compositional
+      Neural Module Networks
+      Progressive Neural Networks
+      Slot Attention
+  Energy, Spiking and Unconventional Networks
+    Energy-Based Models
+      Energy Function
+      Partition Function
+      Langevin Dynamics Sampling
+      Noise Contrastive Estimation
+      Score Matching
+    Spiking Neural Networks
+      Spike Train
+      Rate Coding
+      Leaky Integrate-and-Fire Neuron
+      Hodgkin-Huxley Model
+      Membrane Potential
+      Spike-Timing-Dependent Plasticity
+      Surrogate Gradient
+      ANN-to-SNN Conversion
+      snnTorch
+    Neuromorphic Computing
+      Neuromorphic Hardware
+      Loihi
+      TrueNorth
+      SpiNNaker
+      Memristors
+    Low-Precision Networks
+      Binary Neural Networks
+      BinaryConnect
+      XNOR-Net
+      Ternary Weight Networks
+      BitNet
+      BitNet b1.58
+    Weightless and Alternative Paradigms
+      Weightless Neural Networks
+      WiSARD
+      Hyperdimensional Computing
+      Predictive Coding Networks
+      Forward-Forward Algorithm
+      Equilibrium Propagation
+      Feedback Alignment
+  Interpretability for Deep Learning
+    Attribution Methods
+      Saliency Maps
+      Guided Backpropagation
+      Integrated Gradients
+      SmoothGrad
+      DeepLIFT
+      Layer-wise Relevance Propagation
+      Occlusion Sensitivity
+      Attribution Sanity Checks
+    Class Activation Mapping
+      CAM
+      Grad-CAM
+      Grad-CAM++
+      Score-CAM
+      Attention Rollout
+    Feature Visualization
+      Activation Maximization
+      DeepDream
+      Activation Atlas
+      Network Dissection
+      Multimodal Neurons
+      Polysemantic Neurons
+    Probing and Representation Analysis
+      Probing Classifiers
+      Linear Probe
+      Representation Similarity Analysis
+      CKA
+      Linear Representation Hypothesis
+      Intrinsic Dimension
+    Mechanistic Interpretability
+      Circuits
+      Features
+      Superposition
+      Polysemanticity
+      Monosemanticity
+      QK Circuit
+      OV Circuit
+      Induction Heads
+      Sparse Autoencoders for Features
+      Dictionary Learning
+      Attribution Graphs
+      Circuit Tracing
+      Logit Lens
+      Tuned Lens
+      Activation Patching
+      Causal Tracing
+      Path Patching
+      Activation Steering
+      Steering Vectors
+      Representation Engineering
+      Toy Models of Superposition
+    Concept-Based Interpretability
+      Concept Bottleneck Models
+      Concept Activation Vectors
+      TCAV
+      ProtoPNet
+      Influence Functions
+      Data Attribution
+    Model Editing and Tools
+      Knowledge Neurons
+      ROME
+      Captum
+      TransformerLens
+      Neuronpedia
+  Frameworks and Tooling
+    PyTorch Core
+      Tensor
+      Autograd
+      nn.Module
+      Dataset
+      DataLoader
+      torch.cuda.amp
+      torch.compile
+      TorchDynamo
+      TorchInductor
+      torch.export
+      torch.distributed
+      DistributedDataParallel
+      FullyShardedDataParallel
+    PyTorch Ecosystem
+      torchvision
+      torchaudio
+      torchtext
+      torchmetrics
+      PyTorch Lightning
+      fastai
+      timm
+      einops
+      Hugging Face Transformers
+      Datasets Library
+      Accelerate
+      PEFT Library
+      Safetensors
+    TensorFlow and Keras
+      TensorFlow 2
+      tf.GradientTape
+      tf.function
+      tf.data
+      Keras
+      Sequential API
+      Functional API
+      TensorFlow Lite
+      tf.distribute.Strategy
+    JAX Ecosystem
+      JAX
+      jit
+      grad
+      vmap
+      pmap
+      PRNG Keys
+      Pytrees
+      Flax
+      Haiku
+      Equinox
+      Optax
+    Other Frameworks and Runtimes
+      MXNet
+      Caffe
+      Theano
+      PaddlePaddle
+      MLX
+      tinygrad
+      nanoGPT
+      ONNX
+      ONNX Runtime
+      Apache TVM
+      XLA
+      TensorRT
+      OpenVINO
+      CoreML
+      ExecuTorch
+    Large-Scale Training Libraries
+      DeepSpeed
+      Megatron-LM
+      NeMo
+      Colossal-AI
+      Axolotl
+      LLaMA-Factory
+      Unsloth
+      Horovod
+      Ray Train
+    GPU Programming
+      CUDA
+      CUDA Kernels
+      Shared Memory
+      cuBLAS
+      cuDNN
+      CUTLASS
+      Tensor Cores
+      Triton Language
+      Triton Kernels
+      Custom CUDA Extensions
+    Hardware
+      GPU
+      NVIDIA Hopper
+      NVIDIA Blackwell
+      TPU
+      Systolic Array
+      Groq LPU
+      Cerebras Wafer-Scale Engine
+      Apple Neural Engine
+      NPU
+    Experiment and Observability Tools
+      TensorBoard
+      Weights and Biases
+      MLflow
+      Optuna
+      PyTorch Profiler
+      Nsight Systems
+      Netron
+      FLOP Counters
+  Distributed Training
+    Parallelism Strategies
+      Data Parallelism
+      Distributed Data Parallel
+      Model Parallelism
+      Tensor Parallelism
+      Sequence Parallelism
+      Context Parallelism
+      Ring Attention for Context Parallelism
+      Pipeline Parallelism
+      GPipe
+      Pipeline Bubble
+      1F1B Schedule
+      Zero Bubble Pipeline
+      Expert Parallelism
+      3D Parallelism
+    Memory Sharding
+      ZeRO Stage 1
+      ZeRO Stage 2
+      ZeRO Stage 3
+      ZeRO-Offload
+      ZeRO-Infinity
+      FSDP
+      Hybrid Shard
+      Parameter Sharding
+      Gradient Sharding
+      Optimizer State Sharding
+    Collective Communication
+      All-Reduce
+      Ring All-Reduce
+      Tree All-Reduce
+      Reduce-Scatter
+      All-Gather
+      Broadcast
+      All-to-All
+      NCCL
+      Gloo
+      MPI
+      Communication-Computation Overlap
+      Straggler Problem
+    Alternative Paradigms
+      Parameter Server
+      Synchronous SGD
+      Asynchronous SGD
+      Hogwild
+      Stale Gradients
+      Local SGD
+      Decentralized SGD
+      DiLoCo
+      Federated Averaging
+      Gradient Compression
+      Gradient Sparsification
+      Top-k Sparsification
+      Gradient Quantization
+      PowerSGD
+    Scaling Practice
+      Model FLOPs Utilization
+      Hardware FLOPs Utilization
+      Communication Bottleneck
+      Fault Tolerance
+      Elastic Training
+      torchrun
+      Rank and World Size
+      Process Groups
+  Hardware-Aware Deep Learning
+    Compute Metrics
+      FLOPs
+      MACs
+      Theoretical Peak FLOPS
+      6ND Training Compute Estimate
+      2N Inference Compute Estimate
+    Memory and Bandwidth
+      Memory Bandwidth
+      HBM
+      Memory Hierarchy
+      Memory-Bound Operations
+      Compute-Bound Operations
+      Arithmetic Intensity
+      Roofline Model
+      KV Cache Memory
+    GPU Utilization
+      GPU Utilization
+      Kernel Launch Overhead
+      Data Loading Bottleneck
+      Tensor Core Utilization
+    Compilation and Fusion
+      Kernel Fusion
+      Operator Fusion
+      Fused Attention Kernel
+      Fused LayerNorm
+      Graph Compilers
+      Static Shapes
+      Autotuning
+      Ahead-of-Time Compilation
+      Just-in-Time Compilation
+    Memory Efficiency Techniques
+      Memory-Efficient Attention
+      Selective Activation Checkpointing
+      Parameter Offloading
+      Optimizer Offloading
+      Fused Cross-Entropy
+    Efficient Model Design
+      Hardware-Aware NAS
+      Memory Access Cost
+      Green AI
+      Carbon Footprint of Training
+  Deep Learning Theory
+    Expressivity and Approximation
+      Cybenko Theorem
+      Curse of Dimensionality
+      Depth Separation
+      Number of Linear Regions
+      Transformer Expressivity
+    Optimization Theory
+      Non-Convex Optimization
+      SGD Convergence Rates
+      Saddle Point Escape
+      Over-parameterization
+      Mode Connectivity
+      Implicit Bias of Gradient Descent
+      Max-Margin Bias
+    Generalization Theory
+      Generalization Bound
+      VC Dimension
+      Rademacher Complexity
+      Margin-Based Bounds
+      PAC-Bayes Bounds
+      Rethinking Generalization
+      Flat Minima and Generalization
+      In-Context Learning Theory
+    Infinite-Width and Kernel Theory
+      Infinite-Width Networks
+      Neural Network Gaussian Process
+      Neural Tangent Kernel
+      Kernel Regime vs Feature Learning
+      Mean-Field Theory
+      Dynamical Isometry
+      Spectral Bias
+    Information and Representation Theory
+      Information Bottleneck
+      Mutual Information Estimation
+      Manifold Hypothesis
+      Representation Learning
+      Disentanglement
+      Disentanglement Metrics
+      Causal Representation Learning

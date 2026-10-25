@@ -1,0 +1,1680 @@
+MLOps, Infrastructure & Hardware
+  ML Lifecycle & MLOps Principles
+    ML Lifecycle Stages
+      Problem Framing
+      Data Collection
+      Data Preparation
+      Model Development
+      Model Evaluation
+      Deployment
+      Monitoring
+      Retraining
+    MLOps Maturity Levels
+      Level 0 Manual Process
+      Level 1 ML Pipeline Automation
+      Level 2 CI/CD Pipeline Automation
+      Google MLOps Maturity Model
+      Microsoft MLOps Maturity Model
+    CI/CD/CT for ML
+      Continuous Integration
+      Continuous Delivery
+      Continuous Training
+      Continuous Monitoring
+      Pipeline Triggers
+      GitHub Actions for ML
+      CML
+    Reproducibility
+      Environment Pinning
+      Deterministic Builds
+      Seed Control
+      Reproducibility Checklist
+    Versioning
+      Data Versioning
+      Code Versioning
+      Model Versioning
+      Semantic Versioning for Models
+      Git LFS
+    Experiment Tracking
+      Parameters Logging
+      Metrics Logging
+      Artifacts Logging
+      Run Comparison
+    Model Registry
+      Model Stages
+      Staging
+      Production
+      Archived
+      Model Aliases
+      Model Promotion
+    Lineage & Metadata
+      Data Lineage
+      Model Lineage
+      ML Metadata Store
+      MLMD
+      OpenLineage
+      Provenance Tracking
+    Technical Debt in ML
+      Boundary Erosion
+      Entanglement
+      CACE Principle
+      Correction Cascades
+      Undeclared Consumers
+      Data Dependencies
+      Unstable Data Dependencies
+      Underutilized Data Dependencies
+      Pipeline Jungles
+      Dead Experimental Codepaths
+      Glue Code
+      Configuration Debt
+      ML Test Score
+    Hidden Feedback Loops
+      Direct Feedback Loops
+      Hidden Feedback Loops
+      Degenerate Feedback Loops
+      Popularity Bias Loops
+    ML System Design
+      Requirements Gathering
+      Batch vs Online Prediction
+      Offline vs Online Features
+      Latency Budgets
+      Throughput Requirements
+      Build vs Buy
+      Human-in-the-Loop Design
+    ML Design Docs
+      Problem Statement
+      Success Metrics
+      Baseline Definition
+      Data Sources Section
+      Risks & Mitigations
+      Rollout Plan
+  Data Engineering for ML
+    Data Pipelines
+      ETL
+      ELT
+      Reverse ETL
+      Idempotency
+      Backfilling
+      Incremental Processing
+      Change Data Capture
+      Debezium
+    Batch vs Streaming
+      Batch Processing
+      Micro-Batching
+      Stream Processing
+      Lambda Architecture
+      Kappa Architecture
+      Event Time vs Processing Time
+      Watermarks
+      Windowing
+      Exactly-Once Semantics
+    Processing Engines
+      Apache Spark
+        RDDs
+        DataFrames
+        Spark SQL
+        Spark MLlib
+        Structured Streaming
+        PySpark
+        Catalyst Optimizer
+        Shuffle
+      Apache Flink
+      Apache Beam
+      Apache Kafka
+        Topics
+        Partitions
+        Consumer Groups
+        Kafka Connect
+        Kafka Streams
+        Schema Registry
+      Pulsar
+      Dask
+      Ray Data
+      Polars
+      DuckDB
+      Pandas
+    Workflow Orchestration
+      Apache Airflow
+        DAGs
+        Operators
+        Sensors
+        XComs
+        TaskFlow API
+      Dagster
+        Software-Defined Assets
+      Prefect
+      Luigi
+      Argo Workflows
+      Kubeflow Pipelines
+      Metaflow
+      ZenML
+      Flyte
+      Kedro
+      Mage
+      Temporal
+    dbt
+      Models
+      Tests
+      Sources
+      Snapshots
+      Macros
+    Data Storage Architectures
+      Data Lakes
+      Data Warehouses
+      Lakehouse
+      Data Mesh
+      Medallion Architecture
+      Bronze Silver Gold Layers
+    Table Formats
+      Delta Lake
+      Apache Iceberg
+      Apache Hudi
+      Time Travel
+      ACID Transactions on Lakes
+      Compaction
+    File Formats
+      Parquet
+      ORC
+      Avro
+      Apache Arrow
+      Feather
+      CSV
+      JSONL
+      HDF5
+      TFRecord
+      Zarr
+      Columnar vs Row Storage
+    Data Warehouses & Platforms
+      BigQuery
+      Snowflake
+      Redshift
+      Databricks
+      Azure Synapse
+      ClickHouse
+      Trino
+      Presto
+      Hive
+    Data Catalogs
+      Amundsen
+      DataHub
+      OpenMetadata
+      Unity Catalog
+      AWS Glue Catalog
+      Hive Metastore
+    Data Quality
+      Great Expectations
+      Deequ
+      Soda
+      Pandera
+      Monte Carlo
+      Data Quality Dimensions
+      Data Observability
+      Freshness Checks
+      Volume Checks
+      Null Rate Checks
+    Data Versioning Tools
+      DVC
+      LakeFS
+      Pachyderm
+      Dolt
+      Quilt
+      Hugging Face Datasets Versioning
+    Feature Stores
+      Feature Store Concepts
+        Offline Store
+        Online Store
+        Feature Registry
+        Feature Views
+        Entities
+        Materialization
+      Feast
+      Tecton
+      Hopsworks
+      Vertex AI Feature Store
+      SageMaker Feature Store
+      Databricks Feature Store
+      Featureform
+    Feature Pipelines
+      Feature Engineering Pipelines
+      Streaming Features
+      On-Demand Features
+      Feature Freshness
+      Feature Reuse
+    Point-in-Time Correctness
+      Data Leakage
+      Point-in-Time Joins
+      Label Leakage
+      Target Leakage
+    Training-Serving Skew
+      Feature Skew
+      Distribution Skew
+      Scoring Skew
+      Logging Features at Serving
+    Data Validation
+      TensorFlow Data Validation
+      Schema Inference
+      Anomaly Detection in Data
+      Statistics Generation
+    Schema Evolution
+      Backward Compatibility
+      Forward Compatibility
+      Schema Migration
+      Protobuf Schemas
+      Avro Schema Evolution
+    Data Contracts
+      Producer-Consumer Agreements
+      Contract Enforcement
+      SLA Definitions
+    Labeling Platforms
+      Label Studio
+      Scale AI
+      Labelbox
+      Snorkel
+      Prodigy
+      CVAT
+      Amazon SageMaker Ground Truth
+      Argilla
+      Encord
+      V7
+      Annotation Guidelines
+      Inter-Annotator Agreement
+      Cohen's Kappa
+      Krippendorff's Alpha
+    Weak Supervision
+      Labeling Functions
+      Label Model
+      Snorkel Flow
+      Distant Supervision
+      Programmatic Labeling
+    Active Learning Loops
+      Uncertainty Sampling
+      Query by Committee
+      Diversity Sampling
+      Human-in-the-Loop Labeling
+      Labeling Budget
+    Data-Centric AI
+      Data Cleaning
+      Label Noise
+      Confident Learning
+      Cleanlab
+      Data Pruning
+      Data Deduplication
+      Dataset Cartography
+      Data Augmentation Pipelines
+      Synthetic Data Generation
+    Dataset Versioning
+      Dataset Snapshots
+      Dataset Hashing
+      Immutable Datasets
+      Dataset Splits Management
+    Data Documentation
+      Datasheets for Datasets
+      Data Cards
+      Data Statements
+      Dataset Nutrition Labels
+      Croissant Metadata
+  Training Infrastructure
+    GPU Clusters
+      Node Architecture
+      Multi-GPU Nodes
+      DGX Systems
+      SuperPOD
+      Cluster Topology
+      Rack Design
+    Job Schedulers
+      Slurm
+        sbatch
+        srun
+        Partitions
+        Job Arrays
+      Kubernetes
+        Pods
+        Deployments
+        Jobs
+        Node Pools
+        GPU Operator
+        Device Plugins
+      Kubeflow
+        Training Operator
+        PyTorchJob
+        TFJob
+      Ray
+        Ray Core
+        Ray Train
+        Ray Clusters
+        KubeRay
+      Volcano
+      YuniKorn
+      Run.ai
+      SkyPilot
+      dstack
+      Gang Scheduling
+      Queue Management
+    Distributed Training Frameworks
+      PyTorch Distributed
+        torch.distributed
+        DistributedDataParallel
+        torchrun
+        Process Groups
+        Backends
+      FSDP
+        Sharding Strategies
+        Mixed Precision Policy
+        Activation Checkpointing in FSDP
+        FSDP2
+      DeepSpeed
+        ZeRO Stage 1
+        ZeRO Stage 2
+        ZeRO Stage 3
+        ZeRO-Offload
+        ZeRO-Infinity
+        DeepSpeed Inference
+      Megatron-LM
+        Tensor Parallelism
+        Pipeline Parallelism
+        Sequence Parallelism
+        Megatron-Core
+      Horovod
+      JAX on TPU Pods
+        pmap
+        pjit
+        GSPMD
+        Mesh Sharding
+      Accelerate
+      Lightning Fabric
+      Colossal-AI
+      NeMo Framework
+      torchtitan
+      Nanotron
+      Levanter
+    Checkpointing Strategies
+      Periodic Checkpointing
+      Asynchronous Checkpointing
+      Sharded Checkpoints
+      Distributed Checkpoint
+      Checkpoint Frequency Tradeoffs
+      Checkpoint Storage
+      Resume from Checkpoint
+    Fault Tolerance
+      Node Failures
+      Silent Data Corruption
+      GPU Errors
+      Xid Errors
+      Straggler Detection
+      Health Checks
+      Automatic Restart
+    Elastic Training
+      TorchElastic
+      Dynamic World Size
+      Rendezvous
+    Spot Instances & Preemption
+      Spot Instances
+      Preemptible VMs
+      Preemption Handling
+      Spot Fallback Strategies
+    Training at Scale Incidents
+      Loss Spikes
+      Divergence
+      Hardware Failures at Scale
+      OPT-175B Logbook
+      BLOOM Training Logs
+      Llama 3 Training Interruptions
+    Cluster Utilization
+      GPU Utilization Metrics
+      Idle Time
+      Queue Wait Time
+      Fair Share Scheduling
+      Bin Packing
+    MFU
+      Model FLOPs Utilization
+      Hardware FLOPs Utilization
+      FLOPs Accounting
+      6ND Approximation
+      Tokens per Second per GPU
+    Interconnects
+      NVLink
+      NVSwitch
+      InfiniBand
+      RoCE
+      GPUDirect RDMA
+      GPUDirect Storage
+      Topology Awareness
+      Network Bandwidth Bottlenecks
+    Collective Communication
+      NCCL
+      RCCL
+      Gloo
+      MPI
+      All-Reduce
+      Ring All-Reduce
+      Tree All-Reduce
+      All-Gather
+      Reduce-Scatter
+      Broadcast
+      All-to-All
+      Communication-Computation Overlap
+      Bucketing Gradients
+    Storage for Training
+      Parallel File Systems
+      Lustre
+      GPFS
+      WekaFS
+      VAST Data
+      Object Storage
+      S3
+      GCS
+      Local NVMe Caching
+      Alluxio
+    Data Loading
+      Data Loading Bottlenecks
+      DataLoader Workers
+      Prefetching
+      Pinned Memory
+      Sharded Datasets
+      WebDataset
+      Mosaic Streaming
+      FFCV
+      NVIDIA DALI
+      tf.data
+      Grain
+      Petastorm
+      Deterministic Shuffling
+  Experiment Management
+    Tracking Tools
+      MLflow
+        MLflow Tracking
+        MLflow Projects
+        MLflow Models
+        MLflow Registry
+      Weights & Biases
+        Runs
+        Sweeps
+        Artifacts
+        Reports
+        Weave
+      Neptune
+      Comet
+      TensorBoard
+      Aim
+      ClearML
+      Sacred
+      Guild AI
+      DVC Experiments
+    Configuration Management
+      Hydra
+        Config Groups
+        Overrides
+        Multirun
+      OmegaConf
+      Gin Config
+      ml_collections
+      YAML Configs
+      Pydantic Settings
+      argparse
+      Typer
+    Hyperparameter Sweeps
+      Grid Search
+      Random Search
+      Bayesian Optimization
+      Optuna
+        Samplers
+        Pruners
+        TPE
+      Ray Tune
+        ASHA
+        Population Based Training
+      Hyperopt
+      SigOpt
+      Ax
+      BoTorch
+      Katib
+      W&B Sweeps
+      Early Stopping Schedulers
+    Seeds & Determinism
+      Random Seeds
+      CUDA Determinism
+      cudnn.deterministic
+      Nondeterministic Ops
+      Run-to-Run Variance
+    Ablations
+      Ablation Studies
+      Control Experiments
+      Baseline Reproduction
+      Scaling Ablations
+      Experiment Naming Conventions
+  Model Packaging & Serving
+    Model Formats
+      ONNX
+      SavedModel
+      TorchScript
+      torch.export
+      safetensors
+      GGUF
+      GGML
+      Pickle Hazards
+      PMML
+      Core ML Format
+      TFLite FlatBuffers
+      OpenVINO IR
+      TensorRT Engines
+      Hugging Face Hub Format
+      Model Serialization
+    Inference Servers
+      TorchServe
+      TensorFlow Serving
+      Triton Inference Server
+        Model Repository
+        Backends
+        Ensemble Models
+        Business Logic Scripting
+      BentoML
+      Seldon Core
+      KServe
+      Ray Serve
+      MLServer
+      OpenVINO Model Server
+      LitServe
+    LLM Inference Engines
+      vLLM
+        PagedAttention
+        Continuous Batching in vLLM
+        Prefix Caching
+      TGI
+      TensorRT-LLM
+      SGLang
+        RadixAttention
+      llama.cpp
+      Ollama
+      LMDeploy
+      ExLlama
+      MLC LLM
+      DeepSpeed-MII
+      Disaggregated Prefill Decode
+      KV Cache Management
+      Speculative Decoding Deployment
+    Serving Protocols
+      REST
+      gRPC
+      OpenAI-Compatible API
+      Protobuf
+      WebSockets
+      Server-Sent Events
+    Batching
+      Static Batching
+      Dynamic Batching
+      Continuous Batching
+      Request Queuing
+      Batch Size vs Latency Tradeoff
+    Model Warmup
+      Cold Start
+      Warmup Requests
+      Lazy Loading
+      Model Preloading
+    Autoscaling
+      Horizontal Pod Autoscaler
+      KEDA
+      Scale to Zero
+      GPU Autoscaling
+      Queue-Based Autoscaling
+      Predictive Autoscaling
+    Deployment Strategies
+      Canary Deployment
+      Blue-Green Deployment
+      Shadow Deployment
+      A/B Deployment
+      Rolling Updates
+      Feature Flags
+      Interleaving
+      Multi-Armed Bandit Deployment
+    Multi-Model Serving
+      Model Multiplexing
+      Multi-Model Endpoints
+      LoRA Adapter Serving
+      Multi-LoRA
+      Model Routing
+    Serverless Inference
+      AWS Lambda Inference
+      Cloud Run
+      Modal Functions
+      Cold Start Mitigation
+    Edge Deployment Runtimes
+      TFLite
+      LiteRT
+      Core ML
+      ONNX Runtime
+      ONNX Runtime Mobile
+      ExecuTorch
+      PyTorch Mobile
+      NCNN
+      MNN
+      TensorRT
+      OpenVINO
+      TVM Runtime
+      MediaPipe
+      WebGPU
+      WebNN
+      WebAssembly Inference
+      Transformers.js
+      ONNX Runtime Web
+      TensorFlow.js
+      MLX
+    Model Compression for Deployment
+      Quantization
+        Post-Training Quantization
+        Quantization-Aware Training
+        Dynamic Quantization
+        Static Quantization
+        Calibration
+        GPTQ
+        AWQ
+        SmoothQuant
+        bitsandbytes
+        GGUF Quantization Levels
+        KV Cache Quantization
+      Pruning
+        Unstructured Pruning
+        Structured Pruning
+        2-of-4 Sparsity
+        Sparse Kernels
+      Distillation
+      Low-Rank Factorization
+      Weight Sharing
+      Operator Fusion
+    Compilers
+      TVM
+      XLA
+      torch.compile
+        TorchDynamo
+        TorchInductor
+        AOTAutograd
+      IREE
+      Glow
+      MLIR
+      Triton Kernels
+      Mojo
+      Apache TVM Unity
+      Graph Optimization
+      Kernel Autotuning
+      Ahead-of-Time Compilation
+      Just-in-Time Compilation
+  Monitoring & Observability
+    Drift Types
+      Data Drift
+      Concept Drift
+      Prediction Drift
+      Feature Drift
+      Label Drift
+      Covariate Shift
+      Prior Probability Shift
+      Sudden Drift
+      Gradual Drift
+      Seasonal Drift
+    Drift Detection Methods
+      PSI
+      KS Test
+      Chi-Square Test
+      Jensen-Shannon Divergence
+      KL Divergence
+      Wasserstein Distance
+      ADWIN
+      DDM
+      Page-Hinkley Test
+      Classifier Two-Sample Test
+      MMD
+    Model Performance Monitoring
+      Online Metrics
+      Proxy Metrics
+      Performance Estimation Without Labels
+      Confidence-Based Performance Estimation
+      Slice-Based Monitoring
+    Operational Metrics
+      Latency
+      P50 P95 P99
+      Throughput
+      Error Rate
+      SLOs
+      SLIs
+      SLAs
+      Error Budgets
+      GPU Memory Monitoring
+      Queue Depth
+    Logging Tracing Alerting
+      Structured Logging
+      Prediction Logging
+      Distributed Tracing
+      OpenTelemetry
+      Prometheus
+      Grafana
+      Alert Thresholds
+      Alert Fatigue
+      On-Call for ML
+      Runbooks
+    Monitoring Tools
+      Evidently
+      WhyLabs
+      whylogs
+      Arize
+      Fiddler
+      NannyML
+      Superwise
+      Deepchecks
+      Aporia
+      Datadog ML Monitoring
+    LLM Observability
+      Langfuse
+      LangSmith
+      Helicone
+      Arize Phoenix
+      Braintrust
+      OpenLLMetry
+      Trace Logging for LLMs
+      Prompt-Response Logging
+      Token Usage Tracking
+      Hallucination Monitoring
+      User Feedback Capture
+    Ground-Truth Delay
+      Label Lag
+      Delayed Feedback
+      Proxy Labels
+      Weak Labels for Monitoring
+    Retraining Strategies
+      Retraining Triggers
+      Scheduled Retraining
+      Drift-Triggered Retraining
+      Performance-Triggered Retraining
+      Continual Training
+      Online Learning
+      Warm Start vs Cold Start Training
+    Champion-Challenger
+      Champion Model
+      Challenger Model
+      Shadow Evaluation
+      Promotion Criteria
+    Rollback
+      Rollback Triggers
+      Model Rollback
+      Pipeline Rollback
+      Incident Postmortems
+  Testing ML Systems
+    Data Tests
+      Schema Tests
+      Distribution Tests
+      Null Checks
+      Range Checks
+      Uniqueness Checks
+      Referential Integrity
+    Model Tests
+      Overfit a Single Batch
+      Loss Decrease Test
+      Shape Tests
+      Gradient Tests
+      Invariance to Batch Order
+      Pre-Train Tests
+      Post-Train Tests
+    Behavioral Testing
+      CheckList
+      Minimum Functionality Tests
+      Invariance Tests
+      Directional Expectation Tests
+      Perturbation Tests
+      Metamorphic Testing
+    Regression Testing
+      Golden Datasets
+      Snapshot Tests
+      Baseline Comparison
+      Performance Regression Gates
+    Evals as Tests
+      Eval Suites in CI
+      Threshold Gates
+      LLM-as-Judge in CI
+      Promptfoo
+      DeepEval
+      Ragas
+      Inspect
+      lm-evaluation-harness
+    Load Testing
+      Locust
+      k6
+      Vegeta
+      Latency Under Load
+      Concurrency Testing
+    Chaos Testing
+      Fault Injection
+      Dependency Failure Simulation
+      GPU Failure Simulation
+    Fairness Tests
+      Slice Fairness Checks
+      Disparate Impact Tests
+      Fairness Gates
+    Data Slicing
+      Slice Discovery
+      Slice Finder
+      Domino
+      Subgroup Evaluation
+      Worst-Group Accuracy
+    Integration & End-to-End Tests
+      Pipeline Tests
+      Contract Tests
+      Smoke Tests
+      Shadow Traffic Tests
+  Governance & Responsible MLOps
+    Documentation Artifacts
+      Model Cards
+      Datasheets
+      System Cards
+      Factsheets
+      Reproducibility Packages
+    Model Registry Approvals
+      Approval Workflows
+      Sign-Off Gates
+      Four-Eyes Principle
+      Promotion Policies
+    Audit Trails
+      Immutable Logs
+      Change History
+      Decision Records
+      Audit Logging
+    Access Control
+      RBAC
+      ABAC
+      IAM Policies
+      Least Privilege
+      Model Access Tiers
+    PII Handling
+      PII Detection
+      Presidio
+      Data Masking
+      Tokenization
+      Anonymization
+      Pseudonymization
+      Data Minimization
+      Data Retention Policies
+    Compliance
+      GDPR Compliance
+      HIPAA
+      SOC 2
+      ISO 27001
+      ISO/IEC 42001
+      EU AI Act Compliance
+      Right to Erasure
+      Machine Unlearning for Compliance
+    Supply Chain
+      SBOM
+      AI BOM
+      Model Provenance
+      Dataset Provenance
+      Sigstore
+      Model Signing
+      Dependency Scanning
+    Risk Management
+      Model Risk Management
+      SR 11-7
+      Model Inventory
+      Model Validation
+      Risk Tiering
+  Cloud ML Platforms
+    AWS
+      SageMaker
+        SageMaker Studio
+        SageMaker Training Jobs
+        SageMaker Endpoints
+        SageMaker Pipelines
+        SageMaker JumpStart
+        SageMaker HyperPod
+      Bedrock
+      EC2 GPU Instances
+      P5 Instances
+      Trn1 Instances
+      Inf2 Instances
+    GCP
+      Vertex AI
+        Vertex AI Training
+        Vertex AI Pipelines
+        Vertex AI Endpoints
+        Vertex AI Model Garden
+        Vertex AI Workbench
+      Cloud TPU
+      GKE
+      Gemini API
+      Colab
+      Colab Enterprise
+    Azure
+      Azure ML
+        Azure ML Studio
+        Azure ML Pipelines
+        Azure ML Endpoints
+      Azure OpenAI
+      Azure AI Foundry
+      ND-Series VMs
+    Data Platforms
+      Databricks
+        Mosaic AI
+        MLflow on Databricks
+        Model Serving
+      Snowflake Cortex
+      Snowpark ML
+    Model Hubs & Inference Providers
+      Hugging Face Inference Endpoints
+      Hugging Face Spaces
+      Replicate
+      Together AI
+      Fireworks AI
+      Groq Cloud
+      Baseten
+      Anyscale
+      OpenRouter
+      DeepInfra
+      Cerebras Inference
+      SambaNova Cloud
+    GPU Cloud Providers
+      Modal
+      RunPod
+      Lambda Labs
+      CoreWeave
+      Paperspace
+      Vast.ai
+      Crusoe
+      Nebius
+      Oracle OCI GPU
+      Together GPU Clusters
+      Voltage Park
+      FluidStack
+    Notebook & Dev Platforms
+      Kaggle Kernels
+      Lightning AI
+      Lightning Studios
+      Deepnote
+      JupyterHub
+      SageMaker Studio Lab
+      Gradient Notebooks
+  LLMOps
+    Prompt Management
+      Prompt Templates
+      Prompt Versioning
+      Prompt Registries
+      Prompt Playgrounds
+      Prompt Testing
+      Prompt Regression
+      Prompt Lifecycle
+      Prompt as Code
+    LLM Eval Pipelines
+      Offline Evals
+      Online Evals
+      LLM-as-Judge Pipelines
+      Human Eval Loops
+      Golden Sets
+      Eval Dataset Curation
+      Eval Drift
+      Continuous Evaluation
+    LLM Gateways
+      API Gateways for LLMs
+      LiteLLM
+      Portkey
+      Kong AI Gateway
+      Cloudflare AI Gateway
+      Unified API Abstraction
+      Key Management
+    Caching
+      Exact-Match Caching
+      Semantic Caching
+      GPTCache
+      Prompt Caching
+      KV Cache Reuse
+      Cache Invalidation
+    Rate Limiting
+      Token Bucket
+      Requests per Minute
+      Tokens per Minute
+      Quota Management
+      Backpressure
+      Retry with Backoff
+    Cost Tracking
+      Token Accounting
+      Input vs Output Token Costs
+      Cost Attribution
+      Per-User Cost Tracking
+      Budget Alerts
+      Cost Dashboards
+    Fallbacks & Routing
+      Model Fallbacks
+      Provider Failover
+      Model Routing
+      Cost-Based Routing
+      Latency-Based Routing
+      Complexity-Based Routing
+      RouteLLM
+      Cascading Models
+    Guardrails Deployment
+      Input Guardrails
+      Output Guardrails
+      Guardrails Latency
+      Guardrails AI
+      NeMo Guardrails
+      Llama Guard Deployment
+      Moderation Endpoints
+      Policy Enforcement Layer
+    Red-Team Pipelines
+      Automated Red Teaming
+      Attack Libraries
+      Garak
+      PyRIT
+      Continuous Adversarial Testing
+    Fine-Tuning Ops
+      Fine-Tuning Pipelines
+      Dataset Preparation for Fine-Tuning
+      Adapter Management
+      LoRA Registry
+      Fine-Tuning Evaluation
+      Managed Fine-Tuning APIs
+    RAG Ops
+      Index Refresh
+      Incremental Indexing
+      Embedding Versioning
+      Embedding Model Migration
+      Chunking Strategy Versioning
+      Retrieval Monitoring
+      Retrieval Evaluation
+      Vector Database Operations
+      Document Freshness
+      Access-Controlled Retrieval
+    Agent Ops
+      Agent Tracing
+      Tool Call Logging
+      Agent Evaluation
+      Agent Sandboxing
+      Agent Cost Control
+      Agent Observability
+      Human Approval Gates
+      Agent Failure Recovery
+      Memory Management Ops
+  Hardware
+    Processor Types
+      CPU
+      GPU
+      TPU
+      NPU
+      DSP
+      FPGA
+      ASIC
+      SIMD
+      SIMT
+      Von Neumann Bottleneck
+      Dataflow Architectures
+    GPU Architecture
+      Streaming Multiprocessors
+      CUDA Cores
+      Tensor Cores
+      RT Cores
+      Warps
+      Threads
+      Blocks
+      Grids
+      Warp Scheduler
+      Registers
+      Shared Memory
+      L1 Cache
+      L2 Cache
+      HBM
+      GDDR
+      Memory Hierarchy
+      Memory Bandwidth
+      Memory Capacity
+      Thread Block Clusters
+      Transformer Engine
+      Tensor Memory Accelerator
+    Performance Concepts
+      FLOPS
+      TFLOPS
+      PFLOPS
+      Peak vs Achieved FLOPS
+      Arithmetic Intensity
+      Roofline Model
+      Compute-Bound
+      Memory-Bound
+      Bandwidth-Bound
+      Latency-Bound
+      Occupancy
+      Utilization
+      Memory Wall
+      Amdahl's Law
+    NVIDIA GPUs
+      K80
+      P100
+      V100
+      T4
+      A10
+      A100
+      A100 40GB vs 80GB
+      H100
+      H100 SXM vs PCIe
+      H200
+      L4
+      L40S
+      B100
+      B200
+      GB200
+      GB200 NVL72
+      B300
+      Rubin
+      Rubin CPX
+      RTX 3090
+      RTX 4090
+      RTX 5090
+      RTX 6000 Ada
+      RTX PRO 6000 Blackwell
+      Jetson
+      DGX Spark
+      GPU Architectures
+        Volta
+        Turing
+        Ampere
+        Hopper
+        Ada Lovelace
+        Blackwell
+        Blackwell Ultra
+        Rubin Architecture
+      Grace CPU
+      Grace Hopper Superchip
+      MIG
+      Multi-Instance GPU
+    AMD
+      MI250
+      MI250X
+      MI300X
+      MI300A
+      MI325X
+      MI350
+      MI355X
+      MI400
+      CDNA Architecture
+      ROCm
+      HIP
+      Infinity Fabric
+    Google TPU
+      TPU v2
+      TPU v3
+      TPU v4
+      TPU v5e
+      TPU v5p
+      Trillium
+      Ironwood
+      TPU v7
+      TPU Pods
+      ICI Interconnect
+      Optical Circuit Switching
+      Systolic Arrays
+      MXU
+    AWS Chips
+      Trainium
+      Trainium2
+      Trainium3
+      Inferentia
+      Inferentia2
+      Neuron SDK
+      Graviton
+    Intel
+      Gaudi 2
+      Gaudi 3
+      Xeon AMX
+      Intel Arc
+      oneAPI
+    Apple
+      Apple Neural Engine
+      M-Series Unified Memory
+      Apple Silicon GPU
+      MLX Framework
+    Mobile & Embedded Chips
+      Qualcomm Hexagon
+      Qualcomm AI Engine
+      Snapdragon NPU
+      MediaTek APU
+      Samsung Exynos NPU
+      Google Tensor Chip
+      Arm Ethos NPU
+    Specialized AI Accelerators
+      Cerebras WSE
+      Cerebras WSE-3
+      Groq LPU
+      SambaNova RDU
+      Graphcore IPU
+      Tenstorrent
+      Etched Sohu
+      d-Matrix
+      Habana
+      Mythic
+      Rain AI
+      Lightmatter
+      Photonic Computing
+      Analog Computing
+      Neuromorphic Chips
+      Loihi
+      In-Memory Computing
+      Wafer-Scale Integration
+    FPGAs
+      Xilinx
+      Altera
+      FPGA Inference
+      High-Level Synthesis
+      Vitis AI
+    ASICs
+      Custom AI ASICs
+      Microsoft Maia
+      Meta MTIA
+      OpenAI Chip Efforts
+      Tesla Dojo
+      ASIC Design Tradeoffs
+    Interconnect Technologies
+      PCIe
+      PCIe Generations
+      NVLink Generations
+      NVSwitch
+      NVLink Fusion
+      InfiniBand
+      InfiniBand NDR
+      Ethernet
+      RoCE v2
+      UALink
+      Ultra Ethernet
+      CXL
+      Infinity Fabric Link
+      Spectrum-X
+      Quantum InfiniBand Switches
+      Optical Interconnects
+      Co-Packaged Optics
+    Data Centers
+      Power Delivery
+      Power Density
+      Rack Power
+      Cooling
+      Air Cooling
+      Liquid Cooling
+      Direct-to-Chip Cooling
+      Immersion Cooling
+      PUE
+      WUE
+      Data Center Site Selection
+      Grid Capacity
+      On-Site Power Generation
+      Nuclear for Data Centers
+      GPU Clusters at Scale
+      Colossus
+      Stargate
+      Hyperscale Data Centers
+      Gigawatt Clusters
+      Multi-Datacenter Training
+    Chip Fabrication
+      TSMC
+      Samsung Foundry
+      Intel Foundry
+      Process Nodes
+      7nm
+      5nm
+      4nm
+      3nm
+      2nm
+      EUV Lithography
+      ASML
+      Advanced Packaging
+      CoWoS
+      Chiplets
+      3D Stacking
+      HBM2e
+      HBM3
+      HBM3e
+      HBM4
+      SK Hynix
+      Micron
+      Samsung HBM
+      Yield
+      Fab Capacity
+      Export Controls on Chips
+      CHIPS Act
+    CUDA Programming
+      CUDA Kernels
+      Kernel Launch
+      Thread Indexing
+      Memory Coalescing
+      Bank Conflicts
+      Occupancy Optimization
+      Streams
+      Events
+      Asynchronous Memory Copy
+      Unified Memory
+      Pinned Host Memory
+      CUDA Graphs
+      Warp-Level Primitives
+      Shuffle Instructions
+      Atomic Operations
+      Profiling
+      Nsight Systems
+      Nsight Compute
+      nvprof
+      PyTorch Profiler
+    GPU Libraries
+      cuBLAS
+      cuBLASLt
+      cuDNN
+      CUTLASS
+      CuTe
+      cuSPARSE
+      cuFFT
+      Thrust
+      CUB
+      NCCL Library
+      TensorRT Library
+      Transformer Engine Library
+      cuTENSOR
+      cuML
+      cuDF
+      RAPIDS
+    Kernel Languages & Frameworks
+      Triton Language
+      ThunderKittens
+      FlashAttention Kernels
+      FlashAttention-2
+      FlashAttention-3
+      FlexAttention
+      Mojo
+      OpenCL
+      Vulkan Compute
+      Metal
+      Metal Performance Shaders
+      SYCL
+      HIP Kernels
+      Pallas
+      CuPy
+      Numba CUDA
+      Warp
+      Custom Op Registration
+    Precision Formats
+      FP64
+      FP32
+      TF32
+      FP16
+      BF16
+      FP8
+      FP8 E4M3
+      FP8 E5M2
+      FP6
+      FP4
+      NVFP4
+      MXFP
+      MXFP4
+      MXFP8
+      INT8
+      INT4
+      INT2
+      Binary Networks
+      Posits
+      Block Floating Point
+      Mixed Precision Training
+      Loss Scaling
+      Dynamic Range
+      Numerical Stability
+    Energy Efficiency
+      FLOPs per Watt
+      TOPS per Watt
+      Power Capping
+      Dynamic Voltage Frequency Scaling
+      Carbon Footprint of Training
+      Carbon Intensity
+      Embodied Carbon
+      Green AI
+      Red AI
+      Energy Reporting
+      CodeCarbon
+      ML CO2 Impact Calculator
+      Carbon-Aware Scheduling
+  Edge & Embedded AI
+    TinyML
+      TinyML Fundamentals
+      Microcontrollers
+      Arduino Nano 33 BLE
+      ESP32
+      STM32
+      TensorFlow Lite Micro
+      Edge Impulse
+      microTVM
+      CMSIS-NN
+      Always-On Inference
+      Keyword Spotting
+      Anomaly Detection on MCUs
+    On-Device Inference
+      On-Device Model Execution
+      Privacy Benefits
+      Offline Capability
+      Hybrid Cloud-Edge Inference
+      Model Updates Over the Air
+    Mobile Deployment
+      Core ML
+      Core ML Tools
+      Create ML
+      Android NNAPI
+      LiteRT on Android
+      Qualcomm AI Engine Direct
+      Qualcomm AI Hub
+      MediaPipe Tasks
+      ML Kit
+      ExecuTorch Mobile
+      On-Device LLMs
+      Gemini Nano
+      Apple Foundation Models
+    Edge Devices
+      Raspberry Pi AI Kit
+      Raspberry Pi AI HAT
+      Jetson Nano
+      Jetson Orin Nano
+      Jetson AGX Orin
+      Jetson Thor
+      Coral TPU
+      Hailo
+      Intel Movidius
+      Intel NCS2
+      Rockchip NPU
+      Axelera
+      Kneron
+      Sipeed
+    Edge Constraints
+      Model Size Constraints
+      Latency Constraints
+      Power Constraints
+      Memory Constraints
+      Thermal Constraints
+      Flash vs RAM Budget
+      Battery Life
+    Edge Optimization Techniques
+      Quantization for Edge
+      Pruning for Edge
+      Operator Support Checking
+      Hardware-Aware NAS
+      MobileNet Family
+      EfficientNet Lite
+      Benchmarking on Device
+      MLPerf Tiny
+      MLPerf Mobile
+  Software Engineering for ML
+    Project Structure
+      Cookiecutter Data Science
+      src Layout
+      Separation of Concerns
+      Config Directories
+      Experiment Directories
+    Python Packaging
+      poetry
+      uv
+      pip
+      conda
+      mamba
+      pixi
+      pyproject.toml
+      Lockfiles
+      Virtual Environments
+      Dependency Pinning
+    Code Quality
+      Type Hints
+      mypy
+      pyright
+      Linting
+      ruff
+      flake8
+      black
+      isort
+      pre-commit
+      Docstrings
+    Testing
+      pytest
+      Unit Tests
+      Integration Tests
+      Fixtures
+      Mocking
+      Hypothesis
+      Property-Based Testing
+      Test Coverage
+    Code Review for ML
+      Reviewing Experiments
+      Reviewing Data Changes
+      Reviewing Model Changes
+      Reproducibility in Review
+    Notebooks to Scripts
+      Jupyter
+      JupyterLab
+      nbconvert
+      Papermill
+      nbdev
+      Jupytext
+      Marimo
+      Notebook Anti-Patterns
+      Refactoring Notebooks
+    Containers
+      Docker
+      Dockerfile Best Practices
+      Multi-Stage Builds
+      NVIDIA Container Toolkit
+      CUDA Base Images
+      Image Size Optimization
+      Docker Compose
+      Container Registries
+      Apptainer
+      Singularity
+    Kubernetes for ML
+      Helm
+      Helm Charts
+      Kustomize
+      Operators
+      Custom Resources
+      GPU Scheduling
+      Node Affinity
+      Taints and Tolerations
+      Persistent Volumes
+      ConfigMaps
+      Secrets
+      Service Mesh
+      Istio
+    Infrastructure as Code
+      Terraform
+      OpenTofu
+      Pulumi
+      CloudFormation
+      Ansible
+      Crossplane
+      GitOps
+      ArgoCD
+      Flux
+    Secrets Management
+      Environment Variables
+      HashiCorp Vault
+      AWS Secrets Manager
+      GCP Secret Manager
+      Azure Key Vault
+      SOPS
+      API Key Rotation
+      Secret Scanning
+    APIs
+      FastAPI
+      Flask
+      Django REST
+      gRPC Services
+      OpenAPI
+      Pydantic Validation
+      Async Endpoints
+      Uvicorn
+      Gunicorn
+      Authentication
+      API Versioning
+    Streaming Responses
+      WebSockets
+      Server-Sent Events
+      HTTP Streaming
+      Token Streaming
+      Backpressure Handling
+    CLI & Tooling
+      Click
+      Typer CLI
+      Makefiles
+      Taskfiles
+      Just
+      Shell Scripting
+    Observability for Services
+      Health Endpoints
+      Readiness Probes
+      Liveness Probes
+      Metrics Endpoints
+      Request Logging
+  Cost & Efficiency
+    Compute Budgeting
+      GPU Hours
+      Cost per Training Run
+      Cost Estimation
+      Compute Forecasting
+      Reserved Capacity
+      Committed Use Discounts
+      Chargeback Models
+      Showback
+    Spot & Preemptible
+      Spot Pricing
+      Spot Interruption Handling
+      Checkpoint-Based Recovery
+      Mixed Spot and On-Demand
+    Right-Sizing
+      Instance Selection
+      GPU Type Selection
+      Memory Right-Sizing
+      Utilization Analysis
+      Idle Resource Detection
+      Autoscaling Policies
+    Inference Cost Optimization
+      Quantization for Cost
+      Batching for Cost
+      Caching for Cost
+      Distillation for Cost
+      Smaller Model Selection
+      Model Cascades
+      Early Exit
+      Request Deduplication
+      Cost per Prediction
+      Cost per Token
+    Token Cost Optimization
+      Prompt Compression
+      Context Trimming
+      Prompt Caching Discounts
+      Batch API Discounts
+      Output Length Control
+      Model Tiering
+      Structured Outputs for Fewer Tokens
+    Storage & Data Cost
+      Storage Tiering
+      Cold Storage
+      Egress Costs
+      Data Lifecycle Policies
+      Compression
+    FinOps for ML
+      FinOps Principles
+      Cost Allocation
+      Tagging Strategies
+      Cost Anomaly Detection
+      Unit Economics
+      Cost Observability
+      Kubecost
+      OpenCost
+      Cloud Cost Dashboards
+      Build vs Buy Analysis
+      Total Cost of Ownership

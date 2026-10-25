@@ -1,0 +1,2191 @@
+Specialized ML Domains
+  Time Series
+    Time Series Fundamentals
+      Lag Features
+      Rolling Windows
+      Stationarity
+        Unit Root
+        Augmented Dickey-Fuller Test
+        KPSS Test
+      Autocorrelation
+        ACF
+        PACF
+        Ljung-Box Test
+      Differencing
+        Seasonal Differencing
+        Box-Cox Transform
+      Decomposition
+        Trend
+        Seasonality
+        Residual
+        Additive vs Multiplicative
+        STL Decomposition
+      White Noise
+      Random Walk
+      Granger Causality
+      Cointegration
+    Classical Statistical Models
+      AR
+      MA
+      ARMA
+      ARIMA
+        Box-Jenkins Method
+        Auto-ARIMA
+      SARIMA
+      SARIMAX
+      VAR
+      VARMA
+      VECM
+      Exponential Smoothing
+        Simple Exponential Smoothing
+        Holt's Linear Trend
+        Holt-Winters
+        ETS
+      Theta Method
+      Croston's Method
+      TBATS
+      Prophet
+        Changepoints
+        Holiday Effects
+      NeuralProphet
+      AIC and BIC
+    State Space Models
+      Kalman Filter
+        Extended Kalman Filter
+        Unscented Kalman Filter
+        Kalman Smoother
+      Particle Filter
+      Dynamic Linear Models
+      Structural Time Series
+      BSTS
+    Volatility Models
+      ARCH
+      GARCH
+      EGARCH
+    Change Point and Anomaly Detection
+      Change Point Detection
+        CUSUM
+        PELT
+        Binary Segmentation
+        Bayesian Online Changepoint Detection
+      Time Series Anomaly Detection
+        Seasonal Hybrid ESD
+        Matrix Profile
+        Prediction-based Detection
+        Reconstruction-based Detection
+      Regime Switching Models
+    Time Series Classification
+      Dynamic Time Warping (DTW)
+        Sakoe-Chiba Band
+        Soft-DTW
+      Shapelets
+      SAX
+      BOSS
+      HIVE-COTE
+      ROCKET
+      MiniRocket
+      InceptionTime
+      k-Shape Clustering
+      TS2Vec
+    Deep Learning Forecasting
+      Recurrent Models
+        LSTM Forecasting
+        Seq2Seq Forecasting
+        DeepAR
+      Convolutional Models
+        TCN
+        TimesNet
+      MLP-based Models
+        N-BEATS
+        N-HiTS
+        DLinear
+        TiDE
+        TSMixer
+      Transformer Models
+        TFT
+        Informer
+        Autoformer
+        FEDformer
+        PatchTST
+        iTransformer
+      Multi-horizon Strategies
+        Direct Strategy
+        Recursive Strategy
+      Covariates
+        Static Covariates
+        Known Future Covariates
+      Global vs Local Models
+    Foundation Models for Time Series
+      TimeGPT
+      Chronos
+      Moirai
+      TimesFM
+      Lag-Llama
+      Time-LLM
+      MOMENT
+      Zero-shot Forecasting
+      Benchmarks
+        M4 Competition
+        M5 Competition
+        Monash Forecasting Archive
+        GIFT-Eval
+    Probabilistic Forecasting
+      Prediction Intervals
+      Quantile Forecasting
+      Distributional Forecasting
+      Conformal Prediction for Time Series
+      Ensemble Forecasting
+    Hierarchical Forecasting
+      Bottom-up Reconciliation
+      Top-down Reconciliation
+      MinT Reconciliation
+    Forecasting Evaluation
+      Metrics
+        MAE
+        RMSE
+        MAPE
+        sMAPE
+        MASE
+        Pinball Loss
+        CRPS
+        Coverage
+      Baselines
+        Naive Forecast
+        Seasonal Naive
+      Backtesting
+        Expanding Window
+        Rolling Window
+        Walk-Forward Validation
+      Time Series Cross-Validation
+        Blocked Cross-Validation
+        Purged Cross-Validation
+        Temporal Leakage
+    Time Series Libraries
+      statsmodels
+      pmdarima
+      sktime
+      darts
+      GluonTS
+      Nixtla
+        StatsForecast
+        NeuralForecast
+      tslearn
+      Kats
+      Merlion
+      PyTorch Forecasting
+  Graph Machine Learning
+    Graph Fundamentals
+      Graph Types
+        Directed vs Undirected
+        Weighted Graphs
+        Bipartite Graphs
+        Heterogeneous Graphs
+      Adjacency Matrix
+      Degree Matrix
+      Graph Laplacian
+        Normalized Laplacian
+      Spectral Graph Theory
+        Laplacian Eigenvalues
+        Graph Fourier Transform
+        Spectral Clustering
+      Homophily vs Heterophily
+      Random Graph Models
+        Erdős–Rényi
+        Barabási–Albert
+        Stochastic Block Model
+    Classical Graph Algorithms
+      Shortest Paths
+        Dijkstra
+      Random Walks
+        Personalized PageRank
+      Centrality Measures
+        Degree Centrality
+        Betweenness Centrality
+        Closeness Centrality
+        Eigenvector Centrality
+      PageRank
+      HITS
+      Graph Kernels
+        Weisfeiler-Lehman Kernel
+    Node Embeddings
+      Encoder-Decoder Framework
+      DeepWalk
+      node2vec
+      LINE
+      metapath2vec
+      SDNE
+      Graph Autoencoder
+      Variational Graph Autoencoder
+    Graph Neural Networks
+      Message Passing
+        Aggregate Function
+        Update Function
+        Readout Function
+        Permutation Invariance
+      Spectral GNNs
+        ChebNet
+        GCN
+        SGC
+        APPNP
+      Spatial GNNs
+        GraphSAGE
+        GAT
+        GATv2
+        GIN
+        MPNN
+        GGNN
+        PNA
+      Heterogeneous GNNs
+        R-GCN
+        HAN
+        HGT
+      Graph Pooling
+        Global Pooling
+        DiffPool
+        TopKPool
+      Graph Transformers
+        Graphormer
+        SAN
+        GPS
+        Laplacian Positional Encoding
+        Random Walk Positional Encoding
+    GNN Scalability
+      Neighbor Sampling
+      Cluster-GCN
+      GraphSAINT
+      SIGN
+      Graph Partitioning
+      DropEdge
+      PairNorm
+    GNN Expressivity
+      Weisfeiler-Lehman Test
+      1-WL Bound
+      k-WL Hierarchy
+      Over-smoothing
+      Over-squashing
+      Graph Rewiring
+      Heterophily GNNs
+    Graph Learning Tasks
+      Node Classification
+        Transductive vs Inductive
+        Label Propagation
+        Correct and Smooth
+      Link Prediction
+        Common Neighbors
+        Adamic-Adar
+        SEAL
+      Graph Classification
+      Community Detection
+        Modularity
+        Louvain
+        Leiden
+        Label Propagation Algorithm
+        Infomap
+    Knowledge Graphs
+      Triples
+      Ontologies
+      RDF and SPARQL
+      Wikidata
+      Entity Linking
+      Relation Extraction
+      Knowledge Graph Embeddings
+        TransE
+        TransR
+        RotatE
+        DistMult
+        ComplEx
+        TuckER
+        ConvE
+      KG Completion
+        Rule Mining
+        Inductive KG Completion
+        NBFNet
+      Multi-hop Reasoning
+        Query2Box
+      GraphRAG
+    Graph Generation
+      GraphRNN
+      GRAN
+      GraphVAE
+      DiGress
+      GDSS
+      Graph Generation Metrics
+    Temporal Graphs
+      Snapshot Models
+        DySAT
+        EvolveGCN
+      Event-based Models
+        TGN
+        TGAT
+        JODIE
+      Spatio-temporal GNNs
+        STGCN
+        DCRNN
+        Graph WaveNet
+      Temporal Graph Benchmark
+    GNN Explainability and Robustness
+      GNNExplainer
+      PGExplainer
+      SubgraphX
+      Adversarial Attacks on Graphs
+        Nettack
+        Metattack
+    Self-supervised Graph Learning
+      DGI
+      GraphCL
+      GRACE
+      GraphMAE
+      Graph Foundation Models
+    Graph Libraries and Tools
+      PyG
+      DGL
+      PyKEEN
+      NetworkX
+      igraph
+      cuGraph
+      Open Graph Benchmark
+      Graph Databases
+        Neo4j
+        Cypher
+        TigerGraph
+        Amazon Neptune
+  Recommender Systems
+    Recommendation Fundamentals
+      Explicit Feedback
+      Implicit Feedback
+      User-Item Matrix
+      Sparsity
+      Long Tail
+      Rating Prediction vs Ranking
+      Top-N Recommendation
+      Context-aware Recommendation
+    Collaborative Filtering
+      User-based CF
+      Item-based CF
+      Similarity Measures
+        Cosine Similarity
+        Pearson Correlation
+      SLIM
+      EASE
+      Matrix Factorization
+        SVD
+        FunkSVD
+        SVD++
+        ALS
+        BPR
+        Weighted MF
+      Autoencoder CF
+        AutoRec
+        Mult-VAE
+      NCF
+        GMF
+        NeuMF
+      Negative Sampling
+        Hard Negatives
+        In-batch Negatives
+    Content-based and Hybrid
+      Content-based Filtering
+        Item Profiles
+        User Profiles
+      Knowledge-based Recommendation
+      Hybrid Recommenders
+        Weighted Hybrid
+        Switching Hybrid
+        Cascade Hybrid
+      Cross-domain Recommendation
+    Feature Interaction Models
+      Logistic Regression for CTR
+      Factorization Machines
+      FFM
+      Wide & Deep
+      DeepFM
+      DCN
+      DCN-V2
+      xDeepFM
+      AutoInt
+      DIN
+      DIEN
+      Embedding Tables
+      Hashing Trick
+    Retrieval and Two-tower Models
+      Two-tower Architecture
+      DSSM
+      YouTube DNN
+      Sampled Softmax
+      LogQ Correction
+      Candidate Generation
+      ANN Retrieval
+        FAISS
+        ScaNN
+        HNSW
+      Multi-interest Retrieval
+        MIND
+    Sequential Recommendation
+      Markov Chain Models
+      FPMC
+      GRU4Rec
+      Caser
+      NARM
+      SASRec
+      BERT4Rec
+      S3-Rec
+      Session-based Recommendation
+        SR-GNN
+      Next Basket Recommendation
+    Graph-based Recommendation
+      User-Item Bipartite Graph
+      PinSage
+      NGCF
+      LightGCN
+      UltraGCN
+      SGL
+      KGAT
+    Multi-stage Ranking
+      Funnel Architecture
+      Retrieval Stage
+      Pre-ranking Stage
+      Ranking Stage
+      Re-ranking Stage
+      Feature Stores
+      Real-time Features
+      Embedding Serving
+      Model Freshness
+    CTR and Multi-task Prediction
+      CTR Prediction
+      CVR Prediction
+      CTR Calibration
+      Delayed Feedback
+      Multi-task Recommendation
+        Shared-bottom
+        MMoE
+        PLE
+        ESMM
+      Multi-objective Ranking
+    Exploration and Bandits
+      Exploration vs Exploitation
+      Epsilon-Greedy
+      UCB
+      Thompson Sampling
+      LinUCB
+      Contextual Bandits for Recs
+      Slate Bandits
+      RL for Recommendation
+        SlateQ
+        RecSim
+    Cold Start and Bias
+      Cold Start Problem
+        User Cold Start
+        Item Cold Start
+        Meta-learning for Cold Start
+      Popularity Bias
+      Position Bias
+      Exposure Bias
+      Selection Bias
+      Feedback Loops
+      Filter Bubble
+      Echo Chambers
+      Debiasing
+        Inverse Propensity Scoring
+        Causal Recommendation
+      Fairness in Recommendation
+    Beyond-accuracy Objectives
+      Diversity
+      Novelty
+      Serendipity
+      Coverage
+      Freshness
+      Maximal Marginal Relevance
+      Determinantal Point Processes
+      Calibrated Recommendations
+    Recommender Evaluation
+      Offline Metrics
+        Precision@k
+        Recall@k
+        Hit Rate
+        NDCG
+        MAP
+        MRR
+        AUC
+        GAUC
+      Evaluation Protocols
+        Leave-one-out
+        Temporal Split
+        Sampled Metrics Problem
+      Online Evaluation
+        A/B Testing
+        Interleaving
+        Guardrail Metrics
+      Off-policy Evaluation
+        IPS
+        Self-normalized IPS
+        Direct Method
+        Doubly Robust Estimator
+        Open Bandit Pipeline
+    LLM and Generative Recommendation
+      Generative Recommendation
+      P5
+      TIGER
+      Semantic IDs
+      RQ-VAE for Item IDs
+      LLM as Recommender
+      LLM as Feature Extractor
+      Conversational Recommendation
+      TALLRec
+      HSTU
+    Recommender Libraries and Datasets
+      Surprise
+      implicit
+      LightFM
+      RecBole
+      TorchRec
+      NVIDIA Merlin
+      TensorFlow Recommenders
+      Datasets
+        MovieLens
+        Netflix Prize
+        Amazon Reviews
+        Criteo
+  Causal Inference and Causal ML
+    Causal Foundations
+      Correlation vs Causation
+      Simpson's Paradox
+      Berkson's Paradox
+      Confounders
+      Colliders
+      Mediators
+      Moderators
+      Selection Bias
+      Reverse Causation
+      Counterfactuals
+      Interventions
+      Pearl's Ladder of Causation
+        Association
+        Intervention
+        Counterfactual
+    Potential Outcomes Framework
+      Rubin Causal Model
+      Potential Outcomes
+      Fundamental Problem of Causal Inference
+      SUTVA
+      Ignorability
+      Positivity
+      Treatment Effects
+        ATE
+        ATT
+        CATE
+        ITE
+        LATE
+      Randomized Controlled Trials
+        Randomization
+        Stratified Randomization
+        Intention-to-Treat
+        Power Analysis
+      Observational Studies
+        Natural Experiments
+        Quasi-experiments
+    Structural Causal Models
+      DAGs
+      Structural Equations
+      d-separation
+      Markov Condition
+      Faithfulness
+      do-operator
+      do-calculus
+      Identification
+      Backdoor Criterion
+      Frontdoor Criterion
+      Adjustment Formula
+      Mediation Analysis
+        Direct Effect
+        Indirect Effect
+      Transportability
+      Twin Networks
+    Estimation Methods
+      Regression Adjustment
+      Propensity Score
+        Propensity Score Matching
+        Propensity Score Stratification
+        Balance Diagnostics
+      Matching
+        Exact Matching
+        Nearest Neighbor Matching
+        Caliper Matching
+        Coarsened Exact Matching
+      IPW
+      Doubly Robust Estimation
+        AIPW
+        TMLE
+      Instrumental Variables
+        Two-Stage Least Squares
+        Weak Instruments
+        Exclusion Restriction
+        Deep IV
+      Regression Discontinuity
+        Sharp RDD
+        Fuzzy RDD
+      Difference-in-Differences
+        Parallel Trends
+        Event Study Design
+        Staggered Adoption
+      Synthetic Control
+        Augmented Synthetic Control
+        Synthetic DID
+      Interrupted Time Series
+      Sensitivity Analysis
+        Rosenbaum Bounds
+        E-value
+    Causal Discovery
+      Constraint-based
+        PC Algorithm
+        FCI Algorithm
+        Conditional Independence Tests
+      Score-based
+        GES
+        FGES
+      Functional Causal Models
+        LiNGAM
+        ANM
+      Continuous Optimization
+        NOTEARS
+        DAG-GNN
+        GOLEM
+      Time Series Causal Discovery
+        PCMCI
+        Transfer Entropy
+      Markov Equivalence Classes
+      CPDAG
+      LLMs for Causal Discovery
+    Causal Machine Learning
+      Heterogeneous Treatment Effects
+      Uplift Modeling
+        Uplift Trees
+        Qini Curve
+        AUUC
+      Meta-learners
+        S-learner
+        T-learner
+        X-learner
+        R-learner
+        DR-learner
+      Causal Forests
+        Generalized Random Forests
+      Double Machine Learning (DML)
+        Orthogonalization
+        Cross-fitting
+      Neural Causal Models
+        TARNet
+        CFRNet
+        DragonNet
+        CEVAE
+        GANITE
+      Policy Learning
+        Policy Trees
+      Causal Representation Learning
+        Disentanglement
+        Identifiability
+        Independent Mechanisms
+      Invariant Learning
+        Invariant Risk Minimization
+        Invariant Causal Prediction
+        Anchor Regression
+      Causal Fairness
+        Counterfactual Fairness
+        Path-specific Effects
+      Causal Inference in Experiments
+        CUPED
+        Switchback Experiments
+        Interference
+    Causal Inference Libraries
+      DoWhy
+      EconML
+      CausalML
+      CausalNex
+      causal-learn
+      Tigramite
+      gCastle
+      grf
+  Probabilistic and Bayesian ML
+    Bayesian Foundations
+      Bayes' Theorem
+      Prior
+      Likelihood
+      Posterior
+      Marginal Likelihood
+      Conjugate Priors
+      Uninformative Priors
+      Jeffreys Prior
+      MAP Estimation
+      Credible Intervals
+      Posterior Predictive Distribution
+      Exchangeability
+    Probabilistic Graphical Models
+      Bayesian Networks
+        Conditional Independence
+        Parameter Learning
+        Structure Learning
+      Markov Random Fields
+        Potentials
+        Partition Function
+        Ising Model
+        Conditional Random Fields
+      Factor Graphs
+      Plate Notation
+      Latent Variable Models
+        Gaussian Mixture Models
+        Latent Dirichlet Allocation
+        Hidden Markov Models
+      Exact Inference
+        Variable Elimination
+        Junction Tree
+        Belief Propagation
+        Sum-Product Algorithm
+        Forward-Backward
+        Viterbi
+      Approximate Inference
+        Loopy Belief Propagation
+        Expectation Propagation
+        Expectation Maximization
+    Variational Inference
+      ELBO
+      Mean-field Approximation
+      Coordinate Ascent VI
+      Stochastic Variational Inference
+      Black-box VI
+      Reparameterization Trick
+      Score Function Estimator
+      ADVI
+      Normalizing Flows for VI
+      Amortized Inference
+    Monte Carlo Methods
+      Rejection Sampling
+      Importance Sampling
+      MCMC
+        Metropolis-Hastings
+        Gibbs Sampling
+        Slice Sampling
+        HMC
+        NUTS
+        Langevin Dynamics
+        SGLD
+        Parallel Tempering
+      MCMC Diagnostics
+        Trace Plots
+        R-hat
+        Effective Sample Size
+        Divergences
+      SMC
+        Particle Filtering
+        Annealed Importance Sampling
+      Approximate Bayesian Computation
+      Simulation-based Inference
+        Neural Posterior Estimation
+        Neural Ratio Estimation
+    Bayesian Deep Learning
+      Bayesian Neural Networks
+        Weight Uncertainty
+        Function-space Priors
+      Variational BNNs
+        Bayes by Backprop
+        Local Reparameterization Trick
+        Flipout
+      MC Dropout
+      Deep Ensembles
+      Laplace Approximation
+        Last-layer Laplace
+        KFAC Laplace
+      SWAG
+      Cold Posteriors
+      Bayesian Model Averaging
+      Evidential Deep Learning
+    Gaussian Processes
+      GP Definition
+      Kernels
+        RBF Kernel
+        Matérn Kernel
+        Periodic Kernel
+        Linear Kernel
+        Spectral Mixture Kernel
+        Kernel Composition
+        Automatic Relevance Determination
+      GP Regression
+      GP Classification
+      Marginal Likelihood Maximization
+      Sparse GPs
+        Inducing Points
+        FITC
+        SVGP
+      Scalable GPs
+        KISS-GP
+        Random Fourier Features
+      Multi-output GPs
+      Deep GPs
+      Deep Kernel Learning
+      Neural Network Gaussian Process
+      Neural Tangent Kernel
+      GPyTorch
+    Bayesian Optimization
+      Surrogate Models
+      Acquisition Functions
+        PI
+        EI
+        UCB
+        Thompson Sampling
+        Entropy Search
+        Knowledge Gradient
+      Batch Bayesian Optimization
+      Multi-fidelity Bayesian Optimization
+      Multi-objective Bayesian Optimization
+      High-dimensional Bayesian Optimization
+        TuRBO
+      BoTorch
+      Ax
+    Bayesian Nonparametrics
+      Dirichlet Process
+      Stick-breaking Construction
+      Chinese Restaurant Process
+      DP Mixture Models
+      HDP
+      Pitman-Yor Process
+      Indian Buffet Process
+      Beta Process
+    Hierarchical Bayesian Modeling
+      Hierarchical Models
+      Partial Pooling
+      Random Effects
+      Multilevel Regression
+      Shrinkage
+      Empirical Bayes
+      Bayesian Linear Regression
+      Bayesian GLMs
+      Bayesian A/B Testing
+      Prior Predictive Checks
+      Posterior Predictive Checks
+      Bayesian Workflow
+    Bayesian Model Comparison
+      Model Evidence
+      Bayes Factors
+      Bayesian Occam's Razor
+      WAIC
+      PSIS-LOO
+      Stacking
+    Probabilistic Programming
+      Generative Model Specification
+      Automatic Inference Engines
+      Stan
+      PyMC
+      Pyro
+      NumPyro
+      TensorFlow Probability
+      Edward
+      Turing.jl
+      Gen
+      Infer.NET
+      ArviZ
+    Uncertainty Quantification
+      Aleatoric Uncertainty
+      Epistemic Uncertainty
+      Heteroscedastic Regression
+      Calibration
+        Reliability Diagrams
+        Expected Calibration Error
+        Brier Score
+        Temperature Scaling
+        Platt Scaling
+        Isotonic Regression
+      Proper Scoring Rules
+      Selective Prediction
+      Conformal Prediction
+        Split Conformal
+        Full Conformal
+        Jackknife+
+        Conformalized Quantile Regression
+        Adaptive Prediction Sets
+        Exchangeability Assumption
+        Coverage Guarantee
+        Conformal Risk Control
+        Weighted Conformal Prediction
+        MAPIE
+  Evolutionary and Nature-inspired Computation
+    Evolutionary Computation Foundations
+      Population-based Search
+      Fitness Function
+      Fitness Landscape
+      Genotype vs Phenotype
+      Encodings
+        Binary Encoding
+        Real-valued Encoding
+        Permutation Encoding
+        Tree Encoding
+      No Free Lunch Theorem
+      Premature Convergence
+    Genetic Algorithms
+      Selection
+        Roulette Wheel
+        Tournament Selection
+        Rank Selection
+      Crossover
+        One-point Crossover
+        Two-point Crossover
+        Uniform Crossover
+        Order Crossover
+      Mutation
+        Bit-flip Mutation
+        Gaussian Mutation
+        Swap Mutation
+      Elitism
+      Generational vs Steady-state
+      Niching
+      Fitness Sharing
+      Schema Theorem
+      Island Models
+      Coevolution
+    Genetic Programming
+      Tree-based GP
+      Bloat
+      Linear GP
+      Cartesian GP
+      Grammatical Evolution
+      Symbolic Regression via GP
+    Evolution Strategies
+      (1+1)-ES
+      Self-adaptation
+      CMA-ES
+        Covariance Matrix Adaptation
+        Step-size Control
+      NES
+      OpenAI-ES
+      ES for Reinforcement Learning
+      Augmented Random Search
+    Swarm Intelligence
+      Particle Swarm Optimization
+        Inertia Weight
+        Topologies
+      Ant Colony Optimization
+        Pheromone Trails
+        Max-Min Ant System
+      Artificial Bee Colony
+      Firefly Algorithm
+      Grey Wolf Optimizer
+      Whale Optimization Algorithm
+      Cuckoo Search
+    Other Metaheuristics
+      Simulated Annealing
+        Cooling Schedule
+        Acceptance Probability
+      Tabu Search
+      Hill Climbing
+      Iterated Local Search
+      Variable Neighborhood Search
+      Memetic Algorithms
+      Differential Evolution
+        DE Mutation Strategies
+        JADE
+        SHADE
+      Estimation of Distribution Algorithms
+      Cross-Entropy Method
+    Neuroevolution
+      Evolving Weights
+      Evolving Architectures
+      NEAT
+        Historical Markings
+        Speciation
+        Complexification
+      HyperNEAT
+        CPPNs
+      CoDeepNEAT
+      Deep Neuroevolution
+      Weight Agnostic Neural Networks
+    Quality Diversity
+      Novelty Search
+      Behavior Characterization
+      MAP-Elites
+      CVT-MAP-Elites
+      CMA-ME
+      Open-endedness
+      POET
+    Multi-objective Evolutionary Optimization
+      Pareto Dominance
+      Pareto Front
+      Non-dominated Sorting
+      Crowding Distance
+      NSGA-II
+      NSGA-III
+      SPEA2
+      MOEA/D
+      Hypervolume Indicator
+      Many-objective Optimization
+    Artificial Life and Complex Systems
+      Artificial Immune Systems
+        Clonal Selection
+        Negative Selection
+      Cellular Automata
+        Conway's Game of Life
+        Elementary Cellular Automata
+        Rule 110
+        Lenia
+        Neural Cellular Automata
+      Artificial Life
+        Tierra
+        Avida
+      L-systems
+      Reaction-Diffusion Systems
+      Self-organization
+      Emergence
+      Boids
+      Evolutionary Robotics
+    Evolutionary Libraries
+      DEAP
+      PyGAD
+      pymoo
+      EvoTorch
+      evojax
+      Nevergrad
+      pycma
+      pyribs
+  Federated and Privacy-preserving ML
+    Federated Learning Fundamentals
+      Horizontal FL
+      Vertical FL
+      Cross-silo FL
+      Cross-device FL
+      Client Selection
+      Communication Rounds
+      Stragglers
+      System Heterogeneity
+      Statistical Heterogeneity
+    Federated Optimization
+      FedSGD
+      FedAvg
+      Local Epochs
+      Non-IID Data
+        Label Skew
+        Feature Skew
+        Quantity Skew
+      Client Drift
+      FedProx
+      SCAFFOLD
+      FedNova
+      FedOpt
+        FedAdam
+        FedYogi
+      FedDyn
+      MOON
+      Gradient Compression
+        Sparsification
+        Quantization
+      Asynchronous FL
+      Hierarchical FL
+    Personalized Federated Learning
+      Personalization Layers
+      FedPer
+      Per-FedAvg
+      Ditto
+      Clustered FL
+      Federated Multi-task Learning
+      Federated Distillation
+      Federated Fine-tuning of LLMs
+        Federated LoRA
+    Secure Aggregation and Cryptography
+      Secure Aggregation
+      Homomorphic Encryption
+        Partially Homomorphic
+        Fully Homomorphic
+        Paillier
+        CKKS
+        Microsoft SEAL
+        TenSEAL
+      Secure Multi-party Computation
+        Secret Sharing
+        Shamir Secret Sharing
+        Garbled Circuits
+        Oblivious Transfer
+        SPDZ
+        CrypTen
+      Trusted Execution Environments
+        Intel SGX
+        ARM TrustZone
+        Confidential Computing
+      Private Set Intersection
+      Zero-knowledge Proofs for ML
+    Differential Privacy
+      DP Definition
+      Epsilon and Delta
+      Sensitivity
+      Laplace Mechanism
+      Gaussian Mechanism
+      Exponential Mechanism
+      Randomized Response
+      Composition Theorems
+      Rényi DP
+      Zero-concentrated DP
+      Privacy Accounting
+        Moments Accountant
+        RDP Accountant
+        PRV Accountant
+      Privacy Amplification by Subsampling
+      Local vs Central DP
+      DP-SGD
+        Gradient Clipping
+        Noise Multiplier
+        Per-sample Gradients
+      DP-FTRL
+      PATE
+      DP Fine-tuning of LLMs
+      DP Synthetic Data
+      Privacy-Utility Tradeoff
+      Privacy Auditing
+    Split and Decentralized Learning
+      Split Learning
+      Decentralized Learning
+      Gossip Learning
+      Swarm Learning
+    Privacy Attacks
+      Membership Inference
+        Shadow Models
+        LiRA
+      Attribute Inference
+      Model Inversion
+      Data Reconstruction
+        Gradient Inversion
+        Deep Leakage from Gradients
+      Model Extraction
+      Property Inference
+      Training Data Extraction from LLMs
+      Memorization
+    Machine Unlearning
+      Right to be Forgotten
+      Exact Unlearning
+      SISA Training
+      Approximate Unlearning
+      Influence Functions for Unlearning
+      Gradient Ascent Unlearning
+      Certified Unlearning
+      Unlearning in LLMs
+      Unlearning Benchmarks
+        TOFU
+        WMDP
+    Privacy-preserving Data
+      Anonymization
+      Pseudonymization
+      k-Anonymity
+      l-Diversity
+      t-Closeness
+      Synthetic Data for Privacy
+        PATE-GAN
+        DP-GAN
+      Privacy Regulations
+        GDPR
+        HIPAA
+        CCPA
+    Federated and Privacy Libraries
+      Flower
+      TensorFlow Federated
+      FedML
+      PySyft
+      OpenFL
+      FATE
+      NVIDIA FLARE
+      Opacus
+      TensorFlow Privacy
+      OpenDP
+  Quantum Machine Learning
+    Quantum Computing Foundations
+      Qubits
+      Superposition
+      Entanglement
+      Measurement
+      Bloch Sphere
+      Quantum Gates
+        Pauli Gates
+        Hadamard Gate
+        Rotation Gates
+        CNOT
+        Toffoli Gate
+      Quantum Circuits
+      Decoherence
+      Quantum Error Correction
+      NISQ
+      Quantum Advantage
+    Quantum Algorithms
+      Grover's Algorithm
+      Shor's Algorithm
+      Quantum Fourier Transform
+      Quantum Phase Estimation
+      HHL Algorithm
+      Quantum Annealing
+        Adiabatic Quantum Computing
+        D-Wave
+        QUBO Formulation
+    Variational Quantum Algorithms
+      Parameterized Quantum Circuits
+      Variational Quantum Circuits
+      Ansatz Design
+      VQE
+      QAOA
+      Parameter-shift Rule
+      Barren Plateaus
+      Hybrid Quantum-Classical
+      Quantum Natural Gradient
+    Quantum ML Models
+      Data Encoding
+        Amplitude Encoding
+        Angle Encoding
+        Data Re-uploading
+      Quantum Kernels
+        Quantum Feature Maps
+        Quantum SVM
+      Quantum Neural Networks
+      Quantum Convolutional Networks
+      Quantum Boltzmann Machines
+      Quantum GANs
+      Quantum Autoencoders
+      Quantum Reinforcement Learning
+      Quantum PCA
+      Dequantization
+      Quantum-inspired Algorithms
+    Quantum ML Frameworks
+      Qiskit
+      Qiskit Machine Learning
+      PennyLane
+      Cirq
+      TensorFlow Quantum
+      TorchQuantum
+      Amazon Braket
+      Ocean SDK
+  Neuromorphic and Spiking Computation
+    Neuron Models
+      Hodgkin-Huxley
+      LIF
+      Adaptive LIF
+      Izhikevich
+      FitzHugh-Nagumo
+      Spike Response Model
+      Membrane Potential
+      Refractory Period
+    Spiking Neural Networks
+      Spike Trains
+      Neural Coding
+        Rate Coding
+        Temporal Coding
+        Time-to-first-spike
+        Population Coding
+      Input Encoding
+        Poisson Encoding
+        Delta Modulation
+      SNN Architectures
+        Feedforward SNNs
+        Recurrent SNNs
+        Spiking CNNs
+        Spiking Transformers
+      Event-driven Computation
+      Energy Efficiency
+    Training Spiking Networks
+      STDP
+      Hebbian Learning
+      Reward-modulated STDP
+      Surrogate Gradients
+      BPTT for SNNs
+      SpikeProp
+      Tempotron
+      ANN-to-SNN Conversion
+        Weight Normalization
+        Threshold Balancing
+      e-prop
+    Event-based Sensing
+      Event Cameras
+        Dynamic Vision Sensor
+        Address-Event Representation
+      Event Representations
+        Event Frames
+        Voxel Grids
+        Time Surfaces
+      Silicon Cochlea
+      Event Datasets
+        N-MNIST
+        DVS Gesture
+        SHD
+    Neuromorphic Hardware
+      Intel Loihi
+      Loihi 2
+      IBM TrueNorth
+      IBM NorthPole
+      SpiNNaker
+      BrainScaleS
+      BrainChip Akida
+      Memristors
+      Resistive RAM
+      Phase-change Memory
+      In-memory Computing
+      Crossbar Arrays
+      Photonic Neural Networks
+    Reservoir Computing
+      Echo State Networks
+      Liquid State Machines
+      Spectral Radius
+      Physical Reservoir Computing
+    Neuromorphic Software
+      snnTorch
+      Norse
+      SpikingJelly
+      Lava
+      Nengo
+      Brian2
+      NEST
+      Tonic
+  Tabular and Structured Data ML
+    Tabular Data Fundamentals
+      Numerical Features
+      Categorical Features
+        Nominal
+        Ordinal
+        High Cardinality
+      Datetime Features
+      Relational Data
+      Why Tabular Is Hard for Deep Learning
+    Gradient Boosting Dominance
+      XGBoost
+      LightGBM
+      CatBoost
+      HistGradientBoosting
+      Random Forest Baselines
+      GBDT Hyperparameter Tuning
+      GBDT vs Deep Learning Benchmarks
+      Stacking and Blending
+    Deep Learning for Tabular
+      MLPs for Tabular
+      TabNet
+      TabTransformer
+      FT-Transformer
+      SAINT
+      NODE
+      TabR
+      Numerical Feature Embeddings
+        Periodic Embeddings
+        Piecewise Linear Encoding
+      Self-supervised Tabular
+        VIME
+        SCARF
+    Tabular Foundation Models
+      Prior-data Fitted Networks
+      TabPFN
+      TabPFN v2
+      TabICL
+      CARTE
+      TabLLM
+      LLMs for Tabular Data
+    Feature Engineering for Tabular
+      Scaling
+        Standardization
+        Min-Max Scaling
+        Robust Scaling
+        Quantile Transformation
+      Categorical Encoding
+        One-hot Encoding
+        Ordinal Encoding
+        Binary Encoding
+        Hashing Encoding
+        Frequency Encoding
+        Target Encoding
+        Leave-one-out Encoding
+        Weight of Evidence
+        Entity Embeddings
+      Binning
+      Interaction Features
+      Aggregation Features
+      Time-based Features
+      Feature Selection
+        Permutation Importance
+        Boruta
+        Recursive Feature Elimination
+        Mutual Information
+      Automated Feature Engineering
+        Featuretools
+        OpenFE
+    Missing Values and Data Quality
+      Missingness Mechanisms
+        MCAR
+        MAR
+        MNAR
+      Missing Indicators
+      Simple Imputation
+      KNN Imputation
+      Iterative Imputation
+      MICE
+      MissForest
+      Native Missing Handling in GBDT
+      Outlier Handling
+      Label Noise
+    Imbalanced Tabular Data
+      Class Weights
+      SMOTE
+      ADASYN
+      Undersampling
+      Threshold Moving
+      imbalanced-learn
+    Kaggle Techniques
+      Cross-validation Strategies
+      Out-of-fold Predictions
+      Pseudo-labeling
+      Adversarial Validation
+      Target Transformation
+      Seed Averaging
+      Leak Detection
+      Public vs Private Leaderboard
+      Tabular Benchmarks
+        OpenML
+        TabZilla
+        TabArena
+    AutoML for Tabular
+      AutoGluon
+      H2O AutoML
+      auto-sklearn
+      TPOT
+      FLAML
+      LightAutoML
+      PyCaret
+    Synthetic Tabular Data
+      CTGAN
+      TVAE
+      TabDDPM
+      SDV
+  AI for Science
+    Scientific ML Foundations
+      Data-driven Discovery
+      Inductive Biases from Physics
+      Equivariance
+        E(3) Equivariance
+        SE(3) Equivariance
+        Equivariant Neural Networks
+        e3nn
+      Inverse Problems
+      Surrogate Modeling
+      Emulators
+    Protein Structure and Design
+      Protein Fundamentals
+        Amino Acids
+        Protein Folding Problem
+        Protein Data Bank
+        Multiple Sequence Alignment
+        Coevolution Signals
+      Structure Prediction
+        AlphaFold 1
+        AlphaFold 2
+          Evoformer
+          Structure Module
+          Invariant Point Attention
+          pLDDT
+        AlphaFold 3
+        AlphaFold-Multimer
+        RoseTTAFold
+        RoseTTAFold All-Atom
+        ESMFold
+        OpenFold
+        Boltz
+        Chai-1
+        CASP
+      Protein Language Models
+        ESM-2
+        ESM-3
+        ProtTrans
+        ProGen
+      Protein Design
+        Inverse Folding
+        ProteinMPNN
+        RFdiffusion
+        Chroma
+        FrameDiff
+        Binder Design
+        Enzyme Design
+        Antibody Design
+      Protein Function and Interaction
+        Function Prediction
+        Protein-Protein Interaction
+        Variant Effect Prediction
+        AlphaMissense
+        Molecular Dynamics Surrogates
+    Molecules and Drug Discovery
+      Molecular Representations
+        SMILES
+        SELFIES
+        InChI
+        Molecular Graphs
+        3D Conformers
+        Molecular Fingerprints
+          ECFP
+          Morgan Fingerprints
+          MACCS Keys
+        Molecular Descriptors
+      Molecular Property Prediction
+        QSAR
+        ADMET Prediction
+        Chemprop
+        SchNet
+        DimeNet
+        PaiNN
+        Uni-Mol
+        MoleculeNet
+        Chemical Language Models
+          ChemBERTa
+          MolFormer
+      Generative Chemistry
+        Molecular VAEs
+        Junction Tree VAE
+        REINVENT
+        GFlowNets for Molecules
+        Diffusion for Molecules
+          EDM
+          GeoDiff
+          Torsional Diffusion
+        Conformer Generation
+        Multi-objective Molecular Optimization
+      Protein-Ligand Interaction
+        Molecular Docking
+        AutoDock Vina
+        DiffDock
+        EquiBind
+        Binding Affinity Prediction
+        Co-folding Models
+      Retrosynthesis
+        Template-based
+        Template-free
+        Reaction Prediction
+        Molecular Transformer
+        Synthesis Planning
+      Drug Discovery Pipelines
+        Target Identification
+        Virtual Screening
+        Hit-to-Lead
+        Lead Optimization
+        Active Learning for Screening
+        Drug Repurposing
+        Toxicity Prediction
+        Clinical Trial Outcome Prediction
+      Cheminformatics Tools
+        RDKit
+        DeepChem
+        TorchDrug
+        Open Babel
+        OpenMM
+        ChEMBL
+        PubChem
+        ZINC
+        Therapeutics Data Commons
+    Materials Science
+      Crystal Graph Networks
+        CGCNN
+        MEGNet
+        ALIGNN
+        M3GNet
+        CHGNet
+        MACE
+        NequIP
+      ML Interatomic Potentials
+      Materials Discovery
+        GNoME
+        MatterGen
+        MatterSim
+        CDVAE
+        DiffCSP
+        Open Catalyst Project
+      Battery Materials
+      Catalyst Design
+      Materials Databases
+        Materials Project
+        OQMD
+        NOMAD
+      Self-driving Materials Labs
+    Weather and Climate
+      Numerical Weather Prediction Baselines
+      Data-driven Weather Models
+        FourCastNet
+        Pangu-Weather
+        GraphCast
+        GenCast
+        Aurora
+        FuXi
+        ClimaX
+        NeuralGCM
+        ECMWF AIFS
+      Nowcasting
+        MetNet
+        DGMR
+      Data Assimilation with ML
+      Downscaling
+      Climate Emulators
+      Extreme Event Prediction
+      WeatherBench
+      ERA5
+    Physics-informed and Operator Learning
+      PINNs
+        PDE Residual Loss
+        Boundary Condition Loss
+        Collocation Points
+        Gradient Pathologies
+        DeepXDE
+      Neural Operators
+        DeepONet
+        FNO
+        Geo-FNO
+        Graph Neural Operator
+        Physics-informed Neural Operators
+      Learned Simulators
+        Graph Network Simulators
+        MeshGraphNets
+      Differentiable Physics
+        Differentiable Simulators
+        JAX-MD
+        Brax
+        PhiFlow
+      Hamiltonian Neural Networks
+      Lagrangian Neural Networks
+      Koopman Operator Learning
+      Reduced-order Modeling
+    Symbolic Regression and Discovery
+      Symbolic Regression
+      AI Feynman
+      PySR
+      SINDy
+      Deep Symbolic Regression
+      FunSearch
+      AlphaEvolve
+    Genomics and Computational Biology
+      Genomic Sequence Models
+        DNABERT
+        Nucleotide Transformer
+        HyenaDNA
+        Evo
+        Evo 2
+        Caduceus
+      Regulatory Genomics
+        Enformer
+        Basenji
+        Borzoi
+        SpliceAI
+      Variant Interpretation
+      Polygenic Risk Scores
+      Single-cell Models
+        scGPT
+        Geneformer
+        scVI
+        Cell Type Annotation
+        Perturbation Prediction
+        Virtual Cell
+      RNA Structure Prediction
+      Epigenomics ML
+      CRISPR Guide Design
+      Spatial Transcriptomics ML
+      Multi-omics Integration
+    Other Scientific Domains
+      Astronomy ML
+        Galaxy Morphology Classification
+        Exoplanet Detection
+        Gravitational Wave Detection
+        Photometric Redshift
+      High-energy Physics ML
+        Jet Tagging
+        Track Reconstruction
+        Fast Simulation
+        Trigger Systems
+      Fusion Control
+        Tokamak Plasma Control with RL
+        Disruption Prediction
+      Fluid Dynamics ML
+        Turbulence Modeling
+        CFD Surrogates
+      Neuroscience ML
+        Neural Decoding
+        Connectomics
+      Remote Sensing Foundation Models
+        Prithvi
+      Mathematics and AI
+        Automated Theorem Proving
+        AlphaGeometry
+        AlphaProof
+        Lean and LLMs
+      Scientific Foundation Models
+      AI Scientist Systems
+      Laboratory Automation
+      Self-driving Labs
+  Anomaly and Fraud Detection
+    Anomaly Detection Fundamentals
+      Point Anomalies
+      Contextual Anomalies
+      Collective Anomalies
+      Novelty vs Outlier Detection
+      Supervised vs Unsupervised Anomaly Detection
+      Contamination Rate
+      Anomaly Scores
+      Thresholding
+    Statistical Methods
+      Z-score
+      Modified Z-score
+      IQR Method
+      Grubbs' Test
+      Generalized ESD
+      Mahalanobis Distance
+      Elliptic Envelope
+      HBOS
+      Extreme Value Theory
+      Kernel Density Estimation
+      COPOD
+    Proximity and Density-based Methods
+      k-NN Distance
+      LOF
+      COF
+      DBSCAN Outliers
+      CBLOF
+      ABOD
+    Ensemble and Tree Methods
+      Isolation Forest
+      Extended Isolation Forest
+      Random Cut Forest
+      Feature Bagging
+      LODA
+    One-class Methods
+      One-class SVM
+      Support Vector Data Description
+      Deep SVDD
+      Deep SAD
+    Deep Anomaly Detection
+      Autoencoders for Anomaly Detection
+      VAE Anomaly Detection
+      Reconstruction Error
+      GAN-based Anomaly Detection
+        AnoGAN
+        f-AnoGAN
+        GANomaly
+      Normalizing Flows for Anomaly Detection
+      Self-supervised Anomaly Detection
+        CutPaste
+      Pretrained Feature Methods
+        PatchCore
+        PaDiM
+      Diffusion-based Anomaly Detection
+    Time Series Anomaly Detection
+      Forecasting-based Detection
+      Reconstruction-based Detection
+      Matrix Profile
+      LSTM-AD
+      OmniAnomaly
+      USAD
+      Anomaly Transformer
+      TranAD
+      Point Adjustment Controversy
+    Graph Anomaly Detection
+      Node Anomaly Detection
+      Edge Anomaly Detection
+      DOMINANT
+      CoLA
+      Dense Subgraph Detection
+      PyGOD
+    Fraud Detection
+      Fraud Types
+        Credit Card Fraud
+        Payment Fraud
+        Account Takeover
+        Insurance Fraud
+        Money Laundering
+        Click Fraud
+        Fake Reviews
+        Bot Detection
+      Fraud Detection Pipelines
+        Rule Engines
+        Velocity Features
+        Device Fingerprinting
+        Graph Features for Fraud
+        Entity Resolution
+        Real-time Scoring
+        Case Management
+        Human-in-the-loop Review
+      Class Imbalance
+        Precision-Recall Tradeoff
+        PR Curves
+        PR-AUC
+        Cost-sensitive Learning
+        Resampling for Fraud
+      Adversarial Adaptation
+      Concept Drift
+      Label Delay
+      Fraud Datasets
+        Credit Card Fraud Dataset
+        IEEE-CIS Fraud
+        PaySim
+        Elliptic Dataset
+    Anomaly Detection Evaluation
+      ROC-AUC
+      PR-AUC
+      F1 at Threshold
+      Range-based Metrics
+      ADBench
+    Anomaly Detection Libraries
+      PyOD
+      scikit-learn Outlier Detection
+      Alibi Detect
+      anomalib
+      ADTK
+  Search and Information Retrieval
+    IR Fundamentals
+      Relevance
+      Boolean Retrieval
+      Tokenization
+      Stemming
+      Lemmatization
+      Stopwords
+      Zipf's Law
+      Query Intent Types
+        Navigational
+        Informational
+        Transactional
+    Indexing
+      Inverted Index
+      Posting Lists
+      Index Compression
+      Skip Pointers
+      Positional Index
+      Index Sharding
+      Crawling
+      Near-duplicate Detection
+        SimHash
+        MinHash
+    Lexical Retrieval
+      Term Frequency
+      Inverse Document Frequency
+      TF-IDF
+      Vector Space Model
+      BM25
+      BM25F
+      Query Likelihood Model
+      Query Expansion
+        Pseudo-relevance Feedback
+        Rocchio
+        RM3
+      WAND
+    Dense and Neural Retrieval
+      Dense Retrieval
+      Bi-encoders
+      DPR
+      ANCE
+      Contriever
+      E5
+      BGE
+      Hard Negatives
+      Late Interaction
+        ColBERT
+        ColBERTv2
+        ColPali
+      Learned Sparse Retrieval
+        SPLADE
+        uniCOIL
+        Doc2Query
+      Generative Retrieval
+        DSI
+      Multimodal Retrieval
+      Vector Search
+        Approximate Nearest Neighbor
+        HNSW
+        IVF
+        Product Quantization
+        DiskANN
+        Vector Databases
+        Filtered Vector Search
+      Hybrid Search
+        Reciprocal Rank Fusion
+        Linear Score Fusion
+      Semantic Search
+      Retrieval for RAG
+    Learning to Rank
+      Pointwise LTR
+      Pairwise LTR
+        RankNet
+        RankSVM
+        LambdaRank
+        LambdaMART
+      Listwise LTR
+        ListNet
+        ListMLE
+        ApproxNDCG
+      Neural Ranking Models
+        DRMM
+        KNRM
+        monoBERT
+        monoT5
+      Cross-encoders
+      Re-ranking
+        Two-stage Retrieval
+        LLM Re-rankers
+        RankGPT
+      Unbiased Learning to Rank
+      Click Models
+        Cascade Model
+        Position-based Model
+    Query Understanding
+      Query Classification
+      Intent Detection
+      Spelling Correction
+      Query Segmentation
+      Query Rewriting
+      Query Suggestion
+      Autocomplete
+      Entity Recognition in Queries
+      HyDE
+      Conversational Search
+    Search Evaluation
+      Relevance Judgments
+      Test Collections
+      Pooling
+      TREC
+      MS MARCO
+      BEIR
+      MTEB
+      Evaluation Metrics
+        Precision@k
+        Recall@k
+        MAP
+        MRR
+        NDCG
+        ERR
+      LLM-based Relevance Judgments
+      Interleaving
+      Online Metrics
+        Click-through Rate
+        Dwell Time
+    Search Systems and Tools
+      Lucene
+      Elasticsearch
+      OpenSearch
+      Solr
+      Vespa
+      Tantivy
+      Meilisearch
+      Pyserini
+      PyTerrier
+      Faceted Search
+      Search Personalization
+      E-commerce Search
+  Optimization and Operations Research with ML
+    Operations Research Fundamentals
+      Linear Programming
+        Simplex Method
+        Interior Point Methods
+        Duality
+      Mixed-Integer Programming
+        Branch and Bound
+        Branch and Cut
+        Cutting Planes
+        LP Relaxation
+      Constraint Programming
+      Dynamic Programming
+      Network Flows
+      Stochastic Programming
+      Robust Optimization
+      Local Search
+      Large Neighborhood Search
+    Combinatorial Optimization Problems
+      TSP
+      VRP
+        Capacitated VRP
+        VRP with Time Windows
+      Knapsack Problem
+      Bin Packing
+      Job Shop Scheduling
+      Graph Coloring
+      Maximum Cut
+      Maximum Independent Set
+      Set Cover
+      Facility Location
+      Assignment Problem
+      SAT
+    Neural Combinatorial Optimization
+      Pointer Networks
+      Neural CO with RL
+      Attention Model for TSP
+      POMO
+      Constructive Methods
+      Improvement Methods
+        Learning 2-opt
+        Neural Large Neighborhood Search
+      GNNs for Combinatorial Optimization
+      Learned Heatmaps for TSP
+      DIFUSCO
+      RL4CO
+    Learning to Optimize
+      Learning to Branch
+      Learning to Cut
+      Learning Node Selection
+      Learning Primal Heuristics
+      Learning to Schedule
+      Algorithm Selection
+      Algorithm Configuration
+      Learned Optimizers
+      ML-guided SAT Solving
+      Ecole
+      Neural Diving
+    Decision-focused Learning
+      Predict-then-Optimize
+      Smart Predict-then-Optimize
+      Differentiable Optimization Layers
+      OptNet
+      cvxpylayers
+      Perturbed Optimizers
+      PyEPO
+    Applications
+      Scheduling
+      Routing and Logistics
+      Supply Chain Optimization
+      Inventory Optimization
+      Workforce Scheduling
+      Resource Allocation
+      Portfolio Optimization
+      Chip Design
+        AlphaChip
+      Compiler Optimization with ML
+      Algorithm Discovery
+        AlphaDev
+        AlphaTensor
+        AlphaEvolve
+    Solvers and Tools
+      OR-Tools
+      CP-SAT
+      Gurobi
+      CPLEX
+      SCIP
+      HiGHS
+      Pyomo
+      PuLP
+      CVXPY
+      MiniZinc
+      LKH
+  Human-centered and Affective Computing
+    Affective Computing Fundamentals
+      Emotion Models
+        Ekman's Basic Emotions
+        Valence-Arousal Model
+        Circumplex Model
+        Plutchik's Wheel
+      Affect vs Emotion vs Mood
+      Multimodal Affect Sensing
+      Ethics of Emotion AI
+    Emotion Recognition
+      Facial Expression Recognition
+        Facial Action Coding System
+        Action Units
+        FER2013
+        AffectNet
+        Micro-expressions
+      Speech Emotion Recognition
+        Prosodic Features
+        IEMOCAP
+        RAVDESS
+      Text Emotion Detection
+        GoEmotions
+      Multimodal Emotion Recognition
+        CMU-MOSEI
+        MELD
+      Emotion in Conversation
+      Stress Detection
+      Engagement Detection
+      Deception Detection
+    Sentiment Analysis
+      Polarity Classification
+      Aspect-based Sentiment Analysis
+      Sarcasm Detection
+      Stance Detection
+      Multimodal Sentiment Analysis
+      VADER
+    Human Activity Recognition
+      Sensor-based HAR
+        Accelerometer and Gyroscope Data
+        IMU Signals
+        Sliding Window Segmentation
+        UCI HAR Dataset
+        PAMAP2
+      Vision-based HAR
+      Skeleton-based Action Recognition
+      Gait Recognition
+      Fall Detection
+      Radar-based Sensing
+      WiFi-based Sensing
+    Wearables ML
+      Heart Rate Monitoring
+      PPG
+      Heart Rate Variability
+      Sleep Stage Classification
+      Step Counting
+      Arrhythmia Detection
+      Continuous Glucose Monitoring
+      Digital Biomarkers
+      Digital Phenotyping
+      Just-in-time Adaptive Interventions
+      On-device Inference
+      Wearable Foundation Models
+    Physiological Signals
+      ECG ML
+      Electrodermal Activity
+      EMG
+      Respiration Signals
+      Blood Pressure Estimation
+      Signal Preprocessing
+        Filtering
+        Artifact Removal
+      Multimodal Physiological Fusion
+      WESAD
+      DEAP Dataset
+    EEG and Brain-Computer Interfaces
+      EEG Fundamentals
+        Frequency Bands
+        Event-related Potentials
+        P300
+        SSVEP
+        Motor Imagery
+      EEG Preprocessing
+        Independent Component Analysis
+        Artifact Rejection
+      EEG Features
+        Common Spatial Patterns
+        Riemannian Geometry Methods
+        Band Power
+      EEG Deep Learning
+        EEGNet
+        DeepConvNet
+        EEG Transformers
+        EEG Foundation Models
+        LaBraM
+      BCI Paradigms
+        Active BCI
+        Passive BCI
+        Reactive BCI
+      Invasive BCIs
+        Motor Decoding
+        Speech Decoding from Brain
+        Neuralink
+        Utah Array
+      fMRI Decoding
+      fNIRS ML
+      BCI Toolkits
+        MNE-Python
+        Braindecode
+        MOABB
+        OpenBCI
+    Eye Tracking
+      Fixations and Saccades
+      Pupillometry
+      Gaze Estimation
+        Appearance-based
+        Model-based
+      Saliency Prediction
+      Scanpath Prediction
+      Cognitive Load from Eye Tracking
+      Driver Attention Monitoring
+    Human-Computer Interaction with ML
+      Human-centered AI
+      User Modeling
+      Intent Prediction
+      Gesture Recognition
+      Hand Pose Estimation
+      Adaptive User Interfaces
+      Social Signal Processing
+      Social Robots
+      Empathetic Dialogue Systems
+      Personality Recognition
+      Mental Health Sensing
+      Wellbeing Technology

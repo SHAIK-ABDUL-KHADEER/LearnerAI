@@ -1,0 +1,643 @@
+Robotics & Embodied AI
+  Robotics Fundamentals
+    Robot Morphologies
+      Manipulators
+      Mobile Robots
+      Wheeled Robots
+      Legged Robots
+      Quadrupeds
+      Humanoids
+      Drones
+    Mechanics
+      Degrees of Freedom
+      Joints and Links
+      Rigid Body Transformations
+      Rotation Representations
+        Rotation Matrices
+        Euler Angles
+        Quaternions
+        Axis-Angle
+      Homogeneous Transforms
+      Workspace
+      Singularities
+      Redundancy
+    Kinematics
+      Forward Kinematics
+      Denavit-Hartenberg Parameters
+      Inverse Kinematics
+        Analytical IK
+        Numerical IK
+        Damped Least Squares
+      Jacobian
+      Manipulability
+      Differential Kinematics
+      Null-Space Control
+    Dynamics
+      Newton-Euler Formulation
+      Lagrangian Formulation
+      Inertia Matrix
+      Coriolis and Gravity Terms
+      Inverse Dynamics
+      Forward Dynamics
+      Contact Dynamics
+      Friction Models
+      Rigid Body Simulation
+    Actuators
+      DC Motors
+      Brushless Motors
+      Servo Motors
+      Harmonic Drives
+      Quasi-Direct Drive
+      Series Elastic Actuators
+      Torque Control
+    Sensors
+      Encoders
+      Inertial Measurement Unit
+      Lidar
+      RGB Cameras
+      RGB-D Cameras
+      Stereo Cameras
+      Event Cameras
+      Force-Torque Sensors
+      Tactile Sensors
+        GelSight
+        DIGIT
+      Joint Torque Sensors
+      Sensor Fusion
+    End Effectors
+      Parallel Jaw Grippers
+      Suction Grippers
+      Multi-Fingered Hands
+      Underactuated Hands
+      Dexterous Hands
+        Shadow Hand
+        Allegro Hand
+        LEAP Hand
+    Control Theory
+      PID Control
+      Gain Tuning
+      Feedforward Control
+      Computed Torque Control
+      LQR
+      Model Predictive Control
+      Impedance Control
+      Admittance Control
+      Operational Space Control
+      Whole-Body Control
+      Hybrid Force-Position Control
+      Compliance Control
+    Trajectory Generation
+      Joint Space Trajectories
+      Cartesian Trajectories
+      Polynomial Interpolation
+      Splines
+      Minimum Jerk Trajectories
+      TOPP-RA
+    Software Stack
+      ROS 1
+      ROS 2
+      Nodes and Topics
+      Services and Actions
+      tf2
+      URDF
+      MJCF
+      MoveIt
+      Gazebo
+      ros2_control
+  Perception for Robotics
+    State Estimation
+      Kalman Filter
+      Extended Kalman Filter
+      Unscented Kalman Filter
+      Particle Filter
+      Factor Graphs
+      Dead Reckoning
+      Sensor Calibration
+      Hand-Eye Calibration
+    Localization and Mapping
+      Localization
+      Monte Carlo Localization
+      Visual Odometry
+      Visual-Inertial Odometry
+      Lidar Odometry
+      SLAM
+        EKF-SLAM
+        Graph SLAM
+        ORB-SLAM
+        LOAM
+        Loop Closure
+        Pose Graph Optimization
+        Bundle Adjustment
+      Mapping Representations
+        Occupancy Grids
+        OctoMap
+        Signed Distance Fields
+        TSDF Fusion
+        Semantic Mapping
+        Neural Implicit Maps
+    Object Perception
+      Object Detection for Robotics
+      Instance Segmentation
+      6D Object Pose Estimation
+        PoseCNN
+        DenseFusion
+        FoundationPose
+      Category-Level Pose Estimation
+      Object Tracking
+      Keypoint Detection
+      Open-Vocabulary Detection
+    3D Perception
+      Point Cloud Processing
+      Point Cloud Registration
+        ICP
+      Depth Estimation
+      Scene Reconstruction
+      Scene Graphs
+      3D Scene Understanding
+      Open-Vocabulary 3D Maps
+        ConceptFusion
+        OpenScene
+    Grasp Detection
+      Grasp Representations
+      Learned Grasp Detection
+      Dex-Net
+      GraspNet
+      Contact-GraspNet
+      AnyGrasp
+      6-DoF Grasp Synthesis
+    Affordances
+      Affordance Detection
+      Affordance Learning
+    Tactile Perception
+      Contact Detection
+      Slip Detection
+  Motion Planning
+    Configuration Space
+    Obstacle Representation
+    Collision Checking
+      Bounding Volume Hierarchies
+      FCL
+    Sampling-Based Planning
+      Probabilistic Roadmaps
+      RRT
+      RRT-Connect
+      RRT*
+      Informed RRT*
+      BIT*
+      Kinodynamic Planning
+      OMPL
+    Grid and Graph Search
+      Dijkstra
+      A*
+      Weighted A*
+      D* Lite
+      Lattice Planners
+      Hybrid A*
+    Trajectory Optimization
+      CHOMP
+      STOMP
+      TrajOpt
+      Sequential Convex Programming
+      cuRobo
+    Reactive Methods
+      Potential Fields
+      Dynamic Window Approach
+      Timed Elastic Band
+      Model Predictive Path Integral
+      Riemannian Motion Policies
+    Navigation Stacks
+      Nav2
+      Global Planner
+      Local Planner
+      Costmaps
+    Legged Planning
+      Footstep Planning
+      Gait Generation
+      Centroidal Dynamics
+    Manipulation Planning
+      Grasp Planning
+      Pick-and-Place Planning
+    Task and Motion Planning
+      Symbolic Planning
+      PDDL
+      PDDLStream
+      Hierarchical Task Networks
+      Behavior Trees
+  Robot Learning
+    Learning Paradigms
+      Imitation Learning
+      Reinforcement Learning for Robotics
+      Self-Supervised Robot Learning
+      Learning from Play
+      Offline Robot Learning
+      Real-World RL
+    Data Collection
+      Teleoperation Data
+      Kinesthetic Teaching
+      Puppeteering Interfaces
+      VR Teleoperation
+      Leader-Follower Arms
+      ALOHA Hardware
+      GELLO
+      UMI
+      Data Collection at Scale
+      Autonomous Data Collection
+    Robot Datasets
+      BridgeData
+      DROID
+      RT-1 Dataset
+      Open X-Embodiment
+      Egocentric Human Video
+    Imitation Learning Methods
+      Behavior Cloning
+      DAgger for Robotics
+      Implicit Behavior Cloning
+      BC-Z
+      Action Chunking
+      Action Chunking Transformer
+      Temporal Ensembling
+      Diffusion Policy
+      3D Diffusion Policy
+      Flow-Matching Policies
+      Keypoint-Based Policies
+      Transporter Networks
+      CLIPort
+      PerAct
+      Multi-Task Imitation
+    Action Representations
+      Joint Position Actions
+      End-Effector Delta Actions
+      Action Tokens
+      Discretized Actions
+      Continuous Actions
+      Action Chunks
+      Relative vs Absolute Actions
+    Vision-Language-Action Models
+      VLA Models
+      RT-1
+      RT-2
+      RT-X
+      Octo
+      OpenVLA
+      OpenVLA-OFT
+      π0
+      π0-FAST
+      π0.5
+      GR00T N1
+      Helix
+      Gemini Robotics
+      SmolVLA
+      CogACT
+      Large Behavior Models
+      Cross-Embodiment Learning
+      Co-Training with Web Data
+      Fine-Tuning VLAs
+      VLA Inference Latency
+    Language-Conditioned Robotics
+      Language-Conditioned Policies
+      Instruction Following
+      SayCan
+      Inner Monologue
+      Code as Policies
+      VoxPoser
+      ReKep
+      Language to Rewards
+      Eureka
+      LLM Task Planning
+      PaLM-E
+    Foundation Models for Robotics
+      Pretrained Visual Representations
+        R3M
+        MVP
+        VIP
+        VC-1
+      Vision-Language Models for Robotics
+      Robot World Models
+      Video Prediction for Robots
+      UniSim
+      Genie
+      Cosmos
+      Video Generation as Policy
+    Reward Learning for Robots
+      Learned Reward Functions
+      VLM Rewards
+      Success Detectors
+      Preference-Based Reward Learning
+    Simulation Platforms
+      MuJoCo
+      PyBullet
+      Isaac Gym
+      Isaac Sim
+      Isaac Lab
+      SAPIEN
+      ManiSkill
+      Genesis
+      Drake
+      Habitat
+      iGibson
+      OmniGibson
+      BEHAVIOR
+      AI2-THOR
+    Manipulation Benchmarks
+      Meta-World
+      RLBench
+      robosuite
+      robomimic
+      LIBERO
+      CALVIN
+      SimplerEnv
+      ManiSkill
+      Franka Kitchen
+      Adroit
+    Sim-to-Real Transfer
+      Reality Gap
+      Domain Randomization
+      Automatic Domain Randomization
+      System Identification
+      Real-to-Sim
+      Digital Twins
+      Actuator Modeling
+      Sim-to-Real for Locomotion
+      Sim-to-Real for Manipulation
+    Legged Locomotion Learning
+      Locomotion via RL
+      Massively Parallel RL
+      Teacher-Student Distillation
+      Privileged Learning
+      Rapid Motor Adaptation
+      Terrain Curriculum
+      Parkour Learning
+      Fall Recovery
+      Motion Imitation
+        DeepMimic
+        Adversarial Motion Priors
+      Legged Gym
+    Manipulation Skills
+      Grasping
+      Pick-and-Place
+      Dexterous Manipulation
+      In-Hand Manipulation
+      Rubik's Cube Solving
+      Bimanual Manipulation
+      Deformable Object Manipulation
+      Cloth Manipulation
+      Articulated Object Manipulation
+      Tool Use
+      Contact-Rich Manipulation
+      Peg Insertion
+      Assembly
+      Non-Prehensile Manipulation
+      Long-Horizon Manipulation
+    Mobile Manipulation
+      Base-Arm Coordination
+      Whole-Body Mobile Manipulation
+      Mobile ALOHA
+      Open-Vocabulary Mobile Manipulation
+    Humanoid Control
+      Whole-Body Control Learning
+      Humanoid Locomotion via RL
+      Humanoid Loco-Manipulation
+      Whole-Body Teleoperation
+      Motion Retargeting
+      Motion Tracking Policies
+      Humanoid Foundation Policies
+      Exoskeletons
+    Learning Infrastructure
+      LeRobot
+      robomimic
+      Isaac Lab
+      Policy Deployment
+      Real-Time Inference
+  Embodied AI
+    Embodied Agents
+    Embodied Cognition
+    Perception-Action Loop
+    Active Perception
+    Embodied Navigation
+      PointNav
+      ObjectNav
+      Vision-Language Navigation
+      Room-to-Room
+      Habitat Challenge
+      Semantic Exploration
+      Frontier-Based Exploration
+      Learned Navigation Policies
+      Zero-Shot Object Navigation
+      VLMaps
+    Embodied Instruction Following
+      ALFRED
+      TEACh
+      Interactive Instruction Following
+      Embodied Question Answering
+      Rearrangement Challenge
+      Habitat Rearrangement
+    Embodied Environments
+      Habitat
+      AI2-THOR
+      iGibson
+      OmniGibson
+      BEHAVIOR
+      ProcTHOR
+      Matterport3D
+      Gibson
+      HM3D
+      ALFWorld
+    Open-World Game Agents
+      Minecraft Agents
+      MineDojo
+      MineRL
+      Voyager
+      STEVE-1
+      VPT
+      Open-Ended Skill Learning
+    Embodied Benchmarks
+      Habitat Benchmarks
+      BEHAVIOR-1K
+      EmbodiedBench
+      OpenEQA
+    Embodied Foundation Agents
+      Multimodal Embodied Models
+      Embodied Chain-of-Thought
+      Spatial Reasoning for Embodiment
+      Memory for Embodied Agents
+      Long-Horizon Embodied Planning
+  Autonomous Vehicles
+    Autonomy Levels
+    Perception Stack
+      Camera Perception
+      Lidar Perception
+      Radar Perception
+      Sensor Fusion
+      3D Object Detection
+      Bird's-Eye-View Perception
+        BEVFormer
+        Lift-Splat-Shoot
+      Occupancy Networks
+      Lane Detection
+    Localization and Maps
+      HD Maps
+      Map-Based Localization
+      Mapless Driving
+    Prediction
+      Trajectory Prediction
+      Multi-Agent Interaction Modeling
+      Motion Forecasting
+        Wayformer
+        MotionLM
+    Planning
+      Behavior Planning
+      Motion Planning for Driving
+      Rule-Based Planners
+      Learned Planners
+      Imitation vs RL for Driving
+      Closed-Loop vs Open-Loop Evaluation
+    End-to-End Driving
+      End-to-End Learning
+      UniAD
+      VAD
+      Diffusion-Based Driving Policies
+      Vision-Language Driving Models
+      World Models for Driving
+      Tesla FSD
+      Waymo
+    Infrastructure
+      V2X Communication
+      Safety Cases
+      ISO 26262
+    Datasets and Simulation
+      nuScenes
+      Waymo Open Dataset
+      Argoverse
+      KITTI
+      nuPlan
+      CARLA
+      Bench2Drive
+      Scenario Generation
+      Neural Simulators
+  Drones & Aerial Robotics
+    Quadrotor Dynamics
+    Flight Controllers
+      PX4
+      ArduPilot
+    Attitude Control
+    Trajectory Planning for Drones
+    Minimum Snap Trajectories
+    Visual-Inertial Navigation
+    Obstacle Avoidance
+    Agile Flight
+    Drone Racing
+    Swift
+    Learned Flight Policies
+    Multi-Drone Coordination
+  Human-Robot Interaction
+    Physical Human-Robot Interaction
+    Safety
+      Collision Detection
+      Safe Velocity Limits
+      Collaborative Robots
+      ISO 10218
+      Safety Standards
+    Social Robots
+    Intent Prediction
+    Legible Motion
+    Shared Autonomy
+    Assistive Robotics
+    Teleoperation Interfaces
+    VR Teleoperation
+    Haptic Feedback
+    Gesture and Speech Interfaces
+    Trust in Robots
+  Soft Robotics
+    Soft Actuators
+    Pneumatic Artificial Muscles
+    Continuum Robots
+    Soft Grippers
+    Soft Sensing
+    Morphological Computation
+    Modeling Soft Bodies
+    Soft Robot Learning
+  Swarm Robotics
+    Swarm Intelligence
+    Decentralized Control
+    Consensus Algorithms
+    Flocking
+    Formation Control
+    Multi-Robot Task Allocation
+    Multi-Robot Path Planning
+    Kilobots
+    Collective Behavior
+    Multi-Robot SLAM
+  Robot Hardware Ecosystem
+    Quadrupeds
+      Unitree Go1
+      Unitree Go2
+      Unitree B2
+      Boston Dynamics Spot
+      ANYmal
+    Humanoids
+      Boston Dynamics Atlas
+      Tesla Optimus
+      Figure 01
+      Figure 02
+      1X NEO
+      Agility Digit
+      Apptronik Apollo
+      Unitree H1
+      Unitree G1
+    Research Arms
+      Franka Emika Panda
+      Franka Research 3
+      Universal Robots UR5
+      Universal Robots UR10
+      KUKA iiwa
+      xArm
+      WidowX
+      Kinova Gen3
+    Low-Cost Arms
+      SO-100 Arm
+      Koch Arm
+      ALOHA Hardware
+      ALOHA 2
+      Trossen Arms
+    Mobile Platforms
+      Hello Robot Stretch
+      TIAGo
+      Fetch
+      TurtleBot
+      Clearpath Jackal
+    Hands
+      Shadow Hand
+      Allegro Hand
+      LEAP Hand
+      Robotiq Grippers
+  Evaluation
+    Success Rate
+    Task Completion Rate
+    Episode Length
+    Safety Violations
+    Generalization Axes
+      Object Generalization
+      Scene Generalization
+      Instruction Generalization
+      Embodiment Generalization
+      Lighting and Distractors
+    Real-World Evaluation
+      Real Robot Trials
+      A/B Policy Comparison
+      Evaluation Protocols
+      Reproducibility
+    Simulation Evaluation
+      SimplerEnv
+      LIBERO
+      CALVIN
+      RLBench
+      Meta-World
+      ManiSkill
+    Benchmarks and Leaderboards
+      Open X-Embodiment Evaluation
+      RoboArena
+      Habitat Challenge
+      BEHAVIOR Challenge
+    Human Studies
+      Usability Metrics
+      Trust Metrics

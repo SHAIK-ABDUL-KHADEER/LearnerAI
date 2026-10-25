@@ -1,0 +1,3219 @@
+Foundations
+  Mathematics
+    Linear Algebra
+      Scalars Vectors Matrices Tensors
+        Scalars
+        Vectors
+        Row and Column Vectors
+        Matrices
+        Tensors
+        Tensor Rank and Shape
+      Vector Operations
+        Vector Addition
+        Scalar Multiplication
+        Dot Product
+        Cross Product
+        Outer Product
+        Hadamard Product
+        Linear Combination
+        Projection
+        Cosine Similarity
+      Matrix Operations
+        Matrix Addition
+        Matrix Multiplication
+        Transpose
+        Trace
+        Determinant
+        Matrix Inverse
+        Pseudo-Inverse
+        Kronecker Product
+        Block Matrices
+        Broadcasting
+        Einstein Summation
+      Special Matrices
+        Identity Matrix
+        Diagonal Matrix
+        Triangular Matrix
+        Symmetric Matrix
+        Orthogonal Matrix
+        Permutation Matrix
+        Sparse Matrix
+        Positive Definite Matrix
+        Positive Semi-Definite Matrix
+        Toeplitz Matrix
+        Vandermonde Matrix
+        Hermitian Matrix
+        Unitary Matrix
+        Stochastic Matrix
+        Gram Matrix
+      Vector Spaces
+        Span
+        Linear Independence
+        Basis
+        Dimension
+        Subspace
+        Column Space
+        Row Space
+        Null Space
+        Rank
+        Rank-Nullity Theorem
+        Change of Basis
+        Orthogonality
+        Orthonormal Basis
+        Gram-Schmidt Process
+        Inner Product Space
+        Hilbert Space
+      Norms and Distances
+        L1 Norm
+        L2 Norm
+        Lp Norm
+        L-Infinity Norm
+        L0 Pseudo-Norm
+        Frobenius Norm
+        Spectral Norm
+        Nuclear Norm
+        Euclidean Distance
+        Manhattan Distance
+        Minkowski Distance
+        Mahalanobis Distance
+        Chebyshev Distance
+        Hamming Distance
+        Cauchy-Schwarz Inequality
+        Triangle Inequality
+      Linear Transformations
+        Linear Maps
+        Affine Transformations
+        Rotation Matrix
+        Scaling Matrix
+        Shear Matrix
+        Reflection Matrix
+        Homogeneous Coordinates
+        Kernel and Image
+      Systems of Linear Equations
+        Gaussian Elimination
+        Row Echelon Form
+        LU Decomposition
+        Cholesky Decomposition
+        Least Squares Solution
+        Normal Equations
+        Condition Number
+        Overdetermined Systems
+        Underdetermined Systems
+      Eigen-Decomposition
+        Eigenvalues
+        Eigenvectors
+        Characteristic Polynomial
+        Diagonalization
+        Spectral Theorem
+        Eigenvalue Multiplicity
+        Power Iteration
+        Rayleigh Quotient
+        Jordan Normal Form
+      Matrix Decompositions
+        QR Decomposition
+        Singular Value Decomposition
+        Singular Values
+        Truncated SVD
+        Low-Rank Approximation
+        Eckart-Young Theorem
+        Schur Decomposition
+        Polar Decomposition
+        Non-Negative Matrix Factorization
+        CUR Decomposition
+      Tensor Algebra
+        Tensor Indexing
+        Tensor Contraction
+        Tensor Reshaping
+        Tensor Products
+        Tucker Decomposition
+        CP Decomposition
+        Tensor Trains
+      Matrix Calculus
+        Gradient of Linear Forms
+        Gradient of Quadratic Forms
+        Matrix Derivative Identities
+        Vectorization
+        Jacobian of Matrix Functions
+    Calculus
+      Limits and Continuity
+        Limits
+        Continuity
+        Differentiability
+        Smoothness
+        Lipschitz Continuity
+      Derivatives
+        Derivative Definition
+        Power Rule
+        Product Rule
+        Quotient Rule
+        Chain Rule
+        Implicit Differentiation
+        Higher-Order Derivatives
+        Derivatives of Exponential and Log
+        Derivatives of Trigonometric Functions
+        Derivatives of Activation Functions
+      Multivariable Calculus
+        Partial Derivatives
+        Gradient
+        Directional Derivative
+        Jacobian
+        Hessian
+        Laplacian
+        Divergence
+        Curl
+        Multivariable Chain Rule
+        Total Derivative
+        Level Sets and Contours
+      Integration
+        Definite Integrals
+        Indefinite Integrals
+        Fundamental Theorem of Calculus
+        Integration by Parts
+        Substitution Rule
+        Multiple Integrals
+        Change of Variables
+        Line Integrals
+        Improper Integrals
+        Monte Carlo Integration
+      Series and Approximation
+        Sequences and Series
+        Taylor Series
+        Maclaurin Series
+        First-Order Approximation
+        Second-Order Approximation
+        Power Series
+        Fourier Series
+        Convergence Tests
+      Differential Equations
+        Ordinary Differential Equations
+        Partial Differential Equations
+        Initial Value Problems
+        Euler Method
+        Runge-Kutta Methods
+        Stochastic Differential Equations
+        Gradient Flow
+      Automatic Differentiation
+        Forward Mode
+        Reverse Mode
+        Computational Graph
+        Dual Numbers
+        Vector-Jacobian Product
+        Jacobian-Vector Product
+        Numerical Differentiation
+        Symbolic Differentiation
+      Vector Calculus Theorems
+        Green's Theorem
+        Stokes' Theorem
+        Divergence Theorem
+      Functional Analysis Basics
+        Functionals
+        Calculus of Variations
+        Euler-Lagrange Equation
+        Function Spaces
+        Reproducing Kernel Hilbert Space
+    Probability
+      Foundations of Probability
+        Sample Space
+        Events
+        Probability Axioms
+        Kolmogorov Axioms
+        Counting and Combinatorics
+        Permutations
+        Combinations
+        Conditional Probability
+        Independence
+        Conditional Independence
+        Law of Total Probability
+        Chain Rule of Probability
+        Bayes Theorem
+        Prior and Posterior
+        Likelihood
+        Evidence and Marginal Likelihood
+      Random Variables
+        Discrete Random Variables
+        Continuous Random Variables
+        Probability Mass Function
+        Probability Density Function
+        Cumulative Distribution Function
+        Quantile Function
+        Survival Function
+        Joint Distribution
+        Marginal Distribution
+        Conditional Distribution
+        Transformations of Random Variables
+        Change of Variables Formula
+      Moments and Expectations
+        Expectation
+        Linearity of Expectation
+        Variance
+        Standard Deviation
+        Covariance
+        Covariance Matrix
+        Correlation Coefficient
+        Skewness
+        Kurtosis
+        Moment Generating Function
+        Characteristic Function
+        Law of Iterated Expectations
+        Law of Total Variance
+        Jensen's Inequality
+        Markov Inequality
+        Chebyshev Inequality
+        Hoeffding Inequality
+        Chernoff Bound
+      Discrete Distributions
+        Bernoulli Distribution
+        Binomial Distribution
+        Categorical Distribution
+        Multinomial Distribution
+        Geometric Distribution
+        Negative Binomial Distribution
+        Poisson Distribution
+        Hypergeometric Distribution
+        Discrete Uniform Distribution
+        Zipf Distribution
+      Continuous Distributions
+        Continuous Uniform Distribution
+        Gaussian Distribution
+        Standard Normal Distribution
+        Multivariate Gaussian Distribution
+        Log-Normal Distribution
+        Exponential Distribution
+        Gamma Distribution
+        Inverse Gamma Distribution
+        Beta Distribution
+        Dirichlet Distribution
+        Chi-Squared Distribution
+        Student-t Distribution
+        F Distribution
+        Laplace Distribution
+        Cauchy Distribution
+        Logistic Distribution
+        Gumbel Distribution
+        Weibull Distribution
+        Pareto Distribution
+        Wishart Distribution
+        Von Mises Distribution
+        Von Mises-Fisher Distribution
+      Compound and Mixture Distributions
+        Mixture Distributions
+        Gaussian Mixture
+        Mixture Weights
+        Latent Variables
+        Compound Distributions
+        Heavy-Tailed Distributions
+        Exponential Family
+        Natural Parameters
+        Sufficient Statistics
+      Limit Theorems
+        Law of Large Numbers
+        Central Limit Theorem
+        Convergence in Probability
+        Convergence in Distribution
+        Almost Sure Convergence
+        Delta Method
+      Statistical Estimation
+        Estimators
+        Bias of an Estimator
+        Consistency
+        Efficiency
+        Cramer-Rao Bound
+        Fisher Information
+        Maximum Likelihood Estimation
+        Log-Likelihood
+        Negative Log-Likelihood
+        Maximum A Posteriori Estimation
+        Method of Moments
+        Bayesian Estimation
+        Posterior Predictive Distribution
+        Conjugate Priors
+        Beta-Binomial Conjugacy
+        Dirichlet-Multinomial Conjugacy
+        Gamma-Poisson Conjugacy
+        Gaussian-Gaussian Conjugacy
+        Normal-Inverse-Gamma Prior
+        Uninformative Priors
+        Jeffreys Prior
+        Empirical Bayes
+        Bias-Variance Decomposition
+      Stochastic Processes
+        Random Walk
+        Markov Property
+        Markov Chains
+        Transition Matrix
+        Stationary Distribution
+        Ergodicity
+        Detailed Balance
+        Absorbing States
+        Hidden Markov Models
+        Poisson Process
+        Brownian Motion
+        Wiener Process
+        Gaussian Processes
+        Martingales
+        Point Processes
+      Sampling Methods
+        Pseudo-Random Number Generation
+        Inverse Transform Sampling
+        Rejection Sampling
+        Importance Sampling
+        Box-Muller Transform
+        Reparameterization Trick
+        Gumbel-Max Trick
+        Gumbel-Softmax
+        Reservoir Sampling
+        Stratified Sampling
+        Markov Chain Monte Carlo
+        Metropolis-Hastings
+        Gibbs Sampling
+        Hamiltonian Monte Carlo
+        Langevin Dynamics
+        Sequential Monte Carlo
+    Statistics
+      Descriptive Statistics
+        Mean
+        Median
+        Mode
+        Range
+        Interquartile Range
+        Percentiles and Quantiles
+        Sample Variance
+        Sample Standard Deviation
+        Coefficient of Variation
+        Z-Score
+        Five-Number Summary
+        Histograms
+        Box Plots
+        Violin Plots
+        Q-Q Plots
+        Scatter Plots
+        Kernel Density Estimation
+      Sampling and Study Design
+        Population vs Sample
+        Simple Random Sampling
+        Systematic Sampling
+        Cluster Sampling
+        Sampling Bias
+        Selection Bias
+        Survivorship Bias
+        Simpson's Paradox
+        Observational vs Experimental Studies
+        Randomized Controlled Trials
+        Confounding Variables
+      Hypothesis Testing
+        Null Hypothesis
+        Alternative Hypothesis
+        Test Statistic
+        P-Value
+        Significance Level
+        Type I Error
+        Type II Error
+        Statistical Power
+        Effect Size
+        Cohen's d
+        One-Tailed and Two-Tailed Tests
+        Z-Test
+        Student's t-Test
+        Paired t-Test
+        Welch's t-Test
+        Chi-Squared Test
+        Fisher's Exact Test
+        ANOVA
+        F-Test
+        Mann-Whitney U Test
+        Wilcoxon Signed-Rank Test
+        Kruskal-Wallis Test
+        Kolmogorov-Smirnov Test
+        Shapiro-Wilk Test
+        Likelihood Ratio Test
+        Permutation Test
+        Multiple Comparisons Problem
+        Bonferroni Correction
+        Benjamini-Hochberg Procedure
+        False Discovery Rate
+        P-Hacking
+      Confidence and Intervals
+        Confidence Intervals
+        Standard Error
+        Margin of Error
+        Credible Intervals
+        Prediction Intervals
+      Resampling Methods
+        Bootstrap
+        Jackknife
+        Cross-Validation
+        Permutation Resampling
+      A/B Testing
+        Experiment Design
+        Randomization Units
+        Control and Treatment Groups
+        Sample Size Calculation
+        Minimum Detectable Effect
+        Sequential Testing
+        Peeking Problem
+        Novelty Effect
+        Multi-Armed Bandit Testing
+        Interleaving Experiments
+        Guardrail Metrics
+      Correlation and Association
+        Pearson Correlation
+        Spearman Rank Correlation
+        Kendall Tau
+        Point-Biserial Correlation
+        Cramer's V
+        Partial Correlation
+        Autocorrelation
+        Correlation vs Causation
+      Regression Basics
+        Simple Linear Regression
+        Multiple Linear Regression
+        Ordinary Least Squares
+        Residuals
+        R-Squared
+        Adjusted R-Squared
+        Coefficient Interpretation
+        Multicollinearity
+        Variance Inflation Factor
+        Heteroscedasticity
+        Homoscedasticity
+        Gauss-Markov Theorem
+        Polynomial Regression
+        Logistic Regression Basics
+        Generalized Linear Models
+        Link Functions
+        Interaction Terms
+        Dummy Variables
+      Bayesian Statistics
+        Bayesian Inference
+        Prior Elicitation
+        Posterior Computation
+        Bayes Factor
+        Bayesian Model Comparison
+        Hierarchical Bayesian Models
+        Bayesian Updating
+        Frequentist vs Bayesian
+      Causal Inference Basics
+        Potential Outcomes
+        Average Treatment Effect
+        Propensity Scores
+        Instrumental Variables
+        Difference in Differences
+        Regression Discontinuity
+        Do-Calculus
+        Causal DAGs
+        Backdoor Criterion
+      Time Series Statistics
+        Stationarity
+        Trend and Seasonality
+        Autocorrelation Function
+        Partial Autocorrelation Function
+        Moving Averages
+        Exponential Smoothing
+        Differencing
+        Augmented Dickey-Fuller Test
+      Model Selection Criteria
+        Akaike Information Criterion
+        Bayesian Information Criterion
+        Minimum Description Length
+        Occam's Razor
+    Information Theory
+      Entropy
+        Self-Information
+        Shannon Entropy
+        Binary Entropy Function
+        Joint Entropy
+        Conditional Entropy
+        Differential Entropy
+        Maximum Entropy Principle
+        Renyi Entropy
+      Cross-Entropy and Divergences
+        Cross-Entropy
+        Kullback-Leibler Divergence
+        Forward vs Reverse KL
+        Jensen-Shannon Divergence
+        Total Variation Distance
+        Hellinger Distance
+        Wasserstein Distance
+        f-Divergences
+        Bregman Divergences
+        Maximum Mean Discrepancy
+        Fisher Divergence
+      Mutual Information
+        Mutual Information
+        Pointwise Mutual Information
+        Conditional Mutual Information
+        Information Gain
+        Data Processing Inequality
+        Information Bottleneck
+      Coding Theory
+        Source Coding Theorem
+        Huffman Coding
+        Arithmetic Coding
+        Channel Capacity
+        Noisy Channel Coding Theorem
+        Error-Correcting Codes
+        Kolmogorov Complexity
+        Minimum Description Length Principle
+      Language Modeling Measures
+        Perplexity
+        Bits Per Character
+        Bits Per Byte
+        Surprisal
+      Rate-Distortion Theory
+        Rate-Distortion Function
+        Lossy Compression
+        Variational Bounds
+    Optimization
+      Optimization Fundamentals
+        Objective Function
+        Loss Function
+        Decision Variables
+        Constraints
+        Feasible Region
+        Local Minimum
+        Global Minimum
+        Saddle Points
+        Stationary Points
+        Critical Points
+        First-Order Optimality Conditions
+        Second-Order Optimality Conditions
+      Convexity
+        Convex Sets
+        Convex Functions
+        Strict Convexity
+        Strong Convexity
+        Concave Functions
+        Jensen's Inequality for Convex Functions
+        Epigraph
+        Sublevel Sets
+        Convex Optimization Problems
+        Non-Convex Optimization
+        Quasi-Convexity
+        Lipschitz Gradient
+        Smoothness Constant
+      Gradient Descent Variants
+        Gradient Descent
+        Batch Gradient Descent
+        Stochastic Gradient Descent
+        Mini-Batch Gradient Descent
+        Learning Rate
+        Learning Rate Schedules
+        Step Decay
+        Exponential Decay
+        Cosine Annealing
+        Warm Restarts
+        Warmup
+        Cyclical Learning Rates
+        One-Cycle Policy
+        Momentum
+        Nesterov Accelerated Gradient
+        AdaGrad
+        RMSProp
+        AdaDelta
+        Adam
+        AdamW
+        Nadam
+        AMSGrad
+        RAdam
+        LAMB
+        LARS
+        Lion
+        Adafactor
+        Shampoo
+        Sophia
+        Muon
+        Gradient Clipping
+        Gradient Noise
+        Polyak Averaging
+        Exponential Moving Average of Weights
+        Stochastic Weight Averaging
+        Lookahead Optimizer
+        Sharpness-Aware Minimization
+      Second-Order Methods
+        Newton's Method
+        Quasi-Newton Methods
+        BFGS
+        L-BFGS
+        Gauss-Newton Method
+        Levenberg-Marquardt
+        Conjugate Gradient
+        Natural Gradient
+        K-FAC
+        Hessian-Free Optimization
+        Trust Region Methods
+      Line Search
+        Exact Line Search
+        Backtracking Line Search
+        Armijo Condition
+        Wolfe Conditions
+        Golden Section Search
+      Constrained Optimization
+        Equality Constraints
+        Inequality Constraints
+        Lagrange Multipliers
+        Lagrangian Function
+        KKT Conditions
+        Duality
+        Lagrangian Dual
+        Weak Duality
+        Strong Duality
+        Slater's Condition
+        Duality Gap
+        Penalty Methods
+        Barrier Methods
+        Interior Point Methods
+        Augmented Lagrangian
+        Projected Gradient Descent
+        Proximal Gradient Methods
+        Proximal Operator
+        Frank-Wolfe Algorithm
+      Classical Optimization Problems
+        Linear Programming
+        Simplex Method
+        Quadratic Programming
+        Semidefinite Programming
+        Integer Programming
+        Mixed-Integer Programming
+        Combinatorial Optimization
+        Least Squares Problems
+      Non-Smooth and Sparse Optimization
+        Subgradients
+        Subgradient Method
+        Soft Thresholding
+        ISTA
+        FISTA
+        Coordinate Descent
+        ADMM
+      Derivative-Free Optimization
+        Grid Search
+        Random Search
+        Nelder-Mead
+        Simulated Annealing
+        Evolutionary Strategies
+        CMA-ES
+        Genetic Algorithms
+        Particle Swarm Optimization
+        Bayesian Optimization
+        Gaussian Process Surrogates
+        Acquisition Functions
+        Expected Improvement
+        Upper Confidence Bound
+        Hyperband
+        Successive Halving
+      Variational and Expectation Methods
+        Expectation-Maximization
+        Variational Inference
+        Evidence Lower Bound
+        Mean-Field Approximation
+        Coordinate Ascent Variational Inference
+      Optimization Landscape Topics
+        Vanishing Gradients
+        Exploding Gradients
+        Ill-Conditioning
+        Plateaus
+        Loss Surface Visualization
+        Flat vs Sharp Minima
+        Convergence Rate
+        Convergence Guarantees
+        Implicit Regularization
+        Edge of Stability
+    Numerical Methods
+      Number Representation
+        Floating Point Representation
+        IEEE 754
+        FP32
+        FP16
+        BF16
+        FP8
+        INT8
+        Machine Epsilon
+        Overflow and Underflow
+        Round-Off Error
+        Catastrophic Cancellation
+        Numerical Stability
+        Log-Sum-Exp Trick
+        Softmax Stability
+        Mixed Precision Arithmetic
+      Root Finding
+        Bisection Method
+        Newton-Raphson
+        Secant Method
+        Fixed-Point Iteration
+      Numerical Linear Algebra
+        Matrix Factorization Algorithms
+        Iterative Solvers
+        Jacobi Method
+        Gauss-Seidel Method
+        Krylov Subspace Methods
+        Lanczos Algorithm
+        Arnoldi Iteration
+        Randomized SVD
+        Sparse Matrix Formats
+        BLAS and LAPACK
+      Interpolation and Approximation
+        Linear Interpolation
+        Polynomial Interpolation
+        Spline Interpolation
+        Bilinear Interpolation
+        Least Squares Fitting
+        Chebyshev Approximation
+      Numerical Integration
+        Trapezoidal Rule
+        Simpson's Rule
+        Gaussian Quadrature
+        Quasi-Monte Carlo
+      Signal Processing Basics
+        Sampling Theorem
+        Nyquist Frequency
+        Discrete Fourier Transform
+        Fast Fourier Transform
+        Convolution Theorem
+        Short-Time Fourier Transform
+        Wavelets
+        Filters and Windows
+        Spectrograms
+    Discrete Mathematics
+      Set Theory
+        Sets and Elements
+        Subsets
+        Union Intersection Complement
+        Cartesian Product
+        Power Set
+        Cardinality
+        Countable and Uncountable Sets
+        Relations
+        Equivalence Relations
+        Partial Orders
+        Functions and Mappings
+        Injective Surjective Bijective
+        Fuzzy Sets
+        Measure Theory Basics
+        Sigma Algebras
+      Logic
+        Propositional Logic
+        Truth Tables
+        Logical Connectives
+        Predicate Logic
+        First-Order Logic
+        Quantifiers
+        Inference Rules
+        Modus Ponens
+        Resolution
+        Soundness and Completeness
+        Boolean Algebra
+        Normal Forms
+        Satisfiability
+        Horn Clauses
+        Modal Logic
+        Temporal Logic
+        Fuzzy Logic
+        Proof Techniques
+        Proof by Induction
+        Proof by Contradiction
+      Combinatorics
+        Counting Principles
+        Pigeonhole Principle
+        Binomial Coefficients
+        Pascal's Triangle
+        Inclusion-Exclusion Principle
+        Generating Functions
+        Recurrence Relations
+        Stirling Numbers
+        Catalan Numbers
+      Number Theory
+        Divisibility
+        Modular Arithmetic
+        Prime Numbers
+        Greatest Common Divisor
+        Euclidean Algorithm
+        Euler's Totient Function
+        Fermat's Little Theorem
+        Chinese Remainder Theorem
+        Hash Functions and Primes
+      Graph Theory
+        Graphs Vertices Edges
+        Directed Graphs
+        Undirected Graphs
+        Weighted Graphs
+        Multigraphs
+        Bipartite Graphs
+        Complete Graphs
+        Trees and Forests
+        Spanning Trees
+        Directed Acyclic Graphs
+        Adjacency Matrix
+        Adjacency List
+        Incidence Matrix
+        Degree Matrix
+        Graph Laplacian
+        Normalized Laplacian
+        Paths and Cycles
+        Connectivity
+        Connected Components
+        Strongly Connected Components
+        Graph Isomorphism
+        Planar Graphs
+        Eulerian Paths
+        Hamiltonian Paths
+        Graph Coloring
+        Cliques
+        Independent Sets
+        Matchings
+        Network Flow
+        Max-Flow Min-Cut
+        Centrality Measures
+        PageRank
+        Spectral Graph Theory
+        Random Graphs
+        Small-World Networks
+        Scale-Free Networks
+        Hypergraphs
+        Knowledge Graphs Basics
+      Abstract Algebra Basics
+        Groups
+        Rings
+        Fields
+        Group Actions
+        Symmetry Groups
+        Lie Groups
+        Permutation Groups
+        Equivariance and Invariance
+      Topology and Geometry Basics
+        Metric Spaces
+        Open and Closed Sets
+        Compactness
+        Manifolds
+        Riemannian Geometry Basics
+        Geodesics
+        Curvature
+        Topological Data Analysis
+        Persistent Homology
+      Game Theory Basics
+        Players Strategies Payoffs
+        Normal Form Games
+        Zero-Sum Games
+        Nash Equilibrium
+        Minimax
+        Mixed Strategies
+        Dominant Strategies
+        Prisoner's Dilemma
+        Mechanism Design
+        Cooperative Games
+        Shapley Values
+  Computer Science
+    Computational Thinking
+      Abstraction
+      Decomposition
+      Pattern Recognition
+      Algorithm Design
+      Pseudocode
+      Flowcharts
+    Data Structures
+      Primitive Types
+        Integers
+        Floating Point Numbers
+        Booleans
+        Characters and Strings
+        Pointers and References
+      Linear Data Structures
+        Arrays
+        Dynamic Arrays
+        Multidimensional Arrays
+        Linked Lists
+        Doubly Linked Lists
+        Stacks
+        Queues
+        Deques
+        Circular Buffers
+        Priority Queues
+      Hash-Based Structures
+        Hash Tables
+        Hash Maps
+        Hash Sets
+        Collision Resolution
+        Chaining
+        Open Addressing
+        Load Factor
+        Bloom Filters
+        Count-Min Sketch
+        HyperLogLog
+        Consistent Hashing
+        Locality-Sensitive Hashing
+      Trees
+        Binary Trees
+        Binary Search Trees
+        Balanced Trees
+        AVL Trees
+        Red-Black Trees
+        B-Trees
+        B+ Trees
+        Heaps
+        Binary Heaps
+        Fibonacci Heaps
+        Tries
+        Suffix Trees
+        Segment Trees
+        Fenwick Trees
+        KD-Trees
+        Ball Trees
+        Quadtrees and Octrees
+        R-Trees
+        Merkle Trees
+      Graph Structures
+        Adjacency Representations
+        Edge Lists
+        Compressed Sparse Row
+        Disjoint Set Union
+        Union-Find
+      Advanced Structures
+        Skip Lists
+        Treaps
+        Splay Trees
+        Persistent Data Structures
+        Immutable Data Structures
+        Ropes
+        Interval Trees
+        Van Emde Boas Trees
+    Algorithms
+      Algorithm Analysis
+        Time Complexity
+        Space Complexity
+        Big O Notation
+        Big Omega Notation
+        Big Theta Notation
+        Little o Notation
+        Asymptotic Analysis
+        Best Average Worst Case
+        Amortized Analysis
+        Master Theorem
+        Recurrence Analysis
+        Complexity Classes
+        P Class
+        NP Class
+        NP-Complete
+        NP-Hard
+        PSPACE
+        Polynomial-Time Reductions
+        P vs NP Problem
+        Decidability
+        Halting Problem
+        Turing Machines
+        Church-Turing Thesis
+        Computability
+      Algorithm Design Paradigms
+        Brute Force
+        Divide and Conquer
+        Greedy Algorithms
+        Dynamic Programming
+        Memoization
+        Tabulation
+        Optimal Substructure
+        Overlapping Subproblems
+        Backtracking
+        Branch and Bound
+        Randomized Algorithms
+        Approximation Algorithms
+        Online Algorithms
+        Streaming Algorithms
+        Parallel Algorithms
+      Recursion
+        Base Case and Recursive Case
+        Call Stack
+        Tail Recursion
+        Mutual Recursion
+        Recursion Trees
+        Recursion to Iteration Conversion
+      Sorting Algorithms
+        Bubble Sort
+        Selection Sort
+        Insertion Sort
+        Merge Sort
+        Quick Sort
+        Heap Sort
+        Counting Sort
+        Radix Sort
+        Bucket Sort
+        Shell Sort
+        Timsort
+        Introsort
+        Topological Sort
+        External Sorting
+        Stable vs Unstable Sorting
+      Searching Algorithms
+        Linear Search
+        Binary Search
+        Interpolation Search
+        Exponential Search
+        Ternary Search
+        Jump Search
+        Hash Lookup
+        Nearest Neighbor Search
+        Approximate Nearest Neighbor Search
+      Graph Algorithms
+        Breadth-First Search
+        Depth-First Search
+        Iterative Deepening
+        Dijkstra's Algorithm
+        Bellman-Ford Algorithm
+        Floyd-Warshall Algorithm
+        A* Search
+        Best-First Search
+        Bidirectional Search
+        Kruskal's Algorithm
+        Prim's Algorithm
+        Tarjan's Algorithm
+        Kosaraju's Algorithm
+        Ford-Fulkerson Algorithm
+        Edmonds-Karp Algorithm
+        Hopcroft-Karp Algorithm
+        Johnson's Algorithm
+        Cycle Detection
+        Articulation Points and Bridges
+        Minimum Cut
+        Traveling Salesman Problem
+        Graph Partitioning
+        Community Detection
+        Louvain Method
+        Label Propagation
+      Dynamic Programming Problems
+        Fibonacci Sequence
+        Knapsack Problem
+        Longest Common Subsequence
+        Longest Increasing Subsequence
+        Edit Distance
+        Levenshtein Distance
+        Matrix Chain Multiplication
+        Coin Change
+        Rod Cutting
+        Viterbi Algorithm
+        Forward-Backward Algorithm
+        CKY Parsing
+        Bellman Equation
+      String Algorithms
+        String Matching
+        Naive String Search
+        KMP Algorithm
+        Rabin-Karp Algorithm
+        Boyer-Moore Algorithm
+        Z Algorithm
+        Aho-Corasick Algorithm
+        Suffix Arrays
+        Regular Expressions
+        Finite Automata
+        Byte-Pair Encoding Algorithm
+      Hashing
+        Hash Functions
+        Cryptographic Hashes
+        Non-Cryptographic Hashes
+        MurmurHash
+        xxHash
+        SHA-256
+        MD5
+        Universal Hashing
+        Perfect Hashing
+        Feature Hashing
+        MinHash
+        SimHash
+      Numerical and Geometric Algorithms
+        Euclidean GCD Algorithm
+        Fast Exponentiation
+        Sieve of Eratosthenes
+        Matrix Multiplication Algorithms
+        Strassen Algorithm
+        Convex Hull
+        Graham Scan
+        Closest Pair of Points
+        Line Sweep
+        Voronoi Diagrams
+        Delaunay Triangulation
+      Randomized and Probabilistic Algorithms
+        Monte Carlo Algorithms
+        Las Vegas Algorithms
+        Randomized Quicksort
+        Reservoir Sampling Algorithm
+        Fisher-Yates Shuffle
+        Random Projections
+        Johnson-Lindenstrauss Lemma
+        Sketching Algorithms
+    Computer Systems
+      Computer Architecture
+        CPU
+        Instruction Set Architecture
+        Registers
+        Cache Hierarchy
+        Cache Locality
+        Memory Hierarchy
+        RAM
+        Virtual Memory
+        Pipelining
+        SIMD
+        Vectorization
+        Multi-Core Processors
+        GPU Architecture
+        Streaming Multiprocessors
+        Tensor Cores
+        TPU
+        NPU
+        FPGA
+        ASIC
+        Memory Bandwidth
+        Arithmetic Intensity
+        Roofline Model
+        Von Neumann Bottleneck
+        HBM
+        NVLink
+        PCIe
+        InfiniBand
+      Operating Systems
+        Processes
+        Threads
+        Scheduling
+        Context Switching
+        Memory Management
+        Paging
+        File Systems
+        System Calls
+        Interrupts
+        Virtualization
+        Containers
+      Concurrency and Parallelism
+        Concurrency vs Parallelism
+        Race Conditions
+        Mutexes and Locks
+        Semaphores
+        Deadlock
+        Atomic Operations
+        Thread Pools
+        Asynchronous Programming
+        Event Loops
+        Global Interpreter Lock
+        Multiprocessing
+        Message Passing
+        MPI
+        Shared Memory
+        Amdahl's Law
+        Gustafson's Law
+        MapReduce
+      Networking Basics
+        OSI Model
+        TCP/IP
+        HTTP and HTTPS
+        REST
+        gRPC
+        WebSockets
+        DNS
+        Latency and Throughput
+        Load Balancing
+        CDN
+      Databases
+        Relational Databases
+        ACID Properties
+        Transactions
+        Indexing
+        Query Optimization
+        Normalization
+        NoSQL Databases
+        Key-Value Stores
+        Document Stores
+        Column Stores
+        Graph Databases
+        Time-Series Databases
+        Vector Databases
+        CAP Theorem
+        Sharding
+        Replication
+        Data Warehouses
+        Data Lakes
+        Lakehouse
+        OLTP vs OLAP
+      Distributed Systems
+        Consistency Models
+        Consensus Algorithms
+        Paxos
+        Raft
+        Fault Tolerance
+        Distributed Storage
+        Distributed Computing
+        Scalability
+        Microservices
+      Software Engineering Practices
+        Version Control
+        Code Review
+        Unit Testing
+        Integration Testing
+        Test-Driven Development
+        Continuous Integration
+        Continuous Deployment
+        Debugging
+        Profiling
+        Logging
+        Design Patterns
+        Object-Oriented Programming
+        Functional Programming
+        Clean Code
+        Refactoring
+        Technical Debt
+        API Design
+        Documentation
+        Semantic Versioning
+    Theory of Computation
+      Formal Languages
+      Regular Languages
+      Context-Free Grammars
+      Chomsky Hierarchy
+      Finite State Machines
+      Pushdown Automata
+      Lambda Calculus
+      Type Systems
+      Compilers and Interpreters
+      Just-In-Time Compilation
+  Programming & Tooling
+    Python
+      Python Basics
+        Variables and Types
+        Control Flow
+        Functions
+        Lambda Functions
+        List Comprehensions
+        Dictionary Comprehensions
+        Generators
+        Iterators
+        Decorators
+        Context Managers
+        Exceptions
+        Modules and Packages
+        Classes and Objects
+        Inheritance
+        Dunder Methods
+        Dataclasses
+        Type Hints
+        f-Strings
+        Slicing
+        Unpacking
+        Walrus Operator
+        Pattern Matching
+      Python Standard Library
+        collections
+        itertools
+        functools
+        os and pathlib
+        sys
+        json
+        csv
+        re
+        datetime
+        math and random
+        logging
+        argparse
+        multiprocessing
+        threading
+        asyncio
+        concurrent.futures
+        pickle
+        typing
+        unittest
+        dataclasses
+        enum
+        abc
+      Python Ecosystem Tools
+        pip
+        conda
+        Mamba
+        uv
+        Poetry
+        pipenv
+        venv
+        virtualenv
+        pyenv
+        pyproject.toml
+        requirements.txt
+        setuptools
+        wheel
+        PyPI
+        pytest
+        hypothesis
+        black
+        ruff
+        flake8
+        isort
+        mypy
+        pyright
+        pre-commit
+        tox
+        nox
+        pdb
+        cProfile
+        line_profiler
+        memory_profiler
+        tqdm
+        rich
+        typer
+        click
+        Pydantic
+        Hydra
+        OmegaConf
+        python-dotenv
+        Cython
+        Numba
+        mypyc
+      Python Performance
+        Vectorization over Loops
+        Avoiding Python Overhead
+        Memory Views
+        Caching with lru_cache
+        Profiling Hotspots
+        Multiprocessing vs Threading
+    Scientific Python Stack
+      NumPy
+        ndarray
+        dtypes
+        Array Creation
+        Indexing and Slicing
+        Boolean Masking
+        Fancy Indexing
+        Broadcasting Rules
+        Vectorized Operations
+        Universal Functions
+        Aggregations
+        Axis Semantics
+        Reshaping and Transposing
+        Stacking and Splitting
+        np.linalg
+        np.random
+        np.einsum
+        Memory Layout
+        Views vs Copies
+        Strides
+        Structured Arrays
+        np.save and np.load
+      Pandas
+        Series
+        DataFrame
+        Index
+        MultiIndex
+        Reading CSV and Parquet
+        Selection with loc and iloc
+        Filtering
+        Sorting
+        Missing Value Handling
+        GroupBy
+        Aggregation
+        Merge and Join
+        Concat
+        Pivot Tables
+        Melt and Stack
+        Apply and Map
+        Vectorized String Methods
+        Categorical dtype
+        DateTime Handling
+        Resampling
+        Rolling Windows
+        Window Functions
+        Method Chaining
+        Memory Optimization
+        Copy-on-Write
+      Alternatives to Pandas
+        Polars
+        Dask
+        Modin
+        Vaex
+        cuDF
+        DuckDB
+        Apache Arrow
+        PyArrow
+        Ibis
+      SciPy
+        scipy.stats
+        scipy.optimize
+        scipy.linalg
+        scipy.sparse
+        scipy.signal
+        scipy.spatial
+        scipy.interpolate
+        scipy.integrate
+        scipy.fft
+        scipy.ndimage
+        scipy.cluster
+      Visualization Libraries
+        Matplotlib
+          Figure and Axes
+          pyplot Interface
+          Object-Oriented Interface
+          Line Plots
+          Scatter Plots
+          Bar Charts
+          Histograms
+          Subplots
+          Annotations
+          Colormaps
+          Styles and Themes
+          Saving Figures
+          3D Plotting
+          Animations
+        Seaborn
+          Distribution Plots
+          Categorical Plots
+          Relational Plots
+          Regression Plots
+          Heatmaps
+          Pair Plots
+          Joint Plots
+          FacetGrid
+          Color Palettes
+        Plotly
+        Bokeh
+        Altair
+        Vega-Lite
+        Holoviews
+        Datashader
+        Graphviz
+        NetworkX Drawing
+        Streamlit
+        Gradio
+        Dash
+        Panel
+        Voila
+      scikit-learn
+        Estimator API
+        fit predict transform
+        Transformers
+        Pipelines
+        ColumnTransformer
+        FeatureUnion
+        Preprocessing Module
+        Model Selection Module
+        train_test_split
+        GridSearchCV
+        RandomizedSearchCV
+        HalvingGridSearchCV
+        Cross-Validation Iterators
+        Metrics Module
+        Scoring Functions
+        Datasets Module
+        Inspection Module
+        Permutation Importance
+        Partial Dependence
+        Calibration Module
+        Joblib Persistence
+        set_output API
+        Custom Estimators
+      Other ML Libraries
+        XGBoost
+        LightGBM
+        CatBoost
+        statsmodels
+        Prophet
+        sktime
+        Darts
+        PyMC
+        Stan
+        Pyro
+        NumPyro
+        imbalanced-learn
+        category_encoders
+        feature-engine
+        Optuna
+        Hyperopt
+        Ray Tune
+        MLflow
+        Weights & Biases
+        TensorBoard
+        Comet
+        Neptune
+        DVC
+        Great Expectations
+        NetworkX
+        igraph
+        Gensim
+        spaCy
+        NLTK
+        OpenCV
+        Pillow
+        scikit-image
+        librosa
+        torchaudio
+        SymPy
+    Deep Learning Frameworks
+      PyTorch
+        Tensors
+        Tensor Creation
+        Tensor Operations
+        Device Management
+        CUDA Tensors
+        Autograd
+        requires_grad
+        backward
+        Gradient Accumulation
+        torch.no_grad
+        torch.nn Module
+        nn.Module
+        nn.Sequential
+        Parameters and Buffers
+        nn.functional
+        Loss Functions
+        torch.optim
+        Optimizer step and zero_grad
+        LR Schedulers
+        Dataset and DataLoader
+        Samplers
+        Collate Functions
+        num_workers and Pinned Memory
+        Training Loop
+        Evaluation Mode
+        Checkpointing
+        state_dict
+        torch.save and torch.load
+        Mixed Precision with AMP
+        GradScaler
+        torch.compile
+        TorchScript
+        torch.fx
+        torch.func
+        vmap
+        Hooks
+        Distributed Data Parallel
+        Fully Sharded Data Parallel
+        torch.distributed
+        torchrun
+        Tensor Parallel APIs
+        TorchVision
+        TorchText
+        TorchAudio
+        PyTorch Lightning
+        Lightning Fabric
+        Hugging Face Accelerate
+        Ignite
+        Catalyst
+        fastai Library
+        Captum
+        TorchServe
+        ExecuTorch
+        PyTorch Profiler
+        Memory Profiling
+        Custom CUDA Extensions
+        Triton Language
+      TensorFlow
+        tf.Tensor
+        Eager Execution
+        tf.function
+        Graph Mode
+        AutoGraph
+        tf.Variable
+        tf.GradientTape
+        tf.data
+        Dataset Pipelines
+        tf.keras
+        TensorFlow Hub
+        TensorFlow Serving
+        TensorFlow Lite
+        TensorFlow.js
+        TensorFlow Extended
+        TensorFlow Probability
+        TensorFlow Datasets
+        TensorBoard Integration
+        SavedModel Format
+        Distribution Strategies
+        XLA Compiler
+      Keras
+        Sequential API
+        Functional API
+        Model Subclassing
+        Layers
+        Custom Layers
+        Compile Fit Evaluate
+        Callbacks
+        EarlyStopping
+        ModelCheckpoint
+        ReduceLROnPlateau
+        Keras Tuner
+        Keras 3 Multi-Backend
+        KerasCV
+        KerasNLP
+        Keras Hub
+      JAX
+        jax.numpy
+        Functional Purity
+        Immutability
+        jit
+        grad
+        vmap
+        pmap
+        shard_map
+        lax Primitives
+        PRNG Keys
+        PyTrees
+        Tracing and Abstract Values
+        Static vs Traced Arguments
+        Control Flow in JAX
+        jax.scan
+        XLA Backend
+        Flax
+        Flax NNX
+        Haiku
+        Equinox
+        Optax
+        Orbax
+        Chex
+        Jraph
+        Blackjax
+        Scenic
+        MaxText
+        Levanter
+      Other Frameworks
+        MXNet
+        Caffe
+        Theano
+        Chainer
+        PaddlePaddle
+        MindSpore
+        OneFlow
+        Burn
+        Candle
+        tinygrad
+        micrograd
+        MLX
+        ONNX
+        ONNX Runtime
+        OpenVINO
+        TensorRT
+        Core ML
+        Apache TVM
+        IREE
+        Mojo
+        Hugging Face Transformers
+        Hugging Face Datasets
+        Hugging Face Tokenizers
+        Hugging Face Hub
+        timm
+        Diffusers
+        PEFT
+        TRL
+        safetensors
+    Development Environments
+      Jupyter
+        Jupyter Notebook
+        JupyterLab
+        Kernels
+        Cells and Magics
+        Line and Cell Magics
+        Interactive Widgets
+        ipywidgets
+        nbconvert
+        nbformat
+        papermill
+        nbdev
+        Notebook Version Control
+        nbstripout
+        Jupytext
+        Google Colab
+        Kaggle Notebooks
+        Deepnote
+        Marimo
+      IDEs and Editors
+        VS Code
+        PyCharm
+        Spyder
+        Vim and Neovim
+        Emacs
+        Cursor
+        Remote Development
+        Debugger Usage
+        Jupyter in VS Code
+      AI Coding Assistants
+        GitHub Copilot
+        Claude Code
+        Cursor Agent
+        Codex CLI
+        Gemini Code Assist
+        Tabnine
+    Version Control
+      Git
+        Repositories
+        Commits
+        Staging Area
+        Branches
+        Merging
+        Rebasing
+        Merge Conflicts
+        Remote Repositories
+        Clone Fetch Pull Push
+        Tags
+        Stash
+        Cherry-Pick
+        Reset and Revert
+        Reflog
+        Bisect
+        .gitignore
+        Git LFS
+        Submodules
+        Hooks
+        Commit Message Conventions
+        Branching Strategies
+        Git Flow
+        Trunk-Based Development
+        Pull Requests
+        Code Review Workflow
+      Hosting Platforms
+        GitHub
+        GitLab
+        Bitbucket
+        GitHub Actions
+        GitHub Issues
+        GitHub Codespaces
+        Hugging Face Spaces
+      Data and Model Versioning
+        DVC
+        Git LFS for Models
+        LakeFS
+        Pachyderm
+        Dolt
+        Model Registries
+    Containers and Infrastructure
+      Docker
+        Images and Containers
+        Dockerfile
+        Layers and Caching
+        Volumes
+        Networking
+        Docker Compose
+        Docker Hub
+        Multi-Stage Builds
+        NVIDIA Container Toolkit
+        GPU Containers
+        Image Optimization
+      Container Orchestration
+        Kubernetes
+        Pods
+        Deployments
+        Services
+        Helm
+        Kubeflow
+        Ray
+        Slurm
+        Nomad
+      Cloud Platforms
+        AWS
+        AWS SageMaker
+        AWS EC2
+        AWS S3
+        AWS Lambda
+        Google Cloud Platform
+        Vertex AI
+        Google Cloud Storage
+        BigQuery
+        Microsoft Azure
+        Azure Machine Learning
+        Lambda Labs
+        RunPod
+        CoreWeave
+        Paperspace
+        Vast.ai
+        Modal
+        Replicate
+        Spot Instances
+        Infrastructure as Code
+        Terraform
+        Pulumi
+        Ansible
+    Linux and Command Line
+      Shell Basics
+        Bash
+        Zsh
+        Navigating the Filesystem
+        File Permissions
+        chmod and chown
+        Pipes and Redirection
+        Environment Variables
+        PATH
+        Aliases
+        Shell Scripting
+        Cron Jobs
+      Essential Commands
+        ls cd pwd
+        cp mv rm
+        cat less head tail
+        grep
+        find
+        sed
+        awk
+        sort uniq wc
+        tar and gzip
+        curl and wget
+        rsync
+        scp
+        ps top htop
+        kill
+        df and du
+        chmod
+        ln
+        xargs
+        jq
+      Remote and Session Tools
+        SSH
+        SSH Keys
+        SSH Config
+        Port Forwarding
+        tmux
+        screen
+        nohup
+      System Monitoring
+        nvidia-smi
+        nvtop
+        free and vmstat
+        iostat
+        lsof
+        strace
+      Package Management
+        apt
+        yum and dnf
+        Homebrew
+        Snap
+        Nix
+      Windows Equivalents
+        WSL2
+        PowerShell
+        Windows Terminal
+    SQL and Data Querying
+      SQL Basics
+        SELECT
+        WHERE
+        ORDER BY
+        LIMIT
+        DISTINCT
+        Aliases
+        NULL Handling
+      Aggregation and Grouping
+        COUNT SUM AVG MIN MAX
+        GROUP BY
+        HAVING
+      Joins
+        INNER JOIN
+        LEFT JOIN
+        RIGHT JOIN
+        FULL OUTER JOIN
+        CROSS JOIN
+        Self Join
+        Anti Join
+        Semi Join
+      Advanced SQL
+        Subqueries
+        Common Table Expressions
+        Window Functions
+        ROW_NUMBER RANK DENSE_RANK
+        LAG and LEAD
+        Running Totals
+        CASE Expressions
+        UNION and UNION ALL
+        INTERSECT and EXCEPT
+        Pivoting
+        Recursive CTEs
+        String Functions
+        Date Functions
+        Indexes
+        Query Execution Plans
+        EXPLAIN
+      Data Definition and Manipulation
+        CREATE TABLE
+        ALTER TABLE
+        INSERT UPDATE DELETE
+        Constraints
+        Primary and Foreign Keys
+        Views
+        Materialized Views
+        Stored Procedures
+        Triggers
+      Database Systems
+        PostgreSQL
+        MySQL
+        SQLite
+        DuckDB
+        ClickHouse
+        Snowflake
+        BigQuery SQL
+        Redshift
+        Spark SQL
+        Presto and Trino
+        pgvector
+        MongoDB
+        Redis
+        Cassandra
+        Elasticsearch
+        Neo4j
+        Cypher Query Language
+        SPARQL
+      Python Database Access
+        SQLAlchemy
+        psycopg
+        sqlite3 Module
+        pandas read_sql
+        ORMs
+    Other Languages
+      C++
+        Compilation and Linking
+        Pointers and Memory
+        References
+        Classes and Templates
+        STL Containers
+        RAII
+        Smart Pointers
+        Move Semantics
+        Multithreading
+        CMake
+        pybind11
+        nanobind
+        LibTorch
+        Eigen Library
+      CUDA
+        GPU Programming Model
+        Kernels
+        Threads Blocks Grids
+        Warps
+        Global Memory
+        Shared Memory
+        Registers and Local Memory
+        Memory Coalescing
+        Bank Conflicts
+        Occupancy
+        Streams
+        Kernel Launch
+        cuBLAS
+        cuDNN
+        NCCL
+        cuSPARSE
+        CUTLASS
+        Thrust
+        Nsight Systems
+        Nsight Compute
+        CUDA Graphs
+        Unified Memory
+        ROCm and HIP
+        OpenCL
+        Metal
+        SYCL
+        Triton Kernels
+      R
+        R Basics
+        Vectors and Data Frames
+        tidyverse
+        dplyr
+        ggplot2
+        tidyr
+        caret
+        tidymodels
+        RStudio
+        R Markdown
+        Shiny
+      Julia
+        Julia Basics
+        Multiple Dispatch
+        Flux.jl
+        Lux.jl
+        DifferentialEquations.jl
+        Zygote.jl
+        Turing.jl
+        Pluto Notebooks
+      Rust
+        Ownership and Borrowing
+        Cargo
+        PyO3
+        Candle Framework
+        Polars Internals
+        Tokenizers Implementation
+      JavaScript and TypeScript
+        Node.js
+        TensorFlow.js Usage
+        ONNX Runtime Web
+        Transformers.js
+        WebGPU
+        React Basics for Demos
+      Go
+        Goroutines
+        ML Serving in Go
+      Scala and Java
+        Apache Spark with Scala
+        JVM Ecosystem
+        Deeplearning4j
+      MATLAB and Octave
+        Matrix Programming
+        Toolboxes
+      Lisp and Prolog
+        Common Lisp
+        Scheme
+        Prolog
+        Logic Programming
+      Shell and Make
+        Makefiles
+        Task Runners
+        just
+    Big Data and Pipelines Tooling
+      Apache Spark
+        RDDs
+        DataFrames
+        PySpark
+        Spark MLlib
+        Spark Streaming
+      Apache Hadoop
+        HDFS
+        MapReduce Framework
+        YARN
+      Apache Kafka
+      Apache Flink
+      Apache Beam
+      Apache Airflow
+      Prefect
+      Dagster
+      Luigi
+      dbt
+      Apache Arrow Format
+      Parquet
+      ORC
+      Avro
+      Protocol Buffers
+      Delta Lake
+      Apache Iceberg
+      Apache Hudi
+    APIs and Web Basics
+      HTTP Methods
+      Status Codes
+      JSON
+      YAML
+      TOML
+      XML
+      REST APIs
+      GraphQL
+      OpenAPI and Swagger
+      Authentication and API Keys
+      OAuth
+      Rate Limiting
+      Webhooks
+      FastAPI
+      Flask
+      Django
+      requests Library
+      httpx
+      aiohttp
+      Web Scraping
+      BeautifulSoup
+      Scrapy
+      Selenium
+      Playwright
+    Hardware for ML
+      Choosing GPUs
+      Consumer vs Data Center GPUs
+      NVIDIA GPU Generations
+      VRAM Requirements
+      Apple Silicon
+      TPUs
+      AMD Instinct
+      Intel Gaudi
+      Cerebras
+      Groq LPU
+      AWS Trainium and Inferentia
+      Google TPU Pods
+      Edge Devices
+      Raspberry Pi
+      NVIDIA Jetson
+      Coral Edge TPU
+      Mobile NPUs
+      Workstation Builds
+      Cloud GPU Pricing
+      Power and Cooling
+  Data
+    Data Fundamentals
+      Data Types
+        Numerical Data
+        Continuous Data
+        Discrete Data
+        Categorical Data
+        Nominal Data
+        Ordinal Data
+        Binary Data
+        Text Data
+        Image Data
+        Audio Data
+        Video Data
+        Time Series Data
+        Spatial Data
+        Geospatial Data
+        Graph Data
+        Tabular Data
+        Sequential Data
+        Multimodal Data
+        Sensor Data
+        Event Logs
+        3D Data and Point Clouds
+      Data Structure Levels
+        Structured Data
+        Semi-Structured Data
+        Unstructured Data
+      Data Scales
+        Nominal Scale
+        Ordinal Scale
+        Interval Scale
+        Ratio Scale
+      Data Lifecycle
+        Data Collection
+        Data Storage
+        Data Processing
+        Data Analysis
+        Data Archiving
+        Data Deletion
+      Data Formats
+        CSV
+        TSV
+        JSON Lines
+        Parquet Files
+        Arrow Files
+        HDF5
+        NetCDF
+        Zarr
+        NPY and NPZ
+        Pickle Files
+        TFRecord
+        WebDataset
+        Protobuf Files
+        Feather
+        Excel Files
+        SQLite Files
+        Image Formats
+        Audio Formats
+        Video Formats
+      Data Quality Dimensions
+        Accuracy
+        Completeness
+        Consistency
+        Timeliness
+        Validity
+        Uniqueness
+        Integrity
+    Data Collection
+      Collection Methods
+        Surveys and Questionnaires
+        Sensors and IoT
+        Web Scraping
+        APIs
+        Logging and Telemetry
+        Public Datasets
+        Data Purchasing
+        Crowdsourcing
+        User-Generated Content
+        Simulations
+        Synthetic Data Generation
+        Data Partnerships
+      Web-Scale Data Collection
+        Web Crawling
+        robots.txt
+        Deduplication
+        Near-Duplicate Detection
+        Language Identification
+        Boilerplate Removal
+        Quality Filtering
+        Toxicity Filtering
+        PII Removal
+        Content Licensing
+        Opt-Out Mechanisms
+      Sampling Strategies
+        Random Sampling
+        Stratified Sampling
+        Cluster Sampling
+        Convenience Sampling
+        Snowball Sampling
+        Active Sampling
+        Importance Weighting
+      Data Ethics in Collection
+        Informed Consent
+        Privacy
+        Anonymization
+        Pseudonymization
+        Terms of Service
+        Copyright
+        Fair Use
+        GDPR Considerations
+        Data Provenance
+        Datasheets for Datasets
+    Data Labeling and Annotation
+      Labeling Concepts
+        Ground Truth
+        Label Schema
+        Annotation Guidelines
+        Label Taxonomy
+        Inter-Annotator Agreement
+        Cohen's Kappa
+        Fleiss' Kappa
+        Krippendorff's Alpha
+        Label Noise
+        Label Smoothing
+        Gold Standard Sets
+        Adjudication
+        Annotator Training
+        Quality Control
+        Labeling Cost
+      Labeling Approaches
+        Manual Labeling
+        Crowdsourced Labeling
+        Expert Labeling
+        Programmatic Labeling
+        Weak Supervision
+        Labeling Functions
+        Snorkel
+        Distant Supervision
+        Semi-Automatic Labeling
+        Model-Assisted Labeling
+        Pre-Labeling
+        Active Learning for Labeling
+        Human-in-the-Loop
+        LLM-Based Labeling
+        Self-Training Labels
+        Pseudo-Labels
+      Annotation Task Types
+        Classification Labels
+        Multi-Label Annotation
+        Bounding Boxes
+        Polygons
+        Semantic Segmentation Masks
+        Instance Segmentation Masks
+        Keypoints
+        Landmarks
+        3D Cuboids
+        Point Cloud Labeling
+        Named Entity Spans
+        Relation Annotation
+        Coreference Annotation
+        Sentiment Labels
+        Transcription
+        Speaker Diarization Labels
+        Audio Event Labels
+        Video Frame Labels
+        Object Tracking Labels
+        Ranking and Preference Labels
+        Pairwise Comparisons
+        Rubric Scoring
+      Annotation Tools
+        Label Studio
+        CVAT
+        Labelbox
+        Scale AI
+        Prodigy
+        doccano
+        LabelImg
+        VGG Image Annotator
+        Supervisely
+        V7 Darwin
+        Roboflow Annotate
+        Amazon SageMaker Ground Truth
+        Amazon Mechanical Turk
+        Appen
+        Surge AI
+        Toloka
+        Argilla
+        brat
+        Audacity for Audio Labels
+        ELAN
+    Data Cleaning and Preprocessing
+      Data Exploration
+        Exploratory Data Analysis
+        Data Profiling
+        Summary Statistics
+        Distribution Plots
+        Correlation Matrices
+        Pairwise Plots
+        pandas-profiling
+        ydata-profiling
+        Sweetviz
+        Data Dictionaries
+      Data Cleaning
+        Deduplication
+        Fixing Data Types
+        Parsing Dates
+        String Normalization
+        Whitespace Trimming
+        Case Normalization
+        Unicode Normalization
+        Handling Inconsistent Categories
+        Spelling Correction
+        Fixing Encodings
+        Removing Invalid Records
+        Schema Validation
+        Range Checks
+        Referential Integrity Checks
+        Pandera
+        Great Expectations Suites
+      Missing Data
+        Types of Missingness
+        Missing Completely at Random
+        Missing at Random
+        Missing Not at Random
+        Missingness Indicators
+        Listwise Deletion
+        Pairwise Deletion
+        Mean Imputation
+        Median Imputation
+        Mode Imputation
+        Constant Imputation
+        Forward Fill
+        Backward Fill
+        Interpolation Imputation
+        KNN Imputation
+        Regression Imputation
+        Iterative Imputation
+        MICE
+        Multiple Imputation
+        Model-Based Imputation
+        Imputation with Tree Models
+      Outliers
+        Outlier Definition
+        Z-Score Method
+        IQR Method
+        Modified Z-Score
+        Tukey Fences
+        Isolation Forest
+        Local Outlier Factor
+        DBSCAN for Outliers
+        One-Class SVM
+        Elliptic Envelope
+        Mahalanobis Distance Outliers
+        Winsorization
+        Clipping
+        Robust Statistics
+        Trimming
+        Outlier Removal vs Retention
+      Scaling and Normalization
+        Min-Max Scaling
+        Standardization
+        Z-Score Normalization
+        Robust Scaling
+        MaxAbs Scaling
+        Unit Vector Normalization
+        Log Transform
+        Square Root Transform
+        Box-Cox Transform
+        Yeo-Johnson Transform
+        Quantile Transformation
+        Power Transforms
+        Rank Transformation
+        Binning
+        Equal-Width Binning
+        Equal-Frequency Binning
+        KBinsDiscretizer
+        Feature Clipping
+        Normalization vs Standardization
+      Categorical Encoding
+        Label Encoding
+        Ordinal Encoding
+        One-Hot Encoding
+        Dummy Encoding
+        Binary Encoding
+        Hashing Encoding
+        Frequency Encoding
+        Count Encoding
+        Target Encoding
+        Leave-One-Out Encoding
+        Weight of Evidence Encoding
+        CatBoost Encoding
+        James-Stein Encoding
+        Helmert Encoding
+        Backward Difference Encoding
+        Entity Embeddings
+        Handling High Cardinality
+        Handling Unknown Categories
+        Rare Category Grouping
+      Feature Engineering Basics
+        Feature Construction
+        Polynomial Features
+        Interaction Features
+        Ratio Features
+        Date and Time Features
+        Cyclical Encoding
+        Lag Features
+        Rolling Statistics
+        Text Length Features
+        Aggregation Features
+        Domain-Specific Features
+        Feature Crosses
+        Feature Selection Overview
+        Feature Stores
+        Featuretools
+        tsfresh
+      Text Preprocessing
+        Tokenization Basics
+        Lowercasing
+        Stop Word Removal
+        Stemming
+        Lemmatization
+        Punctuation Removal
+        Regex Cleaning
+        HTML Stripping
+        Unicode Handling
+        Sentence Splitting
+        n-grams
+        Bag of Words
+        TF-IDF
+      Image Preprocessing
+        Resizing
+        Cropping
+        Center Crop
+        Padding
+        Color Space Conversion
+        Grayscale Conversion
+        Pixel Normalization
+        Mean and Std Normalization
+        Histogram Equalization
+        Denoising
+        Channel Ordering
+        Image Decoding Pipelines
+      Audio Preprocessing
+        Resampling
+        Trimming Silence
+        Normalizing Amplitude
+        Framing and Windowing
+        Spectrogram Computation
+        Mel Spectrograms
+        MFCCs
+        Pre-Emphasis
+        Voice Activity Detection
+      Time Series Preprocessing
+        Resampling Frequencies
+        Handling Irregular Timestamps
+        Detrending
+        Deseasonalizing
+        Differencing
+        Smoothing
+        Windowing
+        Time Zone Handling
+    Data Splitting and Validation
+      Dataset Splits
+        Training Set
+        Validation Set
+        Test Set
+        Holdout Set
+        Train-Validation-Test Ratios
+        Random Split
+        Stratified Split
+        Group Split
+        Time-Based Split
+        Temporal Holdout
+        Walk-Forward Validation
+        Nested Splits
+        Development Set
+        Out-of-Distribution Test Sets
+      Cross-Validation Schemes
+        K-Fold Cross-Validation
+        Stratified K-Fold
+        Repeated K-Fold
+        Leave-One-Out
+        Leave-P-Out
+        Group K-Fold
+        Time Series Split
+        Blocked Cross-Validation
+        Nested Cross-Validation
+        Monte Carlo Cross-Validation
+        Shuffle Split
+      Data Leakage
+        Target Leakage
+        Train-Test Contamination
+        Temporal Leakage
+        Group Leakage
+        Preprocessing Leakage
+        Feature Leakage
+        Duplicate Leakage
+        Benchmark Contamination
+        Leakage Detection
+        Fitting Scalers on Train Only
+        Pipeline-Based Prevention
+      Distribution Shift Basics
+        Covariate Shift
+        Label Shift
+        Concept Drift
+        Domain Shift
+        Train-Serving Skew
+        Sampling Bias Shift
+    Imbalanced Data
+      Imbalance Concepts
+        Class Imbalance
+        Imbalance Ratio
+        Minority Class
+        Majority Class
+        Rare Events
+        Accuracy Paradox
+        Appropriate Metrics for Imbalance
+      Resampling Techniques
+        Random Undersampling
+        Random Oversampling
+        SMOTE
+        Borderline-SMOTE
+        SVM-SMOTE
+        ADASYN
+        SMOTE-NC
+        SMOTE-ENN
+        SMOTE-Tomek
+        Tomek Links
+        Edited Nearest Neighbours
+        NearMiss
+        Cluster Centroids
+        Condensed Nearest Neighbour
+        One-Sided Selection
+        Balanced Bagging
+      Algorithm-Level Techniques
+        Class Weights
+        Cost-Sensitive Learning
+        Focal Loss
+        Threshold Moving
+        Balanced Accuracy
+        Ensemble Methods for Imbalance
+        Anomaly Detection Framing
+        Two-Stage Classifiers
+    Data Augmentation
+      Image Augmentation
+        Random Flip
+        Random Rotation
+        Random Crop
+        Random Resized Crop
+        Color Jitter
+        Brightness and Contrast
+        Hue and Saturation
+        Gaussian Blur
+        Gaussian Noise
+        Random Erasing
+        Cutout
+        Mixup
+        CutMix
+        Mosaic Augmentation
+        AutoAugment
+        RandAugment
+        TrivialAugment
+        AugMix
+        Elastic Deformation
+        Perspective Transform
+        Affine Transform
+        Grid Distortion
+        Solarize and Posterize
+        Test-Time Augmentation
+        Albumentations
+        torchvision.transforms
+        Kornia
+        imgaug
+      Text Augmentation
+        Synonym Replacement
+        Random Insertion
+        Random Swap
+        Random Deletion
+        EDA
+        Back-Translation
+        Paraphrasing
+        Contextual Word Replacement
+        Word Embedding Substitution
+        Character-Level Noise
+        Sentence Shuffling
+        LLM-Generated Augmentation
+        nlpaug
+        TextAttack
+      Audio Augmentation
+        Time Stretching
+        Pitch Shifting
+        Noise Injection
+        Time Shifting
+        Volume Perturbation
+        SpecAugment
+        Time Masking
+        Frequency Masking
+        Room Impulse Response
+        Speed Perturbation
+        Mixing Backgrounds
+      Time Series Augmentation
+        Jittering
+        Scaling
+        Time Warping
+        Magnitude Warping
+        Window Slicing
+        Window Warping
+        Permutation
+      Tabular Augmentation
+        Noise Addition
+        Feature Mixing
+        Synthetic Tabular Generation
+        CTGAN
+        TVAE
+        SDV
+      Graph Augmentation
+        Node Dropping
+        Edge Perturbation
+        Feature Masking
+        Subgraph Sampling
+      Synthetic Data
+        Simulation-Based Synthesis
+        Procedural Generation
+        Generative Model Synthesis
+        Synthetic Data Quality
+        Privacy-Preserving Synthesis
+        Differential Privacy Synthesis
+        Domain Randomization
+        Sim-to-Real Gap
+    Datasets Catalog
+      Image Classification Datasets
+        MNIST
+        Fashion-MNIST
+        EMNIST
+        KMNIST
+        SVHN
+        CIFAR-10
+        CIFAR-100
+        STL-10
+        Caltech-101
+        Caltech-256
+        ImageNet
+        ImageNet-1k
+        ImageNet-21k
+        ImageNet-A
+        ImageNet-R
+        ImageNet-C
+        ImageNet-Sketch
+        ObjectNet
+        Tiny ImageNet
+        Oxford Flowers 102
+        Oxford-IIIT Pets
+        Stanford Cars
+        Stanford Dogs
+        Food-101
+        FGVC Aircraft
+        iNaturalist
+        Places365
+        SUN397
+        CUB-200
+        EuroSAT
+        DTD
+        Caltech-UCSD Birds
+        CelebA
+        LFW
+        VGGFace2
+        MS-Celeb-1M
+        JFT-300M
+        Open Images
+      Object Detection and Segmentation Datasets
+        PASCAL VOC
+        COCO
+        LVIS
+        Objects365
+        Cityscapes
+        ADE20K
+        KITTI
+        nuScenes
+        Waymo Open Dataset
+        BDD100K
+        Mapillary Vistas
+        CamVid
+        SA-1B
+        DAVIS
+        YouTube-VOS
+        MOT Challenge
+        CrowdHuman
+        WIDER FACE
+        DOTA
+        xView
+      Medical Imaging Datasets
+        ChestX-ray14
+        CheXpert
+        MIMIC-CXR
+        BraTS
+        ISIC
+        LIDC-IDRI
+        Medical Segmentation Decathlon
+        PhysioNet
+        MIMIC-III
+        MIMIC-IV
+        eICU
+        TCGA
+        UK Biobank
+      Image-Text and Multimodal Datasets
+        LAION-400M
+        LAION-5B
+        LAION-Aesthetics
+        COYO-700M
+        Conceptual Captions
+        CC3M
+        CC12M
+        YFCC100M
+        Flickr30k
+        MS COCO Captions
+        Visual Genome
+        VQA v2
+        GQA
+        OK-VQA
+        TextVQA
+        DocVQA
+        ChartQA
+        ScienceQA
+        MMMU
+        MathVista
+        SEED-Bench
+        MMBench
+        NoCaps
+        WebLI
+        DataComp
+        OBELICS
+        MINT-1T
+        RedCaps
+        WIT
+      Video Datasets
+        UCF101
+        HMDB51
+        Kinetics-400
+        Kinetics-600
+        Kinetics-700
+        Something-Something
+        ActivityNet
+        AVA
+        Charades
+        Epic-Kitchens
+        HowTo100M
+        WebVid-10M
+        MSR-VTT
+        YouCook2
+        Ego4D
+        Panda-70M
+        InternVid
+        VATEX
+        TVQA
+      Text Corpora and Pretraining Datasets
+        Common Crawl
+        C4
+        mC4
+        The Pile
+        RedPajama
+        RefinedWeb
+        FineWeb
+        FineWeb-Edu
+        Dolma
+        ROOTS
+        OSCAR
+        OpenWebText
+        WebText
+        BookCorpus
+        Books3
+        Project Gutenberg
+        Wikipedia Dumps
+        Wikitext-103
+        Penn Treebank
+        One Billion Word Benchmark
+        arXiv Dataset
+        PubMed Abstracts
+        S2ORC
+        peS2o
+        Stack Exchange Dump
+        Reddit Dataset
+        OpenSubtitles
+        CulturaX
+        SlimPajama
+        DCLM
+        Nemotron-CC
+      Code Datasets
+        The Stack
+        The Stack v2
+        CodeSearchNet
+        HumanEval
+        MBPP
+        APPS
+        CodeContests
+        DS-1000
+        SWE-bench
+        SWE-bench Verified
+        LiveCodeBench
+        BigCodeBench
+        Spider
+        WikiSQL
+        BIRD
+        CoNaLa
+        CodeXGLUE
+      NLP Benchmark Datasets
+        GLUE
+        SuperGLUE
+        SQuAD
+        SQuAD 2.0
+        Natural Questions
+        TriviaQA
+        HotpotQA
+        MS MARCO
+        BEIR
+        MTEB
+        SST-2
+        IMDB Reviews
+        Yelp Reviews
+        Amazon Reviews
+        AG News
+        20 Newsgroups
+        Reuters-21578
+        CoLA
+        MNLI
+        SNLI
+        QQP
+        STS-B
+        RTE
+        WNLI
+        BoolQ
+        COPA
+        ReCoRD
+        WiC
+        MultiRC
+        CoNLL-2003
+        OntoNotes
+        WMT Translation Datasets
+        IWSLT
+        FLORES-200
+        OPUS
+        XNLI
+        XTREME
+        TyDi QA
+        CNN/DailyMail
+        XSum
+        Multi-News
+        SAMSum
+        LAMBADA
+        HellaSwag
+        WinoGrande
+        PIQA
+        SIQA
+        ARC
+        OpenBookQA
+        CommonsenseQA
+        StrategyQA
+        DROP
+        RACE
+        QuAC
+        CoQA
+        NarrativeQA
+        TruthfulQA
+        MMLU
+        MMLU-Pro
+        BIG-bench
+        BIG-bench Hard
+        AGIEval
+        GSM8K
+        MATH
+        MathQA
+        AQuA-RAT
+        GPQA
+        ARC-AGI
+        Humanity's Last Exam
+        IFEval
+        MT-Bench
+        AlpacaEval
+        Chatbot Arena
+        HELM Scenarios
+        FEVER
+        SciFact
+        PubMedQA
+        MedQA
+        MedMCQA
+        LegalBench
+        FinQA
+        TabFact
+        WikiTableQuestions
+        ToolBench
+        API-Bank
+        GAIA
+        AgentBench
+        WebArena
+        OSWorld
+        tau-bench
+      Instruction and Preference Datasets
+        Alpaca
+        Dolly
+        OpenAssistant Conversations
+        ShareGPT
+        LIMA
+        FLAN Collection
+        Natural Instructions
+        Super-Natural Instructions
+        P3
+        OpenOrca
+        UltraChat
+        UltraFeedback
+        Anthropic HH-RLHF
+        Stanford Human Preferences
+        PKU-SafeRLHF
+        Nectar
+        LMSYS-Chat-1M
+        WildChat
+        Tulu SFT Mixture
+        OpenHermes
+        Magpie
+        No Robots
+        Capybara
+        MetaMathQA
+        Orca-Math
+        OpenMathInstruct
+        NuminaMath
+        Evol-Instruct
+        WizardLM Data
+        Code Alpaca
+        Glaive Function Calling
+      Speech and Audio Datasets
+        LibriSpeech
+        Libri-Light
+        Common Voice
+        TIMIT
+        TED-LIUM
+        VoxCeleb
+        VoxPopuli
+        Switchboard
+        Fisher
+        GigaSpeech
+        People's Speech
+        MLS
+        FLEURS
+        CoVoST
+        MuST-C
+        AudioSet
+        ESC-50
+        UrbanSound8K
+        Speech Commands
+        VCTK
+        LJSpeech
+        LibriTTS
+        MUSAN
+        AISHELL
+        WenetSpeech
+        MusicNet
+        MAESTRO
+        FMA
+        MusicCaps
+        NSynth
+        Clotho
+        AudioCaps
+        VGGSound
+        Emilia
+      Tabular and Classic ML Datasets
+        Iris
+        Wine
+        Breast Cancer Wisconsin
+        Boston Housing
+        California Housing
+        Diabetes
+        Titanic
+        Adult Census Income
+        Bank Marketing
+        Credit Card Fraud
+        German Credit
+        Heart Disease
+        Pima Indians Diabetes
+        Mushroom
+        Car Evaluation
+        Covertype
+        KDD Cup 99
+        NSL-KDD
+        HIGGS
+        Criteo
+        Avazu
+        Ames Housing
+        Bike Sharing
+        Energy Efficiency
+        Abalone
+        Spambase
+        OpenML-CC18
+        TabZilla
+        UCI Repository
+      Recommender Datasets
+        MovieLens
+        Netflix Prize
+        Last.fm
+        Yelp Dataset
+        Amazon Product Reviews
+        Book-Crossing
+        Million Song Dataset
+        Pinterest
+        Yoochoose
+        Criteo Display Ads
+        Taobao
+        KuaiRec
+        Steam Reviews
+        Goodreads
+      Time Series Datasets
+        M3 Competition
+        M4 Competition
+        M5 Competition
+        Electricity Load Diagrams
+        Traffic Dataset
+        ETT
+        Weather Dataset
+        Exchange Rate
+        Air Passengers
+        Sunspots
+        UCR Archive
+        UEA Archive
+        PhysioNet Challenge
+        NAB
+        Yahoo S5
+        SMAP and MSL
+        Monash Forecasting Archive
+        LOTSA
+        GIFT-Eval
+      Graph Datasets
+        Cora
+        CiteSeer
+        PubMed Graph
+        Reddit Graph
+        PPI
+        OGB
+        ogbn-arxiv
+        ogbn-products
+        ogbg-molhiv
+        ZINC
+        QM9
+        MoleculeNet
+        TUDataset
+        Amazon Co-Purchase
+        Flickr Graph
+        Yelp Graph
+        SNAP Datasets
+        FB15k-237
+        WN18RR
+        Freebase
+        Wikidata
+        DBpedia
+        YAGO
+        ConceptNet
+        ATOMIC
+      Reinforcement Learning Environments and Datasets
+        OpenAI Gym
+        Gymnasium
+        Atari 2600 ALE
+        MuJoCo
+        DeepMind Control Suite
+        Procgen
+        MiniGrid
+        BabyAI
+        NetHack Learning Environment
+        Crafter
+        MineRL
+        MineDojo
+        StarCraft II LE
+        PettingZoo
+        Melting Pot
+        D4RL
+        Minari
+        RL Unplugged
+        Open X-Embodiment
+        DROID
+        BridgeData V2
+        RT-1 Data
+        Isaac Gym
+        Isaac Lab
+        Habitat
+        AI2-THOR
+        ManiSkill
+        Meta-World
+        robosuite
+        CARLA
+        Highway-env
+        SMAC
+        Overcooked-AI
+        Hanabi
+        ALFWorld
+        TextWorld
+        BabyAI Levels
+      Scientific Datasets
+        Protein Data Bank
+        UniProt
+        AlphaFold DB
+        CASP
+        ProteinGym
+        ZINC Molecules
+        PubChem
+        ChEMBL
+        Materials Project
+        OC20
+        OC22
+        ERA5
+        WeatherBench
+        ClimateBench
+        SDSS
+        Galaxy Zoo
+        LHC Open Data
+        GEO
+        Human Protein Atlas
+        Tahoe-100M
+        CellxGene
+      Dataset Hubs and Catalogs
+        Hugging Face Datasets Hub
+        Kaggle Datasets
+        UCI Machine Learning Repository
+        OpenML
+        Papers with Code Datasets
+        TensorFlow Datasets Catalog
+        torchvision.datasets
+        Google Dataset Search
+        AWS Open Data Registry
+        Azure Open Datasets
+        Zenodo
+        Figshare
+        Dryad
+        Harvard Dataverse
+        data.gov
+        EU Open Data Portal
+        World Bank Open Data
+        Our World in Data
+        Common Crawl Foundation
+        Allen AI Datasets
+        LAION Datasets
+        EleutherAI Datasets
+        Roboflow Universe
+        Visual Data Discovery
+        Open Data Commons
+    Data Management
+      Data Governance
+        Data Ownership
+        Data Stewardship
+        Data Catalogs
+        Data Lineage
+        Metadata Management
+        Access Control
+        Data Retention Policies
+        Compliance
+        Data Contracts
+        Dataset Documentation
+        Model Cards and Data Cards
+        Data Nutrition Labels
+      Data Pipelines
+        ETL
+        ELT
+        Batch Processing
+        Stream Processing
+        Orchestration
+        Scheduling
+        Idempotency
+        Backfilling
+        Data Validation Steps
+        Monitoring Pipelines
+        Feature Pipelines
+        Training Data Pipelines
+        Data Loaders
+        Prefetching
+        Sharding Datasets
+        Streaming Datasets
+        Memory-Mapped Datasets
+      Data Storage
+        Object Storage
+        File Storage
+        Block Storage
+        Columnar Storage
+        Row Storage
+        Compression
+        Partitioning
+        Bucketing
+        Data Lakes vs Warehouses
+        Caching Datasets
+        Versioned Storage
+      Data Privacy and Security
+        Personally Identifiable Information
+        Protected Health Information
+        Data Masking
+        Tokenization of Sensitive Data
+        Encryption at Rest
+        Encryption in Transit
+        k-Anonymity
+        l-Diversity
+        t-Closeness
+        Differential Privacy Basics
+        Federated Data
+        Secure Enclaves
+        Data Minimization
+        Right to Be Forgotten

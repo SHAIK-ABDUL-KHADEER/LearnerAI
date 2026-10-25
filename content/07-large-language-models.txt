@@ -1,0 +1,1627 @@
+Large Language Models
+  Fundamentals
+    Language Modeling Objective
+      Next-Token Prediction
+      Autoregressive Generation
+      Causal Language Modeling
+      Masked Language Modeling
+      Prefix Language Modeling
+      Span Corruption
+      Fill-in-the-Middle
+      Cross-Entropy Loss
+      Perplexity
+    Tokens and Context
+      Token
+      Vocabulary
+      Vocabulary Size
+      Context Window
+      Context Length
+    Parameters and Weights
+      Parameter
+      Weight
+      Parameter Count
+      Parameter Scale
+        1B Models
+        7B Models
+        70B Models
+        400B Models
+        1T Models
+      Dense Models
+      Sparse Models
+      Active Parameters
+      Hyperparameters
+      Random Seed
+      Epoch
+      Checkpoint
+      Inference
+    Model Variants
+      Base Model
+      Instruct Model
+      Chat Model
+      Reasoning Model
+      Distilled Model
+      Quantized Model
+      Model Family
+      Model Card
+    Openness and Licensing
+      Open Weights
+      Closed Weights
+      Open Source Models
+      Apache 2.0 License
+      MIT License
+      Llama Community License
+      RAIL License
+      Research-Only License
+    Release Artifacts
+      Safetensors
+      GGUF
+      GPTQ Files
+      AWQ Files
+      EXL2 Files
+      MLX Weights
+      config.json
+      tokenizer.json
+      Chat Template File
+  Types of Language Models
+    By Scale
+      Large Language Models
+      Small Language Models
+      Tiny Language Models
+      Edge Language Models
+      On-Device Language Models
+      Foundation Models
+      Frontier Models
+    By Modality
+      Vision-Language Models
+      Vision-Language-Action Models
+      Multimodal Large Language Models
+      Large Multimodal Models
+      Omni Models
+      Audio Language Models
+      Speech Language Models
+    By Purpose
+      Code Language Models
+      Math Language Models
+      Large Reasoning Models
+      Large Action Models
+      Large Concept Models
+      Embedding Models
+      Reranker Models
+      Reward Models
+      Judge Models
+      Guard Models
+      Multilingual Language Models
+      Long-Context Models
+      Domain-Specific Language Models
+        Medical LLMs
+          Med-PaLM
+          Med-PaLM 2
+          BioGPT
+        Legal LLMs
+          SaulLM
+        Finance LLMs
+          BloombergGPT
+          FinGPT
+        Science LLMs
+          Galactica
+          SciBERT
+    By Architecture
+      Decoder-Only Models
+      Encoder-Only Models
+      Encoder-Decoder Models
+      Mixture-of-Experts Models
+      Diffusion Language Models
+        LLaDA
+        Mercury
+        Gemini Diffusion
+      State Space Language Models
+      Hybrid SSM-Transformer Models
+      World Models
+  Tokenization
+    Tokenization Algorithms
+      Character-Level Tokenization
+      Byte-Level Tokenization
+      Byte Pair Encoding
+      Byte-Level BPE
+      WordPiece
+      Unigram Tokenizer
+      SentencePiece
+      tiktoken
+      Pre-Tokenization
+      Byte Fallback
+    Token-Free Models
+      ByT5
+      CANINE
+      MegaByte
+      Byte Latent Transformer
+    Special Tokens
+      BOS Token
+      EOS Token
+      PAD Token
+      UNK Token
+      System Token
+      Role Tokens
+      Tool Call Tokens
+      Thinking Tokens
+      Image Placeholder Tokens
+    Chat Templates
+      Jinja Chat Templates
+      ChatML
+      Llama 2 Chat Format
+      Llama 3 Chat Format
+      Alpaca Format
+      Vicuna Format
+      Harmony Format
+      apply_chat_template
+    Tokenizer Properties
+      Token Efficiency
+      Fertility
+      Multilingual Tokenization
+      Number Tokenization
+      Digit Splitting
+      Code Tokenization
+      Glitch Tokens
+      SolidGoldMagikarp
+      Undertrained Tokens
+      Vocabulary Extension
+  Architecture
+    Decoder-Only Transformer
+      Embedding Layer
+      Tied Embeddings
+      Transformer Block
+      Residual Stream
+      Language Modeling Head
+      Vocabulary Projection
+      Logits
+      Softmax
+      Softmax Temperature
+    Attention Variants
+      Multi-Head Attention
+      Multi-Query Attention
+      Grouped-Query Attention
+      Multi-Head Latent Attention
+      Sliding Window Attention
+      Local-Global Attention
+      Flash Attention
+      Linear Attention
+      Attention Sinks
+      QK-Norm
+    Positional Encoding
+      Sinusoidal Position Encoding
+      Rotary Position Embedding
+      ALiBi
+      NoPE
+      RoPE Base Frequency
+      Context Extension
+        Position Interpolation
+        NTK-Aware Scaling
+        Dynamic NTK
+        YaRN
+        LongRoPE
+    Feed-Forward Network
+      SwiGLU
+      GeGLU
+      FFN Expansion Ratio
+    Normalization
+      LayerNorm
+      RMSNorm
+      Pre-Norm
+      Post-Norm
+      Parallel Blocks
+    Mixture of Experts
+      Expert
+      Router
+      Top-K Routing
+      Load Balancing Loss
+      Auxiliary-Loss-Free Balancing
+      Router Z-Loss
+      Shared Experts
+      Fine-Grained Experts
+      Expert Capacity
+      Capacity Factor
+      Token Dropping
+      Soft MoE
+      Mixture of Depths
+      Switch Transformer
+      GShard
+      DeepSeekMoE
+    Model Dimensions
+      Depth
+      Width
+      Number of Layers
+      Hidden Size
+      Head Dimension
+      Number of Heads
+      KV Heads
+    Decoding Components
+      KV Cache
+      Multi-Token Prediction
+      Medusa Heads
+      EAGLE Heads
+    Architecture Families
+      GPT Architecture
+      LLaMA Architecture
+      Mistral Architecture
+      Gemma Architecture
+      Qwen Architecture
+      DeepSeek Architecture
+      Mamba
+      Mamba-2
+      Jamba
+      RWKV
+      xLSTM
+      Hyena
+  Training Data
+    Web Corpora
+      Common Crawl
+      C4
+      RefinedWeb
+      FineWeb
+      FineWeb-Edu
+      FineWeb2
+      Dolma
+      RedPajama
+      The Pile
+      SlimPajama
+      DCLM
+    Code Corpora
+      The Stack
+      The Stack v2
+      StarCoderData
+    Curated Sources
+      Books
+      Books3
+      Project Gutenberg
+      Wikipedia
+      arXiv
+      StackExchange
+      OpenWebText
+    Data Processing
+      Text Extraction
+      Trafilatura
+      Language Identification
+      Deduplication
+        Exact Deduplication
+        Near Deduplication
+        MinHash
+        Suffix Array Deduplication
+        Semantic Deduplication
+      Quality Filtering
+        Heuristic Filters
+        Gopher Rules
+        C4 Filters
+        Perplexity Filtering
+        Classifier Filtering
+        Educational Quality Classifier
+      Toxicity Filtering
+      PII Removal
+      Decontamination
+      N-Gram Overlap Decontamination
+    Data Composition
+      Data Mixing Ratios
+      DoReMi
+      Data Mixing Laws
+      RegMix
+      Data Curriculum
+      Synthetic Pretraining Data
+        Rephrasing the Web
+        Textbooks Are All You Need
+        Cosmopedia
+      Data Repetition
+      Epochs Over Data
+      Multi-Epoch Scaling
+      Tokens Per Parameter
+      Chinchilla-Optimal Tokens
+      Over-Training
+      Data Wall
+      Data Pruning
+  Pretraining
+    Objective and Setup
+      Causal LM Loss
+      Sequence Packing
+      Sequence Length
+      Training Tokens
+      Training Steps
+      Epochs
+      Random Seed
+      Maximal Update Parametrization
+    Hyperparameters
+      Learning Rate
+      Peak Learning Rate
+      Learning Rate Warmup
+      Cosine Decay
+      Warmup-Stable-Decay
+      Learning Rate Annealing
+      Batch Size in Tokens
+      Critical Batch Size
+      Weight Decay
+      Gradient Clipping
+      Adam Betas
+      AdamW
+      Adafactor
+      Lion
+      Muon
+    Scaling Laws
+      Kaplan Scaling Laws
+      Chinchilla Scaling Laws
+      Compute-Optimal Training
+      Inference-Aware Scaling
+      Data-Constrained Scaling
+      Scaling Laws for MoE
+    Compute Accounting
+      FLOPs Estimation
+      6ND Rule
+      PetaFLOP-Days
+      Model FLOPs Utilization
+    Training Dynamics
+      Loss Curves
+      Training Loss
+      Validation Loss
+      Loss Spikes
+      Divergence
+      Gradient Norm Monitoring
+      Instability Fixes
+        Z-Loss
+        QK-Norm Stabilization
+        Checkpoint Rollback
+      Grokking
+    Precision
+      FP32 Training
+      Mixed Precision
+      BF16
+      FP16
+      FP8 Training
+      FP4 Training
+      Loss Scaling
+      Master Weights
+    Parallelism
+      Data Parallelism
+      Tensor Parallelism
+      Pipeline Parallelism
+      Sequence Parallelism
+      Context Parallelism
+      Expert Parallelism
+      3D Parallelism
+      4D Parallelism
+      ZeRO
+      ZeRO-3
+      FSDP
+      Megatron-LM
+      DeepSpeed
+      Ring Attention
+      Gradient Accumulation
+      Activation Checkpointing
+      All-Reduce
+      Pipeline Bubbles
+      1F1B Schedule
+      DualPipe
+      Zero Bubble Pipeline
+    Checkpointing and Infrastructure
+      Model Checkpointing
+      Optimizer State Checkpointing
+      Asynchronous Checkpointing
+      Fault Tolerance
+      Elastic Training
+      InfiniBand
+      NVLink
+    Training Stages
+      Pretraining Stage
+      Continued Pretraining
+      Mid-Training
+      Long-Context Extension Stage
+      Annealing Phase
+      Domain-Adaptive Pretraining
+      Curriculum Learning
+    Model Combination
+      Model Souping
+      Checkpoint Averaging
+      Weight EMA
+      Model Merging
+        Linear Merging
+        SLERP
+        TIES Merging
+        DARE
+        Task Arithmetic
+        Passthrough Merging
+        Frankenmerging
+        Model Stock
+        Evolutionary Model Merging
+        mergekit
+      Upcycling to MoE
+      Depth Up-Scaling
+      Distillation Pretraining
+      Pruning and Distillation
+      Minitron
+  Post-Training and Alignment
+    Supervised Fine-Tuning
+      Instruction Tuning
+      Chat Tuning
+      Multi-Turn SFT
+      Loss Masking on Prompts
+      Instruction Datasets
+        FLAN
+        Alpaca
+        Dolly 15k
+        OpenAssistant Conversations
+        ShareGPT
+        UltraChat
+        LIMA
+        Self-Instruct
+        Evol-Instruct
+        WizardLM Data
+        Orca
+        OpenOrca
+      Instruction Data Formatting
+    Reinforcement Learning from Human Feedback
+      Human Preference Collection
+      Pairwise Comparisons
+      Reward Modeling
+      Bradley-Terry Model
+      Reward Model Ensembles
+      Proximal Policy Optimization
+      KL Penalty
+      Reference Model
+      Value Model
+      Generalized Advantage Estimation
+      Reward Hacking
+      Over-Optimization
+      Length Bias in Reward Models
+      RLHF Mode Collapse
+      InstructGPT Recipe
+    RL from AI Feedback
+      RLAIF
+      Constitutional AI
+      Critique and Revision
+      AI Preference Labels
+    Direct Preference Methods
+      Direct Preference Optimization
+      Identity Preference Optimization
+      Kahneman-Tversky Optimization
+      ORPO
+      SimPO
+      Conservative DPO
+      Regularized Preference Optimization
+      Iterative DPO
+      Online DPO
+      DPO Beta Parameter
+      Step-DPO
+    Policy Gradient Methods
+      REINFORCE
+      REINFORCE Leave-One-Out
+      REINFORCE++
+      ReMax
+      Group Relative Policy Optimization
+      DAPO
+      Dr. GRPO
+      GSPO
+      Clip-Higher
+      Dynamic Sampling
+      Entropy Collapse
+    RL with Verifiable Rewards
+      Verifiable Rewards
+      Rule-Based Rewards
+      Math Answer Verification
+      Code Execution Rewards
+      Unit Test Rewards
+      Format Rewards
+      Length Penalties
+      Reasoning RL
+      Agentic RL
+      Long-Horizon RL
+      Multi-Turn RL
+      Tool-Use RL
+      Reward Hacking in RLVR
+      Reward Sparsity
+      Curriculum RL
+    Reward Model Types
+      Outcome Reward Models
+      Process Reward Models
+      Generative Reward Models
+      Scalar Reward Models
+      RewardBench
+      PRM800K
+      Math-Shepherd
+    Sampling-Based Alignment
+      Rejection Sampling Fine-Tuning
+      Best-of-N Sampling
+      RAFT
+      ReST
+      ReST-EM
+      Expert Iteration
+      SPIN
+      Self-Rewarding Language Models
+      Meta-Rewarding
+      Online vs Offline RL
+      Off-Policy RL
+    Preference Datasets
+      HH-RLHF
+      UltraFeedback
+      HelpSteer
+      HelpSteer2
+      Nectar
+      PKU-SafeRLHF
+    Alignment Objectives
+      Helpfulness
+      Harmlessness
+      Honesty
+      HHH Framework
+      Safety Tuning
+      Refusal Training
+      Over-Refusal Mitigation
+      System Prompt Training
+      Instruction Hierarchy
+      Persona Training
+      Model Spec
+      Character Training
+      Tool-Use Training
+      Function-Calling Training
+      Alignment Tax
+      Superficial Alignment Hypothesis
+      Deliberative Alignment
+    Post-Training Recipes
+      Llama 3 Post-Training Recipe
+      Tulu 3 Recipe
+      DeepSeek-R1 Recipe
+      SFT Then RL
+  Fine-Tuning and PEFT
+    Full Fine-Tuning
+      Full Parameter Updates
+      Gradient Checkpointing
+      Layer Freezing
+    Parameter-Efficient Methods
+      LoRA
+      QLoRA
+      DoRA
+      LoRA+
+      rsLoRA
+      AdaLoRA
+      VeRA
+      LoHa
+      LoKr
+      GaLore
+      IA3
+      Prefix Tuning
+      Prompt Tuning
+      P-Tuning v2
+      Adapters
+      Houlsby Adapters
+      BitFit
+    LoRA Configuration
+      LoRA Rank
+      LoRA Alpha
+      LoRA Dropout
+      Target Modules
+      All-Linear Targets
+      Attention-Only Targets
+    Adapter Lifecycle
+      Merging Adapters
+      Adapter Composition
+      Adapter Switching
+      Multi-LoRA Serving
+      S-LoRA
+      Punica
+      LoRAX
+    Fine-Tuning Hyperparameters
+      Epochs
+      Learning Rate
+      Learning Rate Schedule
+      Batch Size
+      Gradient Accumulation Steps
+      Max Sequence Length
+      Sequence Packing
+      Loss Masking
+      Completion-Only Loss
+      Warmup Ratio
+      Weight Decay
+      Seed
+      NEFTune
+      Early Stopping
+    Fine-Tuning Challenges
+      Catastrophic Forgetting
+      Continual Learning
+      Rehearsal and Replay
+      Knowledge Injection
+      Domain Adaptation
+      Chat Template Mismatch
+      Safety Degradation from Fine-Tuning
+    Fine-Tuning Data
+      Instruction-Response Pairs
+      Conversation Format
+      ShareGPT Format
+      OpenAI Messages Format
+      Synthetic Fine-Tuning Data
+      Distillation Data from Larger Models
+    Fine-Tuning Tools
+      Hugging Face PEFT
+      TRL
+      Axolotl
+      Unsloth
+      LLaMA-Factory
+      torchtune
+      OpenRLHF
+      verl
+      NeMo-Aligner
+      OpenAI Fine-Tuning API
+  Reasoning
+    Prompted Reasoning
+      Chain-of-Thought Prompting
+      Zero-Shot CoT
+      Few-Shot CoT
+      Auto-CoT
+      Self-Consistency
+      Tree of Thoughts
+      Graph of Thoughts
+      Algorithm of Thoughts
+      Least-to-Most Prompting
+      Decomposed Prompting
+      Plan-and-Solve
+      Program of Thoughts
+      Program-Aided Language Models
+      Scratchpad Reasoning
+      Chain of Verification
+      Self-Ask
+      ReAct
+      Reflexion
+      Self-Refine
+      Self-Verification
+    Test-Time Compute
+      Test-Time Compute Scaling
+      Inference-Time Scaling
+      Inference Scaling Laws
+      Parallel Sampling
+      Majority Voting
+      Best-of-N with Verifier
+      Sequential Revision
+      PRM-Guided Search
+      Step-Level Beam Search
+      Monte Carlo Tree Search for Reasoning
+      Verifier Models
+      Compute-Optimal Test-Time Scaling
+      Thinking Budget
+      Budget Forcing
+      s1 Budget Forcing
+      Adaptive Thinking
+    Reasoning Models
+      Long Chain-of-Thought
+      Thinking Tokens
+      Extended Thinking
+      Hidden Reasoning
+      Reasoning Summaries
+      o1-Style Reasoning
+      R1-Zero
+      Aha Moment
+      Reasoning Effort Levels
+      Hybrid Thinking Modes
+      Reasoning with Tools
+      Backtracking
+      Reasoning Distillation
+      Long CoT Cold Start
+    Learned Reasoning Methods
+      STaR
+      Quiet-STaR
+      Latent Reasoning
+      Chain of Continuous Thought
+      Coconut
+      Looped Transformers
+      Pause Tokens
+      Implicit CoT
+    Reasoning Phenomena
+      Overthinking
+      Underthinking
+      Thought Switching
+      Reasoning Length Scaling
+      Reward Hacking in Reasoning
+      Faithfulness of CoT
+      Unfaithful Reasoning
+      CoT Monitorability
+  Inference and Decoding
+    Decoding Strategies
+      Greedy Decoding
+      Beam Search
+      Diverse Beam Search
+      Multinomial Sampling
+      Temperature Sampling
+      Top-K Sampling
+      Nucleus Sampling
+      Min-P Sampling
+      Typical Sampling
+      Mirostat
+      Tail-Free Sampling
+      Contrastive Search
+      Contrastive Decoding
+      DoLa
+    Sampling Parameters
+      Temperature
+      Top-K
+      Top-P
+      Min-P
+      Repetition Penalty
+      Frequency Penalty
+      Presence Penalty
+      No-Repeat N-Gram Size
+      Logit Bias
+      Stop Sequences
+      Max Tokens
+      Sampling Seed
+      Determinism
+      Nondeterminism from Batching
+      Logprobs
+    Speculative Decoding
+      Draft Models
+      Draft-Then-Verify
+      Acceptance Rate
+      Speculative Sampling
+      Medusa
+      EAGLE
+      Lookahead Decoding
+      Self-Speculative Decoding
+      LayerSkip
+      Prompt Lookup Decoding
+    KV Cache Management
+      KV Cache Memory
+      KV Cache Quantization
+      KV Cache Compression
+      KV Cache Eviction
+      H2O Heavy Hitters
+      Paged Attention
+      Prefix Caching
+      Prompt Caching
+    Serving Mechanics
+      Prefill Phase
+      Decode Phase
+      Chunked Prefill
+      Continuous Batching
+      Static Batching
+      Disaggregated Serving
+      Request Scheduling
+      Streaming
+      CUDA Graphs
+      Kernel Fusion
+      Compute-Bound vs Memory-Bound
+    Inference Metrics
+      Time to First Token
+      Tokens Per Second
+      Inter-Token Latency
+      End-to-End Latency
+      Throughput
+      Goodput
+      Cost Per Token
+    Structured Outputs
+      JSON Mode
+      JSON Schema Outputs
+      Grammar-Constrained Decoding
+      Regex-Constrained Decoding
+      Finite State Machine Decoding
+      Outlines
+      Guidance
+      XGrammar
+      LMQL
+      Function-Calling Output
+      Tool Call Parsing
+    Quantization
+      Post-Training Quantization
+      Quantization-Aware Training
+      Weight-Only Quantization
+      W8A8
+      W4A16
+      INT8
+      INT4
+      FP8 Inference
+      FP4 Inference
+      NF4
+      Per-Channel Quantization
+      Per-Group Quantization
+      Group Size
+      Outlier Handling
+      Calibration Data
+      GPTQ
+      AWQ
+      SmoothQuant
+      bitsandbytes
+      LLM.int8
+      GGUF Quantization
+      K-Quants
+      I-Quants
+      Importance Matrix
+      EXL2
+      AQLM
+      QuIP#
+      HQQ
+      QuaRot
+      SpinQuant
+      KV Cache INT8
+      KV Cache FP8
+    Model Compression
+      Unstructured Pruning
+      Structured Pruning
+      SparseGPT
+      Wanda
+      Sheared LLaMA
+      Layer Pruning
+      Logit Distillation
+      Sequence-Level Distillation
+      MiniLLM
+      Generalized Knowledge Distillation
+      Early Exit
+      Layer Skipping
+    Serving Frameworks
+      vLLM
+      Text Generation Inference
+      TensorRT-LLM
+      SGLang
+      llama.cpp
+      Ollama
+      LM Studio
+      MLC-LLM
+      ExLlamaV2
+      LMDeploy
+      DeepSpeed-Inference
+      Triton Inference Server
+      Ray Serve
+      llamafile
+      KoboldCpp
+      NVIDIA NIM
+    Inference Hardware
+      NVIDIA H100
+      NVIDIA B200
+      Consumer GPUs
+      AMD Instinct MI300X
+      Google TPU
+      AWS Trainium
+      Groq LPU
+      Cerebras Wafer-Scale Engine
+      Intel Gaudi
+      Apple Silicon
+      MLX
+      CPU Inference
+      HBM
+    Routing and Cascades
+      Model Routing
+      Learned Routers
+      RouteLLM
+      Model Cascades
+      FrugalGPT
+      Mixture of Agents
+  Prompting
+    Prompt Basics
+      Prompt Engineering
+      System Prompt
+      Conversation Roles
+      Instruction Prompting
+      Prompt Templates
+      Delimiters
+      XML Tags in Prompts
+      Output Format Specification
+    Prompting Techniques
+      Zero-Shot Prompting
+      Few-Shot Prompting
+      In-Context Learning
+      Many-Shot In-Context Learning
+      Example Selection
+      Role Prompting
+      CoT Prompting
+      Self-Ask Prompting
+      Generated Knowledge Prompting
+      Directional Stimulus Prompting
+      Rephrase and Respond
+      Prompt Chaining
+      Meta-Prompting
+      Negative Prompting
+      Prefilling the Assistant Response
+      Long-Context Prompting
+      Self-Critique Prompting
+    Automatic Prompt Optimization
+      Automatic Prompt Engineer
+      OPRO
+      DSPy
+      DSPy Optimizers
+      TextGrad
+      Prompt Compression
+      LLMLingua
+      Soft Prompts
+    Prompt Engineering Practice
+      Prompt Versioning
+      Prompt Testing
+      Prompt Injection
+      Prompt Leaking
+      Prompt Sensitivity
+      Prompt Caching Strategies
+      Context Engineering
+      Context Window Management
+      Agent System Prompts
+  Context and Memory
+    Context Window Sizes
+      4K Context
+      32K Context
+      128K Context
+      1M Context
+      10M Context
+      Effective Context Length
+    Long-Context Phenomena
+      Lost in the Middle
+      Position Bias in Long Context
+      Needle in a Haystack
+      Context Rot
+    Long-Context Benchmarks
+      RULER
+      LongBench
+      InfiniteBench
+      BABILong
+      HELMET
+    Context Management
+      Context Compression
+      Summarization Memory
+      Sliding Window Context
+      Compaction
+      Retrieval Memory
+      External Memory
+      Memory Architectures
+      MemGPT
+      Letta
+      Mem0
+      Generative Agents Memory
+      Episodic Memory
+      Semantic Memory
+      Working Memory
+      Memory Tools
+    Infinite Context Approaches
+      Attention Sinks
+      StreamingLLM
+      Infini-Attention
+      Memorizing Transformers
+      Recurrent Memory Transformer
+      Titans
+      Context Caching
+  Retrieval-Augmented Generation
+    RAG Fundamentals
+      Retrieve-Then-Generate
+      Knowledge Base
+      Document Parsing
+      PDF Parsing
+      Grounding
+      Citations
+    Chunking Strategies
+      Fixed-Size Chunking
+      Chunk Size
+      Chunk Overlap
+      Sentence Chunking
+      Recursive Character Chunking
+      Semantic Chunking
+      Document-Structure Chunking
+      Late Chunking
+    Embedding Models
+      Dense Embeddings
+      Sparse Embeddings
+      Sentence-BERT
+      OpenAI text-embedding-3
+      BGE Embeddings
+      BGE-M3
+      E5
+      GTE
+      Nomic Embed
+      Jina Embeddings
+      Voyage Embeddings
+      Cohere Embed
+      ColBERT
+      ColBERTv2
+      Matryoshka Embeddings
+      Binary Embeddings
+      Embedding Dimension
+      Embedding Fine-Tuning
+      Hard Negatives
+      MTEB
+      BEIR
+    Vector Databases
+      FAISS
+      Pinecone
+      Weaviate
+      Milvus
+      Qdrant
+      Chroma
+      pgvector
+      LanceDB
+      Vespa
+      Elasticsearch
+      OpenSearch
+    ANN Indexes
+      Flat Index
+      HNSW
+      IVF
+      Product Quantization
+      ScaNN
+      DiskANN
+    Similarity and Search
+      Cosine Similarity
+      Dot Product Similarity
+      Euclidean Distance
+      BM25
+      TF-IDF
+      SPLADE
+      Hybrid Search
+      Reciprocal Rank Fusion
+      Metadata Filtering
+      Maximal Marginal Relevance
+    Reranking
+      Cross-Encoders
+      Bi-Encoders vs Cross-Encoders
+      Cohere Rerank
+      BGE Reranker
+      LLM-Based Reranking
+      ColBERT Reranking
+      Reranking Depth
+    Query Transformation
+      Query Rewriting
+      Query Expansion
+      HyDE
+      Multi-Query Retrieval
+      Step-Back Prompting
+      RAG-Fusion
+      Query Decomposition
+    Retrieval Strategies
+      Parent-Document Retrieval
+      Sentence-Window Retrieval
+      Contextual Retrieval
+      Multi-Hop Retrieval
+      Knowledge Graph Retrieval
+      Hypothetical Questions Indexing
+      RAPTOR
+    RAG Architectures
+      Naive RAG
+      Advanced RAG
+      Modular RAG
+      GraphRAG
+      Agentic RAG
+      Self-RAG
+      Corrective RAG
+      Adaptive RAG
+      FLARE
+      REALM
+      RETRO
+      Atlas
+      Fusion-in-Decoder
+      RAG-Sequence
+      RAG-Token
+      kNN-LM
+    RAG Evaluation
+      RAGAS
+      Faithfulness
+      Answer Relevance
+      Context Precision
+      Context Recall
+      Groundedness
+      Mean Reciprocal Rank
+      NDCG
+      Hit Rate
+    RAG Design Decisions
+      Long-Context vs RAG
+      RAG vs Fine-Tuning
+      Chunk Size Selection
+      Index Freshness
+  Evaluation and Benchmarks
+    Evaluation Fundamentals
+      Perplexity Evaluation
+      Exact Match
+      F1 Score
+      Pass@k
+      BLEU
+      ROUGE
+      Few-Shot Evaluation
+      Reproducibility
+    Knowledge and Reasoning Benchmarks
+      MMLU
+      MMLU-Pro
+      GPQA
+      GPQA Diamond
+      HellaSwag
+      ARC Challenge
+      WinoGrande
+      PIQA
+      LAMBADA
+      TriviaQA
+      Natural Questions
+      TruthfulQA
+      BIG-bench
+      BIG-bench Hard
+      DROP
+      AGIEval
+      Humanity's Last Exam
+      ARC-AGI
+      ARC-AGI-2
+    Math Benchmarks
+      GSM8K
+      MATH
+      MATH-500
+      MGSM
+      AIME
+      HMMT
+      OlympiadBench
+      FrontierMath
+    Code Benchmarks
+      HumanEval
+      HumanEval+
+      MBPP
+      MBPP+
+      EvalPlus
+      APPS
+      CodeContests
+      LiveCodeBench
+      BigCodeBench
+      SWE-bench
+      SWE-bench Verified
+      Aider Polyglot
+      Spider
+      BIRD
+    Instruction Following and Chat
+      IFEval
+      MT-Bench
+      AlpacaEval
+      Length-Controlled AlpacaEval
+      Arena-Hard
+      WildBench
+      Chatbot Arena
+      LMArena
+      Elo Ratings
+      Style Control
+    Agentic Benchmarks
+      tau-bench
+      tau2-bench
+      GAIA
+      AgentBench
+      WebArena
+      Mind2Web
+      OSWorld
+      TerminalBench
+      BrowseComp
+      Berkeley Function Calling Leaderboard
+      ToolBench
+      MLE-bench
+    Multimodal Benchmarks
+      MMMU
+      MMMU-Pro
+      MathVista
+      MMBench
+      MM-Vet
+      ChartQA
+      DocVQA
+      Video-MME
+    Factuality and Safety Evals
+      SimpleQA
+      FActScore
+      HaluEval
+      HarmBench
+      ToxiGen
+      RealToxicityPrompts
+      StrongREJECT
+      XSTest
+      AdvBench
+      JailbreakBench
+      BBQ
+      CrowS-Pairs
+    Multilingual Evals
+      MGSM Multilingual
+      XNLI
+      FLORES
+      Belebele
+      MMMLU
+      INCLUDE
+    Leaderboards and Suites
+      HELM
+      Open LLM Leaderboard
+      LMArena Leaderboard
+      Artificial Analysis
+      LiveBench
+    LLM-as-a-Judge
+      Single-Answer Grading
+      Pairwise Comparison
+      Rubric Grading
+      Judge Prompts
+      Prometheus
+      JudgeLM
+      Position Bias in Judges
+      Verbosity Bias in Judges
+      Judge Agreement with Humans
+      Jury of Judges
+    Evaluation Pitfalls
+      Data Contamination
+      Benchmark Leakage
+      Benchmark Saturation
+      Goodhart Effects
+      Overfitting to Benchmarks
+      Answer Order Effects
+      Dynamic Benchmarks
+  Failure Modes and Phenomena
+    Hallucination
+      Factual Hallucination
+      Faithfulness Hallucination
+      Intrinsic Hallucination
+      Extrinsic Hallucination
+      Fabricated Citations
+      Hallucination Detection
+      SelfCheckGPT
+      Semantic Entropy
+      Hallucination Mitigation
+      Abstention
+    Behavioral Biases
+      Sycophancy
+      Verbosity Bias
+      Position Bias
+      Recency Bias
+      Length Bias
+    Knowledge Failures
+      Reversal Curse
+      Knowledge Cutoff
+      Temporal Drift
+      Arithmetic Errors
+      Counting Errors
+      Tokenization Artifacts
+    Memorization and Privacy
+      Memorization
+      Verbatim Regurgitation
+      Training Data Extraction
+      Membership Inference
+      PII Leakage
+      Machine Unlearning
+    Robustness Failures
+      Jailbreaks
+      Prompt Injection
+      Adversarial Suffixes
+      Refusals
+      Over-Refusal
+      Repetition Loops
+      Mode Collapse in RLHF
+      Prompt Sensitivity
+    Scaling Phenomena
+      Emergent Abilities
+      Emergent Abilities Debate
+      Mirage of Emergence
+      Inverse Scaling
+      U-Shaped Scaling
+      Inverse Scaling Prize
+    Calibration and Uncertainty
+      Calibration
+      Expected Calibration Error
+      Overconfidence
+      Verbalized Confidence
+      Calibration Loss from RLHF
+      Conformal Prediction for LLMs
+    Reasoning Failures
+      Shortcut Learning
+      Pattern Matching vs Reasoning
+      Compositional Generalization Gaps
+      Planning Failures
+      Multi-Step Error Accumulation
+      Self-Correction Failures
+  Model Landscape
+    OpenAI
+      GPT-1
+      GPT-2
+      GPT-3
+      InstructGPT
+      GPT-3.5
+      GPT-4
+      GPT-4 Turbo
+      GPT-4o
+      GPT-4.1
+      GPT-4.5
+      o1
+      o3
+      o4-mini
+      GPT-5
+      gpt-oss-120b
+      gpt-oss-20b
+    Anthropic
+      Claude 1
+      Claude 2
+      Claude 3 Haiku
+      Claude 3 Sonnet
+      Claude 3 Opus
+      Claude 3.5 Sonnet
+      Claude 3.7 Sonnet
+      Claude Opus 4
+      Claude Sonnet 4
+      Claude Opus 4.1
+      Claude Sonnet 4.5
+      Claude Opus 4.5
+    Google and DeepMind
+      BERT
+      T5
+      Flan-T5
+      LaMDA
+      Gopher
+      Chinchilla
+      PaLM
+      PaLM 2
+      Gemini 1
+      Gemini 1.5 Pro
+      Gemini 2.0 Flash
+      Gemini 2.5 Pro
+      Gemini 3
+      Gemma 1
+      Gemma 2
+      Gemma 3
+    Meta
+      OPT
+      Galactica
+      LLaMA 1
+      Llama 2
+      Code Llama
+      Llama 3
+      Llama 3.1
+      Llama 3.2
+      Llama 3.3
+      Llama 4 Scout
+      Llama 4 Maverick
+      Llama Guard
+    Mistral AI
+      Mistral 7B
+      Mixtral 8x7B
+      Mixtral 8x22B
+      Mistral Large
+      Codestral
+      Codestral Mamba
+      Pixtral
+      Magistral
+    DeepSeek
+      DeepSeek Coder
+      DeepSeek Math
+      DeepSeek-V2
+      DeepSeek-V3
+      DeepSeek-R1
+      DeepSeek-Prover
+    Alibaba
+      Qwen
+      Qwen1.5
+      Qwen2
+      Qwen2.5
+      Qwen2.5-VL
+      Qwen3
+      QwQ
+      Qwen-VL
+    Microsoft
+      Phi-1
+      Phi-2
+      Phi-3
+      Phi-4
+      Orca
+      WizardCoder
+    xAI
+      Grok-1
+      Grok-2
+      Grok-3
+      Grok-4
+    Cohere
+      Command R
+      Command R+
+      Command A
+      Aya
+    Allen Institute for AI
+      OLMo
+      OLMo 2
+      Tulu
+      Tulu 3
+    EleutherAI
+      GPT-Neo
+      GPT-J
+      GPT-NeoX-20B
+      Pythia
+    Chinese Labs
+      ChatGLM
+      GLM-4
+      Kimi K2
+      MiniMax-M1
+      Yi
+      ERNIE Bot
+    Enterprise and Cloud Labs
+      Amazon Titan
+      Amazon Nova
+      OpenELM
+      Apple Foundation Models
+      Nemotron
+      Granite
+      DBRX
+      MPT
+      Snowflake Arctic
+    Open Research Models
+      BLOOM
+      Falcon
+      Falcon-H1
+      StableLM
+      Jamba
+      xLSTM 7B
+      RWKV-7 Goose
+      SmolLM
+      TinyLlama
+      StarCoder
+      StarCoder2
+    Community Fine-Tunes
+      Alpaca
+      Vicuna
+      Koala
+      Dolly
+      StableVicuna
+      Zephyr
+      Nous Hermes
+  Tooling and Ecosystem
+    Model Hubs and Libraries
+      Hugging Face Hub
+      Hugging Face Transformers
+      Tokenizers Library
+      Datasets Library
+      Accelerate
+    Application Frameworks
+      LangChain
+      LangGraph
+      LlamaIndex
+      Haystack
+      DSPy Framework
+      Semantic Kernel
+      AutoGen
+      CrewAI
+    Model Access Layers
+      LiteLLM
+      OpenRouter
+      Model Gateways
+      Together AI
+      Fireworks AI
+      Groq Cloud
+      Amazon Bedrock
+      Azure OpenAI Service
+      Google Vertex AI
+      Google AI Studio
+    Provider API Concepts
+      Chat Completions API
+      Responses API
+      Messages API
+      Function Calling
+      Tool Use
+      Parallel Tool Calls
+      Structured Outputs API
+      Streaming Responses
+      Batch API
+      Assistants API
+      Realtime API
+      Embeddings API
+      Vision Inputs
+      Prompt Caching API
+      Extended Thinking API
+      Reasoning Effort Parameter
+      Computer Use API
+      Web Search Tool
+      Model Context Protocol
+      MCP Servers
+      Gemini API
+      Finish Reasons
+      Model Deprecation
+    Observability
+      LLM Tracing
+      LangSmith
+      Langfuse
+      Helicone
+      Arize Phoenix
+      Weights & Biases Weave
+      Braintrust
+      OpenLLMetry
+      Opik
+      Token Usage Tracking
+      Cost Tracking
+      Latency Monitoring
+    Guardrails
+      Guardrails AI
+      NeMo Guardrails
+      Llama Guard 3
+      WildGuard
+      OpenAI Moderation
+      Lakera Guard
+      Input Validation
+      Output Validation
+      PII Detection
+      Toxicity Detection
+      Jailbreak Detection
+    Evaluation Libraries
+      lm-evaluation-harness
+      OpenCompass
+      HELM Framework
+      DeepEval
+      promptfoo
+      Inspect AI
+      RAGAS Library
+      TruLens
+      OpenAI Evals
+      Garak
+  Applications
+    Conversational Applications
+      Chatbots
+      Customer Support Bots
+      Conversational Agents
+      Virtual Assistants
+    Coding Applications
+      Code Generation
+      Code Completion
+      Bug Fixing
+      Test Generation
+      Repository-Level Coding
+      Coding Agents
+      Text-to-SQL
+    Text Processing Applications
+      Summarization
+      Meeting Summarization
+      Translation
+      Question Answering
+      Information Extraction
+      Named Entity Recognition via LLM
+      Structured Data Extraction
+      Classification via LLM
+      Text Rewriting
+    Document and Knowledge Applications
+      Document Understanding
+      Document Question Answering
+      Contract Analysis
+      Enterprise Search
+      Search Augmentation
+      Research Assistants
+      Deep Research Agents
+    Creative and Productivity Applications
+      Writing Assistants
+      Content Generation
+      Creative Writing
+      Role-Play
+      Tutoring
+      Copilots
+    Data and Evaluation Applications
+      Synthetic Data Generation
+      Synthetic Training Data
+      Data Labeling with LLMs
+      LLM-Based Evaluation
+      Content Moderation
+  Economics and Deployment
+    Pricing
+      Pricing Per Million Tokens
+      Input Token Pricing
+      Output Token Pricing
+      Cached Input Pricing
+      Reasoning Token Pricing
+      Batch Pricing Discounts
+      Long-Context Pricing Tiers
+      Price-Performance Frontier
+    API Operations
+      Rate Limits
+      Requests Per Minute
+      Tokens Per Minute
+      Usage Tiers
+      Exponential Backoff
+      Latency SLOs
+      Multi-Provider Failover
+      Data Residency
+      Zero Data Retention
+    Deployment Options
+      API Consumption
+      Self-Hosting
+      Open-Weight Hosting
+      Serverless Inference
+      Dedicated Endpoints
+      On-Premises Deployment
+      Air-Gapped Deployment
+      On-Device Deployment
+      Edge Deployment
+    Cost Optimization
+      Token Budgeting
+      Output Length Control
+      Caching Strategies
+      Semantic Caching
+      Model Right-Sizing
+      Quantization for Cost
+      Cost Per Task
+    Build Decisions
+      Fine-Tune vs Prompt vs RAG
+      Build vs Buy
+      Model Selection
+      Latency Requirements
+      Privacy Constraints
+      Vendor Lock-In
+      Model Upgrades and Migration
+    Production Concerns
+      LLMOps
+      Prompt Management
+      A/B Testing LLM Features
+      Human-in-the-Loop
+      Model Governance

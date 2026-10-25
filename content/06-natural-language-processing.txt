@@ -1,0 +1,953 @@
+Natural Language Processing
+  Linguistics Foundations
+    Levels of Linguistic Analysis
+      Phonology
+      Morphology
+        Morphemes
+        Inflection
+        Derivation
+        Compounding
+      Syntax
+        Constituency
+        Phrase Structure
+        Agreement
+      Semantics
+        Lexical Semantics
+        Compositional Semantics
+        Word Senses
+        Polysemy
+        Hyponymy and Hypernymy
+        Thematic Roles
+        WordNet
+        FrameNet
+        PropBank
+      Pragmatics
+        Speech Acts
+        Implicature
+        Presupposition
+        Gricean Maxims
+      Discourse
+        Cohesion
+        Coherence
+        Discourse Relations
+        Rhetorical Structure Theory
+    Parts of Speech
+      Open-Class Words
+      Closed-Class Words
+      Penn Treebank Tagset
+      Universal POS Tags
+    Grammar Formalisms
+      Chomsky Hierarchy
+      Context-Free Grammar
+      Probabilistic Context-Free Grammar
+      Dependency Grammar
+      Universal Dependencies
+      Combinatory Categorial Grammar
+      Head-Driven Phrase Structure Grammar
+      Tree-Adjoining Grammar
+    Linguistic Phenomena
+      Lexical Ambiguity
+      Syntactic Ambiguity
+      PP Attachment
+      Multiword Expressions
+      Zipf's Law
+  Text Preprocessing
+    Text Cleaning
+      HTML Stripping
+      Boilerplate Removal
+      Encoding Detection
+      Deduplication
+      Unicode
+        UTF-8
+        Unicode Normalization
+        Grapheme Clusters
+      Regular Expressions
+        Character Classes
+        Quantifiers
+        Capture Groups
+        Lookahead and Lookbehind
+    Segmentation
+      Sentence Segmentation
+        Punkt
+        Abbreviation Handling
+      Tokenization
+        Whitespace Tokenization
+        Rule-Based Tokenization
+        Penn Treebank Tokenizer
+        Chinese and Japanese Word Segmentation
+        Jieba
+        MeCab
+        Character Tokenization
+        Subword Tokenization Pointer
+        Byte-Pair Encoding Pointer
+        WordPiece Pointer
+    Normalization
+      Lowercasing
+      Case Folding
+      Accent Stripping
+      Punctuation Removal
+      Number Normalization
+      Truecasing
+      Stopwords
+        Stopword Lists
+        Corpus-Specific Stopwords
+      Stemming
+        Porter Stemmer
+        Snowball Stemmer
+        Lancaster Stemmer
+        Overstemming and Understemming
+      Lemmatization
+        Dictionary-Based Lemmatization
+        WordNet Lemmatizer
+    Spelling and String Similarity
+      Spelling Correction
+        Noisy Channel Model
+        Candidate Generation
+        SymSpell
+        Hunspell
+      Edit Distance
+        Levenshtein Distance
+        Damerau-Levenshtein Distance
+        Hamming Distance
+        Longest Common Subsequence
+      Jaro-Winkler Similarity
+      Phonetic Matching
+        Soundex
+        Metaphone
+      Fuzzy Matching
+    N-grams
+      Unigrams
+      Bigrams
+      Trigrams
+      Character N-grams
+      Skip-grams
+      Collocations
+    Vocabulary Handling
+      Out-of-Vocabulary Words
+      UNK Token
+      Padding and Truncation
+      Special Tokens
+  Text Representation
+    Discrete Representations
+      One-Hot Encoding
+      Bag of Words
+      Count Vectors
+      TF-IDF
+        Term Frequency
+        Inverse Document Frequency
+        Sublinear TF Scaling
+      N-gram Features
+      Hashing Trick
+      Document-Term Matrix
+    Distributional Semantics
+      Distributional Hypothesis
+      Co-occurrence Matrix
+      Context Windows
+      Pointwise Mutual Information
+      Positive PMI
+      Latent Semantic Analysis
+      Brown Clustering
+    Static Word Embeddings
+      Word2Vec
+        Continuous Bag of Words
+        Skip-gram
+        Negative Sampling
+        Hierarchical Softmax
+        Subsampling Frequent Words
+        Window Size
+      GloVe
+      fastText Embeddings
+        Character N-gram Subwords
+        Subword Embeddings for OOV
+      Cross-Lingual Word Embeddings
+      Procrustes Alignment
+      Retrofitting
+    Contextual Embeddings
+      ELMo
+      Flair Embeddings
+      BERT Embeddings
+      Anisotropy of Embeddings
+    Sentence and Document Embeddings
+      Averaged Word Embeddings
+      Doc2Vec
+        Distributed Memory
+        Distributed Bag of Words
+      Skip-Thought Vectors
+      InferSent
+      Universal Sentence Encoder
+      Sentence-BERT
+      SimCSE
+      E5
+      BGE
+      Matryoshka Embeddings
+      Mean Pooling
+    Embedding Evaluation
+      Word Similarity Benchmarks
+      Word Analogies
+      3CosAdd
+      Intrinsic vs Extrinsic Evaluation
+      MTEB
+      Embedding Visualization
+  Classical NLP Models
+    Statistical Language Models
+      N-gram Language Models
+        Markov Assumption
+        Maximum Likelihood Estimation of N-grams
+        Sparsity Problem
+      Smoothing
+        Laplace Smoothing
+        Add-k Smoothing
+        Good-Turing Smoothing
+        Witten-Bell Smoothing
+        Kneser-Ney Smoothing
+        Modified Kneser-Ney
+        Backoff
+        Katz Backoff
+        Stupid Backoff
+        Interpolation
+      Perplexity
+      KenLM
+    Sequence Models
+      Hidden Markov Models
+        Emission Probabilities
+        Transition Probabilities
+        Viterbi Algorithm
+        Forward Algorithm
+        Forward-Backward Algorithm
+        Baum-Welch Algorithm
+      Maximum Entropy Markov Models
+      Label Bias Problem
+      Conditional Random Fields
+        Linear-Chain CRF
+        CRF Feature Functions
+        CRFsuite
+      Structured Perceptron
+      Averaged Perceptron Tagger
+      BiLSTM-CRF
+    Classical Text Classifiers
+      Naive Bayes for Text
+        Multinomial Naive Bayes
+        Bernoulli Naive Bayes
+      Logistic Regression for Text
+      Maximum Entropy Classifier
+      Linear SVM for Text
+      Perceptron for Text
+      Chi-Square Feature Selection
+      fastText Classifier
+      TextCNN
+  Core NLP Tasks
+    Text Classification
+      Document Classification
+      Multi-Label Text Classification
+      Zero-Shot Text Classification
+      Sentiment Analysis
+        Polarity Classification
+        Fine-Grained Sentiment
+        Aspect-Based Sentiment Analysis
+        Sentiment Lexicons
+        VADER
+        Sarcasm Detection
+        Stance Detection
+      Emotion Detection
+      Spam Detection
+      Toxicity Detection
+      Intent Classification
+      Language Identification
+      Authorship Attribution
+      Stylometry
+    Topic Modeling
+      Latent Dirichlet Allocation
+        Dirichlet Prior
+        Gibbs Sampling for LDA
+        Variational Inference for LDA
+        Number of Topics Selection
+      Non-negative Matrix Factorization for Topics
+      LSA for Topics
+      Hierarchical Dirichlet Process
+      Neural Topic Models
+      Contextualized Topic Models
+      BERTopic
+      Top2Vec
+      Topic Coherence
+      pyLDAvis
+    Sequence Labeling
+      BIO Tagging
+      BIOES Tagging
+      Part-of-Speech Tagging
+        HMM Tagger
+        Brill Tagger
+        CRF Tagger
+        Neural POS Tagging
+      Named Entity Recognition
+        Entity Types
+        Nested NER
+        Gazetteers
+        CRF-Based NER
+        BiLSTM-CRF NER
+        Transformer NER
+        Span-Based NER
+        GLiNER
+        seqeval
+      Chunking
+      Shallow Parsing
+      Keyword Extraction
+        RAKE
+        YAKE
+        TextRank Keywords
+        KeyBERT
+        Keyphrase Generation
+    Syntactic Parsing
+      Constituency Parsing
+        CKY Algorithm
+        Earley Parser
+        Chomsky Normal Form
+        Probabilistic CKY
+        Shift-Reduce Parsing
+        Berkeley Parser
+        PARSEVAL Metrics
+      Dependency Parsing
+        Transition-Based Parsing
+        Arc-Standard
+        Arc-Eager
+        Graph-Based Parsing
+        Eisner Algorithm
+        Chu-Liu-Edmonds Algorithm
+        Biaffine Parser
+        Unlabeled Attachment Score
+        Labeled Attachment Score
+      CCG Parsing
+    Semantic Analysis
+      Word Sense Disambiguation
+        Lesk Algorithm
+        Supervised WSD
+        Knowledge-Based WSD
+      Semantic Role Labeling
+        Predicates and Arguments
+        Argument Identification
+        Argument Classification
+      Semantic Parsing
+        Logical Forms
+        Abstract Meaning Representation
+        AMR Parsing
+        Text-to-SQL
+        Spider Benchmark
+        Grammar-Constrained Decoding
+      Semantic Textual Similarity
+      Paraphrase Detection
+      Natural Language Inference
+        Textual Entailment
+        Entailment Contradiction Neutral
+        SNLI
+        Hypothesis-Only Bias
+    Discourse and Coreference
+      Coreference Resolution
+        Anaphora Resolution
+        Mention Detection
+        Mention-Pair Model
+        Mention-Ranking Model
+        End-to-End Neural Coreference
+        CoNLL Coreference Score
+        Winograd Schema Challenge
+      Discourse Parsing
+      Argument Mining
+    Information Extraction
+      Entity Linking
+        Candidate Generation
+        Entity Disambiguation
+        NIL Detection
+        BLINK
+      Relation Extraction
+        Relation Classification
+        Distant Supervision
+        Joint Entity and Relation Extraction
+        TACRED
+      Event Extraction
+        Trigger Detection
+        Argument Role Labeling
+        ACE 2005
+      Open Information Extraction
+        ReVerb
+        Stanford OpenIE
+      Slot Filling
+      Knowledge Base Population
+    Text Summarization
+      Extractive Summarization
+        Sentence Scoring
+        Lead-3 Baseline
+        TextRank Summarization
+        LexRank
+        Maximal Marginal Relevance
+        BertSum
+      Abstractive Summarization
+        Pointer-Generator Networks
+        Copy Mechanism
+        Coverage Mechanism
+        BART Summarization
+        PEGASUS Summarization
+        Faithfulness
+        Factual Consistency Metrics
+      Multi-Document Summarization
+      Query-Focused Summarization
+      Summarization Datasets
+        CNN/DailyMail
+        XSum
+        SAMSum
+    Machine Translation
+      Statistical Machine Translation
+        Word Alignment
+        IBM Model 1
+        IBM Model 2
+        IBM Models 3 to 5
+        GIZA++
+        Phrase-Based SMT
+        Phrase Table
+        Reordering Models
+        Minimum Error Rate Training
+        Moses
+      Neural Machine Translation
+        Encoder-Decoder NMT
+        Attention-Based NMT
+        Transformer NMT
+        Beam Search Decoding
+        Length Normalization
+        Back-Translation
+        Multilingual NMT
+        Zero-Shot Translation
+        NLLB-200
+        Simultaneous Translation
+        Non-Autoregressive MT
+        LLM-Based Translation
+      MT Evaluation
+        BLEU
+        SacreBLEU
+        METEOR
+        TER
+        chrF
+        COMET
+        Quality Estimation
+        MQM
+      MT Datasets
+        WMT Shared Tasks
+        Europarl
+        OPUS
+        FLORES-200
+    Question Answering
+      Extractive QA
+        Span Prediction
+        Start and End Logits
+        Unanswerable Questions
+      Abstractive QA
+      Open-Domain QA
+        Retriever-Reader
+        DrQA
+        Fusion-in-Decoder
+        Retrieval-Augmented Generation Pointer
+      Multi-Hop QA
+      Conversational QA
+        CoQA
+        QuAC
+      Knowledge Base QA
+      Table QA
+      QA Datasets
+        SQuAD
+        SQuAD 2.0
+        Natural Questions
+        TriviaQA
+        HotpotQA
+        MS MARCO
+        BoolQ
+      QA Metrics
+        Exact Match
+        Token-Level F1
+    Text Generation
+      Conditional Text Generation
+      Decoding Strategies Pointer
+      Data-to-Text Generation
+        Table-to-Text
+        WebNLG
+        E2E NLG Challenge
+        Content Selection
+        Surface Realization
+      Template-Based Generation
+      Controllable Generation
+      Distinct-n
+      Self-BLEU
+    Dialogue Systems
+      Task-Oriented Dialogue
+        Natural Language Understanding Module
+        Intent Detection
+        Slot Filling for Dialogue
+        Dialogue State Tracking
+        Dialogue Policy
+        Natural Language Generation Module
+        MultiWOZ
+        Rasa
+      Open-Domain Dialogue
+        Retrieval-Based Chatbots
+        Generative Chatbots
+        Persona-Based Dialogue
+        DialoGPT
+        BlenderBot
+      ELIZA
+      Dialogue Evaluation
+    Text Transformation Tasks
+      Grammatical Error Correction
+        Seq2Seq GEC
+        GECToR
+        ERRANT
+      Text Simplification
+        SARI
+      Style Transfer
+        Formality Transfer
+        Unsupervised Style Transfer
+      Paraphrase Generation
+      Transliteration
+      OCR Post-Processing
+      Punctuation Restoration
+      Sentence Compression
+    Information Retrieval
+      IR Fundamentals
+        Boolean Retrieval
+        Inverted Index
+        Posting Lists
+        Vector Space Model
+        TF-IDF Retrieval
+        BM25
+        Query Likelihood Model
+      Query Processing
+        Query Expansion
+        Pseudo-Relevance Feedback
+        Rocchio Relevance Feedback
+        Query Reformulation
+      Learning to Rank
+        Pointwise Ranking
+        Pairwise Ranking
+        Listwise Ranking
+        LambdaMART
+      Neural Information Retrieval
+        Cross-Encoders
+        Bi-Encoders
+        Dense Retrieval
+        Dense Passage Retrieval
+        Contriever
+        Late Interaction
+        ColBERT
+        Learned Sparse Retrieval
+        SPLADE
+        Hybrid Retrieval
+        Reciprocal Rank Fusion
+        Hard Negative Mining
+        Reranking
+        Approximate Nearest Neighbor Search Pointer
+      IR Evaluation
+        Precision at k
+        Recall at k
+        Mean Average Precision
+        Mean Reciprocal Rank
+        NDCG
+        TREC
+        BEIR Benchmark
+      IR Systems
+        Lucene
+        Elasticsearch
+        Pyserini
+        Vector Databases Pointer
+  Pretrained Transformer Models for NLP
+    Pretraining Objectives
+      Masked Language Modeling
+      Causal Language Modeling
+      Permutation Language Modeling
+      Replaced Token Detection
+      Span Corruption
+      Denoising Autoencoding
+      Next Sentence Prediction
+      Whole Word Masking
+      Translation Language Modeling
+    Encoder-Only Models
+      BERT
+        BERT-Base and BERT-Large
+        Segment Embeddings
+        CLS Token
+        WordPiece Vocabulary
+      RoBERTa
+      ALBERT
+      DistilBERT
+      ELECTRA
+      DeBERTa
+      XLNet
+      SpanBERT
+      ERNIE
+      SciBERT
+      Longformer
+      BigBird
+      ModernBERT
+    Multilingual Encoders
+      mBERT
+      XLM
+      XLM-R
+      LaBSE
+      Curse of Multilinguality
+    Encoder-Decoder Models
+      T5
+        Text-to-Text Framework
+        C4 Corpus
+      Flan-T5
+      mT5
+      ByT5
+      BART
+      mBART
+      PEGASUS
+      UniLM
+      MarianMT
+    Decoder-Only Models Pointer
+      GPT Family Pointer
+      Large Language Models Pointer
+    Model Compression for NLP
+      Knowledge Distillation for Transformers
+      Pruning Transformers
+      Quantization for Transformers
+  Fine-tuning for NLP Tasks
+    Fine-tuning Fundamentals
+      Task-Specific Heads
+      Classification Head
+      Token Classification Head
+      Span Prediction Head
+      Learning Rate for Fine-tuning
+      Warmup and Decay
+      Layer-Wise Learning Rate Decay
+      Gradual Unfreezing
+      ULMFiT
+      Catastrophic Forgetting
+      Intermediate Task Training
+      Domain-Adaptive Pretraining
+    Parameter-Efficient Fine-tuning Pointer
+      Adapters
+      LoRA Pointer
+      Prefix Tuning
+      Prompt Tuning
+    Sequence Labeling with Transformers
+      Subword-to-Word Alignment
+      First Subword Labeling
+      Ignore Index for Subwords
+      BIO Tagging with Transformers
+      CRF on Top of Transformers
+      Offset Mapping
+    Sentence-Pair Tasks
+      Cross-Encoder Fine-tuning
+      Bi-Encoder Fine-tuning
+    Sequence-to-Sequence Fine-tuning
+      Teacher Forcing
+      Label Smoothing
+      Exposure Bias
+    Prompting for NLP Tasks
+      Cloze Prompts
+      Pattern-Exploiting Training
+      In-Context Learning Pointer
+      Instruction Tuning Pointer
+  NLP Evaluation Metrics
+    Classification Metrics
+      Accuracy
+      Precision
+      Recall
+      F1 Score
+      Macro F1
+      Micro F1
+      Confusion Matrix
+    Sequence Labeling Metrics
+      Token-Level Accuracy
+      Entity-Level F1
+      Span F1
+    Generation Metrics
+      BLEU
+      ROUGE
+        ROUGE-1
+        ROUGE-2
+        ROUGE-L
+      METEOR
+      chrF
+      TER
+      BERTScore
+      MoverScore
+      BLEURT
+      COMET
+      Perplexity
+      LLM-as-a-Judge Pointer
+    QA Metrics
+      Exact Match
+      F1 for QA
+    Ranking Metrics
+      MRR
+      NDCG
+      Recall at k
+    Speech Metrics Pointer
+      Word Error Rate Pointer
+    Statistical Significance in NLP
+      Paired Bootstrap Resampling
+      Approximate Randomization
+    Human Evaluation
+      Fluency
+      Adequacy
+      Likert Scales
+      Inter-Annotator Agreement
+      Cohen's Kappa
+      Krippendorff's Alpha
+  NLP Benchmarks and Datasets
+    General Language Understanding
+      GLUE
+        CoLA
+        SST-2
+        MRPC
+        STS-B
+        QQP
+        MNLI
+        QNLI
+        RTE
+      SuperGLUE
+      MultiNLI
+      SNLI
+      SentEval
+      BIG-bench Pointer
+      MMLU Pointer
+    Classification Datasets
+      IMDB Reviews
+      SST-5
+      Yelp Reviews
+      AG News
+      20 Newsgroups
+      Reuters-21578
+      Banking77
+      CLINC150
+      ATIS
+      Jigsaw Toxic Comments
+    Sequence Labeling Datasets
+      CoNLL-2000 Chunking
+      CoNLL-2003
+      OntoNotes 5.0
+      WNUT-17
+      Penn Treebank
+      Universal Dependencies Treebanks
+    Multilingual Benchmarks
+      XTREME
+      XGLUE
+      XNLI
+      PAWS-X
+      TyDi QA
+      Belebele
+      IndicGLUE
+      MasakhaNER
+    Pretraining Corpora
+      Wikipedia
+      BookCorpus
+      Common Crawl
+      C4
+      The Pile
+      OSCAR
+      RedPajama
+      FineWeb
+    Dataset Tooling
+      Hugging Face Datasets
+      Dataset Cards
+      Data Contamination
+  Multilingual and Low-Resource NLP
+    Multilingual Fundamentals
+      Language Typology
+      High-Resource vs Low-Resource Languages
+      Scripts and Writing Systems
+      Resource Gap
+    Cross-Lingual Transfer
+      Zero-Shot Cross-Lingual Transfer
+      Few-Shot Cross-Lingual Transfer
+      Translate-Train
+      Translate-Test
+      Cross-Lingual Alignment
+      Language Adapters
+      MAD-X
+      Vocabulary Adaptation
+      Multilingual Instruction Tuning
+    Low-Resource Techniques
+      Transfer from Related Languages
+      Annotation Projection
+      Bilingual Dictionary Induction
+      Weak Supervision for NLP
+      Community-Driven Data Collection
+    Code-Switching
+      Code-Mixed Text
+      Language Identification in Code-Switching
+      LinCE
+    Regional NLP Communities
+      Indic NLP
+        AI4Bharat
+        IndicNLP Library
+        IndicTrans2
+        Samanantar
+        Bhashini
+        Hinglish
+      African NLP
+        Masakhane
+        AfriBERTa
+        AfroXLMR
+        Lacuna Fund
+      Southeast Asian NLP
+        SEA-LION
+        SEACrowd
+      Arabic NLP
+        Arabic Dialects
+        AraBERT
+      Chinese NLP
+        Chinese Word Segmentation
+      Sign Language Processing
+    Multilingual Models
+      BLOOM
+      Aya
+      Glot500
+      MADLAD-400
+  NLP Libraries and Tooling
+    Classical Toolkits
+      NLTK
+        NLTK Corpora
+        NLTK Tokenizers
+        NLTK Taggers
+      spaCy
+        spaCy Pipelines
+        spaCy Models
+        Doc Token and Span Objects
+        spaCy Matcher
+        spaCy Entity Ruler
+        spaCy Transformers
+      Stanford CoreNLP
+      Stanza
+      Apache OpenNLP
+      TextBlob
+      Polyglot
+      Gensim
+        Gensim Word2Vec
+        Gensim LDA
+        Gensim Doc2Vec
+      scikit-learn Text Features
+        CountVectorizer
+        TfidfVectorizer
+        HashingVectorizer
+    Neural NLP Frameworks
+      Hugging Face Transformers
+        AutoModel and AutoTokenizer
+        Pipelines
+        Trainer API
+        Model Hub
+        Datasets Library
+        PEFT Library
+      Flair
+      AllenNLP
+      fastText Library
+      Fairseq
+      OpenNMT
+      Marian
+      Sentence Transformers Library
+      SetFit
+    Tokenizer Tooling
+      SentencePiece
+      Hugging Face Tokenizers
+      tiktoken
+      Sacremoses
+    Annotation Tools
+      brat
+      Prodigy
+      Label Studio
+      doccano
+    Evaluation Tooling
+      SacreBLEU
+      rouge-score
+      bert-score
+    Search Tooling
+      Haystack
+      Rank-BM25
+      FAISS Pointer
+  Text Data Augmentation
+    Token-Level Augmentation
+      Easy Data Augmentation
+      Synonym Replacement
+      Random Insertion
+      Random Swap
+      Random Deletion
+      Contextual Word Substitution
+      Masked LM Augmentation
+      Spelling Noise Injection
+    Sentence-Level Augmentation
+      Back-Translation Augmentation
+      Paraphrase Augmentation
+      LLM-Based Data Generation
+    Representation-Level Augmentation
+      Mixup for Text
+      Adversarial Perturbation of Embeddings
+    Augmentation Libraries
+      nlpaug
+      TextAttack
+  Bias Fairness and Ethics in NLP
+    Bias in Word Embeddings
+      Gender Bias in Embeddings
+      Word Embedding Association Test
+      Direct Bias Measure
+      Hard Debiasing
+      Counterfactual Data Augmentation
+    Bias in Language Models
+      Stereotype Measurement
+      StereoSet
+      CrowS-Pairs
+      WinoBias
+      BBQ Benchmark
+      RealToxicityPrompts
+      Representation Bias
+      Allocational Harms
+      Dialect Bias
+    Bias Mitigation
+      Data Balancing
+      Adversarial Debiasing
+      Null-Space Projection
+      Self-Debiasing
+    Ethical Issues in NLP
+      PII Detection
+      Anonymization
+      Dual Use
+      Environmental Cost of NLP
+      Data Statements
+      Model Cards
+  Explainability and Analysis in NLP
+    Attention-Based Analysis
+      Attention Visualization
+      BertViz
+      Attention Heads Analysis
+      Attention Is Not Explanation Debate
+      Attention Rollout
+    Feature Attribution for Text
+      LIME for Text
+      SHAP for Text
+      Integrated Gradients for Text
+      Saliency Maps for Text
+      Occlusion for Text
+    Model Probing
+      Probing Classifiers
+      Structural Probes
+      Control Tasks
+      BERTology
+      Behavioral Testing
+      CheckList
+      Contrast Sets
+    Mechanistic Analysis Pointer
+      Circuit Analysis Pointer
+      Causal Tracing Pointer
+    Rationale-Based Explanations
+      Extractive Rationales
+      ERASER Benchmark
+      Faithfulness of Explanations
+      Plausibility of Explanations
+    Adversarial Robustness in NLP
+      Adversarial Examples for Text
+      TextFooler
+      HotFlip
+      Universal Adversarial Triggers
+      Spurious Correlations
+      Shortcut Learning in NLP
+    Explainability Tooling
+      Captum
+      Ecco
+      LIT
+      Inseq

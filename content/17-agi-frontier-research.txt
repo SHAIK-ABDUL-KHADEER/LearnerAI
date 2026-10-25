@@ -1,0 +1,562 @@
+AGI & Frontier Research
+  AGI Concepts
+    Definitions of AGI
+      Artificial General Intelligence
+      Narrow AI
+      ANI vs AGI vs ASI
+      Human-Level AI
+      Transformative AI
+      Superintelligence
+      Economic Definition of AGI
+      Capability-Based Definitions
+    Levels of AGI
+      DeepMind AGI Taxonomy
+      Emerging AGI
+      Competent AGI
+      Expert AGI
+      Virtuoso AGI
+      Superhuman AGI
+      Generality vs Performance Axes
+      Autonomy Levels
+    Intelligence Explosion & Singularity
+      Intelligence Explosion
+      Technological Singularity
+      Recursive Self-Improvement
+      Seed AI
+      Takeoff Speeds
+        Fast Takeoff
+        Slow Takeoff
+        Hard vs Soft Takeoff
+      Hardware Overhang
+      Software Intelligence Explosion
+      Automated AI Research
+    Forecasting & Timelines
+      AGI Timelines
+      Expert Surveys
+      Metaculus
+      AI 2027 Scenario
+      Compute-Centric Forecasting
+      Bio Anchors
+      Epoch AI Trends
+      Scaling Hypothesis
+      Bitter Lesson
+      Situational Awareness Essay
+      METR Time Horizon
+      Forecasting Track Records
+    Foundational Theses & Paradoxes
+      Moravec's Paradox
+      Polanyi's Paradox
+      Goodhart's Law
+      Orthogonality Thesis
+      Instrumental Convergence
+      Omohundro Drives
+      Treacherous Turn
+      Oracle AI
+      Tool AI vs Agent AI
+      Comprehensive AI Services
+      Sovereign AI
+      Genie AI
+      Jevons Paradox for Compute
+    AGI Labs & Missions
+      OpenAI Mission
+      DeepMind Mission
+      Anthropic Mission
+      Safe Superintelligence
+      Meta FAIR
+      xAI
+      Mistral
+      Chinese Frontier Labs
+      Lab Charters
+    AGI Tests
+      Turing Test
+      Lovelace Test
+      Coffee Test
+      Employment Test
+      Robot College Student Test
+      Winograd Schema Challenge
+      ARC-AGI-1
+      ARC-AGI-2
+      ARC-AGI-3
+      Humanity's Last Exam
+      FrontierMath
+      GPQA Diamond
+      Modern Turing Test
+      Nobel Turing Challenge
+  Theories of Intelligence
+    Psychometric Intelligence
+      General Intelligence g
+      Fluid Intelligence
+      Crystallized Intelligence
+      Multiple Intelligences
+      Cattell-Horn-Carroll Theory
+      Raven's Progressive Matrices
+    Formal Theories
+      Legg-Hutter Universal Intelligence
+      AIXI
+      Solomonoff Induction
+      Kolmogorov Complexity
+      Minimum Description Length
+      Compression as Intelligence
+      Hutter Prize
+      Gödel Machine
+      Speed Prior
+      Universal Prior
+      Occam's Razor
+    Cognitive Theories
+      Predictive Processing
+      Free Energy Principle
+      Active Inference
+      Global Workspace Theory
+      Integrated Information Theory
+      Higher-Order Theories
+      Attention Schema Theory
+      Embodied Cognition
+      4E Cognition
+      Enactivism
+      Society of Mind
+      Dual Process Theory
+      System 1 vs System 2
+    Measuring Intelligence
+      Chollet's Measure of Intelligence
+      Skill Acquisition Efficiency
+      Core Knowledge Priors
+      Developer-Aware Generalization
+      Generalization Difficulty
+      Abstraction and Reasoning Corpus
+      Skill vs Intelligence
+    Critiques
+      Marcus's Symbol Manipulation Critique
+      Deep Learning Hitting a Wall
+      Stochastic Parrots
+      Clever Hans Effects
+      Benchmark Contamination
+      Shortcut Learning
+  Cognitive Science & Neuroscience Links
+    Synaptic Learning
+      Hebbian Learning
+      STDP
+      Synaptic Plasticity
+      Local Learning Rules
+      Backpropagation Plausibility Debate
+      Feedback Alignment
+      Predictive Coding
+      Target Propagation
+      Forward-Forward Algorithm
+    Memory Systems in Brains
+      Hippocampal Replay
+      Complementary Learning Systems
+      Memory Consolidation
+      Grid Cells
+      Place Cells
+      Cognitive Maps
+      Successor Representations
+      Tolman-Eichenbaum Machine
+    Cortical Computation
+      Cortical Columns
+      Thousand Brains Theory
+      Dendritic Computation
+      Sparse Distributed Representations
+      Canonical Microcircuits
+      Hierarchical Temporal Memory
+    Neuromodulation & Reward
+      Neuromodulation
+      Dopamine and TD Error
+      Reward Prediction Error
+      Distributional RL in the Brain
+      Meta-RL in Prefrontal Cortex
+      Basal Ganglia and Action Selection
+    NeuroAI
+      Neuro-AI
+      Brain-Inspired Architectures
+      Brain-Score
+      Neural Alignment of Models
+      Spiking Neural Networks
+      Neuromorphic Computing
+      Embodied Turing Test
+      Connectomics
+    Cognitive Architectures
+      SOAR
+      ACT-R
+      LIDA
+      Sigma
+      CLARION
+      OpenCog
+      Hyperon
+      NARS
+      Common Model of Cognition
+  Learning Paradigms Toward AGI
+    Continual & Lifelong Learning
+      Continual Learning
+      Lifelong Learning
+      Catastrophic Forgetting
+      Stability-Plasticity Dilemma
+      Forgetting Mitigation
+        Elastic Weight Consolidation
+        Synaptic Intelligence
+        PackNet
+        Progressive Neural Networks
+        Experience Replay
+        Learning without Forgetting
+        Memory Aware Synapses
+        Generative Replay
+      Task-Free Continual Learning
+      Continual Pretraining
+    Meta-Learning
+      Learning to Learn
+      MAML
+      In-Context Learning as Meta-Learning
+      Induction Heads
+      Meta-RL
+      Test-Time Training
+      Test-Time Adaptation
+      Hypernetworks
+    Open-Ended Learning
+      Open-Endedness
+      Curriculum Learning
+      Self-Play
+      Auto-Curricula
+      Unsupervised Environment Design
+      PAIRED
+      POET
+      Enhanced POET
+      OMNI
+      Novelty Search
+      Quality-Diversity
+      MAP-Elites
+      Artificial Life
+      Evolution Strategies
+      AI-Generating Algorithms
+      Darwin Gödel Machine
+      XLand
+    Self-Supervised Learning
+      Self-Supervised Learning as Path to AGI
+      Predictive Learning
+      Masked Modeling
+      Contrastive Learning
+      Joint-Embedding Prediction
+    World Models
+      Ha and Schmidhuber World Models
+      Dreamer
+      DreamerV3
+      JEPA
+      I-JEPA
+      V-JEPA
+      V-JEPA 2
+      H-JEPA
+      Genie
+      Genie 3
+      Objective-Driven AI
+      Model-Based Planning
+      Learned Simulators
+      Sora as World Simulator Debate
+      Cosmos
+    System 2 Deep Learning
+      System 2 Deep Learning
+      Consciousness Prior
+      Global Workspace in Neural Nets
+      Abstraction and Reasoning
+      Slow Thinking in LLMs
+      Deliberation
+      Inference-Time Reasoning
+    Program Synthesis & Neurosymbolic
+      Program Synthesis
+      Program Induction
+      DreamCoder
+      Neurosymbolic AI
+      Neural Module Networks
+      Differentiable Programming
+      Hybrid Architectures
+      Neural Theorem Provers
+      Logic Tensor Networks
+      Scallop
+      Library Learning
+    Generalization
+      Compositional Generalization
+      Systematic Generalization
+      Out-of-Distribution Generalization
+      Length Generalization
+      SCAN Benchmark
+      COGS Benchmark
+      Causal Reasoning for AGI
+      Causal Representation Learning
+      Invariant Risk Minimization
+    Grounding & Common Sense
+      Grounding Problem
+      Symbol Grounding
+      Common Sense Reasoning
+      Cyc
+      ConceptNet
+      ATOMIC
+      Winograd Schema
+      WinoGrande
+      Physical Common Sense
+      Intuitive Physics
+      Theory of Mind in AI
+      Embodied Grounding
+  Scaling & Frontier Phenomena
+    Scaling Laws
+      Kaplan Scaling Laws
+      Chinchilla Scaling Laws
+      Compute-Optimal Training
+      Data-Constrained Scaling
+      Inference-Aware Scaling
+      Scaling Law Breakdown
+      Overtraining
+    Emergence & Training Dynamics
+      Emergent Abilities
+      Phase Transitions
+      Grokking
+      Double Descent
+      Inverse Scaling
+      U-Shaped Scaling
+      Emergence as Mirage Debate
+      Loss Plateaus
+    Scaling Debates
+      Scaling Hypothesis Critiques
+      Data Wall
+      Diminishing Returns Debate
+      Compute Scaling
+      Algorithmic Efficiency Gains
+      Algorithmic Progress
+      Hardware Overhang
+      Energy Constraints
+    New Scaling Axes
+      Test-Time Compute Scaling
+      Reasoning Scaling
+      Agentic Scaling
+      Long-Horizon Scaling
+      Synthetic Data Flywheels
+      Self-Play for LLMs
+      Distillation Chains
+      Model Collapse
+      Recursive Training Degradation
+    Frontier Training Runs
+      Frontier Model Training Runs
+      FLOP Thresholds
+        10^25 FLOP Threshold
+        10^26 FLOP Threshold
+      Training Compute Trends
+      Epoch AI
+      Gigawatt Datacenters
+      Training Costs
+      Multi-Datacenter Training
+  Frontier Research Directions
+    Core Capabilities
+      Reasoning
+      Long-Horizon Agency
+      Memory
+      Continual Learning
+      Multimodality
+      Embodiment
+      World Models
+      Interpretability
+      Alignment
+      Efficiency
+      Sample Efficiency
+    Architectures Beyond Transformers
+      Sparse Models
+      Mixture of Experts
+      State Space Models
+      Mamba
+      Hybrid Attention-SSM Models
+      Linear Attention
+      Diffusion Language Models
+      Energy-Based Language Models
+      Latent Reasoning
+      Recurrent Depth Models
+      Program-Aided Language Models
+      Test-Time Training Layers
+      Byte-Level Models
+    Formal Reasoning & Math AI
+      Formal Verification
+      Autoformalization
+      Lean
+      Lean Copilot
+      Isabelle
+      Coq
+      AlphaProof
+      AlphaGeometry
+      AlphaGeometry 2
+      IMO Gold
+      Math AI
+      miniF2F
+      PutnamBench
+      Minerva
+      Erdős Problems
+    AI for Science
+      Protein Structure
+        AlphaFold 1
+        AlphaFold 2
+        AlphaFold 3
+        ESMFold
+        RoseTTAFold
+      Protein Design
+      RFdiffusion
+      GNoME
+      Materials Discovery
+      Weather Models
+        GraphCast
+        GenCast
+        Aurora
+        FourCastNet
+      Fusion Plasma Control
+      AlphaTensor
+      AlphaDev
+      FunSearch
+      AlphaEvolve
+      AlphaChip
+      Virtual Cell
+      AI Mathematician
+    Automated Research
+      AI Scientist
+      AI Co-Scientist
+      Automated Research
+      Automated Literature Review
+      Hypothesis Generation
+      Autonomous Experimentation
+      Self-Driving Labs
+      AI for Math
+      Automated Peer Review
+    Research Methodology
+      Open Problems in AI
+      AI Research Methodology
+      Reproducibility Crisis
+      Benchmark Saturation
+      Evaluation Science
+      Leaderboard Gaming
+      Contamination Detection
+      Preregistration
+      Compute Divide
+  Philosophy of AI
+    Mind & Computation
+      Computationalism
+      Functionalism
+      Church-Turing Thesis
+      Physical Symbol System Hypothesis
+      Multiple Realizability
+      Connectionism vs Symbolism
+      Extended Mind
+    Consciousness
+      Hard Problem of Consciousness
+      Machine Consciousness
+      Sentience Debates
+      Qualia
+      Philosophical Zombies
+      Chinese Room
+      Octopus Test
+      Consciousness Indicators for AI
+    Limits Arguments
+      Penrose-Lucas Argument
+      Gödel's Theorem and AI
+      Dreyfus Critique
+      Frame Problem
+      Searle's Critique
+      No Free Lunch Theorems
+      Lighthill Report
+    Understanding Debates
+      Stochastic Parrots Debate
+      Understanding vs Prediction
+      World Models in LLMs Debate
+      Othello-GPT
+      Meaning and Reference
+      Simulators Theory
+      Compression and Understanding
+    Moral Status
+      Moral Patienthood
+      Model Welfare
+      Digital Minds
+      Personhood
+      AI Rights
+      Free Will and Agency
+      Suffering Risks
+      Precautionary Moral Status
+    Key Thinkers
+      Alan Turing
+      I. J. Good
+      Vernor Vinge
+      John Searle
+      Hubert Dreyfus
+      Daniel Dennett
+      Douglas Hofstadter
+      David Chalmers
+      Ray Kurzweil
+      Nick Bostrom
+      Eliezer Yudkowsky
+      Stuart Russell
+      Geoffrey Hinton
+      Yoshua Bengio
+      Yann LeCun
+      Gary Marcus
+      Demis Hassabis
+      Dario Amodei
+      Melanie Mitchell
+  Societal Trajectories
+    Labor & Economy
+      Automation of Labor
+      AI and Employment
+      Task Exposure Studies
+      Wage Effects
+      Post-Scarcity
+      Universal Basic Income
+      Economic Growth Explosion
+      Intelligence Curse
+      Agent Economies
+      Baumol Effect
+    Governance of AGI
+      AI Governance of AGI
+      Compute Governance
+      Compute Thresholds
+      Frontier Safety Frameworks
+      Responsible Scaling Policies
+      International Coordination
+      AI Treaties
+      IAEA for AI
+      Chips Export Controls
+      Model Weight Security
+      Open vs Closed Frontier Models
+      Pre-Deployment Testing
+    Geopolitics & Power
+      AGI Race Dynamics
+      Arms Race
+      US-China AI Competition
+      AI in Geopolitics
+      Concentration of Power
+      AI and Democracy
+      Epistemic Security
+      Sovereign AI
+      Manhattan Project for AI
+    Long-Term Future
+      Long-Term Future
+      Existential Risk
+      p(doom)
+      Catastrophic Risk
+      Gradual Disempowerment
+      Lock-In
+      Value Lock-In
+      Astronomical Stakes
+    Movements & Debates
+      AI Pause Debate
+      Pause Letter
+      Differential Technological Development
+      d/acc
+      e/acc
+      AI Accelerationism
+      Effective Altruism and AI
+      Longtermism
+      AI Safety Movement
+      Doomers vs Boomers
+      Degrowth and AI
+      Techno-Optimism
+    Human-AI Futures
+      AI and Education Transformation
+      Human-AI Collaboration
+      Centaur Models
+      Cognitive Augmentation
+      Intelligence Amplification
+      Brain-Computer Interfaces
+      Neuralink
+      Mind Uploading
+      Whole Brain Emulation
+      Transhumanism
+      Posthumanism
+      Machines of Loving Grace

@@ -1,0 +1,2190 @@
+AI Fundamentals & History
+  What Is AI
+    Definitions of AI
+      Thinking Humanly
+      Acting Humanly
+      Thinking Rationally
+      Acting Rationally
+      Rational Agent Definition
+      Computational Intelligence
+      Legg-Hutter Definition
+      McCarthy's Definition
+      Minsky's Definition
+      Agent-Environment Framing
+      Intelligence as Compression
+    Philosophy of AI
+      Turing Test
+      Imitation Game
+      Loebner Prize
+      Reverse Turing Test
+      CAPTCHA
+      Total Turing Test
+      Chinese Room Argument
+      Strong AI Hypothesis
+      Weak AI Hypothesis
+      Physical Symbol System Hypothesis
+      Computationalism
+      Functionalism
+      Symbol Grounding Problem
+      Frame Problem
+      Qualification Problem
+      Common Sense Knowledge Problem
+      Moravec's Paradox
+      Polanyi's Paradox
+      Lucas-Penrose Argument
+      Mary's Room
+      Philosophical Zombies
+      Hard Problem of Consciousness
+      Machine Consciousness
+      Intentionality
+      Embodied Cognition
+      Extended Mind
+      Dreyfus Critique
+      Lighthill Report
+      AI Effect
+      Tesler's Theorem
+      Winograd Schema Challenge
+      Stochastic Parrots Debate
+      Scaling Hypothesis
+      Bitter Lesson
+      Goodhart's Law
+    Types of Intelligence
+      Fluid Intelligence
+      Crystallized Intelligence
+      Multiple Intelligences Theory
+      Emotional Intelligence
+      Social Intelligence
+      Spatial Intelligence
+      Linguistic Intelligence
+      Logical-Mathematical Intelligence
+      Collective Intelligence
+      Swarm Intelligence
+      Artificial vs Natural Intelligence
+      Animal Cognition Comparisons
+      g Factor
+      Theory of Mind
+      Metacognition
+      System 1 and System 2
+    Cognitive Science Links
+      Cognitive Architectures
+      SOAR
+      ACT-R
+      Global Workspace Theory
+      Predictive Processing
+      Free Energy Principle
+      Bayesian Brain
+      Connectionism in Psychology
+      Neuroscience Inspiration
+      Hebbian Learning
+      Neurons and Synapses
+      Visual Cortex Hierarchy
+      Hippocampal Replay
+      Dopamine and Reward Prediction Error
+      Working Memory
+      Attention in Cognition
+      Language Acquisition
+      Developmental Robotics
+  AI Taxonomy
+    By Capability
+      Artificial Narrow Intelligence
+      Artificial General Intelligence
+      Artificial Superintelligence
+      Weak AI
+      Strong AI
+      Human-Level AI
+      Transformative AI
+      Levels of AGI Framework
+      Emerging AGI
+      Competent AGI
+      Expert AGI
+      Virtuoso AGI
+    By Functionality
+      Reactive Machines
+      Limited Memory AI
+      Theory of Mind AI
+      Self-Aware AI
+    By Agent Type
+      Simple Reflex Agents
+      Model-Based Reflex Agents
+      Goal-Based Agents
+      Utility-Based Agents
+      Learning Agents
+      Rational Agents
+      Autonomous Agents
+      Multi-Agent Systems
+      Software Agents
+      Embodied Agents
+    Environment Properties
+      Fully Observable vs Partially Observable
+      Deterministic vs Stochastic
+      Episodic vs Sequential
+      Static vs Dynamic
+      Discrete vs Continuous
+      Single-Agent vs Multi-Agent
+      Known vs Unknown
+      PEAS Description
+    AI Paradigms
+      Symbolic AI
+        Good Old-Fashioned AI
+        Logic-Based AI
+        Rule-Based Systems
+        Production Systems
+        Knowledge Representation
+        Expert Systems
+        Semantic Networks
+        Frames
+        Ontologies
+        Cyc Project
+        Automated Reasoning
+        Theorem Proving
+        Planning Systems
+      Connectionist AI
+        Artificial Neural Networks
+        Parallel Distributed Processing
+        Subsymbolic Representation
+        Distributed Representations
+        Deep Learning Paradigm
+      Statistical AI
+        Probabilistic Models
+        Statistical Learning Theory
+        Machine Learning Paradigm
+        Data-Driven AI
+      Evolutionary AI
+        Genetic Algorithms
+        Genetic Programming
+        Evolution Strategies
+        Neuroevolution
+        Artificial Life
+        Swarm Intelligence Methods
+      Bayesian AI
+        Bayesian Networks
+        Probabilistic Graphical Models
+        Probabilistic Programming
+        Bayesian Decision Theory
+      Behavior-Based AI
+        Subsumption Architecture
+        Nouvelle AI
+        Situated Robotics
+      Hybrid and Neuro-Symbolic AI
+        Neuro-Symbolic Integration
+        Neural Theorem Provers
+        Differentiable Reasoning
+        Program Synthesis
+        Logic Tensor Networks
+        AlphaGeometry
+        Tool-Augmented Neural Models
+      Other Paradigms
+        Analogical Reasoning
+        Case-Based Reasoning
+        Fuzzy Systems
+        Reinforcement Learning Paradigm
+        Active Inference
+        Embodied AI
+        Developmental AI
+        Open-Ended Learning
+    Relationships Between Fields
+      AI vs Machine Learning
+      Machine Learning vs Deep Learning
+      AI vs Data Science
+      Data Science vs Statistics
+      Data Mining
+      Pattern Recognition
+      Knowledge Discovery in Databases
+      Big Data
+      Business Intelligence
+      Data Analytics
+      Cognitive Computing
+      Computational Intelligence Field
+      Soft Computing
+      Cybernetics
+      Operations Research
+      Control Theory
+      Robotics Relationship
+      Computer Vision Relationship
+      Natural Language Processing Relationship
+      Speech Technology Relationship
+      Generative AI
+      Predictive AI vs Generative AI
+      Discriminative vs Generative Models
+      Agentic AI
+      Foundation Models
+      Frontier Models
+  History of AI
+    Precursors
+      Aristotle's Syllogisms
+      Al-Khwarizmi and Algorithms
+      Leibniz's Calculus Ratiocinator
+      Boole's Laws of Thought
+      Babbage's Analytical Engine
+      Ada Lovelace's Notes
+      Frege's Begriffsschrift
+      Hilbert's Program
+      Gödel's Incompleteness Theorems
+      Turing Machine 1936
+      Church's Lambda Calculus
+      McCulloch-Pitts Neuron 1943
+      Hebb's Organization of Behavior 1949
+      Wiener's Cybernetics 1948
+      Shannon's Information Theory 1948
+      Von Neumann Architecture
+      Rosenblueth-Wiener-Bigelow Teleology
+      Ashby's Homeostat
+      Grey Walter's Tortoises
+      Automata and Mechanical Turk Legends
+      Golem and Frankenstein Myths
+      Asimov's Three Laws
+    Birth of AI 1950s
+      Computing Machinery and Intelligence 1950
+      Turing Test Proposed
+      Shannon's Chess Paper 1950
+      SNARC 1951
+      Strachey's Checkers Program 1951
+      Logic Theorist 1956
+      Dartmouth Workshop 1956
+      Coining of Artificial Intelligence
+      Perceptron 1957
+      General Problem Solver 1957
+      Lisp 1958
+      Samuel's Checkers Program 1959
+      Advice Taker 1959
+      Pandemonium Architecture
+      Machine Learning Term Coined
+    Golden Years 1960s
+      ADALINE and MADALINE 1960
+      Unimate Industrial Robot 1961
+      Blocks World
+      Semantic Networks Introduced
+      ELIZA 1966
+      DENDRAL 1965
+      STUDENT 1964
+      Shakey the Robot 1966
+      MAC Hack Chess
+      A* Algorithm 1968
+      Minsky and Papert's Perceptrons 1969
+      Resolution Principle 1965
+      ARPA Funding Era
+      Stanford AI Lab Founded
+      MIT AI Lab Founded
+      Edinburgh AI Department
+      Knowledge-Based Systems Emergence
+    Early 1970s Advances
+      SHRDLU 1970
+      PROLOG 1972
+      MYCIN 1972
+      PARRY 1972
+      Frames Paper 1974
+      Hearsay Speech System
+      Freddy Robot
+      Stanford Cart
+      WABOT-1
+      Scripts and Plans
+      Conceptual Dependency Theory
+      Cognitron 1975
+    First AI Winter 1974-1980
+      Lighthill Report 1973
+      ALPAC Report 1966
+      DARPA Funding Cuts
+      Combinatorial Explosion Critiques
+      Perceptron Limitations Fallout
+      Hardware Limitations
+      Moravec's Paradox Recognized
+    Expert Systems Boom 1980s
+      XCON R1 1980
+      Fifth Generation Computer Project 1982
+      Expert System Shells
+      Knowledge Engineering
+      Lisp Machines
+      Symbolics and LMI
+      Alvey Programme
+      ESPRIT
+      Microelectronics and Computer Technology Corporation
+      Cyc Project Launched 1984
+      Hopfield Network 1982
+      Boltzmann Machine 1985
+      Neocognitron 1980
+      Backpropagation Popularized 1986
+      Parallel Distributed Processing 1986
+      NETtalk 1987
+      Bayesian Networks 1985
+      Probabilistic Reasoning in Intelligent Systems 1988
+      TD-Learning 1988
+      Q-Learning 1989
+      LeNet 1989
+      Universal Approximation Theorem 1989
+      Subsumption Architecture 1986
+      Society of Mind 1986
+      Reinforcement Learning Formalization
+      Behavior-Based Robotics
+      AAAI Founded 1979
+    Second AI Winter 1987-1993
+      Lisp Machine Market Collapse
+      Expert System Maintenance Problems
+      Fifth Generation Project Ends
+      Strategic Computing Initiative Cuts
+      Connectionism Revival Backlash
+      Nouvelle AI Response
+    Statistical Turn 1990s
+      Statistical NLP Rise
+      IBM Candide Translation
+      Hidden Markov Models in Speech
+      Support Vector Machines 1995
+      Boosting and AdaBoost 1995
+      Random Forests Precursors
+      Bagging 1996
+      Bayesian Methods Revival
+      Reinforcement Learning Textbook 1998
+      TD-Gammon 1992
+      Chinook Checkers
+      Deep Blue Defeats Kasparov 1997
+      LSTM 1997
+      Convolutional Networks on MNIST 1998
+      Kernel Methods Era
+      Graphical Models Era
+      Intelligent Agents Paradigm
+      AIMA First Edition 1995
+      DARPA Grand Challenge Precursors
+      Sojourner Mars Rover 1997
+      Furby and AIBO
+      Kismet Robot
+      Data Mining Boom
+      Google Founded 1998
+      PageRank
+    2000s Machine Learning Era
+      Honda ASIMO 2000
+      Roomba 2002
+      DARPA Grand Challenge 2004
+      Stanley Wins Grand Challenge 2005
+      DARPA Urban Challenge 2007
+      Netflix Prize 2006
+      Deep Belief Networks 2006
+      Deep Learning Term Revival
+      ImageNet Dataset 2009
+      GPU Training of Neural Nets
+      Kaggle Founded 2010
+      Watson Wins Jeopardy 2011
+      Siri Launch 2011
+      Google Brain Founded 2011
+      Cat Neuron Experiment 2012
+      Word2Vec 2013
+      Recommender Systems Boom
+      Latent Dirichlet Allocation 2003
+      Conditional Random Fields 2001
+      Random Forests 2001
+      Gradient Boosting Machines
+      Compressed Sensing
+      Probabilistic Robotics
+      Topic Modeling
+      Semantic Web Vision
+      Wikipedia Launch 2001
+      Mechanical Turk 2005
+      Big Data Era
+      Hadoop
+      Theano 2007
+      scikit-learn 2007
+      CUDA 2007
+      NIPS Growth
+    Deep Learning Revolution 2012-2016
+      AlexNet 2012
+      ImageNet 2012 Breakthrough
+      Dropout 2012
+      Deep Speech Recognition Advances
+      DQN Atari 2013
+      Word Embeddings Boom
+      VGGNet 2014
+      GoogLeNet Inception 2014
+      GANs 2014
+      Variational Autoencoders 2013
+      Sequence to Sequence 2014
+      Attention Mechanism 2014
+      Adam Optimizer 2014
+      DeepMind Acquired by Google 2014
+      Batch Normalization 2015
+      ResNet 2015
+      Neural Style Transfer 2015
+      TensorFlow Released 2015
+      OpenAI Founded 2015
+      Faster R-CNN 2015
+      YOLO 2016
+      AlphaGo Defeats Lee Sedol 2016
+      Google Neural Machine Translation 2016
+      WaveNet 2016
+      PyTorch Released 2016
+      Deep Reinforcement Learning Boom
+      Self-Driving Car Hype
+      Tesla Autopilot
+      Waymo Spinout 2016
+      Partnership on AI 2016
+      Asilomar AI Principles 2017
+    Transformer Era 2017-2021
+      Attention Is All You Need 2017
+      Transformer Architecture 2017
+      AlphaZero 2017
+      AlphaGo Zero 2017
+      Capsule Networks 2017
+      ULMFiT 2018
+      ELMo 2018
+      GPT-1 2018
+      BERT 2018
+      OpenAI Five Dota 2 2018
+      AlphaFold 1 2018
+      Turing Award to Hinton LeCun Bengio 2018
+      StyleGAN 2018
+      GPT-2 2019
+      AlphaStar 2019
+      XLNet RoBERTa T5 2019
+      Pluribus Poker 2019
+      MuZero 2019
+      Vision Transformer 2020
+      GPT-3 2020
+      Scaling Laws Paper 2020
+      AlphaFold 2 2020
+      DDPM 2020
+      Denoising Diffusion Models
+      CLIP 2021
+      DALL-E 2021
+      Codex and GitHub Copilot 2021
+      Foundation Models Report 2021
+      Gopher and Chinchilla 2021-2022
+      Switch Transformer 2021
+      Decision Transformer 2021
+      AlphaFold DB Release 2021
+      Stochastic Parrots Paper 2021
+    Generative AI Boom 2022-Present
+      Chinchilla Scaling Laws 2022
+      PaLM 2022
+      DALL-E 2 2022
+      Imagen 2022
+      Midjourney 2022
+      Stable Diffusion 2022
+      Whisper 2022
+      Chain-of-Thought Prompting 2022
+      InstructGPT and RLHF 2022
+      Gato 2022
+      Flamingo 2022
+      Minerva 2022
+      ChatGPT Launch 2022
+      BLOOM 2022
+      Galactica 2022
+      LLaMA 2023
+      Alpaca 2023
+      GPT-4 2023
+      Claude 2023
+      Bard 2023
+      PaLM 2 2023
+      Llama 2 2023
+      Mistral 7B 2023
+      Mixtral 2023
+      Gemini 2023
+      Segment Anything 2023
+      DINOv2 2023
+      ControlNet 2023
+      AutoGPT 2023
+      LangChain Rise
+      Open LLM Leaderboard
+      Pause Letter 2023
+      Bletchley Declaration 2023
+      EU AI Act 2024
+      Executive Order on AI 2023
+      Sora 2024
+      Claude 3 2024
+      Gemini 1.5 2024
+      Llama 3 2024
+      GPT-4o 2024
+      Mamba 2023
+      Test-Time Compute Scaling
+      o1 Reasoning Models 2024
+      DeepSeek-V3 2024
+      DeepSeek-R1 2025
+      Nobel Prize in Physics Hopfield Hinton 2024
+      Nobel Prize in Chemistry Hassabis Jumper 2024
+      Turing Award to Sutton Barto 2024
+      Qwen Series
+      Gemma Series
+      Phi Series
+      Claude 3.5 Sonnet 2024
+      Computer Use Agents 2024
+      Model Context Protocol 2024
+      Operator and Agentic Browsers 2025
+      GPT-5 2025
+      Gemini 2.5 2025
+      Claude 4 2025
+      Llama 4 2025
+      Veo and Video Generation Models
+      Open-Weight Model Movement
+      Agentic Coding Tools
+      AI Scientist Experiments
+      Humanity's Last Exam 2025
+      ARC Prize
+      International AI Safety Report 2025
+  Key People
+    Founders and Pioneers
+      Alan Turing
+      John McCarthy
+      Marvin Minsky
+      Claude Shannon
+      Herbert Simon
+      Allen Newell
+      Nathaniel Rochester
+      Arthur Samuel
+      Oliver Selfridge
+      Frank Rosenblatt
+      Warren McCulloch
+      Walter Pitts
+      Norbert Wiener
+      Donald Hebb
+      John von Neumann
+      Ada Lovelace
+      Charles Babbage
+      George Boole
+      Gottfried Leibniz
+      Alonzo Church
+      Kurt Gödel
+      Ray Solomonoff
+      Seymour Papert
+      Joseph Weizenbaum
+      Edward Feigenbaum
+      Terry Winograd
+      Roger Schank
+      Nils Nilsson
+      Raj Reddy
+      Donald Michie
+      Alain Colmerauer
+      Douglas Lenat
+      Rodney Brooks
+      Hans Moravec
+      Hubert Dreyfus
+      John Searle
+      Daniel Dennett
+      Douglas Hofstadter
+      Lotfi Zadeh
+      Judea Pearl
+      Patrick Winston
+      Bernard Widrow
+      Shun-ichi Amari
+      Kunihiko Fukushima
+      John Hopfield
+      Teuvo Kohonen
+      Stephen Grossberg
+      David Rumelhart
+      James McClelland
+      Paul Werbos
+      Seppo Linnainmaa
+      Terrence Sejnowski
+      Christopher Longuet-Higgins
+      Geoffrey Hinton
+      Yann LeCun
+      Yoshua Bengio
+      Jürgen Schmidhuber
+      Sepp Hochreiter
+      Vladimir Vapnik
+      Alexey Chervonenkis
+      Leslie Valiant
+      Michael I Jordan
+      Leo Breiman
+      Robert Schapire
+      Yoav Freund
+      Jerome Friedman
+      Trevor Hastie
+      Robert Tibshirani
+      Richard Sutton
+      Andrew Barto
+      Christopher Watkins
+      Gerald Tesauro
+      Leslie Kaelbling
+      Stuart Russell
+      Peter Norvig
+      Tom Mitchell
+      David Marr
+      Takeo Kanade
+      Berthold Horn
+      Jitendra Malik
+      Andrew Zisserman
+      Daphne Koller
+      Zoubin Ghahramani
+      David MacKay
+      Radford Neal
+      Christopher Bishop
+      Kevin Murphy
+      Carl Rasmussen
+      Bernhard Schölkopf
+      Alex Smola
+      Michael Kearns
+      Shai Shalev-Shwartz
+      Sanjoy Dasgupta
+      Lise Getoor
+      Pedro Domingos
+      Eric Horvitz
+      Manuela Veloso
+      Peter Stone
+      Craig Boutilier
+      Avrim Blum
+    Deep Learning Era Leaders
+      Andrew Ng
+      Fei-Fei Li
+      Jeff Dean
+      Ilya Sutskever
+      Alex Krizhevsky
+      Ian Goodfellow
+      Demis Hassabis
+      Shane Legg
+      David Silver
+      Mustafa Suleyman
+      Koray Kavukcuoglu
+      Oriol Vinyals
+      Volodymyr Mnih
+      Ashish Vaswani
+      Noam Shazeer
+      Jakob Uszkoreit
+      Aidan Gomez
+      Łukasz Kaiser
+      Illia Polosukhin
+      Niki Parmar
+      Llion Jones
+      Alec Radford
+      Dario Amodei
+      Daniela Amodei
+      Chris Olah
+      Jared Kaplan
+      Tom Brown
+      Greg Brockman
+      Sam Altman
+      Wojciech Zaremba
+      John Schulman
+      Pieter Abbeel
+      Sergey Levine
+      Chelsea Finn
+      Diederik Kingma
+      Max Welling
+      Jimmy Ba
+      Kaiming He
+      Ross Girshick
+      Piotr Dollár
+      Christian Szegedy
+      Sergey Ioffe
+      Karen Simonyan
+      Andrej Karpathy
+      Justin Johnson
+      Joseph Redmon
+      Tero Karras
+      Tim Salimans
+      Alexander Kolesnikov
+      Lucas Beyer
+      Neil Houlsby
+      Quoc Le
+      Jason Wei
+      Denny Zhou
+      Jacob Devlin
+      Ming-Wei Chang
+      Colin Raffel
+      Sebastian Ruder
+      Jeremy Howard
+      Rachel Thomas
+      Soumith Chintala
+      Adam Paszke
+      François Chollet
+      Thomas Wolf
+      Clément Delangue
+      Julien Chaumond
+      Emad Mostaque
+      Robin Rombach
+      Patrick Esser
+      Jonathan Ho
+      Yang Song
+      Stefano Ermon
+      Prafulla Dhariwal
+      Alex Nichol
+      Aditya Ramesh
+      Mark Chen
+      Richard Socher
+      Christopher Manning
+      Dan Jurafsky
+      Percy Liang
+      Chris Ré
+      Stefano Soatto
+      Yejin Choi
+      Noah Smith
+      Luke Zettlemoyer
+      Hannaneh Hajishirzi
+      Emily Bender
+      Timnit Gebru
+      Margaret Mitchell
+      Joy Buolamwini
+      Kate Crawford
+      Abeba Birhane
+      Melanie Mitchell
+      Gary Marcus
+      Josh Tenenbaum
+      Brenden Lake
+      Tomás Mikolov
+      Max Tegmark
+      Nick Bostrom
+      Eliezer Yudkowsky
+      Paul Christiano
+      Jan Leike
+      Shane Gu
+      Been Kim
+      Finale Doshi-Velez
+      Cynthia Rudin
+      Michael Bronstein
+      Petar Veličković
+      Jure Leskovec
+      Thomas Kipf
+      William Hamilton
+      Hugo Larochelle
+      Aaron Courville
+      Pascal Vincent
+      Doina Precup
+      Joelle Pineau
+      Raia Hadsell
+      Nando de Freitas
+      Alex Graves
+      Daan Wierstra
+      Shakir Mohamed
+      Danilo Rezende
+      John Jumper
+      Pushmeet Kohli
+      Jeff Clune
+      Kenneth Stanley
+      Joel Lehman
+      Jim Fan
+      Jensen Huang
+      Bill Dally
+      Lisa Su
+      Elon Musk
+      Mark Zuckerberg
+      Arthur Mensch
+      Guillaume Lample
+      Timothée Lacroix
+      Liang Wenfeng
+      Kai-Fu Lee
+      Andrew Yao
+      Harry Shum
+      Tang Jie
+      Yang Zhilin
+      Junyang Lin
+      Tie-Yan Liu
+      Sebastien Bubeck
+      Yann Dauphin
+      Rishi Bommasani
+      Jack Clark
+      Miles Brundage
+      Helen Toner
+      Mike Krieger
+      Sholto Douglas
+      Trenton Bricken
+      Neel Nanda
+      Jacob Steinhardt
+      Dan Hendrycks
+      Collin Burns
+      Owain Evans
+      Ajeya Cotra
+      Holden Karnofsky
+      Toby Ord
+      Rohin Shah
+      Victoria Krakovna
+      Anca Dragan
+      Dawn Song
+      Ion Stoica
+      Joseph Gonzalez
+      Matei Zaharia
+      Omar Khattab
+      Tatsunori Hashimoto
+      Chris Potts
+      Jia Deng
+      Olga Russakovsky
+      Alexei Efros
+      Trevor Darrell
+      Antonio Torralba
+      Phillip Isola
+      Jun-Yan Zhu
+      Bill Freeman
+      Shree Nayar
+      Bernt Schiele
+      Michal Irani
+      Luc Van Gool
+      Andrea Vedaldi
+      Cordelia Schmid
+      Ivan Laptev
+      Andrew Davison
+      Daniel Cremers
+      Marc Pollefeys
+      Vincent Vanhoucke
+      Peter Lee
+      Kevin Scott
+      Satya Nadella
+      Sundar Pichai
+      Sergey Brin
+      Larry Page
+    Robotics and Embodied AI People
+      Sebastian Thrun
+      Daniela Rus
+      Marc Raibert
+      Hiroshi Ishiguro
+      Masayoshi Son
+      Cynthia Breazeal
+      Ken Goldberg
+      Dieter Fox
+      Stefan Schaal
+      Jan Peters
+      Emo Todorov
+      Russ Tedrake
+      Abhinav Gupta
+      Deepak Pathak
+      Lerrel Pinto
+      Shuran Song
+      Dorsa Sadigh
+      Jeannette Bohg
+      Karol Hausman
+      Brian Ichter
+      Fei Xia
+      Ted Xiao
+      Jie Tan
+      Yuke Zhu
+      Animesh Garg
+      Xiaolong Wang
+      Yuval Tassa
+      Tom Erez
+    Game AI and Search People
+      Feng-hsiung Hsu
+      Murray Campbell
+      Jonathan Schaeffer
+      Rémi Coulom
+      Sylvain Gelly
+      Aja Huang
+      Julian Schrittwieser
+      Tuomas Sandholm
+      Noam Brown
+      Michael Bowling
+      Martin Schmid
+      Julian Togelius
+      Georgios Yannakakis
+      Hans Berliner
+      Peter Hart
+      Bertram Raphael
+  Labs and Organizations
+    Frontier AI Labs
+      OpenAI
+      Google DeepMind
+      Anthropic
+      Meta AI FAIR
+      Meta Superintelligence Labs
+      Microsoft AI
+      xAI
+      Mistral AI
+      Cohere
+      AI21 Labs
+      Inflection AI
+      Character.AI
+      Adept
+      Reka AI
+      Safe Superintelligence
+      Thinking Machines Lab
+      Amazon AGI
+      Apple Machine Learning Research
+      NVIDIA Research
+      IBM Research
+      Salesforce AI Research
+      Databricks Mosaic Research
+      Snowflake AI Research
+      Together AI
+      Perplexity AI
+      Magic AI
+      Poolside
+      Cursor Anysphere
+      Cognition AI
+      Sakana AI
+      Liquid AI
+      World Labs
+      Physical Intelligence
+      Figure AI
+      1X Technologies
+      Skild AI
+      Covariant
+      Wayve
+      Waymo
+      Tesla AI
+      Boston Dynamics AI Institute
+      Runway
+      Pika
+      Luma AI
+      Midjourney
+      Black Forest Labs
+      Stability AI
+      ElevenLabs
+      Suno
+      Udio
+      Ideogram
+      Recraft
+      Hume AI
+      Glean
+      Harvey
+      Scale AI
+      Surge AI
+      Writer
+      Jasper
+      Sierra
+      Decagon
+      Hebbia
+      Abridge
+      Isomorphic Labs
+      Recursion
+      Insilico Medicine
+      Chai Discovery
+      EvolutionaryScale
+      Profluent
+      Arc Institute
+      Lila Sciences
+      Periodic Labs
+    Chinese AI Labs and Companies
+      DeepSeek
+      Alibaba Qwen Team
+      Alibaba DAMO Academy
+      Moonshot AI Kimi
+      Zhipu AI GLM
+      Baichuan
+      01.AI
+      MiniMax
+      StepFun
+      ByteDance Seed
+      Tencent Hunyuan
+      Baidu ERNIE
+      Huawei Noah's Ark Lab
+      Huawei Pangu
+      iFlytek
+      SenseTime
+      Megvii
+      Shanghai AI Laboratory InternLM
+      BAAI
+      Tsinghua KEG
+      Peking University AI Institute
+      Chinese Academy of Sciences Automation
+      Xiaomi AI
+      Kuaishou Kling
+      Shengshu Vidu
+      Manus
+    Open Source and Nonprofit Organizations
+      Hugging Face
+      EleutherAI
+      LAION
+      Allen Institute for AI
+      AI2 OLMo
+      BigScience
+      BigCode
+      Nous Research
+      Open Model Initiative
+      Technology Innovation Institute Falcon
+      Stability AI Open Models
+      Mozilla.ai
+      Linux Foundation AI and Data
+      PyTorch Foundation
+      MLCommons
+      Open Source Initiative OSAID
+      OpenML Organization
+      Apache Software Foundation
+      NumFOCUS
+      Papers with Code
+      Zeta Alpha
+      Common Crawl Foundation
+      Wikimedia Foundation
+      Internet Archive
+      Software Heritage
+      OpenMined
+      ML Collective
+      Cohere For AI
+      Masakhane
+      AI4Bharat
+      Sarvam AI
+      Kyutai
+      Pleias
+      Swiss AI Initiative
+      Aleph Alpha
+      Silo AI
+      Lightning AI
+      Ollama
+      LM Studio
+      llama.cpp Community
+      vLLM Project
+      ComfyUI Community
+      Civitai
+    Safety and Policy Organizations
+      Anthropic Alignment Science
+      OpenAI Safety Systems
+      DeepMind Alignment Team
+      Alignment Research Center
+      METR
+      Apollo Research
+      Redwood Research
+      Machine Intelligence Research Institute
+      Center for AI Safety
+      Center for Human-Compatible AI
+      Future of Life Institute
+      Future of Humanity Institute
+      Centre for the Governance of AI
+      Center for Security and Emerging Technology
+      Partnership on AI
+      AI Now Institute
+      DAIR Institute
+      Algorithmic Justice League
+      Ada Lovelace Institute
+      Epoch AI
+      Our World in Data AI
+      Stanford HAI
+      Stanford CRFM
+      Berkeley CHAI
+      Oxford AI Governance Initiative
+      Frontier Model Forum
+      UK AI Security Institute
+      US Center for AI Standards and Innovation
+      EU AI Office
+      NIST AI RMF Team
+      OECD AI Policy Observatory
+      UNESCO AI Ethics
+      Global Partnership on AI
+      Conjecture
+      Elicit
+      Ought
+      Open Philanthropy
+      80,000 Hours
+      AI Safety Camp
+      MATS Program
+      SPAR Program
+      BlueDot Impact
+      Transluce
+      Goodfire
+      FAR AI
+      Palisade Research
+      SaferAI
+      Timaeus
+    Big Tech Research Labs
+      Google Brain
+      Google Research
+      Microsoft Research
+      Microsoft Research Asia
+      Amazon Science
+      Apple AI Research
+      Meta Reality Labs Research
+      IBM Watson Research
+      Intel Labs
+      Qualcomm AI Research
+      Samsung Research
+      Sony AI
+      Adobe Research
+      Netflix Research
+      Spotify Research
+      Uber AI Labs
+      Lyft Level 5
+      Bosch Center for AI
+      Siemens AI Lab
+      Bell Labs
+      Xerox PARC
+      SRI International
+      MITRE
+      RAND Corporation
+      Naver AI Lab
+      LG AI Research
+      Kakao Brain
+      Rakuten Institute of Technology
+      Preferred Networks
+      Yandex Research
+      Tinkoff T-Bank AI
+      Sber AI
+      Toyota Research Institute
+      Honda Research Institute
+      Nissan Research
+      Samsung SAIT
+    Academic Labs and Institutes
+      MIT CSAIL
+      MIT Media Lab
+      Stanford AI Lab
+      Stanford HAI Institute
+      Berkeley AI Research
+      Berkeley RISELab and Sky Computing
+      CMU Machine Learning Department
+      CMU Robotics Institute
+      CMU Language Technologies Institute
+      Oxford Machine Learning Research Group
+      Oxford VGG
+      Cambridge Machine Learning Group
+      Cambridge Computational and Biological Learning Lab
+      Imperial College AI
+      UCL Gatsby Unit
+      UCL AI Centre
+      Edinburgh School of Informatics
+      Mila Quebec AI Institute
+      Vector Institute
+      Amii Alberta
+      Toronto Machine Learning Group
+      Max Planck Institute for Intelligent Systems
+      Tübingen AI Center
+      ELLIS
+      IDSIA
+      ETH Zurich AI Center
+      EPFL
+      INRIA
+      Sorbonne and PSL AI
+      TU Munich
+      KU Leuven
+      University of Amsterdam AMLab
+      Technion
+      Weizmann Institute
+      Hebrew University
+      Tel Aviv University
+      Tsinghua University AI
+      Peking University
+      Shanghai Jiao Tong University
+      Zhejiang University
+      University of Tokyo
+      RIKEN AIP
+      KAIST
+      Seoul National University
+      IIT Madras AI
+      IISc Bangalore
+      IIIT Hyderabad
+      National University of Singapore
+      Nanyang Technological University
+      University of Washington Allen School
+      University of Washington NLP
+      NYU Center for Data Science
+      Columbia Data Science Institute
+      Princeton AI Lab
+      Princeton Center for Information Technology Policy
+      Harvard SEAS
+      Yale AI
+      Cornell Tech
+      University of Michigan AI Lab
+      UIUC
+      Georgia Tech Machine Learning
+      UT Austin
+      UCSD AI Group
+      UCLA StarAI
+      USC ISI
+      Caltech
+      University of Maryland
+      Johns Hopkins CLSP
+      Brown University
+      University of Pennsylvania GRASP
+      University of Massachusetts Amherst
+      University of Wisconsin-Madison
+      University of Montreal
+      McGill
+      University of British Columbia
+      Australian National University
+      University of Sydney
+      University of Melbourne
+      Universities in Africa AI Labs
+      KAUST
+      MBZUAI
+  Venues and Publications
+    Machine Learning Conferences
+      NeurIPS
+      ICML
+      ICLR
+      AISTATS
+      UAI
+      COLT
+      ALT
+      AutoML Conference
+      COLM
+      MLSys
+      LoG
+      TMLR
+      Journal of Machine Learning Research
+      Machine Learning Journal
+      Foundations and Trends in Machine Learning
+    General AI Conferences
+      AAAI
+      IJCAI
+      ECAI
+      AAMAS
+      KR
+      ICAPS
+      SAT Conference
+      CP Conference
+      Artificial Intelligence Journal
+      JAIR
+      AI Magazine
+    Computer Vision Venues
+      CVPR
+      ICCV
+      ECCV
+      WACV
+      BMVC
+      ACCV
+      3DV
+      SIGGRAPH
+      SIGGRAPH Asia
+      MICCAI
+      IPMI
+      ICIP
+      TPAMI
+      IJCV
+      Transactions on Graphics
+    NLP and Speech Venues
+      ACL
+      EMNLP
+      NAACL
+      EACL
+      AACL
+      COLING
+      CoNLL
+      Interspeech
+      ICASSP
+      ASRU
+      SLT
+      TACL
+      Computational Linguistics Journal
+      ACL Anthology
+      Findings of ACL
+      SemEval
+      LREC
+      WMT
+    Data Mining and Information Retrieval Venues
+      KDD
+      WSDM
+      WWW The Web Conference
+      SIGIR
+      CIKM
+      ICDM
+      SDM
+      RecSys
+      ECIR
+      TREC
+      VLDB
+      SIGMOD
+      ICDE
+      TKDE
+    Robotics and Control Venues
+      ICRA
+      IROS
+      RSS
+      CoRL
+      Humanoids
+      RA-L
+      IJRR
+      Transactions on Robotics
+      L4DC
+      CDC
+      ACC
+      Science Robotics
+    Theory and Systems Venues
+      STOC
+      FOCS
+      SODA
+      ITCS
+      ISIT
+      OSDI
+      SOSP
+      ASPLOS
+      ISCA
+      MICRO
+      HPCA
+      SC Supercomputing
+      PPoPP
+      PLDI
+      POPL
+      USENIX ATC
+      NSDI
+    Security Privacy and Fairness Venues
+      FAccT
+      AIES
+      IEEE S&P
+      USENIX Security
+      CCS
+      NDSS
+      SaTML
+      PETS
+      CHI
+      CSCW
+      UIST
+    Scientific and Interdisciplinary Venues
+      Nature
+      Science
+      Nature Machine Intelligence
+      Nature Communications
+      PNAS
+      Cell
+      Cognitive Science Society
+      Cognition Journal
+      Neural Computation
+      Neural Networks Journal
+      IEEE TNNLS
+      Patterns
+      Distill
+      Transactions on Audio Speech and Language
+    Preprints and Publishing Culture
+      arXiv
+      arXiv cs.LG
+      arXiv cs.CL
+      arXiv cs.CV
+      arXiv cs.AI
+      arXiv stat.ML
+      bioRxiv
+      OpenReview
+      Semantic Scholar
+      Google Scholar
+      Papers with Code
+      Hugging Face Papers
+      alphaXiv
+      Connected Papers
+      ResearchGate
+      Peer Review Process
+      Double-Blind Review
+      Rebuttal Phase
+      Area Chairs
+      Reviewer Guidelines
+      Reproducibility Checklists
+      Broader Impact Statements
+      Preprint Culture
+      Workshop Papers
+      Oral Spotlight Poster
+      Best Paper Awards
+      Test of Time Awards
+      h-Index
+      Citation Metrics
+      Open Access
+      Technical Reports
+      Model Cards
+      System Cards
+      Blog Posts as Research
+      Twitter and X Research Culture
+      YouTube Paper Explainers
+    Benchmarks Culture
+      Benchmark Datasets
+      Leaderboards
+      State of the Art
+      SOTA Chasing
+      Benchmark Saturation
+      Benchmark Contamination
+      Goodhart's Law in Benchmarks
+      Dynamic Benchmarks
+      Dynabench
+      Adversarial Benchmarks
+      Human Baselines
+      Evaluation Harnesses
+      lm-evaluation-harness
+      HELM
+      Open LLM Leaderboard
+      LMSYS Chatbot Arena
+      Artificial Analysis
+      Scale SEAL Leaderboards
+      Epoch Benchmarking Hub
+      Vellum Leaderboard
+      LiveBench
+      Kaggle Competitions
+      ImageNet Challenge ILSVRC
+      Netflix Prize Competition
+      DARPA Challenges
+      RoboCup
+      General Video Game AI Competition
+      ARC Prize
+      AI Mathematical Olympiad Prize
+      XPRIZE
+      Shared Tasks
+      Reproducibility Challenges
+      ML Reproducibility Challenge
+      Replication Crisis in ML
+      Negative Results
+      Ablation Studies
+      Error Bars and Seeds
+      Compute Reporting
+      Carbon Footprint Reporting
+  Careers and Roles
+    Technical Roles
+      Machine Learning Engineer
+      Research Scientist
+      Research Engineer
+      Applied Scientist
+      Data Scientist
+      Data Analyst
+      Data Engineer
+      Analytics Engineer
+      MLOps Engineer
+      ML Platform Engineer
+      AI Infrastructure Engineer
+      Deep Learning Engineer
+      Computer Vision Engineer
+      NLP Engineer
+      Speech Engineer
+      Robotics Engineer
+      Reinforcement Learning Researcher
+      AI Software Engineer
+      LLM Engineer
+      Prompt Engineer
+      AI Agent Engineer
+      Forward Deployed Engineer
+      Solutions Architect for AI
+      AI Developer Advocate
+      Performance Engineer
+      GPU Kernel Engineer
+      Compiler Engineer for ML
+      Quantitative Researcher
+      Bioinformatics ML Scientist
+      Computational Linguist
+      Annotation Specialist
+      Data Labeler
+      Red Teamer
+      AI Safety Researcher
+      Alignment Researcher
+      Interpretability Researcher
+      Evaluation Scientist
+      Model Behavior Specialist
+    Product and Business Roles
+      AI Product Manager
+      Technical Program Manager
+      AI Strategy Consultant
+      AI Solutions Consultant
+      AI Sales Engineer
+      Chief AI Officer
+      Head of AI
+      VP of Machine Learning
+      AI Startup Founder
+      Venture Capital AI Investor
+      AI Trainer
+      AI Educator
+      Technical Writer for AI
+    Governance and Ethics Roles
+      AI Ethicist
+      Responsible AI Lead
+      AI Policy Analyst
+      AI Governance Specialist
+      AI Auditor
+      Trust and Safety Specialist
+      Privacy Engineer
+      Compliance Officer for AI
+      AI Risk Manager
+      Content Moderation Policy
+    Academic Paths
+      PhD in Machine Learning
+      Masters in AI
+      Postdoctoral Researcher
+      Faculty Positions
+      Research Internships
+      Residency Programs
+      Google AI Residency
+      OpenAI Residency
+      Meta AI Residency
+      Industry-Academia Collaboration
+      Grant Writing
+      Publishing Track Record
+    Skills and Hiring
+      ML Interview Preparation
+      Coding Interviews
+      ML System Design Interviews
+      Research Interviews
+      Take-Home Assignments
+      Portfolio Projects
+      Kaggle Rankings
+      Open Source Contributions
+      Technical Blogging
+      Conference Networking
+      Reading Papers Effectively
+      Reimplementing Papers
+      Research Taste
+      T-Shaped Skills
+      Domain Expertise
+      Communication Skills
+      Career Ladders
+      Compensation Structures
+      Remote Work in AI
+      Hiring Loops
+  Learning Resources
+    Textbooks
+      Artificial Intelligence A Modern Approach
+      Deep Learning Book
+      Pattern Recognition and Machine Learning
+      The Elements of Statistical Learning
+      An Introduction to Statistical Learning
+      Hands-On Machine Learning
+      Machine Learning Tom Mitchell
+      Machine Learning A Probabilistic Perspective
+      Probabilistic Machine Learning Series
+      Reinforcement Learning An Introduction
+      Information Theory Inference and Learning Algorithms
+      Understanding Machine Learning
+      Foundations of Machine Learning
+      Learning from Data
+      Mathematics for Machine Learning
+      Dive into Deep Learning
+      Deep Learning with Python
+      Deep Learning for Coders with fastai
+      Neural Networks and Deep Learning Nielsen
+      Speech and Language Processing
+      Foundations of Statistical NLP
+      Natural Language Processing with Transformers
+      Computer Vision Algorithms and Applications
+      Multiple View Geometry
+      Probabilistic Robotics
+      Probabilistic Graphical Models
+      Bayesian Reasoning and Machine Learning
+      Gaussian Processes for Machine Learning
+      Convex Optimization Boyd
+      Numerical Optimization Nocedal
+      Linear Algebra Done Right
+      Introduction to Linear Algebra Strang
+      Causality Pearl
+      The Book of Why
+      Causal Inference The Mixtape
+      Elements of Causal Inference
+      Designing Machine Learning Systems
+      Machine Learning Engineering Burkov
+      The Hundred-Page Machine Learning Book
+      Interpretable Machine Learning Molnar
+      Fairness and Machine Learning
+      Building Machine Learning Powered Applications
+      Machine Learning Design Patterns
+      Reliable Machine Learning
+      Introduction to Algorithms CLRS
+      Grokking Deep Learning
+      Grokking Algorithms
+      Python for Data Analysis
+      Python Data Science Handbook
+      Fluent Python
+      Effective Python
+      Programming Massively Parallel Processors
+      Statistical Rethinking
+      Bayesian Data Analysis
+      All of Statistics
+      Think Stats
+      Think Bayes
+      The Alignment Problem
+      Human Compatible
+      Superintelligence
+      Life 3.0
+      Gödel Escher Bach
+      The Master Algorithm
+      Prediction Machines
+      Rebooting AI
+      Atlas of AI
+      Weapons of Math Destruction
+      Genius Makers
+      The Age of AI
+      Co-Intelligence
+      Situational Awareness Essay
+      Machines of Loving Grace Essay
+      Build a Large Language Model from Scratch
+      AI Engineering Chip Huyen
+      Hands-On Large Language Models
+      Prompt Engineering for LLMs
+      Generative Deep Learning
+      Deep Learning Foundations and Concepts
+      Little Book of Deep Learning
+      Understanding Deep Learning Prince
+    University Courses
+      Stanford CS229 Machine Learning
+      Stanford CS231n Computer Vision
+      Stanford CS224n NLP
+      Stanford CS224w Graphs
+      Stanford CS234 Reinforcement Learning
+      Stanford CS236 Generative Models
+      Stanford CS324 Large Language Models
+      Stanford CS25 Transformers United
+      Stanford CS329S ML Systems Design
+      Stanford CS330 Multi-Task Learning
+      Stanford CS221 AI Principles
+      Stanford CS228 Probabilistic Graphical Models
+      Stanford CS246 Mining Massive Datasets
+      Stanford CS148 Graphics
+      Stanford EE364A Convex Optimization
+      Stanford Stats 385
+      Stanford CS336 Language Modeling from Scratch
+      MIT 6.034 Artificial Intelligence
+      MIT 6.036 Introduction to ML
+      MIT 6.S191 Introduction to Deep Learning
+      MIT 6.S898 Deep Learning
+      MIT 18.06 Linear Algebra
+      MIT 18.650 Statistics
+      MIT 6.006 Algorithms
+      MIT 6.5940 TinyML
+      MIT Missing Semester
+      Berkeley CS188 Artificial Intelligence
+      Berkeley CS189 Machine Learning
+      Berkeley CS285 Deep RL
+      Berkeley CS294 Topics
+      Berkeley Data 8
+      Berkeley Data 100
+      Berkeley CS182 Deep Learning
+      Berkeley Full Stack Deep Learning
+      Berkeley LLM Agents MOOC
+      CMU 10-701 Machine Learning
+      CMU 10-708 Probabilistic Graphical Models
+      CMU 11-747 Neural Networks for NLP
+      CMU 11-785 Deep Learning
+      CMU 16-385 Computer Vision
+      CMU 15-445 Databases
+      CMU 10-414 Deep Learning Systems
+      CMU 11-667 Large Language Models
+      Harvard CS50 AI
+      Harvard CS181
+      Harvard Stat 110
+      Oxford Deep NLP
+      Oxford Machine Learning Course
+      Cambridge Information Theory Course
+      Caltech Learning from Data
+      UCL Reinforcement Learning Silver
+      UC San Diego DSC
+      Columbia COMS W4705
+      NYU Deep Learning LeCun
+      Michigan EECS 498 Deep Learning for Vision
+      Michigan EECS 598
+      UIUC CS 440
+      UT Austin CS 342
+      Georgia Tech CS 7641
+      Georgia Tech OMSCS
+      UW CSE 446
+      UW CSE 447
+      Princeton COS 324
+      Princeton COS 484
+      Cornell CS 4780
+      Toronto CSC 2515
+      Toronto CSC 321
+      Toronto CSC 413
+      Toronto CSC 2541
+      McGill COMP 551
+      University of Amsterdam Deep Learning Course
+      ETH Zurich Deep Learning
+      EPFL EE-559
+      Tübingen Probabilistic ML
+      Tübingen Statistical ML
+      IIT Madras Online Degree
+      NPTEL Deep Learning
+    Online Courses and MOOCs
+      Andrew Ng Machine Learning Course
+      Machine Learning Specialization
+      Deep Learning Specialization
+      DeepLearning.AI Short Courses
+      Generative AI with LLMs
+      Natural Language Processing Specialization
+      TensorFlow Developer Certificate
+      Mathematics for Machine Learning Specialization
+      Google Machine Learning Crash Course
+      Google Generative AI Learning Path
+      fast.ai Practical Deep Learning for Coders
+      fast.ai From the Foundations
+      fast.ai Computational Linear Algebra
+      fast.ai Stable Diffusion Course
+      Hugging Face NLP Course
+      Hugging Face Deep RL Course
+      Hugging Face Audio Course
+      Hugging Face Diffusion Course
+      Hugging Face Agents Course
+      Hugging Face Smol Course
+      Hugging Face LLM Course
+      Udacity AI Nanodegree
+      Udacity Deep Learning Nanodegree
+      Udacity Self-Driving Car Nanodegree
+      edX MIT MicroMasters
+      edX Columbia AI
+      Coursera IBM Data Science
+      Coursera Michigan Data Science
+      Kaggle Learn
+      DataCamp
+      Codecademy
+      Brilliant
+      Khan Academy Math
+      3Blue1Brown Linear Algebra
+      3Blue1Brown Neural Networks
+      3Blue1Brown Calculus
+      StatQuest
+      Andrej Karpathy Zero to Hero
+      Karpathy makemore
+      Karpathy nanoGPT
+      Karpathy Let's Build GPT
+      Karpathy LLM101n
+      Yannic Kilcher Paper Reviews
+      Two Minute Papers
+      AI Explained
+      Lex Fridman Podcast
+      Machine Learning Street Talk
+      Latent Space Podcast
+      Dwarkesh Podcast
+      The TWIML AI Podcast
+      Gradient Dissent
+      Practical AI Podcast
+      Data Skeptic
+      Weights & Biases Courses
+      Full Stack LLM Bootcamp
+      LLM Bootcamp
+      Made With ML
+      Zero to Mastery
+      freeCodeCamp ML
+      Sentdex
+      Krish Naik
+      CodeEmporium
+      Umar Jamil
+      Aleksa Gordić
+      Welch Labs
+      Serrano Academy
+      Artem Kirsanov
+      Mutual Information Channel
+      Rational Animations
+      Robert Miles AI Safety
+      AI Safety Fundamentals Course
+      ARENA Program
+      ML Safety Course
+      Intro to ML Safety
+      Google DeepMind x UCL Lectures
+      DeepMind x UCL RL Lectures
+      Neuromatch Academy
+      MLSS Summer Schools
+      Eastern European ML Summer School
+      Oxford ML Summer School
+      Deep Learning Indaba
+      Khipu
+      Pi School
+      Dair.ai Courses
+      Cohere LLM University
+      Anthropic Courses
+      OpenAI Cookbook
+      Microsoft AI for Beginners
+      Microsoft ML for Beginners
+      Microsoft Generative AI for Beginners
+      Microsoft AI Agents for Beginners
+      AWS Machine Learning University
+      NVIDIA Deep Learning Institute
+      IBM SkillsBuild AI
+      Intel AI Academy
+      Qualcomm AI Hub Tutorials
+      Elements of AI
+      Google AI Essentials
+      LinkedIn Learning AI
+      Pluralsight AI
+      O'Reilly Learning Platform
+      Manning liveProject
+      Educative
+      Exercism
+      LeetCode
+      Project Euler
+      Advent of Code
+    Blogs Newsletters and Communities
+      Distill.pub
+      Lil'Log
+      Jay Alammar Illustrated Series
+      Colah's Blog
+      Andrej Karpathy Blog
+      Sebastian Raschka Ahead of AI
+      Chip Huyen Blog
+      Eugene Yan Blog
+      Jeremy Jordan Blog
+      Gwern
+      LessWrong
+      Alignment Forum
+      Import AI Newsletter
+      The Batch
+      The Gradient
+      Last Week in AI
+      TLDR AI
+      Ben's Bites
+      Latent Space Newsletter
+      Interconnects
+      Semi-Analysis
+      Stratechery
+      One Useful Thing
+      Simon Willison Blog
+      Hacker News
+      Reddit r/MachineLearning
+      Reddit r/LocalLLaMA
+      ML Twitter X Community
+      Hugging Face Discord
+      EleutherAI Discord
+      Kaggle Forums
+      Stack Overflow
+      Cross Validated
+      AI Stack Exchange
+      Papers We Love
+      ML Collective Reading Groups
+      Towards Data Science
+      Medium AI Publications
+      Google AI Blog
+      OpenAI Blog
+      Anthropic Research Blog
+      DeepMind Blog
+      Meta AI Blog
+      Microsoft Research Blog
+      Hugging Face Blog
+      NVIDIA Technical Blog
+      PyTorch Blog
+      BAIR Blog
+      Stanford AI Lab Blog
+      CMU ML Blog
+      Off the Convex Path
+      I'm a Bandit
+      Argmin Blog
+      Francis Bach Blog
+      Terence Tao Blog
+      Explained.ai
+      The Morning Paper
+      Awesome Lists on GitHub
+      Papers in 100 Lines of Code
+      Annotated Transformer
+      Annotated Diffusion
+      Illustrated Transformer
+      Illustrated BERT
+      Illustrated Stable Diffusion
+      Transformer Circuits Thread
+      State of AI Report
+      Stanford AI Index
+      Epoch AI Trends
+      ML Reproducibility Reports
+    Tools for Learning
+      Anki Spaced Repetition
+      Obsidian Notes
+      Notion
+      Zotero
+      Mendeley
+      Paperpile
+      Readwise
+      Overleaf
+      LaTeX
+      Markdown
+      Mermaid Diagrams
+      Excalidraw
+      draw.io
+      TikZ
+      Manim
+      Desmos
+      GeoGebra
+      WolframAlpha
+      Mathematica
+      TensorFlow Playground
+      CNN Explainer
+      Transformer Explainer
+      Diffusion Explainer
+      Distill Interactive Articles
+      Netron Model Visualizer
+      Netlify and Vercel Demo Hosting
+      Hugging Face Spaces Demos
+      Google Colab Notebooks
+      Kaggle Kernels
+      Paperspace Gradient
+      Lightning Studios
+  Terminology Glossary
+    Core Terms
+      Model
+      Algorithm
+      Parameter
+      Hyperparameter
+      Weight
+      Bias Term
+      Feature
+      Label
+      Target
+      Instance
+      Sample
+      Example
+      Dataset
+      Corpus
+      Training
+      Inference
+      Prediction
+      Epoch
+      Iteration
+      Batch
+      Mini-Batch
+      Batch Size
+      Learning Rate
+      Loss
+      Cost
+      Objective
+      Gradient
+      Backpropagation
+      Forward Pass
+      Backward Pass
+      Convergence
+      Checkpoint
+      Baseline
+      Benchmark
+      Metric
+      Ground Truth
+      Signal and Noise
+    Learning Paradigm Terms
+      Supervised Learning
+      Unsupervised Learning
+      Semi-Supervised Learning
+      Self-Supervised Learning
+      Reinforcement Learning
+      Online Learning
+      Offline Learning
+      Batch Learning
+      Active Learning
+      Transfer Learning
+      Multi-Task Learning
+      Meta-Learning
+      Few-Shot Learning
+      Zero-Shot Learning
+      One-Shot Learning
+      Continual Learning
+      Lifelong Learning
+      Curriculum Learning
+      Contrastive Learning
+      Representation Learning
+      Federated Learning
+      Imitation Learning
+      Weakly Supervised Learning
+      Inductive vs Transductive Learning
+      Discriminative vs Generative Learning
+      Parametric vs Non-Parametric
+      Instance-Based Learning
+      Lazy vs Eager Learning
+    Generalization Terms
+      Generalization
+      Overfitting
+      Underfitting
+      Bias-Variance Tradeoff
+      Capacity
+      Regularization
+      Early Stopping
+      Validation
+      Cross-Validation
+      Train-Test Split
+      Hold-Out
+      Data Leakage
+      Distribution Shift
+      Out-of-Distribution
+      In-Distribution
+      Robustness
+      Invariance
+      Equivariance
+      Inductive Bias
+      No Free Lunch Theorem
+      Occam's Razor in ML
+      Curse of Dimensionality
+      Manifold Hypothesis
+      Interpolation vs Extrapolation
+      Memorization
+      Grokking
+      Double Descent
+      Scaling Laws
+      Emergent Abilities
+    Model and Architecture Terms
+      Neuron
+      Layer
+      Hidden Layer
+      Activation Function
+      Logits
+      Softmax
+      Embedding
+      Latent Space
+      Latent Variable
+      Representation
+      Encoder
+      Decoder
+      Bottleneck
+      Attention
+      Transformer
+      Convolution
+      Recurrence
+      Residual Connection
+      Normalization Layer
+      Dropout
+      Pooling
+      Head
+      Backbone
+      Neck
+      Pretrained Model
+      Fine-Tuning
+      Frozen Weights
+      Adapter
+      Ensemble
+      Mixture of Experts
+      Dense vs Sparse Model
+      Autoregressive
+      Bidirectional
+      Causal Masking
+      Context Window
+      Token
+      Tokenizer
+      Vocabulary
+      Sequence Length
+      Positional Encoding
+      Temperature
+      Top-k and Top-p Sampling
+      Beam Search
+      Greedy Decoding
+      Hallucination
+      Grounding
+      Prompt
+      System Prompt
+      Instruction Tuning
+      Alignment
+      RLHF
+      Guardrails
+      Agent
+      Tool Use
+      Function Calling
+      Retrieval-Augmented Generation
+      Vector Store
+      Chunking
+      Reranking
+      Chain of Thought
+      Reasoning Model
+      Test-Time Compute
+      Multimodal
+      Vision-Language Model
+      Foundation Model Term
+      Large Language Model
+      Small Language Model
+      Open Weights
+      Closed Model
+      API Model
+      Checkpoint Release
+      Model Card Term
+    Data and Evaluation Terms
+      Accuracy
+      Precision
+      Recall
+      F1 Score
+      Confusion Matrix
+      True Positive
+      False Positive
+      True Negative
+      False Negative
+      ROC Curve
+      AUC
+      Mean Squared Error
+      Mean Absolute Error
+      Log Loss
+      Perplexity
+      BLEU
+      ROUGE
+      Exact Match
+      Pass@k
+      Elo Rating
+      Win Rate
+      Human Evaluation
+      LLM-as-a-Judge
+      Calibration
+      Confidence Score
+      Threshold
+      Class Imbalance
+      Stratification
+      Augmentation
+      Normalization
+      Standardization
+      Feature Engineering
+      Feature Selection
+      Dimensionality Reduction
+      Clustering
+      Anomaly
+      Outlier
+      Noise
+      Signal
+      Annotation
+      Synthetic Data
+      Data Pipeline
+      Data Drift
+      Concept Drift
+      Monitoring
+      Observability
+    Systems and Deployment Terms
+      GPU
+      TPU
+      CUDA
+      FLOPs
+      Throughput
+      Latency
+      Memory Bandwidth
+      Mixed Precision
+      Quantization
+      Pruning
+      Distillation
+      Compression
+      Inference Optimization
+      Serving
+      Endpoint
+      API
+      SDK
+      Containerization
+      Orchestration
+      Pipeline
+      MLOps
+      LLMOps
+      CI/CD
+      Model Registry
+      Feature Store
+      Experiment Tracking
+      Reproducibility
+      Seed
+      Determinism
+      Scalability
+      Distributed Training
+      Data Parallelism
+      Model Parallelism
+      Pipeline Parallelism
+      Tensor Parallelism
+      Sharding
+      Checkpointing
+      Fault Tolerance
+      Edge Deployment
+      On-Device AI
+      Cloud AI
+      Compute Budget
+      Token Budget
+      Cost per Token
+      Rate Limits
+      Caching
+      Batching
+      KV Cache
+    Safety and Society Terms
+      AI Safety
+      AI Alignment
+      AI Ethics
+      Responsible AI
+      Fairness
+      Bias in AI
+      Transparency
+      Explainability
+      Interpretability
+      Accountability
+      Privacy
+      Security
+      Adversarial Example
+      Jailbreak
+      Prompt Injection
+      Red Teaming
+      Misuse
+      Dual Use
+      Misinformation
+      Deepfake
+      Watermarking
+      Provenance
+      Copyright and Training Data
+      Labor Displacement
+      Automation
+      Augmentation vs Automation
+      Human-in-the-Loop
+      Human Oversight
+      Governance
+      Regulation
+      Compliance
+      Audit
+      Impact Assessment
+      Existential Risk
+      Catastrophic Risk
+      Misalignment
+      Specification Gaming
+      Reward Hacking
+      Goal Misgeneralization
+      Deceptive Alignment
+      Corrigibility
+      Scalable Oversight
+      Interpretability Research
+      Mechanistic Interpretability
+      Constitutional AI
+      Model Welfare
+      Open vs Closed Debate
+      Compute Governance
+      AI Race Dynamics
+      Pause Debate
+      AGI Timelines
+      Singularity
+      Intelligence Explosion
+      Recursive Self-Improvement
+      Takeoff Speeds
+      P(doom)
+      Doomer vs Accelerationist
+      Effective Altruism and AI
+      Effective Accelerationism
+      Techno-Optimism
+      AI Hype Cycle
+      AI Winter Term
+      AI Summer Term

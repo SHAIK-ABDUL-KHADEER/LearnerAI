@@ -1,0 +1,798 @@
+Reinforcement Learning
+  Foundations
+    Core Entities
+      Agent
+      Environment
+      State
+      Observation
+      Action
+      Reward
+      Policy
+      Trajectory
+      Episode
+      Return
+      Discount Factor
+      Horizon
+      Terminal State
+      Truncation vs Termination
+    Decision Processes
+      Markov Property
+      Markov Decision Process
+      Partially Observable MDP
+      Belief State
+      Semi-Markov Decision Process
+      Continuing vs Episodic Tasks
+      Average Reward Setting
+    Value Functions
+      State Value Function
+      Action Value Function
+      Advantage Function
+      Bellman Expectation Equation
+      Bellman Optimality Equation
+      Optimal Policy
+      Optimal Value Function
+      Greedy Policy
+    Learning Dichotomies
+      Exploration vs Exploitation
+      On-Policy vs Off-Policy
+      Model-Free vs Model-Based
+      Value-Based vs Policy-Based
+      Online vs Offline Learning
+      Tabular vs Function Approximation
+      Sample Efficiency
+      Wall-Clock Efficiency
+    Reward Design
+      Reward Hypothesis
+      Credit Assignment Problem
+      Sparse Reward
+      Dense Reward
+      Reward Shaping
+      Potential-Based Shaping
+      Reward Scaling
+      Reward Clipping
+      Reward Normalization
+    Generalized Policy Iteration
+  Bandits
+    Multi-Armed Bandit
+    Regret
+    Greedy Action Selection
+    Epsilon-Greedy
+    Decaying Epsilon
+    Optimistic Initial Values
+    Upper Confidence Bound
+      UCB1
+      KL-UCB
+    Thompson Sampling
+    Gradient Bandit
+    Softmax Action Selection
+    Nonstationary Bandits
+    Adversarial Bandits
+      EXP3
+      EXP4
+    Contextual Bandits
+      LinUCB
+      Linear Thompson Sampling
+      Neural Bandits
+    Gittins Index
+    Best-Arm Identification
+    Dueling Bandits
+    Combinatorial Bandits
+    Bandit Regret Bounds
+      Lai-Robbins Lower Bound
+  Dynamic Programming
+    Policy Evaluation
+    Iterative Policy Evaluation
+    Policy Improvement
+    Policy Improvement Theorem
+    Policy Iteration
+    Value Iteration
+    Generalized Policy Iteration
+    Asynchronous Dynamic Programming
+    Real-Time Dynamic Programming
+    Prioritized Sweeping
+    Bootstrapping
+    Curse of Dimensionality
+  Monte Carlo Methods
+    Monte Carlo Prediction
+      First-Visit MC
+      Every-Visit MC
+    Monte Carlo Control
+    Exploring Starts
+    On-Policy MC Control
+    Off-Policy MC Prediction
+    Importance Sampling
+      Ordinary Importance Sampling
+      Weighted Importance Sampling
+      Per-Decision Importance Sampling
+    Incremental Implementation
+    Off-Policy MC Control
+    Discounting-Aware Importance Sampling
+  Temporal Difference Learning
+    TD Prediction
+      TD(0)
+      TD Error
+      TD Target
+      Bias-Variance Tradeoff in TD
+    N-Step Methods
+      N-Step TD
+      N-Step SARSA
+      N-Step Off-Policy Learning
+      Tree Backup
+      Q-Sigma
+    Eligibility Traces
+      TD(λ)
+      Lambda Return
+      Forward View
+      Backward View
+      Accumulating Traces
+      Replacing Traces
+      Dutch Traces
+      True Online TD(λ)
+      SARSA(λ)
+      Watkins Q(λ)
+    TD Control
+      SARSA
+      Expected SARSA
+      Q-Learning
+      Double Q-Learning
+      Maximization Bias
+      Afterstates
+    Generalized Advantage Estimation
+    Retrace
+  Function Approximation
+    Value Function Approximation
+    Linear Function Approximation
+    Feature Construction
+      Polynomial Features
+      Fourier Basis
+      Coarse Coding
+      Tile Coding
+      Radial Basis Functions
+      Hashing
+    Semi-Gradient Methods
+      Semi-Gradient TD(0)
+      Semi-Gradient SARSA
+    Deadly Triad
+    Divergence Examples
+      Baird Counterexample
+    Gradient TD Methods
+      GTD2
+      TDC
+      Projected Bellman Error
+    Emphatic TD
+    Least-Squares Methods
+      LSTD
+      LSPI
+    Mean Squared Value Error
+    Memory-Based Function Approximation
+    Kernel-Based Function Approximation
+  Deep Value-Based Methods
+    Deep Q-Network
+      Experience Replay
+      Target Network
+      Frame Stacking
+      Huber Loss
+      Epsilon Annealing
+    DQN Improvements
+      Double DQN
+      Dueling DQN
+      Prioritized Experience Replay
+      Noisy Nets
+      Multi-Step DQN
+      Rainbow
+    Distributional RL
+      Value Distribution
+      Categorical DQN
+      C51
+      Quantile Regression DQN
+      Implicit Quantile Networks
+      Fully Parameterized Quantile Function
+      Distributional Bellman Operator
+    Continuous-Action Q-Learning
+      Normalized Advantage Functions
+    Distributed Value-Based
+      Gorila
+      Ape-X
+      R2D2
+      Recurrent Replay
+      Burn-In
+    Exploration-Heavy Agents
+      Never Give Up
+      Agent57
+    Sample-Efficient Atari
+      Data-Efficient Rainbow
+      SPR
+      BBF
+      DrQ
+    MuZero
+    Overestimation Bias
+    Replay Ratio
+    Plasticity Loss
+  Policy Gradient Methods
+    Policy Gradient Theorem
+    Score Function Estimator
+    REINFORCE
+    Baselines
+      Value Baseline
+      Variance Reduction
+    Advantage Estimation
+    Actor-Critic
+      Advantage Actor-Critic
+      A2C
+      A3C
+      Asynchronous Training
+    Entropy Bonus
+    Natural Policy Gradient
+    Fisher Information Matrix
+    Trust Region Policy Optimization
+      Conjugate Gradient
+      Line Search
+      KL Constraint
+    Proximal Policy Optimization
+      Clipped Surrogate Objective
+      Adaptive KL Penalty
+      Value Clipping
+      Minibatch Epochs
+      Advantage Normalization
+      PPO Implementation Details
+    ACKTR
+    Kronecker-Factored Approximation
+    ACER
+    Off-Policy Policy Gradient
+    IMPALA
+      V-trace
+      Actor-Learner Architecture
+    Phasic Policy Gradient
+    Group Relative Policy Optimization
+    Deterministic Policy Gradient
+    Reparameterization Trick
+    Policy Parameterizations
+      Softmax Policy
+      Gaussian Policy
+      Beta Policy
+  Continuous Control
+    Deterministic vs Stochastic Policies
+    DDPG
+      Ornstein-Uhlenbeck Noise
+      Soft Target Update
+    TD3
+      Clipped Double Q-Learning
+      Delayed Policy Updates
+      Target Policy Smoothing
+    Soft Actor-Critic
+      Maximum Entropy RL
+      Entropy Regularization
+      Automatic Temperature Tuning
+      Soft Policy Iteration
+    Tanh-Gaussian Policy
+    Action Squashing
+    Action Repeat
+    D4PG
+    Maximum a Posteriori Policy Optimization
+    REDQ
+    DroQ
+    CrossQ
+    TQC
+    Action Normalization
+    Observation Normalization
+  Model-Based RL
+    Learned Dynamics Model
+    Dyna Architecture
+      Dyna-Q
+      Dyna-Q+
+    Model Learning
+      Deterministic Models
+      Probabilistic Ensembles
+      Latent Dynamics Models
+      Recurrent State Space Model
+      Uncertainty-Aware Models
+      Model Bias
+      Compounding Error
+    Planning with Models
+      Model Predictive Control
+      Trajectory Optimization
+      Cross-Entropy Method
+      iLQR
+      Random Shooting
+      MPPI
+    Imagination Rollouts
+    Short-Horizon Rollouts
+    Model-Based Algorithms
+      PILCO
+      PETS
+      MBPO
+      SimPLe
+      PlaNet
+      Dreamer
+      DreamerV2
+      DreamerV3
+      IRIS
+      TD-MPC
+      TD-MPC2
+      TWM
+      DIAMOND
+    Value-Equivalent Models
+      MuZero
+      EfficientZero
+      EfficientZero V2
+    Learned Simulators
+    World Models
+    Latent Imagination
+    Model Exploitation
+    Dyna-Style vs Shooting Methods
+  Exploration
+    Exploration Strategies
+      Random Exploration
+      Epsilon-Greedy Exploration
+      Boltzmann Exploration
+      Optimistic Initialization
+      UCB Exploration
+      Parameter Space Noise
+      Bootstrapped DQN
+      Randomized Prior Functions
+    Intrinsic Motivation
+      Intrinsic Reward
+      Curiosity
+      Intrinsic Curiosity Module
+      Random Network Distillation
+      Prediction Error Bonus
+      Noisy TV Problem
+    Count-Based Exploration
+      Visitation Counts
+      Pseudo-Counts
+      Hash-Based Counts
+    Information-Theoretic Exploration
+      Information Gain
+      VIME
+      Empowerment
+      Variational Information Maximization
+    Novelty Search
+    Episodic Novelty
+    Never Give Up
+    Go-Explore
+    Deep Exploration
+    Posterior Sampling RL
+    Hard Exploration Benchmarks
+      Montezuma's Revenge
+      Pitfall
+  Hierarchical RL
+    Temporal Abstraction
+    Options Framework
+      Option Initiation Set
+      Option Termination Condition
+      Intra-Option Learning
+      Option-Critic
+    Feudal RL
+    FeUdal Networks
+    Goal-Conditioned RL
+      Universal Value Function Approximators
+      Hindsight Experience Replay
+      Goal Relabeling
+      Sub-Goals
+    HIRO
+    Hierarchical Actor-Critic
+    Skill Discovery
+      DIAYN
+      DADS
+      VIC
+      Mutual Information Skill Learning
+    MAXQ
+    Hierarchical Abstract Machines
+  Multi-Agent RL
+    Multi-Agent Settings
+      Cooperative
+      Competitive
+      Mixed-Motive
+      Zero-Sum Games
+      General-Sum Games
+    Game Theory Basics
+      Nash Equilibrium
+      Markov Games
+      Stochastic Games
+      Dec-POMDP
+      Correlated Equilibrium
+    Non-Stationarity
+    Independent Learning
+      Independent Q-Learning
+      Independent PPO
+    Centralized Training Decentralized Execution
+    Value Decomposition
+      VDN
+      QMIX
+      QTRAN
+      QPLEX
+    Multi-Agent Actor-Critic
+      MADDPG
+      COMA
+      MAPPO
+    Self-Play
+      Fictitious Self-Play
+      Neural Fictitious Self-Play
+      Policy Space Response Oracles
+      Counterfactual Regret Minimization
+      Deep CFR
+    Population-Based Training
+    League Training
+    Communication Learning
+      CommNet
+      DIAL
+      Emergent Communication
+    Emergent Behavior
+    Opponent Modeling
+    Landmark Systems
+      AlphaStar
+      OpenAI Five
+      Pluribus
+      Libratus
+      Cicero
+    MARL Benchmarks
+      StarCraft Multi-Agent Challenge
+      Hanabi
+      Overcooked
+      Google Research Football
+      Melting Pot
+      MPE
+  Imitation Learning & Inverse RL
+    Learning from Demonstrations
+    Behavior Cloning
+    Covariate Shift
+    DAgger
+    Inverse Reinforcement Learning
+      Apprenticeship Learning
+      Maximum Margin IRL
+      Maximum Entropy IRL
+      Guided Cost Learning
+    Adversarial Imitation
+      GAIL
+      AIRL
+      InfoGAIL
+    Demonstration-Augmented RL
+      DQfD
+      DDPGfD
+      Offline-to-Online RL
+    Learning from Observation
+      BCO
+      Video PreTraining
+    Implicit Behavior Cloning
+    Soft Q Imitation Learning
+    Inverse Soft Q-Learning
+  Offline RL
+    Batch Reinforcement Learning
+    Distributional Shift
+    Extrapolation Error
+    Out-of-Distribution Actions
+    Policy Constraint Methods
+      BCQ
+      BEAR
+      BRAC
+      TD3+BC
+      AWAC
+      AWR
+    Conservative Methods
+      Conservative Q-Learning
+      Pessimistic Value Estimation
+    Implicit Q-Learning
+    Expectile Regression
+    Uncertainty-Based Methods
+      Ensemble Pessimism
+      MOPO
+      MOReL
+      COMBO
+    Return-Conditioned Methods
+      Return-Conditioned Supervised Learning
+      Decision Transformer
+      Trajectory Transformer
+    Offline Datasets
+      D4RL
+      Minari
+      RL Unplugged
+    Offline Policy Evaluation
+      Fitted Q Evaluation
+      Doubly Robust Estimator
+    Offline-to-Online Fine-Tuning
+    Cal-QL
+  RL with Sequence Models
+    Trajectory Modeling
+    Decision Transformer
+    Online Decision Transformer
+    Trajectory Transformer
+    Multi-Game Decision Transformer
+    Gato
+    Return-to-Go Conditioning
+    Autoregressive Action Prediction
+    In-Context Decision Making
+    Transformers for Partial Observability
+  Safe & Constrained RL
+    Constrained MDP
+    Lagrangian Methods
+    Constrained Policy Optimization
+    PPO-Lagrangian
+    Shielding
+    Safe Exploration
+    Safety Layers
+    Control Barrier Functions
+    Risk-Sensitive RL
+      Conditional Value at Risk
+      Distributional Risk Measures
+    Reward Constraints
+    Safety Gym
+    Safety Gymnasium
+  Reward Learning & RLHF
+    Reward Modeling
+    Preference-Based RL
+      Pairwise Comparisons
+      Bradley-Terry Model
+      PEBBLE
+      Preference Elicitation
+    RLHF Pipeline
+      Supervised Fine-Tuning
+      Reward Model Training
+      Policy Optimization with KL Penalty
+    RLAIF
+    Reward Misspecification
+      Reward Hacking
+      Specification Gaming
+      Goodhart's Law
+      Reward Tampering
+      Overoptimization
+    Inverse Reward Design
+    Reward Uncertainty
+    Cooperative Inverse RL
+    Assistance Games
+    Scalable Oversight
+  Meta-RL
+    Learning to Learn
+    Task Distributions
+    Recurrent Meta-RL
+      RL²
+    Gradient-Based Meta-RL
+      MAML for RL
+      ProMP
+    Context-Based Meta-RL
+      PEARL
+      Task Inference
+    Bayesian Meta-RL
+      VariBAD
+      Bayes-Adaptive MDP
+    In-Context RL
+    Algorithm Distillation
+    Meta-World
+    Alchemy
+    Unsupervised Meta-RL
+  Transfer, Generalization & Sim-to-Real
+    Generalization Gap
+    Zero-Shot Generalization
+    Observation Overfitting
+    Procedural Generation
+    Procgen
+    Domain Randomization
+    Automatic Domain Randomization
+    Sim-to-Real Gap
+    System Identification
+    Curriculum Learning
+      Automatic Curriculum
+      Prioritized Level Replay
+      Teacher-Student Curriculum
+      Goal Curriculum
+    Unsupervised Environment Design
+      PAIRED
+      ACCEL
+    Open-Endedness
+      POET
+      Enhanced POET
+    Transfer Learning
+      Policy Transfer
+      Successor Features
+      Successor Representations
+      Progressive Networks
+    Multi-Task RL
+      Distral
+      PopArt
+      Gradient Surgery
+  Representation Learning for RL
+    Pixel-Based Control
+    Data Augmentation
+      Random Shift
+      RAD
+      DrQ
+      DrQ-v2
+    Contrastive Representations
+      CURL
+      ATC
+    Self-Predictive Representations
+      SPR
+      BYOL-Explore
+    Auxiliary Tasks
+      UNREAL
+      Pixel Control
+      Reward Prediction
+    Encoder Design
+      DreamerV3 Encoders
+      IMPALA CNN
+      Nature CNN
+    Pretrained Visual Representations
+      R3M
+      VC-1
+    Bisimulation Metrics
+    State Abstraction
+  Planning & Search
+    Lookahead Search
+    Minimax
+    Alpha-Beta Pruning
+    Monte Carlo Tree Search
+      Selection
+      Expansion
+      Simulation
+      Backpropagation
+      UCT
+      PUCT
+    AlphaGo
+    AlphaGo Zero
+    AlphaZero
+    MuZero
+      Representation Network
+      Dynamics Network
+      Prediction Network
+      Reanalyze
+    MuZero Variants
+      Stochastic MuZero
+      Sampled MuZero
+      Gumbel MuZero
+      EfficientZero
+    Policy Improvement via Search
+    Expert Iteration
+    AlphaDev
+    AlphaTensor
+  Theory
+    Convergence Guarantees
+      Contraction Mapping
+      Stochastic Approximation
+      Q-Learning Convergence
+      TD Convergence with Linear FA
+    Policy Gradient Theorem
+    Performance Difference Lemma
+    Monotonic Improvement Bound
+    Sample Complexity
+    PAC-MDP
+    Regret Bounds
+      UCRL2
+      Minimax Regret
+    Optimism in the Face of Uncertainty
+    Pessimism in Offline RL
+    Function Approximation Theory
+      Realizability
+      Bellman Completeness
+      Bellman Rank
+      Eluder Dimension
+      Linear MDP
+    Coverage Assumptions
+      Concentrability
+      Single-Policy Concentrability
+    Approximate Dynamic Programming Bounds
+    Mirror Descent View of Policy Optimization
+    Natural Policy Gradient Convergence
+  RL for LLMs
+    PPO for RLHF
+    KL-Regularized Policy Optimization
+    GRPO
+    RL with Verifiable Rewards
+    Reasoning Training with RL
+    Reward Model Overoptimization
+    Direct Preference Optimization
+  Evaluation & Benchmarks
+    Evaluation Methodology
+      Learning Curves
+      Interquartile Mean
+      Performance Profiles
+      Seeds and Variance
+      Human-Normalized Score
+      Sample Efficiency Curves
+      Reproducibility
+    Environment Interfaces
+      OpenAI Gym
+      Gymnasium
+      PettingZoo
+      dm_env
+      EnvPool
+      Vectorized Environments
+    Classic Control
+      CartPole
+      MountainCar
+      Pendulum
+      LunarLander
+    Atari
+      Arcade Learning Environment
+      Atari 100k
+      Sticky Actions
+    Continuous Control Suites
+      MuJoCo
+      DeepMind Control Suite
+      dm_control
+      PyBullet Envs
+      Brax
+      Isaac Gym
+      Isaac Lab
+      MyoSuite
+    Gridworld and Exploration
+      Minigrid
+      MiniHack
+      NetHack Learning Environment
+      Crafter
+      Procgen
+      BabyAI
+    Manipulation
+      Meta-World
+      RLBench
+      robosuite
+      ManiSkill
+    Offline Benchmarks
+      D4RL
+      Minari
+    Multi-Agent Benchmarks
+      StarCraft Multi-Agent Challenge
+      Hanabi
+      Overcooked
+      Google Research Football
+    Game Milestones
+      Backgammon
+      Go
+      Chess
+      Shogi
+      Poker
+      StarCraft II
+      Dota 2
+      Diplomacy
+      Stratego
+      Gran Turismo
+    Open-World Agents
+      Minecraft
+      MineDojo
+      Voyager
+  Libraries
+    Stable-Baselines3
+    SB3 Contrib
+    RLlib
+    CleanRL
+    Tianshou
+    Acme
+    Dopamine
+    TorchRL
+    SKRL
+    rl_games
+    Sample Factory
+    PufferLib
+    OpenSpiel
+    Jumanji
+    JaxMARL
+    PureJaxRL
+    Mava
+    TRL
+    Pearl
+    d3rlpy
+    CORL
+  Applications
+    Game Playing
+    Robotics Control
+    Legged Locomotion
+    Dexterous Manipulation
+    Recommender Systems
+    Advertising and Bidding
+    Chip Design
+    Data Center Cooling
+    Algorithmic Trading
+    Portfolio Management
+    Traffic Signal Control
+    Drug Discovery
+    Molecule Design
+    Nuclear Fusion Control
+    Algorithm Discovery
+      AlphaDev
+      AlphaTensor
+    Compiler Optimization
+    Scheduling and Resource Allocation
+    Autonomous Driving
+    Healthcare Treatment Policies
+    Education and Tutoring
+    Network Congestion Control
+    Video Compression
+    Language Model Alignment
